@@ -56,4 +56,4 @@ You’ll need an OpenAI API key to interact with the model. Set up your API key 
 To start the Streamlit interface and run the chatbot:
 
 ```bash
-streamlit run app.py
+streamlit run langgraph_frontend.py
