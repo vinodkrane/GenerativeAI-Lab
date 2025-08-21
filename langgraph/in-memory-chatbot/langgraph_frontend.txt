@@ -1,0 +1,113 @@
+import streamlit as st
+from langgraph_backend import chatbot
+from langchain_core.messages import HumanMessage
+import uuid
+
+# ************************************* UTILITIES *************************************
+def generate_thread_id():
+    """Generate a unique ID for a chat thread."""
+    return str(uuid.uuid4())
+
+def add_thread(thread_id):
+    """Add a new chat thread to session state."""
+    if thread_id not in st.session_state['chat_threads']:
+        st.session_state['chat_threads'].insert(0, thread_id)  # latest at top
+        st.session_state['thread_messages'][thread_id] = []
+
+def switch_thread(thread_id):
+    """Switch the current active thread."""
+    st.session_state['thread_id'] = thread_id
+    st.session_state['messages'] = st.session_state['thread_messages'][thread_id]
+
+def get_conversation_name(index):
+    """Generate a friendly name for a conversation based on its index."""
+    return f"Conversation {index + 1}"
+
+def initialize_session_state():
+    """Initialize required session state variables."""
+    if 'thread_id' not in st.session_state:
+        st.session_state['thread_id'] = generate_thread_id()
+    if 'chat_threads' not in st.session_state:
+        st.session_state['chat_threads'] = []
+    if 'thread_messages' not in st.session_state:
+        st.session_state['thread_messages'] = {}
+
+    # Initialize the first thread if it doesn't exist
+    add_thread(st.session_state['thread_id'])
+    if 'messages' not in st.session_state:
+        st.session_state['messages'] = [
+            {"role": "assistant", "content": "My customized AI chatbot is ready to interact with you. Let's get started!"}
+        ]
+        st.session_state['thread_messages'][st.session_state['thread_id']] = st.session_state['messages']
+
+def get_config():
+    """Return the configuration dictionary for the chatbot."""
+    return {"configurable": {"thread_id": st.session_state['thread_id']}}
+
+
+# ************************************* SIDEBAR UI *************************************
+def render_sidebar():
+    """Render sidebar with new chat button and conversation list."""
+    st.sidebar.title('Langgraph Chatbot')
+
+    # New Chat Button
+    if st.sidebar.button('New Chat'):
+        new_id = generate_thread_id()
+        add_thread(new_id)
+        switch_thread(new_id)
+
+    # List all chat threads
+    st.sidebar.header('My Conversations')
+    for i, tid in enumerate(st.session_state['chat_threads']):
+        convo_name = get_conversation_name(len(st.session_state['chat_threads']) - i - 1)
+        label = f"🟢 {convo_name}" if tid == st.session_state['thread_id'] else convo_name
+
+        if st.sidebar.button(label, key=tid):
+            switch_thread(tid)
+
+
+# ************************************* CHAT DISPLAY *************************************
+def display_chat_history():
+    """Render all messages of the current thread."""
+    for msg in st.session_state["messages"]:
+        with st.chat_message(msg["role"]):
+            st.write(msg["content"])
+
+
+# ************************************* USER INPUT *************************************
+def handle_user_input():
+    """Handle user input, stream assistant response, and save messages."""
+    user_input = st.chat_input("Type your message here...")
+    if not user_input:
+        return
+
+    # Save user message
+    st.session_state["messages"].append({"role": "user", "content": user_input})
+    st.session_state['thread_messages'][st.session_state['thread_id']] = st.session_state["messages"]
+
+    with st.chat_message("user"):
+        st.write(user_input)
+
+    # Stream assistant response
+    with st.chat_message("assistant"):
+        message_placeholder = st.empty()
+        full_reply = ""
+
+        for message_chunk, _ in chatbot.stream(
+            {"messages": [HumanMessage(content=user_input)]},
+            config=get_config(),
+            stream_mode="messages"
+        ):
+            full_reply += message_chunk.content
+            message_placeholder.write(full_reply)
+
+    # Save bot reply
+    st.session_state["messages"].append({"role": "assistant", "content": full_reply})
+    st.session_state['thread_messages'][st.session_state['thread_id']] = st.session_state["messages"]
+
+
+# ************************************* EXECUTION FLOW *************************************
+initialize_session_state()
+render_sidebar()
+display_chat_history()
+handle_user_input()
