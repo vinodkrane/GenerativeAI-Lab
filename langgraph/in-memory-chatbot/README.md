@@ -1,6 +1,12 @@
-# LangGraph Chatbot with Persistent Memory
+# LangGraph Chatbot with In-Memory and Persistent Storage
 
-This project implements a chatbot using LangGraph, LangChain, and OpenAI's GPT-based models. The chatbot has persistent memory to retain conversation history, allowing for a more seamless user experience across sessions. The frontend is built with Streamlit, providing a simple and intuitive interface for users to interact with the chatbot.
+This project implements a chatbot using LangGraph, LangChain, and OpenAI's GPT models, with flexible memory support. You can run the chatbot in either:
+
+- In-memory mode for quick, temporary sessions
+
+- Database-backed mode for persistent memory across sessions
+
+The frontend is built with Streamlit, providing a clean, intuitive UI where users can interact with the bot and manage multiple chat threads.
 
 ## Features
 - **Persistent Memory**: The chatbot remembers conversations between sessions.
