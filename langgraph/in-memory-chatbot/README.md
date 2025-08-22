@@ -51,9 +51,18 @@ You’ll need an OpenAI API key to interact with the model. Set up your API key 
     openai.api_key = "your-openai-api-key"
     ```
 
-### 2. Run the Application
+### 2. Run the chatbot with in-memory storage
 
 To start the Streamlit interface and run the chatbot:
 
 ```bash
 streamlit run langgraph_frontend.py
+```
+
+### 3. Run the chatbot with database-backed storage
+
+To start the Streamlit interface and run the chatbot:
+
+```bash
+streamlit run db_storage_frontend.py
+```
