@@ -1,0 +1,15 @@
+[project]
+name = "expense-tracker-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastmcp>=3.1.1",
+    "langchain>=1.2.13",
+    "langchain-mcp-adapters>=0.2.2",
+    "langchain-openai>=1.1.12",
+    "mcp[cli]>=1.26.0",
+    "python-dotenv>=1.2.2",
+    "streamlit>=1.55.0",
+]
