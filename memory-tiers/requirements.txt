@@ -1,0 +1,7 @@
+langchain
+langgraph
+langchain-openai
+langchain-core
+streamlit
+openai
+typing-extensions
