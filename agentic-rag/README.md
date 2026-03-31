@@ -75,11 +75,19 @@ Make sure you have started Docker Desktop in step 1. Now you will have to start 
     # Expected output: /var/run/postgresql:5432 - accepting connections
 
 # STEP 04 — SET UP ENVIRONMENT VARIABLES
-Edit the .env file in your project root and populate following keys.
+Create a file agentic-rag/.env and copy following content to the file. Make sure you populate the correct Anthropic API and openAI key.
 
     # .env
-    ANTHROPIC_API_KEY=sk-ant-...        # Your Anthropic key from Step 01
-    OPENAI_API_KEY=sk-...               # Required for embeddings
+    ANTHROPIC_API_KEY=<<<< Add Anthropic API Key  >>>>
+    OPENAI_API_KEY=<<<< Add OpenAI Key  >>>>
+    POSTGRES_USER=raguser
+    POSTGRES_PASSWORD=ragpass
+    POSTGRES_DB=ragdb
+    POSTGRES_PORT=5432
+    NEO4J_USER=neo4j
+    NEO4J_PASSWORD=neo4jpass
+    NEO4J_PORT=7687
+
 
 
 # STEP 05 — RUN THE APPLICATION
