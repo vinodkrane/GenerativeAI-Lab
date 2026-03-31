@@ -1,0 +1,23 @@
+[
+  {
+    "user_id": "user_001",
+    "query": "What are the key principles of Agentic RAG systems?",
+    "summary": "Query: What are the key principles of Agentic RAG systems?. Iterations: 1. Score: 0.95",
+    "quality": 0.95,
+    "iterations": 1
+  },
+  {
+    "user_id": "user_001",
+    "query": "What are the key principles of Agentic RAG systems?",
+    "summary": "Query: What are the key principles of Agentic RAG systems?. Iterations: 1. Score: 0.95",
+    "quality": 0.95,
+    "iterations": 1
+  },
+  {
+    "user_id": "user_001",
+    "query": "What are the key principles of Agentic RAG systems?",
+    "summary": "Query: What are the key principles of Agentic RAG systems?. Iterations: 1. Score: 0.93",
+    "quality": 0.93,
+    "iterations": 1
+  }
+]

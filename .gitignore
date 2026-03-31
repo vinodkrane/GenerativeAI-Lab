@@ -1,0 +1,11 @@
+# Ignore Python bytecode
+**/__pycache__/
+
+# Ignore virtual environment
+agentic-rag/venv/
+
+# Ignore checkpoints database
+agentic-rag/checkpoints.db
+
+# Ignore environment file (if any)
+agentic-rag/.env
