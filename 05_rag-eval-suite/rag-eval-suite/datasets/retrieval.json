@@ -1,0 +1,92 @@
+[
+  {
+    "id": "g001",
+    "query": "What is online eval and how is it different from offline eval?",
+    "ideal_answer": "Online eval is evaluating your system on live production traffic after deployment, as real users interact with it. Its biggest characteristic is that it works without an answer key or golden dataset\u2014you have to estimate on the go what the right answer could be. It runs continuously after deployment on whatever questions real users ask, which you cannot anticipate in advance. The key distinction is that offline eval checks whether your application is working correctly, whereas online eval tells you whether your application is running normally in production. The two are not rivals or replacements\u2014they are complementary and are meant to be used together.",
+    "source": "Session 4"
+  },
+  {
+    "id": "g002",
+    "query": "faithfulness vs groundedness kya hota hai?",
+    "ideal_answer": "Faithfulness, which is sometimes also called groundedness, means that the answer was generated on the basis of the given context\u2014the relevant retrieved documents\u2014and that no extra facts were invented beyond what the context contained. For example, if someone asks the duration of the machine learning course and the retrieved document says 3 weeks, the answer should state that the duration is 3 weeks and nothing more. It should not add unrelated extra information, like saying it's a great course or pitching the Python course. The answer must stay grounded in the context.",
+    "source": "Session 3"
+  },
+  {
+    "id": "g003",
+    "query": "how do i know if my eval is reference based or reference free?",
+    "ideal_answer": "The simplest way to tell is to ask one question: is the correct answer given in your golden dataset or not? If a correct answer is defined in advance for each test case, and you grade by comparing the output against that reference, then it is reference-based evaluation. If there is no correct answer in the data\u2014for example, you only have a list of questions and you rely on human judgment and a rubric to score the output\u2014then it is reference-free evaluation. So reference-based means the answer is known beforehand; reference-free means it isn't and you judge without a predefined answer.",
+    "source": "Session 3"
+  },
+  {
+    "id": "g004",
+    "query": "why can't we test llm apps the same way we test normal software?",
+    "ideal_answer": "Testing an LLM application is not as straightforward as testing normal software. Traditional software testing checks whether deterministic logic gives the expected output\u2014the same input always produces the same fixed output. LLM application testing is different because the behaviour is probabilistic rather than deterministic, so instead of checking for one fixed correct output, you have to check whether the output meets a definition of 'good'. That is why LLM evaluation needs a different, more involved approach than traditional software testing.",
+    "source": "Session 1"
+  },
+  {
+    "id": "g005",
+    "query": "why can't we just compare the generated sql query with the correct one character by character?",
+    "ideal_answer": "Comparing the generated SQL query with the correct query character by character is not a good strategy, because a single result can be produced by multiple different queries. The query your data analyst wrote and the query the LLM generated to solve the same problem may be different textually, yet both are correct. So instead of matching the query strings, you run both queries on the database, get a result set\u2014a table\u2014from each, and compare the two tables. If both tables are the same, the generated query is considered correct.",
+    "source": "Session 8"
+  },
+  {
+    "id": "g006",
+    "query": "if a model tops all the benchmarks, why wouldn't i just pick it for my project?",
+    "ideal_answer": "The model that tops the benchmarks isn't always the best choice for your specific task. In the Zomato email-routing example, model A was a big top-of-the-leaderboard model that beat the smaller, cheaper model B on every benchmark, so the obvious choice seemed to be model A. But when you build your own golden dataset for your actual task and run both models on it, the accuracy difference turns out to be small, while the smaller model is much cheaper and faster. So for that specific task the smaller, cheaper model is the better value, even though it is weaker overall. If you had relied only on benchmarks you would have chosen the bigger model\u2014it is the custom eval on your own data that reveals the cheaper model is better for your work.",
+    "source": "Session 5"
+  },
+  {
+    "id": "g007",
+    "query": "what are the different ways an eval can actually be run?",
+    "ideal_answer": "An evaluation pipeline can be executed in one of three ways, and the distinction is simply about who is carrying out the eval. The first is programmatic, also called deterministic\u2014a program or code executes the evaluation. The second is human\u2014a human carries out the eval. The third is model-graded, also called LLM-graded\u2014an LLM executes the evaluation. Any eval pipeline you build will be run by one of these three: a program, a human, or an LLM, and there's nothing beyond these three. For example, in the Zomato email-classification system, the accuracy was calculated through Python code, so that was a programmatic eval.",
+    "source": "Session 3"
+  },
+  {
+    "id": "g008",
+    "query": "can i just pick the top model from a leaderboard for my app?",
+    "ideal_answer": "No\u2014you generally don't select a single model directly from a leaderboard. Leaderboards are best used as a filtering tool: when you don't have the resources to run evals on hundreds of models yourself, you go to the relevant leaderboard (say the maths leaderboard if your app is in the maths domain), pick your top candidates, and shortlist from the hundred down to about five. Then you run your own evals on those shortlisted candidates and select the best one for your application from there. So a leaderboard filters 100 models down to a handful of candidates; your own evaluation on your own task picks the final model.",
+    "source": "Session 7"
+  },
+  {
+    "id": "g009",
+    "query": "where can a rag chatbot go wrong?",
+    "ideal_answer": "A RAG chatbot has two main failure points, corresponding to its two components: the retriever and the generator. The first failure is when the retriever fetches the wrong documents\u2014if it brings back wrong documents, the generator will produce wrong answers based on that wrong context. The second failure is when the retriever works properly but the generator ignores the retrieved context, hallucinates, and gives a wrong answer anyway. Both components need to work properly for the overall application to work.",
+    "source": "Session 3"
+  },
+  {
+    "id": "g010",
+    "query": "what exactly does recall at k tell me about my retriever?",
+    "ideal_answer": "Recall@k tells you, out of all the correct relevant documents that exist for a query, how many the retriever actually retrieved in its top-k results. For example, if there are two correct documents for a question and the retriever fetches only one of them, the recall is 1 out of 2, or 50%. Recall is always between 0 and 100%, and ideally should be 100%. To get the overall recall@k on your dataset, you compute recall per question and then average across all questions. This tells you how successful your retriever is at fetching the relevant documents.",
+    "source": "Session 3"
+  },
+  {
+    "id": "g011",
+    "query": "What is the RAG triad?",
+    "ideal_answer": "The RAG triad is a set of three metrics used to evaluate a RAG pipeline, based on the three things present after a query runs: the question, the retrieved context, and the generated answer. Context relevance checks whether the retrieved context is relevant to the question, faithfulness checks whether the answer is grounded in the retrieved context, and answer relevance checks whether the answer actually addresses the question.",
+    "source": "Session 9"
+  },
+  {
+    "id": "g012",
+    "query": "What is regression testing in LLM evaluation?",
+    "ideal_answer": "Regression testing is the act of running your full eval suite on a new version of the application to check whether it is objectively better or worse than the previous version. You run the suite, get a report of every metric, and compare it against a baseline to decide whether the new version should be deployed.",
+    "source": "Session 9"
+  },
+  {
+    "id": "g013",
+    "query": "Why does this course use DeepEval instead of RAGAS?",
+    "ideal_answer": "The course uses DeepEval for two reasons: RAGAS was already covered in the advanced RAG course, and DeepEval has a broader scope that supports agents, multi-turn chatbots, and non-LLM applications. DeepEval is also built on top of pytest, the standard Python testing library, which makes it familiar to anyone who has done software testing.",
+    "source": "Session 9"
+  },
+  {
+    "id": "g014",
+    "query": "What is an eval suite?",
+    "ideal_answer": "An eval suite is the combined set of all the evaluation tests written across the component, pipeline, and application levels. Instead of running a single test, you run the whole suite together to check the application from every angle before deciding whether to deploy.",
+    "source": "Session 9"
+  },
+  {
+    "id": "g015",
+    "query": "Which metrics are used to evaluate the retriever?",
+    "ideal_answer": "The retriever is evaluated using recall and precision. Recall measures how many of the relevant documents the retriever managed to fetch, and precision measures how many of the fetched documents were actually relevant.",
+    "source": "Session 9"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "C001",
+    "question": "why can't we test an LLM app the same way we test normal software?",
+    "ideal_answer": "Normal software is deterministic and rule-based, so the same input always gives the same output and you can assert one exact expected value. LLM applications are probabilistic, so the same input can produce different wordings, and most tasks have many acceptable answers instead of one exact string. That breaks exact-match testing, so LLM evaluation instead judges qualities of the output, usually against a golden dataset and often with an LLM as a judge.",
+    "source_session": "S1"
+  },
+  {
+    "id": "C002",
+    "question": "what's the difference between model evals and application evals?",
+    "ideal_answer": "Model evals test the capabilities of the raw LLM itself, independent of any product, and include benchmarks as well as custom model evals used to pick a model. Application evals test a system built around one or more LLMs, such as a RAG chatbot or an agent, evaluated end-to-end. In short, model evals judge the model, application evals judge the system you built.",
+    "source_session": "S4"
+  },
+  {
+    "id": "C003",
+    "question": "what are the different methods to actually perform an eval?",
+    "ideal_answer": "There are three broad methods. Programmatic (deterministic) evaluation uses code and fixed rules to check the output, which is cheap and reliable but only works when correctness can be expressed in code. LLM-as-a-judge uses a capable LLM to score outputs, which handles subjective or semantic judgments at scale. Human evaluation uses people to judge outputs, which is the most reliable for nuanced quality but the slowest and most expensive.",
+    "source_session": "S2"
+  },
+  {
+    "id": "C004",
+    "question": "what does reference-based vs reference-free eval mean?",
+    "ideal_answer": "A reference-based eval needs a ground-truth answer to compare against, a golden or expected output authored ahead of time, and scores the system by how close it comes to that reference. A reference-free eval needs no ground truth and instead judges an intrinsic property of the output, usually with an LLM as a judge. The test is simply whether the metric requires an expected answer.",
+    "source_session": "S2-S3"
+  },
+  {
+    "id": "C005",
+    "question": "offline eval vs online eval - what's the difference?",
+    "ideal_answer": "Offline eval happens before deployment on a fixed golden dataset in a controlled setting; it is usually reference-based and is what you run during development to decide whether a version is good enough to ship. Online eval happens after deployment on live production traffic, works without ground-truth labels, and relies on real user interactions and signals like thumbs up/down, latency, and cost. Offline gates deployment; online monitors real behaviour.",
+    "source_session": "S3"
+  },
+  {
+    "id": "C006",
+    "question": "what is drift and why does it matter after deployment?",
+    "ideal_answer": "Drift is the gradual degradation of a deployed system's performance over time as real-world data or usage patterns move away from what the system was built and evaluated on. Users may start asking new kinds of questions or the knowledge base may go stale, so metrics slowly fall even though the code did not change. It matters because these failures appear silently in production, so you monitor metrics over time, set alerts when they drop, and feed failing cases back into your offline dataset.",
+    "source_session": "S3"
+  },
+  {
+    "id": "C007",
+    "question": "why do we need multiple eval pipelines for a single application instead of just one?",
+    "ideal_answer": "Because a single LLM application has multiple failure points and multiple risk categories, so one eval cannot cover it. There are different failure points at the component, workflow, and application levels, and each needs its own eval. There are also different risk categories, quality, safety, and operations, that require different metrics. So you build several eval pipelines and run them together as an eval suite.",
+    "source_session": "S2"
+  },
+  {
+    "id": "C008",
+    "question": "what are the different risk categories we evaluate an LLM app on?",
+    "ideal_answer": "There are three risk categories. Quality checks whether the output is good, for example correct, relevant, and grounded. Safety checks whether the output is harmful, for example toxic content, leaking personal information, or being jailbroken. Operations checks the running characteristics of the system such as latency, cost, and token usage. A full eval suite covers all three, not just quality.",
+    "source_session": "S2-S3"
+  },
+  {
+    "id": "C009",
+    "question": "as an AI engineer why do I even need model evals?",
+    "ideal_answer": "Because you have to choose which model to use for your application, and model evals give you a concrete, measurable basis for that decision rather than guessing. Benchmarks let you compare general capabilities of models, and when you need to know which model is best for your specific task you run custom model evals on your own data. Without model evals you cannot justify model selection objectively.",
+    "source_session": "S4"
+  },
+  {
+    "id": "C010",
+    "question": "what is a benchmark and what does MMLU test?",
+    "ideal_answer": "A benchmark is a standardized model eval: a fixed dataset and scoring procedure used to compare the capabilities of different models on the same footing. MMLU (Massive Multitask Language Understanding) is a multiple-choice benchmark covering many subjects that measures the breadth of a model's knowledge. It does not measure reasoning depth, calibration, open-ended generation, and it is English and exam-style only.",
+    "source_session": "S4-S6"
+  },
+  {
+    "id": "C011",
+    "question": "what does it mean for a benchmark to get saturated?",
+    "ideal_answer": "A benchmark is saturated when top models score so high and so close together that it can no longer distinguish between them, so it stops being useful for comparison. When this happens the benchmark has effectively become too easy, which is why harder benchmarks keep getting created to replace it.",
+    "source_session": "S6"
+  },
+  {
+    "id": "C012",
+    "question": "what is benchmark contamination?",
+    "ideal_answer": "Contamination is when a benchmark's test data leaks into a model's training data, so the model has effectively already seen the questions and answers. Its score is then inflated by memorisation and no longer reflects true capability. This is common for older public benchmarks like MMLU, which have almost certainly ended up in training sets.",
+    "source_session": "S6"
+  },
+  {
+    "id": "C013",
+    "question": "what is pass@1 and how is it different from pass@k?",
+    "ideal_answer": "Pass@1 means the model is given one attempt at a question and is scored on whether that single answer is correct; it is the standard setting, usually run with temperature 0. Pass@k means the model is allowed k attempts and is counted as passing if at least one of the k attempts is correct. Pass@k is more lenient than pass@1 because more attempts raise the chance of getting at least one right.",
+    "source_session": "S5"
+  },
+  {
+    "id": "C014",
+    "question": "what are custom model evals and when would I use them instead of benchmarks?",
+    "ideal_answer": "Custom model evals are evaluations you run on your own dataset to measure how well a model performs on your specific task, rather than on generic public benchmarks. You use them when standard benchmarks do not reflect your actual use case and you need to select the best model for your application. You build a dataset that represents your task and score candidate models on it to make the choice.",
+    "source_session": "S7"
+  },
+  {
+    "id": "C015",
+    "question": "at how many levels do we evaluate a rag application and what are they?",
+    "ideal_answer": "A RAG application is evaluated at three levels. The component level tests each building block in isolation, the retriever and the generator. The pipeline level tests the retriever and generator connected together, using the RAG triad. The application level tests the full system as the user experiences it, covering quality metrics plus safety and operations. Together these levels form the eval suite you run during regression testing.",
+    "source_session": "S8"
+  }
+]

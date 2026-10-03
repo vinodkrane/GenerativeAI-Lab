@@ -1,0 +1,4453 @@
+WEBVTT
+
+00:04:00.000 --> 00:04:26.320
+Hi guys, good evening.
+
+00:04:26.320 --> 00:04:33.320
+Can you hear me?
+
+00:04:33.320 --> 00:04:42.320
+Guys, do you hear me?
+
+00:04:42.320 --> 00:04:47.320
+Can you hear me?
+
+00:04:47.320 --> 00:04:52.320
+Can you message me?
+
+00:04:52.320 --> 00:04:57.320
+Ok, thank you.
+
+00:04:57.320 --> 00:05:00.320
+Ok, let's wait for a minute.
+
+00:05:00.320 --> 00:05:05.320
+After that, let's start the class.
+
+00:05:05.320 --> 00:05:08.320
+If you have any question, you can ask.
+
+00:05:35.320 --> 00:05:40.320
+Ok, let's start.
+
+00:06:05.320 --> 00:06:10.320
+Ok, let's start.
+
+00:06:35.320 --> 00:06:40.320
+Ok, let's start.
+
+00:07:05.320 --> 00:07:10.320
+Ok, let's start.
+
+00:07:35.320 --> 00:07:40.320
+Ok, let's start.
+
+00:08:05.320 --> 00:08:12.320
+Ok, let's start.
+
+00:08:12.320 --> 00:08:17.320
+Ok, let's start.
+
+00:08:17.320 --> 00:08:22.320
+Ok, let's start.
+
+00:08:22.320 --> 00:08:27.320
+Ok, let's start.
+
+00:08:28.320 --> 00:08:37.319
+Ok, let's start.
+
+00:08:37.319 --> 00:08:46.319
+Ok, let's start.
+
+00:08:46.320 --> 00:08:51.780
+and
+
+00:08:51.780 --> 00:09:03.500
+along are
+
+00:09:03.500 --> 00:09:10.640
+well and minus
+
+00:09:10.640 --> 00:09:22.140
+guys can you hear me?
+
+00:09:22.140 --> 00:09:27.780
+what is happening?
+
+00:09:27.780 --> 00:09:38.780
+ok so guys there is some issue power cuts are happening in the office
+
+00:09:38.780 --> 00:09:43.780
+because of that I am getting disconnected in the zoom call
+
+00:09:43.780 --> 00:09:48.780
+so for a while please be patient I will start the class in a minute
+
+00:09:48.780 --> 00:10:04.780
+can you see my screen?
+
+00:10:04.780 --> 00:10:13.780
+sorry I am a little unsettled
+
+00:10:13.780 --> 00:10:16.780
+so in 10 minutes power cuts happened 3-4 times
+
+00:10:16.780 --> 00:10:21.780
+and every time power cuts are happening because of internet disconnection
+
+00:10:21.780 --> 00:10:26.780
+I will order a UPS for wifi today
+
+00:10:26.780 --> 00:10:30.780
+but today's class may have some problem
+
+00:10:30.780 --> 00:10:34.780
+so it's quite late now 8.06pm
+
+00:10:34.780 --> 00:10:40.780
+let's start the session
+
+00:10:40.780 --> 00:10:48.780
+so guys I will be very honest I am quite confused
+
+00:10:48.780 --> 00:10:52.780
+infact since last week I am planning my session
+
+00:10:52.780 --> 00:11:07.780
+so if you remember last class we started to read model evals
+
+00:11:07.780 --> 00:11:15.780
+and I told you that you can evaluate models in two ways
+
+00:11:15.780 --> 00:11:23.780
+one is using benchmarks and second is you can run your own custom evals
+
+00:11:23.780 --> 00:11:29.780
+and I told you that we will focus more time on benchmarks
+
+00:11:29.780 --> 00:11:33.780
+and last class we studied about benchmarks
+
+00:11:33.780 --> 00:11:37.780
+how to apply them and what is their evaluation process
+
+00:11:37.780 --> 00:11:48.780
+so ideally we are in a position where we have clear fundamentals of benchmarks and LLM benchmarking
+
+00:11:48.780 --> 00:11:55.780
+so at this point I wanted to teach you about some famous benchmarks
+
+00:11:55.780 --> 00:12:01.780
+so that you can understand those benchmarks
+
+00:12:01.780 --> 00:12:06.780
+and then you can make decision making in future based on that understanding
+
+00:12:06.780 --> 00:12:11.780
+when you are making a project that which LLM you should select for what purpose
+
+00:12:11.780 --> 00:12:17.780
+now the problem is that we have in total 8 capabilities
+
+00:12:17.780 --> 00:12:31.780
+so you have your knowledge, reasoning, maths, long context, coding
+
+00:12:31.780 --> 00:12:37.780
+and in every capability you have got multiple famous benchmarks
+
+00:12:37.780 --> 00:12:42.780
+so it's not possible for me to teach you every benchmark in detail
+
+00:12:42.780 --> 00:12:46.780
+because every benchmark technically speaking is a research paper
+
+00:12:46.780 --> 00:12:49.780
+and research paper has details
+
+00:12:49.780 --> 00:12:53.780
+so if we go to cover all the benchmarks it would take a lot of time
+
+00:12:53.780 --> 00:12:56.780
+it might take 4-5 sessions and I don't want to give that much
+
+00:12:56.780 --> 00:12:59.780
+because we have to cover other things
+
+00:12:59.780 --> 00:13:03.780
+so initially I thought that rather than covering all the benchmarks
+
+00:13:03.780 --> 00:13:09.780
+what if I teach you 10 most popular benchmarks
+
+00:13:09.780 --> 00:13:12.780
+first of all I got this idea
+
+00:13:12.780 --> 00:13:17.780
+then I thought that if we go to cover only 10 most popular benchmarks
+
+00:13:17.780 --> 00:13:22.780
+then only the famous capabilities like coding is a very famous capability
+
+00:13:22.780 --> 00:13:28.780
+that will be covered more and the understated capabilities such as long context and all
+
+00:13:28.780 --> 00:13:30.780
+maybe that won't be covered that much
+
+00:13:30.780 --> 00:13:38.780
+so then I thought that I will teach you 2-2 most important benchmarks of 8 capabilities
+
+00:13:38.780 --> 00:13:43.780
+then I thought that I won't be able to explain to you
+
+00:13:43.780 --> 00:13:47.780
+how the evolution of benchmarks happened in every capability
+
+00:13:47.780 --> 00:13:50.780
+so basically last week I was super confused
+
+00:13:50.780 --> 00:13:53.780
+that how to take this particular session
+
+00:13:53.780 --> 00:13:58.780
+eventually I made this plan that I will ask you
+
+00:13:58.780 --> 00:14:02.780
+you tell me how I should approach this topic
+
+00:14:02.780 --> 00:14:07.780
+so today I am taking a demo session you can say
+
+00:14:07.780 --> 00:14:12.780
+where I will teach you about benchmarks but obviously I won't teach you everything completely
+
+00:14:12.780 --> 00:14:22.780
+today I will only teach you 7 benchmarks of knowledge
+
+00:14:22.780 --> 00:14:26.780
+and I won't teach you only these 7 benchmarks
+
+00:14:26.780 --> 00:14:33.780
+along with that I will also tell you how the evolution of benchmarks happened in knowledge
+
+00:14:34.780 --> 00:14:37.780
+so in a way you will understand the whole story
+
+00:14:37.780 --> 00:14:40.780
+first this benchmark came, what was the problem in it
+
+00:14:40.780 --> 00:14:43.780
+then which benchmark came to solve it and so on
+
+00:14:43.780 --> 00:14:49.780
+by doing this we will cover the whole knowledge category
+
+00:14:49.780 --> 00:14:55.780
+and along the way I will teach you 7 very good popular benchmarks in detail
+
+00:14:55.780 --> 00:15:00.780
+and then at the end of the class I will take feedback from you
+
+00:15:00.780 --> 00:15:05.780
+so now going forward what should we approach for other capabilities
+
+00:15:05.780 --> 00:15:10.780
+so whatever you suggest by the end of the class we will follow that in the next class
+
+00:15:10.780 --> 00:15:13.780
+the idea is that in the shortest possible time
+
+00:15:13.780 --> 00:15:16.780
+as much as possible this topic can be covered
+
+00:15:16.780 --> 00:15:19.780
+so I hope I was able to give you some context
+
+00:15:19.780 --> 00:15:24.780
+that what we are doing and how we are going to approach things in today's class
+
+00:15:24.780 --> 00:15:28.780
+so is this point clear, the discussion we have done so far is this point clear
+
+00:15:30.780 --> 00:15:34.780
+ok
+
+00:15:37.780 --> 00:15:38.780
+ok
+
+00:15:49.780 --> 00:15:55.780
+so let's start our discussion around the knowledge capability
+
+00:15:55.780 --> 00:15:56.780
+ok
+
+00:15:56.780 --> 00:16:02.780
+now first of all I will explain the whole evolution
+
+00:16:04.780 --> 00:16:08.780
+that how the evolution of benchmarks happened in knowledge capability
+
+00:16:08.780 --> 00:16:10.780
+with the help of a flow chart
+
+00:16:10.780 --> 00:16:13.780
+and once you understand the flow chart
+
+00:16:13.780 --> 00:16:19.780
+then we will cover the most important benchmarks in this capability one by one
+
+00:16:19.780 --> 00:16:21.780
+that's the idea of this class
+
+00:16:21.780 --> 00:16:25.780
+so first of all let's talk about knowledge capability
+
+00:16:25.780 --> 00:16:28.780
+knowledge capability simply tells that
+
+00:16:28.780 --> 00:16:33.780
+when you train an LLM
+
+00:16:33.780 --> 00:16:40.780
+then how much knowledge he was able to retain from his training process
+
+00:16:40.780 --> 00:16:45.780
+basically how much world knowledge is hidden in his weights and biases
+
+00:16:45.780 --> 00:16:50.780
+his parametric knowledge is a way to test knowledge capability
+
+00:16:50.780 --> 00:16:53.780
+and this is the most important capability
+
+00:16:53.780 --> 00:16:54.780
+think about it
+
+00:16:54.780 --> 00:17:00.780
+when the LLMs were trained for the first time on this massive internet scale data
+
+00:17:00.780 --> 00:17:02.780
+then the expectation would be that
+
+00:17:02.780 --> 00:17:06.780
+if we ask about anything on the internet then it will tell us
+
+00:17:06.780 --> 00:17:12.780
+so knowledge capability is like the most fundamental capability that an LLM can have
+
+00:17:12.780 --> 00:17:16.780
+the rest of the capabilities came into the picture slowly
+
+00:17:16.780 --> 00:17:17.780
+like reasoning happened
+
+00:17:17.780 --> 00:17:19.780
+reasoning was like an emergent behavior
+
+00:17:19.780 --> 00:17:21.780
+that as we started increasing the scale
+
+00:17:21.780 --> 00:17:26.780
+our models started reasoning step by step
+
+00:17:26.780 --> 00:17:29.780
+similarly if you talk about coding
+
+00:17:29.780 --> 00:17:32.780
+coding is also seen as an emergent property
+
+00:17:32.780 --> 00:17:36.780
+that when we feed a lot of coding programs
+
+00:17:36.780 --> 00:17:39.780
+then it started writing programs to us
+
+00:17:39.780 --> 00:17:41.780
+so what I am trying to say is
+
+00:17:41.780 --> 00:17:44.780
+that when the LLMs were trained for the first time
+
+00:17:44.780 --> 00:17:50.780
+the most fundamental expectation that LLMs should have was knowledge
+
+00:17:50.780 --> 00:17:52.780
+that if we are giving them so much training data
+
+00:17:52.780 --> 00:17:54.780
+then on the basis of that, are they able to retain it or not
+
+00:17:54.780 --> 00:17:57.780
+so this capability represents that
+
+00:17:57.780 --> 00:17:59.780
+now what is here
+
+00:17:59.780 --> 00:18:02.780
+the whole evolution is very interesting
+
+00:18:02.780 --> 00:18:04.780
+I will tell you the whole story
+
+00:18:04.780 --> 00:18:06.780
+20-20 onwards
+
+00:18:06.780 --> 00:18:09.780
+because the most meaningful work has been done here
+
+00:18:09.780 --> 00:18:17.780
+so when GPT-2 and GPT-3 models were trained
+
+00:18:17.780 --> 00:18:21.780
+they were trained on massive internet data
+
+00:18:21.780 --> 00:18:24.780
+and after being trained
+
+00:18:24.780 --> 00:18:28.780
+they tried to test it naively
+
+00:18:28.780 --> 00:18:30.780
+that who knows everything or not
+
+00:18:30.780 --> 00:18:33.780
+so randomly questions were asked about different domains
+
+00:18:33.780 --> 00:18:36.780
+and people saw that yes, it is able to answer
+
+00:18:36.780 --> 00:18:39.780
+but just randomly asking questions
+
+00:18:39.780 --> 00:18:42.780
+does not guarantee that
+
+00:18:42.780 --> 00:18:45.780
+how much knowledge these models have gained
+
+00:18:45.780 --> 00:18:48.780
+how much knowledge they have retained from the training process
+
+00:18:48.780 --> 00:18:50.780
+so basically what we need is
+
+00:18:50.780 --> 00:18:53.780
+we need a proper systematic evaluation process
+
+00:18:53.780 --> 00:18:56.780
+which can judge, which can tell
+
+00:18:56.780 --> 00:18:59.780
+how much world knowledge a LLM has
+
+00:18:59.780 --> 00:19:05.780
+so this is where MMLU came into the picture in 2020
+
+00:19:05.780 --> 00:19:08.780
+this was the first benchmark
+
+00:19:08.780 --> 00:19:11.780
+which came into the picture in 2020
+
+00:19:11.780 --> 00:19:14.780
+and this benchmark exactly
+
+00:19:14.780 --> 00:19:18.780
+used to tell how knowledgeable a LLM is
+
+00:19:18.780 --> 00:19:21.780
+how much world knowledge is hidden in it
+
+00:19:21.780 --> 00:19:23.780
+what is MMLU?
+
+00:19:23.780 --> 00:19:27.780
+MMLU is basically a data set
+
+00:19:27.780 --> 00:19:33.780
+in which around 57 subjects
+
+00:19:33.780 --> 00:19:37.780
+there are 14,000 questions
+
+00:19:37.780 --> 00:19:41.780
+MCQ, multiple choice questions
+
+00:19:41.780 --> 00:19:44.780
+so what happened in 2020
+
+00:19:44.780 --> 00:19:47.780
+when this benchmark came to the surface
+
+00:19:47.780 --> 00:19:49.780
+this paper
+
+00:19:49.780 --> 00:19:52.780
+people started using this data set
+
+00:19:52.780 --> 00:19:55.780
+to test the knowledge of any LLM
+
+00:19:55.780 --> 00:19:58.780
+basically they sent these 14,000 questions to LLM
+
+00:19:58.780 --> 00:20:01.780
+and tried to find out
+
+00:20:01.780 --> 00:20:04.780
+how many questions my LLM answered correctly
+
+00:20:04.780 --> 00:20:07.780
+out of these 14,000 questions
+
+00:20:07.780 --> 00:20:10.780
+so this accuracy, this number
+
+00:20:10.780 --> 00:20:13.780
+used to tell us how much knowledge a particular LLM has
+
+00:20:13.780 --> 00:20:16.780
+so this was 2020
+
+00:20:16.780 --> 00:20:19.780
+then we discussed in the last class
+
+00:20:19.780 --> 00:20:22.780
+the biggest problem or disadvantage of every benchmark
+
+00:20:22.780 --> 00:20:25.780
+is that since its questions are public
+
+00:20:25.780 --> 00:20:28.780
+public means available on the internet
+
+00:20:28.780 --> 00:20:31.780
+so what happens is that these questions
+
+00:20:31.780 --> 00:20:34.780
+gradually become part of the training data
+
+00:20:34.780 --> 00:20:37.780
+for the next generation LLMs
+
+00:20:37.780 --> 00:20:40.780
+so basically contamination occurs
+
+00:20:40.780 --> 00:20:43.780
+and gradually the next generation models
+
+00:20:43.780 --> 00:20:46.780
+get to know the question and answer in the training data
+
+00:20:46.780 --> 00:20:49.780
+so the next generation generally gives better results
+
+00:20:49.780 --> 00:20:52.780
+on that benchmark
+
+00:20:52.780 --> 00:20:55.780
+and your benchmark saturates
+
+00:20:55.780 --> 00:20:58.780
+so this is exactly what happened
+
+00:20:58.780 --> 00:21:01.780
+people used MMLU until 2021, 22, 23
+
+00:21:01.780 --> 00:21:04.780
+in fact it was the most popular benchmark out there
+
+00:21:04.780 --> 00:21:07.780
+when any new model came, GPT 3.5, GPT 4
+
+00:21:07.780 --> 00:21:10.780
+Claude's models
+
+00:21:10.780 --> 00:21:13.780
+everyone used to report first
+
+00:21:13.780 --> 00:21:16.780
+how much accuracy score they have on MMLU
+
+00:21:16.780 --> 00:21:19.780
+but over time the score of all the models
+
+00:21:19.780 --> 00:21:22.780
+started coming around 80, 85, 90
+
+00:21:22.780 --> 00:21:25.780
+so everyone understood that this benchmark
+
+00:21:25.780 --> 00:21:28.780
+has been saturated which basically means that
+
+00:21:28.780 --> 00:21:31.780
+with the help of this we can't distinguish
+
+00:21:31.780 --> 00:21:34.780
+which model has more knowledge and which one has less
+
+00:21:34.780 --> 00:21:37.780
+so at this point
+
+00:21:37.780 --> 00:21:40.780
+in this knowledge benchmark space
+
+00:21:40.780 --> 00:21:43.780
+there was some branching
+
+00:21:43.780 --> 00:21:46.780
+precisely 4 branches were formed
+
+00:21:46.780 --> 00:21:49.780
+I will make the branches first and then I will fill them
+
+00:21:49.780 --> 00:21:52.780
+so in the first branch
+
+00:21:52.780 --> 00:21:55.780
+the question was asked
+
+00:21:55.780 --> 00:21:58.780
+that MMLU is fine
+
+00:21:58.780 --> 00:22:01.780
+it asks us
+
+00:22:01.780 --> 00:22:04.780
+14000 questions of 57 subjects
+
+00:22:04.780 --> 00:22:07.780
+with which we can test any LLM
+
+00:22:07.780 --> 00:22:10.780
+breadth of knowledge
+
+00:22:10.780 --> 00:22:13.780
+which is a good thing
+
+00:22:13.780 --> 00:22:16.780
+but by asking these 14000 questions
+
+00:22:16.780 --> 00:22:19.780
+we are not able to guarantee
+
+00:22:19.780 --> 00:22:22.780
+that any LLM is
+
+00:22:22.780 --> 00:22:25.780
+how truthful
+
+00:22:25.780 --> 00:22:28.780
+truthful means
+
+00:22:28.780 --> 00:22:31.780
+let me give an example
+
+00:22:31.780 --> 00:22:34.780
+you gave internet data to LLM
+
+00:22:34.780 --> 00:22:37.780
+and your LLM learned from that data
+
+00:22:37.780 --> 00:22:40.780
+and now it is able to answer 14000 questions
+
+00:22:40.780 --> 00:22:43.780
+of 57 subjects but think about it
+
+00:22:43.780 --> 00:22:46.780
+there is bad data on the internet
+
+00:22:46.780 --> 00:22:49.780
+bad data means
+
+00:22:49.780 --> 00:22:52.780
+non-informative data or incorrect data
+
+00:22:52.780 --> 00:22:55.780
+which basically means that if you
+
+00:22:55.780 --> 00:22:58.780
+train a big LLM on a big data
+
+00:22:58.780 --> 00:23:01.780
+then not only will it learn all the right things
+
+00:23:01.780 --> 00:23:04.780
+but it can also learn
+
+00:23:04.780 --> 00:23:07.780
+the misconceptions on the internet
+
+00:23:07.780 --> 00:23:10.780
+so there should be a benchmark to test that too
+
+00:23:10.780 --> 00:23:13.780
+let me give an example
+
+00:23:13.780 --> 00:23:16.780
+there is a common misconception
+
+00:23:16.780 --> 00:23:19.780
+that if you
+
+00:23:19.780 --> 00:23:22.780
+fold your fingers
+
+00:23:22.780 --> 00:23:25.780
+then you will hear a sound
+
+00:23:25.780 --> 00:23:28.780
+so if you fold your fingers
+
+00:23:28.780 --> 00:23:31.780
+and you will hear a sound then you may have
+
+00:23:31.780 --> 00:23:34.780
+arthritis
+
+00:23:34.780 --> 00:23:37.780
+but actually this is a miss
+
+00:23:37.780 --> 00:23:40.780
+if you fold your fingers again and again
+
+00:23:40.780 --> 00:23:43.780
+then over time you will develop arthritis
+
+00:23:43.780 --> 00:23:46.780
+which is obviously bad but this is a misconception
+
+00:23:46.780 --> 00:23:49.780
+many people have said that
+
+00:23:49.780 --> 00:23:52.780
+yes, there is arthritis but really
+
+00:23:52.780 --> 00:23:55.780
+doctors have mentioned that this is a
+
+00:23:55.780 --> 00:23:58.780
+myth, this is a misconception
+
+00:23:58.780 --> 00:24:01.780
+but think about it, if a model is being trained
+
+00:24:01.780 --> 00:24:04.780
+on internet data then it is getting to see
+
+00:24:04.780 --> 00:24:07.780
+that if you fold your fingers then you will have arthritis
+
+00:24:07.780 --> 00:24:10.780
+so if we ask him if folding your fingers is harmful
+
+00:24:10.780 --> 00:24:13.780
+then in most of the cases he will say that yes
+
+00:24:13.780 --> 00:24:16.780
+it is harmful, there can be arthritis but truly
+
+00:24:16.780 --> 00:24:19.780
+actually it is not harmful
+
+00:24:19.780 --> 00:24:22.780
+so what I am trying to say is that training a big
+
+00:24:22.780 --> 00:24:25.780
+model on more data does not necessarily mean
+
+00:24:25.780 --> 00:24:28.780
+that you have a more knowledgeable LLM
+
+00:24:28.780 --> 00:24:31.780
+it can also be that it starts propagating
+
+00:24:31.780 --> 00:24:34.780
+so this direction worked
+
+00:24:34.780 --> 00:24:37.780
+we can call this direction reliability
+
+00:24:37.780 --> 00:24:40.780
+this worked in the direction of reliability
+
+00:24:40.780 --> 00:24:43.780
+and here a new benchmark picture
+
+00:24:43.780 --> 00:24:46.780
+came up which was called
+
+00:24:46.780 --> 00:24:49.780
+Truthful QA and what was the work of
+
+00:24:49.780 --> 00:24:52.780
+Truthful QA that this was a data set
+
+00:24:52.780 --> 00:24:55.780
+where a list of such questions was made
+
+00:24:55.780 --> 00:24:58.780
+of many questions and that question
+
+00:24:58.780 --> 00:25:01.780
+was written, along with that wrong answer
+
+00:25:01.780 --> 00:25:04.780
+was written and along with that right answer was written
+
+00:25:04.780 --> 00:25:07.780
+and then it was tested on how your
+
+00:25:07.780 --> 00:25:10.780
+models are giving results
+
+00:25:10.780 --> 00:25:13.780
+so a very strange thing came to my mind that
+
+00:25:13.780 --> 00:25:16.780
+the larger models were failing
+
+00:25:16.780 --> 00:25:19.780
+on this benchmark and the smaller
+
+00:25:19.780 --> 00:25:22.780
+models were failing less so this was a
+
+00:25:22.780 --> 00:25:25.780
+weird thing but this happened because of this
+
+00:25:25.780 --> 00:25:28.780
+so MMLU tested the breadth of knowledge
+
+00:25:28.780 --> 00:25:31.780
+what did Truthful QA do?
+
+00:25:31.780 --> 00:25:34.780
+it tested reliability and along with that I will
+
+00:25:34.780 --> 00:25:37.780
+write down the year and the benchmark
+
+00:25:37.780 --> 00:25:40.780
+this came in 2020 and Truthful QA came
+
+00:25:40.780 --> 00:25:43.780
+in 2021
+
+00:25:43.780 --> 00:25:46.780
+after that people went in one direction
+
+00:25:46.780 --> 00:25:49.780
+people thought that if we want to
+
+00:25:49.780 --> 00:25:52.780
+check how knowledgeable an LLM is
+
+00:25:52.780 --> 00:25:55.780
+then one good way is
+
+00:25:55.780 --> 00:25:58.780
+that we directly give LLMs
+
+00:25:58.780 --> 00:26:01.780
+those exams to pass which are given by
+
+00:26:01.780 --> 00:26:04.780
+humans for example we give
+
+00:26:04.780 --> 00:26:07.780
+IIT exam, CAT exam, NEET exam
+
+00:26:07.780 --> 00:26:10.780
+it is a very controversial topic but
+
+00:26:10.780 --> 00:26:13.780
+we give exams and what is the purpose of
+
+00:26:13.780 --> 00:26:16.780
+those exams? those exams test our
+
+00:26:16.780 --> 00:26:19.780
+knowledge level right? this is the purpose
+
+00:26:19.780 --> 00:26:22.780
+so someone said rather than inventing new
+
+00:26:22.780 --> 00:26:25.780
+benchmarks like MMLU what if
+
+00:26:25.780 --> 00:26:28.780
+we take existing exams and
+
+00:26:28.780 --> 00:26:31.780
+tell our LLMs to solve these exams
+
+00:26:31.780 --> 00:26:34.780
+or write the answers of these exams and then we
+
+00:26:34.780 --> 00:26:37.780
+evaluate the answers of those exams and find out
+
+00:26:37.780 --> 00:26:40.780
+where an LLM lies in comparison to a human
+
+00:26:40.780 --> 00:26:43.780
+so this also worked in one direction
+
+00:26:43.780 --> 00:26:46.780
+and in this direction a benchmark
+
+00:26:46.780 --> 00:26:49.780
+benchmark came which is
+
+00:26:49.780 --> 00:26:52.780
+AGI Eval
+
+00:26:52.780 --> 00:26:55.780
+this came in
+
+00:26:55.780 --> 00:26:58.780
+2022 or 2023
+
+00:26:58.780 --> 00:27:01.780
+we will see exactly after a while I have made notes
+
+00:27:01.780 --> 00:27:04.780
+but here people did
+
+00:27:04.780 --> 00:27:07.780
+that the American exams like SATs
+
+00:27:07.780 --> 00:27:10.780
+or Chinese exams their name is
+
+00:27:10.780 --> 00:27:13.780
+Gao Gao, some names of exams
+
+00:27:13.780 --> 00:27:16.780
+they tested LLMs and the idea was very simple
+
+00:27:16.780 --> 00:27:19.780
+rather than inventing new benchmarks
+
+00:27:19.780 --> 00:27:22.780
+what if we test LLMs on top of
+
+00:27:22.780 --> 00:27:25.780
+existing human based exams and we can directly
+
+00:27:25.780 --> 00:27:28.780
+compare that in average human
+
+00:27:28.780 --> 00:27:31.780
+comparison how much capability LLMs are in terms of knowledge
+
+00:27:31.780 --> 00:27:34.780
+you might remember that in 2022 or 2023
+
+00:27:34.780 --> 00:27:37.780
+we were getting the news that
+
+00:27:37.780 --> 00:27:40.780
+an LLM beat humans in this exam
+
+00:27:40.780 --> 00:27:43.780
+now that exam can be any exam
+
+00:27:43.780 --> 00:27:46.780
+SAT, IITJ, any exam
+
+00:27:46.780 --> 00:27:49.780
+so basically behind that was the ideology
+
+00:27:49.780 --> 00:27:52.780
+that we should test on human exams rather than
+
+00:27:52.780 --> 00:27:55.780
+inventing new exams so this was one more branch
+
+00:27:55.780 --> 00:27:58.780
+which worked and after that
+
+00:27:58.780 --> 00:28:01.780
+when MMLU
+
+00:28:01.780 --> 00:28:04.780
+saturated around 2024
+
+00:28:04.780 --> 00:28:07.780
+people thought that now
+
+00:28:07.780 --> 00:28:10.780
+we have a benchmark
+
+00:28:10.780 --> 00:28:13.780
+how we can make things more difficult so that we can test LLMs
+
+00:28:13.780 --> 00:28:16.780
+so then it worked in two directions
+
+00:28:16.780 --> 00:28:19.780
+one direction was rather than
+
+00:28:19.780 --> 00:28:22.780
+asking for breadth of knowledge
+
+00:28:22.780 --> 00:28:25.780
+what if we ask depth of knowledge
+
+00:28:25.780 --> 00:28:28.780
+asking depth of knowledge
+
+00:28:28.780 --> 00:28:31.780
+means that in MMLU
+
+00:28:31.780 --> 00:28:34.780
+you get to see very basic level questions
+
+00:28:34.780 --> 00:28:37.780
+so that means there are many subjects
+
+00:28:37.780 --> 00:28:40.780
+in 57 subjects you have to answer basic questions
+
+00:28:40.780 --> 00:28:43.780
+now what people did was they thought rather than
+
+00:28:43.780 --> 00:28:46.780
+testing breadth of knowledge let's go
+
+00:28:46.780 --> 00:28:49.780
+towards the depth of knowledge so what they did was
+
+00:28:49.780 --> 00:28:52.780
+they made a new benchmark called GPQA
+
+00:28:52.780 --> 00:28:55.780
+GPQA's full form is Google Proof Q&A
+
+00:28:55.780 --> 00:28:58.780
+basically they made some researchers sit
+
+00:28:58.780 --> 00:29:01.780
+and made a data set of
+
+00:29:01.780 --> 00:29:04.780
+science questions consisting of
+
+00:29:04.780 --> 00:29:07.780
+biology, physics and chemistry
+
+00:29:07.780 --> 00:29:10.780
+basically they made a data set of science questions
+
+00:29:10.780 --> 00:29:13.780
+there were 500 questions but they were incredibly difficult
+
+00:29:13.780 --> 00:29:16.780
+like research level questions
+
+00:29:16.780 --> 00:29:19.780
+and they were such questions that if you
+
+00:29:19.780 --> 00:29:22.780
+catch a normal person on Google and ask them to search
+
+00:29:22.780 --> 00:29:25.780
+on Google and answer this question then also
+
+00:29:25.780 --> 00:29:28.780
+people couldn't answer these questions
+
+00:29:28.780 --> 00:29:31.780
+so GPQA became popular in around
+
+00:29:31.780 --> 00:29:34.780
+2023 or 2024
+
+00:29:34.780 --> 00:29:37.780
+and in the beginning
+
+00:29:37.780 --> 00:29:40.780
+LLMs started scoring very badly because
+
+00:29:40.780 --> 00:29:43.780
+it was difficult so in this direction
+
+00:29:43.780 --> 00:29:46.780
+some work was done in the direction of depth of knowledge
+
+00:29:46.780 --> 00:29:49.780
+another direction was some more people
+
+00:29:49.780 --> 00:29:52.780
+thought that MMLU is a good benchmark
+
+00:29:52.780 --> 00:29:55.780
+even if it is saturated so let's do one thing
+
+00:29:55.780 --> 00:29:58.780
+so what they did was
+
+00:29:58.780 --> 00:30:01.780
+they made a new benchmark called MMLU Pro
+
+00:30:01.780 --> 00:30:04.780
+Pro is also from 2024
+
+00:30:04.780 --> 00:30:07.780
+and what they did here
+
+00:30:07.780 --> 00:30:10.780
+they solved the problems of MMLU
+
+00:30:10.780 --> 00:30:13.780
+and made a new data set
+
+00:30:13.780 --> 00:30:16.780
+for example all the questions in MMLU
+
+00:30:16.780 --> 00:30:19.780
+14000 questions
+
+00:30:19.780 --> 00:30:22.780
+were your MCQ and every MCQ
+
+00:30:22.780 --> 00:30:25.780
+had 4 options
+
+00:30:25.780 --> 00:30:28.780
+but in MMLU Pro every question had
+
+00:30:28.780 --> 00:30:31.780
+10 options
+
+00:30:31.780 --> 00:30:34.780
+so here you have to find the right answer but in 10 given options
+
+00:30:34.780 --> 00:30:37.780
+so you can see that the difficulty level increased
+
+00:30:37.780 --> 00:30:40.780
+after this what they did is they reduced the number of subjects
+
+00:30:40.780 --> 00:30:43.780
+from 57 they came down
+
+00:30:43.780 --> 00:30:46.780
+if I remember correctly they came down to 12 subjects
+
+00:30:46.780 --> 00:30:49.780
+and in 12 subjects they got
+
+00:30:49.780 --> 00:30:52.780
+12k questions so per subject 1000 questions
+
+00:30:52.780 --> 00:30:55.780
+and they added some such questions
+
+00:30:55.780 --> 00:30:58.780
+which will give some reasoning so overall
+
+00:30:58.780 --> 00:31:01.780
+they made MMLU a little difficult
+
+00:31:01.780 --> 00:31:04.780
+so this
+
+00:31:04.780 --> 00:31:07.780
+for the next 1-2 years it was a good benchmark
+
+00:31:07.780 --> 00:31:10.780
+on which people kept testing their models basically
+
+00:31:10.780 --> 00:31:13.780
+MMLU Pro replaced MMLU
+
+00:31:13.780 --> 00:31:16.780
+but as it always happens that every next generation
+
+00:31:16.780 --> 00:31:19.780
+model beats the previous benchmark
+
+00:31:19.780 --> 00:31:22.780
+so over time what happened AGI eval
+
+00:31:22.780 --> 00:31:25.780
+also kind of saturated in GPQA
+
+00:31:25.780 --> 00:31:28.780
+also kind of near saturation
+
+00:31:28.780 --> 00:31:31.780
+and finally
+
+00:31:31.780 --> 00:31:34.780
+in 2025 a new benchmark came
+
+00:31:34.780 --> 00:31:37.780
+which is very popular and it is still used
+
+00:31:37.780 --> 00:31:40.780
+it's name is HLE
+
+00:31:40.780 --> 00:31:43.780
+Humanities Last Exam
+
+00:31:43.780 --> 00:31:46.780
+I can understand from the name how dangerous it is
+
+00:31:46.780 --> 00:31:49.780
+so in this people did
+
+00:31:49.780 --> 00:31:52.780
+that around 2500 questions
+
+00:31:52.780 --> 00:31:55.780
+a data set was made in which
+
+00:31:55.780 --> 00:31:58.780
+around 100 questions of subjects
+
+00:31:58.780 --> 00:32:01.780
+were there and these were like incredibly
+
+00:32:01.780 --> 00:32:04.780
+difficult questions like proper research level questions
+
+00:32:04.780 --> 00:32:07.780
+so in HLE actually 2 philosophies were adopted
+
+00:32:07.780 --> 00:32:10.780
+in this there was depth
+
+00:32:10.780 --> 00:32:13.780
+because the questions were actually very difficult to solve
+
+00:32:13.780 --> 00:32:16.780
+and there was also breadth
+
+00:32:16.780 --> 00:32:19.780
+because you can see
+
+00:32:19.780 --> 00:32:22.780
+2500 questions across 100 subjects
+
+00:32:22.780 --> 00:32:25.780
+so this was a benchmark made
+
+00:32:25.780 --> 00:32:28.780
+which was very big and very in depth
+
+00:32:28.780 --> 00:32:31.780
+so this is a benchmark
+
+00:32:31.780 --> 00:32:34.780
+on which even the current LLMs are not able to score very well
+
+00:32:34.780 --> 00:32:37.780
+plus there are some more features in this that we will discuss in this class
+
+00:32:37.780 --> 00:32:40.780
+but the idea is that
+
+00:32:40.780 --> 00:32:43.780
+Humanities Last Exam was developed in such a way
+
+00:32:43.780 --> 00:32:46.780
+that if the models crack this
+
+00:32:46.780 --> 00:32:49.780
+and bring the score of 100%
+
+00:32:49.780 --> 00:32:52.780
+then we don't need to make more benchmarks
+
+00:32:52.780 --> 00:32:55.780
+we will assume that now the LLMs
+
+00:32:55.780 --> 00:32:58.780
+have reached this level that they don't need to test their knowledge
+
+00:32:58.780 --> 00:33:01.780
+that's why they named it Humanities Last Exam
+
+00:33:01.780 --> 00:33:04.780
+but yeah this is the proper
+
+00:33:04.780 --> 00:33:07.780
+road map or evolution of knowledge
+
+00:33:07.780 --> 00:33:10.780
+benchmarks yeah one more thing happened here
+
+00:33:10.780 --> 00:33:13.780
+I forgot to tell you that
+
+00:33:13.780 --> 00:33:16.780
+here in this branch where we were testing reliability
+
+00:33:16.780 --> 00:33:19.780
+here the truthfull QA benchmark
+
+00:33:19.780 --> 00:33:22.780
+was also saturated over time
+
+00:33:22.780 --> 00:33:25.780
+because it came in 2021 so here also a new benchmark came
+
+00:33:25.780 --> 00:33:28.780
+which is called simple QA
+
+00:33:28.780 --> 00:33:31.780
+whose work is simply
+
+00:33:31.780 --> 00:33:34.780
+testing the hallucination rate of your LLMs
+
+00:33:34.780 --> 00:33:37.780
+by asking simple questions
+
+00:33:37.780 --> 00:33:40.780
+and the biggest feature of this simple QA was
+
+00:33:40.780 --> 00:33:43.780
+that here you were not asking MCQ questions
+
+00:33:43.780 --> 00:33:46.780
+you were simply asking a question
+
+00:33:46.780 --> 00:33:49.780
+and you have to answer the LLMs yourself
+
+00:33:49.780 --> 00:33:52.780
+so here there is no option that I will select one of the four
+
+00:33:52.780 --> 00:33:55.780
+and think about it that if this is not 3 then this will be
+
+00:33:55.780 --> 00:33:58.780
+the simple QA was the simple innovation
+
+00:33:58.780 --> 00:34:01.780
+so the simple QA was the innovation that you were asked a question
+
+00:34:01.780 --> 00:34:04.780
+you have to answer by printing
+
+00:34:04.780 --> 00:34:07.780
+you will not get any options so simple QA is still
+
+00:34:07.780 --> 00:34:10.779
+used to detect that your model is so truthfull
+
+00:34:10.779 --> 00:34:13.779
+that it is not blatantly giving wrong answers
+
+00:34:13.779 --> 00:34:16.779
+and we will discuss some more innovations
+
+00:34:16.779 --> 00:34:19.779
+when we will discuss it separately
+
+00:34:19.779 --> 00:34:22.779
+but yeah this is the road map that I wanted to show you upfront
+
+00:34:22.779 --> 00:34:25.779
+knowledge which is the full capability
+
+00:34:25.780 --> 00:34:28.780
+so the testing started from MMLU
+
+00:34:28.780 --> 00:34:31.780
+this is the mother of all benchmarks
+
+00:34:31.780 --> 00:34:34.780
+we moved from there in four directions, first we started
+
+00:34:34.780 --> 00:34:37.780
+with the help of truthfull QA
+
+00:34:37.780 --> 00:34:40.780
+after that we thought that it is better to make new benchmarks
+
+00:34:40.780 --> 00:34:43.780
+than converting existing exams into a dataset
+
+00:34:43.780 --> 00:34:46.780
+so AGI eval came
+
+00:34:46.780 --> 00:34:49.780
+then when MMLU was saturated
+
+00:34:49.780 --> 00:34:52.780
+people thought that we should test it with breadth of knowledge
+
+00:34:52.780 --> 00:34:55.780
+so then GPQA came
+
+00:34:55.780 --> 00:34:58.780
+and people thought that MMLU is a good benchmark
+
+00:34:58.780 --> 00:35:01.780
+we should repair it
+
+00:35:01.780 --> 00:35:04.780
+so in the process of repairing MMLU Pro came
+
+00:35:04.780 --> 00:35:07.780
+then slowly AGI eval, GPQA and MMLU Pro
+
+00:35:07.780 --> 00:35:10.780
+when all three of them started to saturate
+
+00:35:10.780 --> 00:35:13.780
+then finally people thought that we should make a new benchmark
+
+00:35:13.780 --> 00:35:16.780
+in which we will keep breadth and depth
+
+00:35:16.780 --> 00:35:19.780
+and some more innovations
+
+00:35:19.780 --> 00:35:22.780
+so we will keep it and call it humanity's last exam
+
+00:35:22.780 --> 00:35:25.780
+and this benchmark is still going on
+
+00:35:25.780 --> 00:35:28.780
+and when truthfull QA was saturated
+
+00:35:28.780 --> 00:35:31.780
+then we replaced it with simple QA
+
+00:35:31.780 --> 00:35:34.780
+so in total there are seven benchmarks that we are going to discuss today
+
+00:35:34.780 --> 00:35:37.780
+MMLU, truthfull QA
+
+00:35:37.780 --> 00:35:40.780
+AGI eval, GPQA
+
+00:35:40.780 --> 00:35:43.780
+MMLU Pro, simple QA
+
+00:35:43.780 --> 00:35:46.780
+humanity's last exam
+
+00:35:46.780 --> 00:35:49.780
+these are the seven benchmarks that we will discuss in detail
+
+00:35:49.780 --> 00:35:52.780
+but I have already told you an evolution story
+
+00:35:52.780 --> 00:35:55.780
+that why all these benchmarks came in picture
+
+00:35:55.780 --> 00:35:58.780
+and when they came in picture
+
+00:35:58.780 --> 00:36:01.780
+so let me know if this discussion made sense to you
+
+00:36:01.780 --> 00:36:04.780
+or if you have any doubts
+
+00:36:04.780 --> 00:36:07.780
+yes Pritika
+
+00:36:07.780 --> 00:36:10.780
+actually I have multiple subjects including coding
+
+00:36:10.780 --> 00:36:13.780
+I will discuss it after some time
+
+00:36:13.780 --> 00:36:16.780
+and it has maths in it
+
+00:36:16.780 --> 00:36:19.780
+it has reasoning in it
+
+00:36:19.780 --> 00:36:22.780
+so there are different subjects but yeah
+
+00:36:22.780 --> 00:36:25.780
+essentially it is a knowledge benchmark
+
+00:36:25.780 --> 00:36:28.780
+idea is to test knowledge but now there are different subjects in knowledge
+
+00:36:28.780 --> 00:36:31.780
+this whole thing is making sense in your mind
+
+00:36:31.780 --> 00:36:34.780
+it is fitting like a story
+
+00:36:34.780 --> 00:36:37.780
+when, what, why, what
+
+00:36:37.780 --> 00:36:40.780
+you should know
+
+00:36:40.780 --> 00:36:43.780
+this is what I was telling you
+
+00:36:43.780 --> 00:36:46.780
+when I was planning the session
+
+00:36:46.780 --> 00:36:49.780
+I thought that every
+
+00:36:49.780 --> 00:36:52.780
+KPI, every single KPI
+
+00:36:52.780 --> 00:36:55.780
+should be there
+
+00:36:55.780 --> 00:36:58.780
+I thought that I will tell you
+
+00:36:58.780 --> 00:37:01.780
+the top 2 or 3 benchmarks of every capability
+
+00:37:01.780 --> 00:37:04.780
+but how would the discussion have been
+
+00:37:04.780 --> 00:37:07.780
+that I would have told you about MMLU
+
+00:37:07.780 --> 00:37:10.780
+I would have told you about GPQA
+
+00:37:10.780 --> 00:37:13.780
+I would have told you about HLE
+
+00:37:13.780 --> 00:37:16.780
+but this roadmap that was made with this discussion
+
+00:37:16.780 --> 00:37:19.780
+this roadmap could not have been made
+
+00:37:19.780 --> 00:37:22.780
+and you would have got three dry explanations
+
+00:37:22.780 --> 00:37:25.780
+so that's why I thought that if I get this first
+
+00:37:25.780 --> 00:37:28.780
+then the discussion in the future becomes kind of easy
+
+00:37:28.780 --> 00:37:31.780
+so yeah
+
+00:37:31.780 --> 00:37:34.780
+I will wait for your questions
+
+00:37:34.780 --> 00:37:37.780
+then we will discuss all the benchmarks one by one
+
+00:37:37.780 --> 00:37:40.780
+just one second
+
+00:37:47.780 --> 00:37:50.780
+Aditya I will take your question
+
+00:37:50.780 --> 00:37:53.780
+I will take it at the end of the class
+
+00:37:53.780 --> 00:37:56.780
+let's discuss it related to the class
+
+00:37:56.780 --> 00:37:59.780
+then we will diverge the focus
+
+00:37:59.780 --> 00:38:02.780
+guys any other question at this point
+
+00:38:08.780 --> 00:38:11.780
+ok
+
+00:38:11.780 --> 00:38:14.780
+so the discussion going forward
+
+00:38:14.780 --> 00:38:17.780
+is highly theoretical and it might be boring also
+
+00:38:17.780 --> 00:38:20.780
+because you have to read about the benchmarks
+
+00:38:20.780 --> 00:38:23.780
+although I have formed a structure
+
+00:38:23.780 --> 00:38:26.780
+we will read through that structure
+
+00:38:26.780 --> 00:38:29.780
+but I am giving you this disclaimer from the beginning
+
+00:38:29.780 --> 00:38:32.780
+that it might be boring because it is theoretical
+
+00:38:32.780 --> 00:38:35.780
+so what I have done is
+
+00:38:35.780 --> 00:38:38.780
+I have made a website
+
+00:38:38.780 --> 00:38:41.780
+in fact I am making it now, I will show you that website
+
+00:38:41.780 --> 00:38:44.780
+I am making this website with the help of Claude
+
+00:38:44.780 --> 00:38:47.780
+here I have a bench wiki
+
+00:38:47.780 --> 00:38:50.780
+which will act as a wikipedia for LLM benchmarks
+
+00:38:50.780 --> 00:38:53.780
+so here all the
+
+00:38:53.780 --> 00:38:56.780
+benchmarks that we are reading
+
+00:38:56.780 --> 00:38:59.780
+on them
+
+00:38:59.780 --> 00:39:02.780
+we are adding information on this website
+
+00:39:02.780 --> 00:39:05.780
+like if you want to read MMLU
+
+00:39:05.780 --> 00:39:08.780
+it is written here that it comes under knowledge
+
+00:39:08.780 --> 00:39:11.780
+and its current status is that it is saturated
+
+00:39:11.780 --> 00:39:14.780
+so if you click on that then this page of MMLU will open
+
+00:39:14.780 --> 00:39:17.780
+and here you will see a lot of things
+
+00:39:17.780 --> 00:39:20.780
+what is the current status
+
+00:39:20.780 --> 00:39:23.780
+one line description, then how is the over time performance
+
+00:39:23.780 --> 00:39:26.780
+when it came in the beginning in 2020
+
+00:39:26.780 --> 00:39:29.780
+then the models were scoring around 45%
+
+00:39:29.780 --> 00:39:32.780
+whereas around 2024 you can see that
+
+00:39:32.780 --> 00:39:35.780
+it has reached 90% then the human baseline is
+
+00:39:35.780 --> 00:39:38.780
+that this data, this data set
+
+00:39:38.780 --> 00:39:41.780
+is given to solve humans then generally how much humans can solve
+
+00:39:41.780 --> 00:39:44.780
+then there is overview, task details
+
+00:39:44.780 --> 00:39:47.780
+example data set, scoring methodology
+
+00:39:47.780 --> 00:39:50.780
+what do not measure, known issues and all, contamination notes
+
+00:39:50.780 --> 00:39:53.780
+how to run, history and lineage, which research paper
+
+00:39:53.780 --> 00:39:56.780
+I came in and here also there is a lot of information
+
+00:39:56.780 --> 00:39:59.780
+about this so I am creating this website
+
+00:39:59.780 --> 00:40:02.780
+and the idea of this website is that at one place
+
+00:40:02.780 --> 00:40:05.780
+I will give you all the important benchmarks
+
+00:40:05.780 --> 00:40:08.780
+and I will not be able to do this after today's class
+
+00:40:08.780 --> 00:40:11.780
+because it is not deployed now
+
+00:40:11.780 --> 00:40:14.780
+so tomorrow I will deploy it and
+
+00:40:14.780 --> 00:40:17.780
+I will provide it to you
+
+00:40:17.780 --> 00:40:20.780
+so you can also do self study if you want
+
+00:40:20.780 --> 00:40:23.780
+but let's see today that my way of teaching is better
+
+00:40:23.780 --> 00:40:26.780
+you will prefer that or you will prefer
+
+00:40:26.780 --> 00:40:29.780
+to do self study
+
+00:40:29.780 --> 00:40:32.780
+so the notes that you see here
+
+00:40:32.780 --> 00:40:35.780
+are made from this website only
+
+00:40:35.780 --> 00:40:38.780
+the subset of this website will be shown here
+
+00:40:38.780 --> 00:40:41.780
+so
+
+00:40:41.780 --> 00:40:44.780
+ok, a question has come, let's answer it quickly
+
+00:40:44.780 --> 00:40:47.780
+how do we know if a company has
+
+00:40:47.780 --> 00:40:50.780
+not trained the model to work best
+
+00:40:50.780 --> 00:40:53.780
+on these benchmark questions specifically
+
+00:40:53.780 --> 00:40:56.780
+how do we know if a company has not trained the model
+
+00:40:56.780 --> 00:40:59.780
+to work best
+
+00:40:59.780 --> 00:41:02.780
+we can't know actually
+
+00:41:02.780 --> 00:41:05.780
+there are some ways to protect
+
+00:41:05.780 --> 00:41:08.780
+benchmarks during the discussion
+
+00:41:08.780 --> 00:41:11.780
+I will tell you which benchmarks are completely
+
+00:41:11.780 --> 00:41:14.780
+private, which ones have been used a little bit
+
+00:41:14.780 --> 00:41:17.780
+mostly it is not possible
+
+00:41:17.780 --> 00:41:20.780
+to predict
+
+00:41:20.780 --> 00:41:23.780
+that if a benchmark data set is part
+
+00:41:23.780 --> 00:41:26.780
+of any LLM training process or not
+
+00:41:26.780 --> 00:41:29.780
+so people use their brains, there are some strings
+
+00:41:29.780 --> 00:41:32.780
+some strings are added in the data set
+
+00:41:32.780 --> 00:41:35.780
+so if those strings are visible in the LLM answer
+
+00:41:35.780 --> 00:41:38.780
+then it is understood that during the training
+
+00:41:38.780 --> 00:41:41.780
+that data set has also been consumed
+
+00:41:41.780 --> 00:41:44.780
+there are other ways too
+
+00:41:44.780 --> 00:41:47.780
+so guys, let's start our first
+
+00:41:47.780 --> 00:41:50.780
+benchmark discussion
+
+00:41:50.780 --> 00:41:53.780
+write yes
+
+00:41:53.780 --> 00:41:56.780
+we will start
+
+00:41:59.780 --> 00:42:02.780
+ok
+
+00:42:02.780 --> 00:42:05.780
+so yeah, first of all
+
+00:42:05.780 --> 00:42:08.780
+we will discuss MMLU because this is the
+
+00:42:08.780 --> 00:42:11.780
+mother of all benchmarks at least in knowledge
+
+00:42:11.780 --> 00:42:14.780
+capability this is the mother of all benchmarks
+
+00:42:14.780 --> 00:42:17.780
+this is where things originated, so as I said
+
+00:42:17.780 --> 00:42:20.780
+the specialty of this benchmark is
+
+00:42:20.780 --> 00:42:23.780
+breadth of knowledge
+
+00:42:23.780 --> 00:42:26.780
+this simply tests one thing of LLM
+
+00:42:26.780 --> 00:42:29.780
+that how much breadth of knowledge it has
+
+00:42:29.780 --> 00:42:32.780
+not depth of knowledge, but breadth of knowledge
+
+00:42:32.780 --> 00:42:35.780
+and to do this in this benchmark
+
+00:42:35.780 --> 00:42:38.780
+over 57 subjects, 14000
+
+00:42:38.780 --> 00:42:41.780
+multiple choice questions data set was made
+
+00:42:41.780 --> 00:42:44.780
+and from where this data set was taken
+
+00:42:44.780 --> 00:42:47.780
+where these questions have come from, real exams
+
+00:42:47.780 --> 00:42:50.780
+USMLE, USGRE, AP and other
+
+00:42:50.780 --> 00:42:53.780
+people have also sourced from their side
+
+00:42:53.780 --> 00:42:56.780
+now obviously it must have been taken from the internet
+
+00:42:56.780 --> 00:42:59.780
+from the text book, but yeah the main idea is
+
+00:42:59.780 --> 00:43:02.780
+that 57 subjects, 14000 questions MCQs
+
+00:43:02.780 --> 00:43:05.780
+ok, it was launched in September 2020
+
+00:43:05.780 --> 00:43:08.780
+and it had only one job to tell
+
+00:43:08.780 --> 00:43:11.780
+how smart is a given LLM, smart in terms of
+
+00:43:11.780 --> 00:43:14.780
+how much knowledge it has, ok
+
+00:43:14.780 --> 00:43:17.780
+from 2021 to 2024
+
+00:43:17.780 --> 00:43:20.780
+all the LLMs that have come in the market
+
+00:43:20.780 --> 00:43:23.780
+for marketing of all those LLMs
+
+00:43:23.780 --> 00:43:26.780
+MMLU Accuracy Score was used
+
+00:43:26.780 --> 00:43:29.780
+because at that time MMLU was the best
+
+00:43:29.780 --> 00:43:32.780
+benchmark around and as soon as any new LLM
+
+00:43:32.780 --> 00:43:35.780
+came, it was first tested on MMLU
+
+00:43:35.780 --> 00:43:38.780
+and then its score on MMLU was used
+
+00:43:38.780 --> 00:43:41.780
+for its marketing, ok
+
+00:43:41.780 --> 00:43:44.780
+from the lineage point of view, the paper
+
+00:43:44.780 --> 00:43:47.780
+was released in September 2020 and GPT-3
+
+00:43:47.780 --> 00:43:50.780
+was tested at that time and it scored
+
+00:43:50.780 --> 00:43:53.780
+43.9% whereas experts
+
+00:43:53.780 --> 00:43:56.780
+who recorded their answers on the same data set
+
+00:43:56.780 --> 00:43:59.780
+they scored around 90%
+
+00:43:59.780 --> 00:44:02.780
+so it was seen that already in 2020
+
+00:44:02.780 --> 00:44:05.780
+the LLMs are far behind the humans
+
+00:44:05.780 --> 00:44:08.780
+the experts, humans are scoring
+
+00:44:08.780 --> 00:44:11.780
+and your LLMs are scoring 43
+
+00:44:11.780 --> 00:44:14.780
+state of the art models are scoring 43
+
+00:44:14.780 --> 00:44:17.780
+then in 2021 was the peak period
+
+00:44:17.780 --> 00:44:20.780
+where MMLU was used a lot
+
+00:44:20.780 --> 00:44:23.780
+at that time the scaling law era was going on
+
+00:44:23.780 --> 00:44:26.780
+at that time companies were not thinking much
+
+00:44:26.780 --> 00:44:29.780
+their simple work was to increase the parameters
+
+00:44:29.780 --> 00:44:32.780
+if you have 175 billion then go to 350 billion
+
+00:44:32.780 --> 00:44:35.780
+if you have 350 billion then go to 650 billion
+
+00:44:35.780 --> 00:44:38.780
+and their simple expectation was that
+
+00:44:38.780 --> 00:44:41.780
+as we increase the size of the model, its capabilities
+
+00:44:41.780 --> 00:44:44.780
+will increase so in this era of 2021-2022
+
+00:44:44.780 --> 00:44:47.780
+whatever models you had at that time
+
+00:44:47.780 --> 00:44:50.780
+Gopher, Chenchela, Palm
+
+00:44:50.780 --> 00:44:53.780
+all of these have registered their scores
+
+00:44:53.780 --> 00:44:56.780
+on this benchmark so at that time
+
+00:44:56.780 --> 00:44:59.780
+it was very popular, in 2023
+
+00:44:59.780 --> 00:45:02.780
+GPT-4 came and it scored 86%
+
+00:45:02.780 --> 00:45:05.780
+very close to human experts
+
+00:45:05.780 --> 00:45:08.780
+and from there your kind of
+
+00:45:08.780 --> 00:45:11.780
+decline started of MMLU
+
+00:45:11.780 --> 00:45:14.780
+in 2024 what happened is that all the
+
+00:45:14.780 --> 00:45:17.780
+frontier models were there, Google's frontier
+
+00:45:17.780 --> 00:45:20.780
+Anthropics' frontier, OpenAI's frontier
+
+00:45:20.780 --> 00:45:23.780
+everyone came in the range of 86-92
+
+00:45:23.780 --> 00:45:26.780
+and around that everyone started to cluster
+
+00:45:26.780 --> 00:45:29.780
+so now it became very difficult to tell which model is better
+
+00:45:29.780 --> 00:45:32.780
+which model is better, which model is less
+
+00:45:32.780 --> 00:45:35.780
+no one was able to go above 92 in MMLU
+
+00:45:35.780 --> 00:45:38.780
+the big reason for that is that a kind of
+
+00:45:38.780 --> 00:45:41.780
+study was done in the future on MMLU
+
+00:45:41.780 --> 00:45:44.780
+basically some experts were there
+
+00:45:44.780 --> 00:45:47.780
+they saw every question manually so they found out
+
+00:45:47.780 --> 00:45:50.780
+that around 6.5% questions
+
+00:45:50.780 --> 00:45:53.780
+have a problem
+
+00:45:53.780 --> 00:45:56.780
+either its answers are wrong or the right answer
+
+00:45:56.780 --> 00:45:59.780
+is not included in the survey
+
+00:45:59.780 --> 00:46:02.780
+so basically you can say that no one can go above 92-93
+
+00:46:02.780 --> 00:46:05.780
+because the rest of the questions above
+
+00:46:05.780 --> 00:46:08.780
+are wrong
+
+00:46:08.780 --> 00:46:11.780
+so at this point people understood that now the end of MMLU
+
+00:46:11.780 --> 00:46:14.780
+is near, now no one will score above this
+
+00:46:14.780 --> 00:46:17.780
+so now we consider this as saturated and retire
+
+00:46:17.780 --> 00:46:20.780
+and then in 2025 exactly this happened
+
+00:46:20.780 --> 00:46:23.780
+that the frontier labs stopped using
+
+00:46:23.780 --> 00:46:26.780
+and by this point GPQA
+
+00:46:26.780 --> 00:46:29.780
+and HLE came
+
+00:46:29.780 --> 00:46:32.780
+so people started using it
+
+00:46:32.780 --> 00:46:35.780
+so roughly this is the history and lineage of this particular benchmark
+
+00:46:35.780 --> 00:46:38.780
+so if we discuss its task and data set details
+
+00:46:38.780 --> 00:46:41.780
+you already know the data set, this is a sample question
+
+00:46:41.780 --> 00:46:44.780
+you can see what kind of questions were in it
+
+00:46:44.780 --> 00:46:47.780
+this is a college physics level question
+
+00:46:47.780 --> 00:46:50.780
+so this is the question, the muon decays with a characteristic lifetime
+
+00:46:50.780 --> 00:46:53.780
+so this is about 10 to the power of minus 6 seconds into an electron
+
+00:46:53.780 --> 00:46:56.780
+there are few more questions, its four options are given
+
+00:46:56.780 --> 00:46:59.780
+and along with that its correct answer is also given
+
+00:46:59.780 --> 00:47:02.780
+so this is your proper data set question
+
+00:47:02.780 --> 00:47:05.780
+your task is very simple
+
+00:47:05.780 --> 00:47:08.780
+this whole question and its four options
+
+00:47:08.780 --> 00:47:11.780
+will be given in prompt
+
+00:47:11.780 --> 00:47:14.780
+along with this five more example questions
+
+00:47:14.780 --> 00:47:17.780
+will be sent and your model
+
+00:47:17.780 --> 00:47:20.780
+will tell you the correct answer A, B, C, D
+
+00:47:20.780 --> 00:47:23.780
+and then you have to flip it over
+
+00:47:23.780 --> 00:47:26.780
+and measure the accuracy score
+
+00:47:26.780 --> 00:47:29.780
+there are 14000 questions, how many out of them
+
+00:47:29.780 --> 00:47:32.780
+the model has answered correctly, that is the accuracy score
+
+00:47:32.780 --> 00:47:35.780
+its simple, very straight forward
+
+00:47:35.780 --> 00:47:38.780
+now here one thing is different that there are two ways of scoring
+
+00:47:38.780 --> 00:47:41.780
+one is that your model will look at the question
+
+00:47:41.780 --> 00:47:44.780
+and will print a character
+
+00:47:44.780 --> 00:47:47.780
+A, B, C, D
+
+00:47:47.780 --> 00:47:50.780
+obviously, second option is that
+
+00:47:50.780 --> 00:47:53.780
+you don't generate anything from the model
+
+00:47:53.780 --> 00:47:56.780
+instead you get its log probabilities
+
+00:47:56.780 --> 00:47:59.780
+that how much probability it is assigning to A
+
+00:47:59.780 --> 00:48:02.780
+how much probability it is assigning to B
+
+00:48:02.780 --> 00:48:05.780
+how much probability it is assigning to C
+
+00:48:05.780 --> 00:48:08.780
+and how much probability it is assigning to D
+
+00:48:08.780 --> 00:48:11.780
+and the one whose probability is assigning the most, we will consider that as the answer
+
+00:48:11.780 --> 00:48:14.780
+you might be knowing if you have studied transformer architecture
+
+00:48:14.780 --> 00:48:17.780
+that whenever you have to predict a token
+
+00:48:17.780 --> 00:48:20.780
+you assign a probability against every token
+
+00:48:20.780 --> 00:48:23.780
+in your entire search space
+
+00:48:23.780 --> 00:48:26.780
+we get the log of that probability
+
+00:48:26.780 --> 00:48:29.780
+and we find out who is being told the answer
+
+00:48:29.780 --> 00:48:32.780
+so these two things are done, either you generate the answer directly
+
+00:48:32.780 --> 00:48:35.780
+or you find out its log likelihood
+
+00:48:35.780 --> 00:48:38.780
+that who is being considered most probable in A, B, C, D
+
+00:48:38.780 --> 00:48:41.780
+and these two methods are used
+
+00:48:41.780 --> 00:48:44.780
+in MMLU and generally
+
+00:48:44.780 --> 00:48:47.780
+the same answer is not given from both of them
+
+00:48:47.780 --> 00:48:50.780
+there is a difference of 1 to 3 points
+
+00:48:50.780 --> 00:48:53.780
+this means that if you are testing GPT-4
+
+00:48:53.780 --> 00:48:56.780
+on MMLU
+
+00:48:56.780 --> 00:48:59.780
+if you generate answers from it
+
+00:48:59.780 --> 00:49:02.780
+and get the accuracy score
+
+00:49:02.780 --> 00:49:05.780
+then it gets 84% and if you get the accuracy score
+
+00:49:05.780 --> 00:49:06.060
+from the
+
+00:49:06.060 --> 00:49:09.060
+MMLU, it gets 87%
+
+00:49:09.060 --> 00:49:12.060
+so there can be a difference of 2-3%
+
+00:49:12.060 --> 00:49:15.060
+depending on which method you are using
+
+00:49:15.060 --> 00:49:18.060
+to extract the answer
+
+00:49:18.060 --> 00:49:21.060
+so yeah, we have seen the core metric
+
+00:49:21.060 --> 00:49:24.060
+it is basically accuracy
+
+00:49:24.060 --> 00:49:27.060
+now you get two types of accuracy
+
+00:49:27.060 --> 00:49:30.060
+one is overall accuracy
+
+00:49:30.060 --> 00:49:33.060
+that how much accuracy score was given on the entire MMLU
+
+00:49:33.060 --> 00:49:36.060
+and the other is micro accuracy
+
+00:49:36.060 --> 00:49:39.060
+there are 57 subjects
+
+00:49:39.060 --> 00:49:42.060
+you can get the score of how much percentage you get in every subject
+
+00:49:42.060 --> 00:49:45.060
+so there is this much in biology, physics, law
+
+00:49:45.060 --> 00:49:48.060
+you get different accuracy scores for every subject
+
+00:49:48.060 --> 00:49:51.060
+both are possible
+
+00:49:51.060 --> 00:49:54.060
+we talked about answer extraction
+
+00:49:54.060 --> 00:49:57.060
+log likelihood vs generated text
+
+00:49:57.060 --> 00:50:00.060
+remember one more thing, the prompt format sensitivity of MMLU
+
+00:50:00.060 --> 00:50:03.060
+is very high
+
+00:50:03.060 --> 00:50:06.060
+so basically when you send a particular question
+
+00:50:06.060 --> 00:50:09.060
+to a system prompt to the model
+
+00:50:09.060 --> 00:50:12.060
+then what you have written in the system prompt
+
+00:50:12.060 --> 00:50:15.060
+what kind of terms you have used
+
+00:50:15.060 --> 00:50:18.060
+on the basis of that your accuracy score is very high
+
+00:50:18.060 --> 00:50:21.060
+so many people have done a lot of cheating
+
+00:50:21.060 --> 00:50:24.060
+they have put such keywords
+
+00:50:24.060 --> 00:50:27.060
+which increases their score
+
+00:50:27.060 --> 00:50:30.060
+so using the same model is very important
+
+00:50:30.060 --> 00:50:33.060
+if you change the prompt then your accuracy score for the same model
+
+00:50:33.060 --> 00:50:36.060
+might be different
+
+00:50:36.060 --> 00:50:39.060
+also if your model is using a chain of thought
+
+00:50:39.060 --> 00:50:42.060
+or reasoning then its performance
+
+00:50:42.060 --> 00:50:45.060
+might be marginally better
+
+00:50:45.060 --> 00:50:48.060
+because obviously it is spending more time in giving an answer
+
+00:50:48.060 --> 00:50:51.060
+so it might give you better answers
+
+00:50:51.060 --> 00:50:54.060
+by default when you write a system prompt
+
+00:50:54.060 --> 00:50:57.060
+so I have told you to show 5 solved examples
+
+00:50:57.060 --> 00:51:00.060
+that this is the question, 4 options and this is the right answer
+
+00:51:00.060 --> 00:51:03.060
+you do this 5 times
+
+00:51:03.060 --> 00:51:06.060
+you are not telling to do reasoning directly
+
+00:51:06.060 --> 00:51:09.060
+this is common settings
+
+00:51:09.060 --> 00:51:12.060
+you keep temperature 0, pass at the rate 1
+
+00:51:12.060 --> 00:51:15.060
+basically you show one question and the answer is accepted
+
+00:51:15.060 --> 00:51:18.060
+I told you in the last class what is pass at the rate 1
+
+00:51:18.060 --> 00:51:21.060
+and what is pass at the rate k
+
+00:51:21.060 --> 00:51:24.060
+if you give a tool to use
+
+00:51:24.060 --> 00:51:27.060
+or if you give access to the compiler
+
+00:51:27.060 --> 00:51:30.060
+then it will solve many questions
+
+00:51:30.060 --> 00:51:33.060
+lastly let's discuss
+
+00:51:33.060 --> 00:51:36.060
+what MMLU does not measure
+
+00:51:36.060 --> 00:51:39.060
+MMLU strictly measures breadth of knowledge
+
+00:51:39.060 --> 00:51:42.060
+what does it not measure? reasoning depth
+
+00:51:42.060 --> 00:51:45.060
+MMLU is not a good benchmark to test reasoning capability
+
+00:51:45.060 --> 00:51:48.060
+of your model
+
+00:51:48.060 --> 00:51:51.060
+second, it does not test the calibration
+
+00:51:51.060 --> 00:51:54.060
+calibration means
+
+00:51:54.060 --> 00:51:57.060
+that MMLU does not test that
+
+00:51:57.060 --> 00:52:00.060
+whether your model knows the answer or not
+
+00:52:00.060 --> 00:52:03.060
+basically it is not checking its truthfulness
+
+00:52:03.060 --> 00:52:06.060
+we don't have any such mechanism in MMLU
+
+00:52:06.060 --> 00:52:09.060
+after that
+
+00:52:09.060 --> 00:52:12.060
+open ended retrieval is not tested
+
+00:52:12.060 --> 00:52:15.060
+because here you are showing a question
+
+00:52:15.060 --> 00:52:18.060
+you are giving 4 options and asking to select one of the four
+
+00:52:18.060 --> 00:52:21.060
+this is not open ended
+
+00:52:21.060 --> 00:52:24.060
+you are asking to select one of the four
+
+00:52:24.060 --> 00:52:27.060
+so when it will answer in an open way
+
+00:52:27.060 --> 00:52:30.060
+then we are not testing
+
+00:52:30.060 --> 00:52:33.060
+and lastly it is not multilingual
+
+00:52:33.060 --> 00:52:36.060
+it is English only, exam style only
+
+00:52:36.060 --> 00:52:39.060
+and most of the curriculum is around western curriculum
+
+00:52:39.060 --> 00:52:42.060
+so around this data this result will be good
+
+00:52:42.060 --> 00:52:45.060
+if you are going to test knowledge
+
+00:52:45.060 --> 00:52:48.060
+there is a good chance that this is not a good benchmark
+
+00:52:48.060 --> 00:52:51.060
+then
+
+00:52:51.060 --> 00:52:54.060
+apart from that what are some known issues and criticism
+
+00:52:54.060 --> 00:52:57.060
+first is label error
+
+00:52:57.060 --> 00:53:00.060
+there are 14000 questions but 6.5% of them
+
+00:53:00.060 --> 00:53:03.060
+questions are wrong
+
+00:53:03.060 --> 00:53:06.060
+that is why no model was able to score 100%
+
+00:53:06.060 --> 00:53:09.060
+on this benchmark
+
+00:53:09.060 --> 00:53:12.060
+so this is a good situation
+
+00:53:12.060 --> 00:53:15.060
+this benchmark is public from 2020
+
+00:53:15.060 --> 00:53:18.060
+so now it is a sure thing that
+
+00:53:18.060 --> 00:53:21.060
+during training of every model
+
+00:53:21.060 --> 00:53:24.060
+this dataset becomes a part of training data
+
+00:53:24.060 --> 00:53:27.060
+so now every model will perform well on this benchmark
+
+00:53:27.060 --> 00:53:30.060
+so contamination is very high
+
+00:53:30.060 --> 00:53:33.060
+and prompt format gaming as I said
+
+00:53:33.060 --> 00:53:36.060
+in this particular benchmark system prompt is very sensitive
+
+00:53:36.060 --> 00:53:39.060
+so you cannot make the results very vain
+
+00:53:39.060 --> 00:53:42.060
+many frontier labs have done this
+
+00:53:42.060 --> 00:53:45.060
+so you have to be careful
+
+00:53:45.060 --> 00:53:48.060
+you have to measure MMLU with all the conditions same
+
+00:53:48.060 --> 00:53:51.060
+there should not be chain of thought
+
+00:53:51.060 --> 00:53:54.060
+there should be 5 shot prompting, temperature should be 0
+
+00:53:54.060 --> 00:53:57.060
+system prompt should be same
+
+00:53:57.060 --> 00:54:00.060
+in such conditions when you test two models then only you can say
+
+00:54:00.060 --> 00:54:03.060
+that scores are reliable
+
+00:54:03.060 --> 00:54:06.060
+this is a brief history of MMLU
+
+00:54:06.060 --> 00:54:09.060
+let me know if you are not able to understand
+
+00:54:09.060 --> 00:54:12.060
+if you want to read a detailed version of this
+
+00:54:12.060 --> 00:54:15.060
+then you can go to this website
+
+00:54:15.060 --> 00:54:18.060
+and read all this easily
+
+00:54:18.060 --> 00:54:21.060
+there is a lot of information here
+
+00:54:21.060 --> 00:54:24.060
+I have made an extract of this and pasted it here
+
+00:54:24.060 --> 00:54:27.060
+so to read everything
+
+00:54:27.060 --> 00:54:30.060
+you have to self study this website
+
+00:54:30.060 --> 00:54:33.060
+so you will have more knowledge
+
+00:54:33.060 --> 00:54:36.060
+so yeah let me know if you have any questions
+
+00:54:36.060 --> 00:54:39.060
+around this particular benchmark
+
+00:54:39.060 --> 00:54:42.060
+MMLU
+
+00:54:45.060 --> 00:54:48.060
+I will wait for one minute
+
+00:54:48.060 --> 00:54:51.060
+can you elaborate calibration point again
+
+00:54:51.060 --> 00:54:54.060
+you will understand in a while
+
+00:54:54.060 --> 00:54:57.060
+like we will do truthfulness discussion
+
+00:54:57.060 --> 00:55:00.060
+reliability discussion
+
+00:55:00.060 --> 00:55:03.060
+you will understand there
+
+00:55:03.060 --> 00:55:06.060
+now we will read a benchmark
+
+00:55:06.060 --> 00:55:09.060
+simple QA
+
+00:55:09.060 --> 00:55:12.060
+in simple QA we will discuss exactly this point
+
+00:55:12.060 --> 00:55:15.060
+that how to calculate calibration
+
+00:55:15.060 --> 00:55:18.060
+how do you define calibration
+
+00:55:18.060 --> 00:55:21.060
+how do you know whether model knows or not
+
+00:55:21.060 --> 00:55:24.060
+what was the criteria of taking those 14K questions
+
+00:55:24.060 --> 00:55:27.060
+so criteria was basically simple
+
+00:55:27.060 --> 00:55:30.060
+the idea was to test breadth of knowledge
+
+00:55:30.060 --> 00:55:33.060
+so first of all it was defined
+
+00:55:33.060 --> 00:55:36.060
+which subjects we will consider
+
+00:55:36.060 --> 00:55:39.060
+once those subjects are considered
+
+00:55:39.060 --> 00:55:42.060
+then we will know the exact number of subjects
+
+00:55:42.060 --> 00:55:45.060
+once those subjects are considered
+
+00:55:45.060 --> 00:55:48.060
+then the data from the most credible sources
+
+00:55:48.060 --> 00:55:51.060
+the questions that came
+
+00:55:51.060 --> 00:55:54.060
+they included them in MMLU
+
+00:55:54.060 --> 00:55:57.060
+at that time the criteria was not difficult
+
+00:55:57.060 --> 00:56:00.060
+I will tell you after some time
+
+00:56:00.060 --> 00:56:03.060
+HLE benchmark is a very strong criteria
+
+00:56:03.060 --> 00:56:06.060
+in fact people get prize money
+
+00:56:06.060 --> 00:56:09.060
+if their question is selected
+
+00:56:09.060 --> 00:56:12.060
+back in 2020 MMLU
+
+00:56:12.060 --> 00:56:15.060
+there was not that strict criteria
+
+00:56:15.060 --> 00:56:18.060
+there should have been 4 options
+
+00:56:18.060 --> 00:56:21.060
+and the question should be connected with a particular field
+
+00:56:21.060 --> 00:56:24.060
+and if it is coming from a reliable source
+
+00:56:24.060 --> 00:56:27.060
+like from an exam or a textbook
+
+00:56:27.060 --> 00:56:30.060
+then it is good
+
+00:56:30.060 --> 00:56:33.060
+or you are an expert submitting the question
+
+00:56:33.060 --> 00:56:36.060
+and if you want more details
+
+00:56:36.060 --> 00:56:39.060
+about how data collection was done
+
+00:56:39.060 --> 00:56:42.060
+then in that case what you can do is
+
+00:56:42.060 --> 00:56:45.060
+you can go to the research paper
+
+00:56:45.060 --> 00:56:48.060
+and here I am pretty sure
+
+00:56:48.060 --> 00:56:51.060
+they must have told in detail
+
+00:56:51.060 --> 00:56:54.060
+how they collected the data
+
+00:56:54.060 --> 00:56:57.060
+I will show you
+
+00:56:57.060 --> 00:57:00.060
+these were 4 categories
+
+00:57:00.060 --> 00:57:03.060
+57 subjects were in 4 categories
+
+00:57:03.060 --> 00:57:06.060
+Social Science, STEM
+
+00:57:06.060 --> 00:57:09.060
+and others
+
+00:57:09.060 --> 00:57:12.060
+is it mentioned anywhere?
+
+00:57:25.060 --> 00:57:28.060
+they have told that coverage
+
+00:57:28.060 --> 00:57:31.060
+is done according to the data but about sourcing
+
+00:57:31.060 --> 00:57:34.060
+size and accuracy
+
+00:57:34.060 --> 00:57:37.060
+here the calibration point
+
+00:57:37.060 --> 00:57:40.060
+is also mentioned which we have just skipped
+
+00:57:40.060 --> 00:57:43.060
+acknowledgement
+
+00:57:43.060 --> 00:57:46.060
+references
+
+00:57:46.060 --> 00:57:49.060
+now you can't see
+
+00:57:49.060 --> 00:57:52.060
+how the sourcing of the questions is done
+
+00:57:52.060 --> 00:57:55.060
+format sensitivity has been talked about
+
+00:57:55.060 --> 00:57:58.060
+test details
+
+00:57:58.060 --> 00:58:01.060
+task
+
+00:58:01.060 --> 00:58:04.060
+I am not able to figure out
+
+00:58:04.060 --> 00:58:07.060
+where it is written in the live class
+
+00:58:07.060 --> 00:58:10.060
+but I am pretty sure in the research paper
+
+00:58:10.060 --> 00:58:13.060
+they must have mentioned somewhere
+
+00:58:13.060 --> 00:58:16.060
+that how they did data sourcing
+
+00:58:16.060 --> 00:58:19.060
+so you can see
+
+00:58:19.060 --> 00:58:22.060
+is there any other question?
+
+00:58:22.060 --> 00:58:25.060
+yes
+
+00:58:25.060 --> 00:58:28.060
+if data set
+
+00:58:28.060 --> 00:58:31.060
+was in public since 2020
+
+00:58:31.060 --> 00:58:34.060
+why contamination happened in late
+
+00:58:34.060 --> 00:58:37.060
+2023 only?
+
+00:58:37.060 --> 00:58:40.060
+no contamination doesn't happen
+
+00:58:40.060 --> 00:58:43.060
+that in one go
+
+00:58:43.060 --> 00:58:46.060
+the data set got trained
+
+00:58:46.060 --> 00:58:49.060
+and the answer came
+
+00:58:49.060 --> 00:58:52.060
+let me think about this question
+
+00:58:52.060 --> 00:58:55.060
+why didn't it happen in one go?
+
+00:58:55.060 --> 00:58:58.060
+it's a good question to think
+
+00:58:58.060 --> 00:59:01.060
+public was always there
+
+00:59:01.060 --> 00:59:04.060
+someone else think
+
+00:59:04.060 --> 00:59:07.060
+and tell me guys
+
+00:59:07.060 --> 00:59:10.060
+why did it take time
+
+00:59:10.060 --> 00:59:13.060
+till 2023?
+
+00:59:13.060 --> 00:59:16.060
+it took time before it happened
+
+00:59:16.060 --> 00:59:19.060
+but the level of contamination
+
+00:59:19.060 --> 00:59:22.060
+what I am trying to think is
+
+00:59:22.060 --> 00:59:25.060
+if the data got trained
+
+00:59:25.060 --> 00:59:28.060
+then it will answer every question
+
+00:59:28.060 --> 00:59:31.060
+why were the scores getting higher?
+
+00:59:31.060 --> 00:59:34.060
+good question
+
+00:59:34.060 --> 00:59:37.060
+let me think about this
+
+00:59:37.060 --> 00:59:40.060
+it will click something
+
+00:59:40.060 --> 00:59:43.060
+not really
+
+00:59:43.060 --> 00:59:46.060
+there was no community
+
+00:59:46.060 --> 00:59:49.060
+not really
+
+00:59:49.060 --> 00:59:52.060
+there are data sets
+
+00:59:52.060 --> 00:59:55.060
+there are benchmarks
+
+00:59:55.060 --> 00:59:58.060
+questions are available on the internet
+
+00:59:58.060 --> 01:00:01.060
+why does contamination increase?
+
+01:00:01.060 --> 01:00:04.060
+that's right
+
+01:00:04.060 --> 01:00:07.060
+ok, I will think about it
+
+01:00:07.060 --> 01:00:10.060
+you guys also think
+
+01:00:10.060 --> 01:00:13.060
+meanwhile let's move forward
+
+01:00:13.060 --> 01:00:16.060
+on this benchmark
+
+01:00:16.060 --> 01:00:19.060
+by the way, is it getting boring?
+
+01:00:19.060 --> 01:00:22.060
+because this is going to be the class
+
+01:00:22.060 --> 01:00:25.060
+we have to read 6 more benchmarks
+
+01:00:25.060 --> 01:00:28.060
+if you find the first one boring
+
+01:00:28.060 --> 01:00:31.060
+then you will sleep
+
+01:00:31.060 --> 01:00:34.060
+or leave the class
+
+01:00:34.060 --> 01:00:37.060
+and who knows
+
+01:00:37.060 --> 01:00:40.060
+your phone has Instagram open
+
+01:00:40.060 --> 01:00:43.060
+I am getting a lot of comments
+
+01:00:43.060 --> 01:00:46.060
+ok
+
+01:00:46.060 --> 01:00:49.060
+I just wanted to get feedback
+
+01:00:49.060 --> 01:00:52.060
+because I have taken less theory classes
+
+01:00:52.060 --> 01:00:55.060
+so let's move on to the next one
+
+01:00:55.060 --> 01:00:58.060
+we are moving
+
+01:00:58.060 --> 01:01:01.060
+towards this branch
+
+01:01:01.060 --> 01:01:04.060
+where
+
+01:01:04.060 --> 01:01:07.060
+people started asking
+
+01:01:07.060 --> 01:01:10.060
+should we ask questions about reliability
+
+01:01:10.060 --> 01:01:13.060
+or not
+
+01:01:13.060 --> 01:01:16.060
+so we moved in that direction
+
+01:01:16.060 --> 01:01:19.060
+and then we got a new benchmark
+
+01:01:19.060 --> 01:01:22.060
+which was called truthfull QA
+
+01:01:22.060 --> 01:01:25.060
+I can understand it by the name
+
+01:01:25.060 --> 01:01:28.060
+it is written here
+
+01:01:28.060 --> 01:01:31.060
+817 adversarial questions
+
+01:01:31.060 --> 01:01:34.060
+were made
+
+01:01:34.060 --> 01:01:37.060
+and these questions were basically
+
+01:01:37.060 --> 01:01:40.060
+around common human misconceptions
+
+01:01:40.060 --> 01:01:43.060
+it was launched in September 2021
+
+01:01:43.060 --> 01:01:46.060
+and the biggest feature of this benchmark
+
+01:01:46.060 --> 01:01:49.060
+is that
+
+01:01:49.060 --> 01:01:52.060
+we found out that
+
+01:01:52.060 --> 01:01:55.060
+larger models were often less truthfull
+
+01:01:55.060 --> 01:01:58.060
+basically larger models
+
+01:01:58.060 --> 01:02:01.060
+are presenting
+
+01:02:01.060 --> 01:02:04.060
+misconceptions at a higher level
+
+01:02:04.060 --> 01:02:07.060
+and the logic was simple
+
+01:02:07.060 --> 01:02:10.060
+misconceptions are spread on the internet
+
+01:02:10.060 --> 01:02:13.060
+so the larger the model
+
+01:02:13.060 --> 01:02:16.060
+the more it has absorbed
+
+01:02:16.060 --> 01:02:19.060
+the misconceptions in its training
+
+01:02:19.060 --> 01:02:22.060
+so it shows that
+
+01:02:22.060 --> 01:02:25.060
+at the time of inference
+
+01:02:25.060 --> 01:02:28.060
+so an interesting thing came out
+
+01:02:28.060 --> 01:02:31.060
+if you do a lot of research
+
+01:02:31.060 --> 01:02:34.060
+then capability and truthfullness are inversely proportional
+
+01:02:34.060 --> 01:02:37.060
+this was the most interesting finding
+
+01:02:37.060 --> 01:02:40.060
+of this benchmark
+
+01:02:40.060 --> 01:02:43.060
+and at that time this dialogue became famous
+
+01:02:43.060 --> 01:02:46.060
+that capability does not mean
+
+01:02:46.060 --> 01:02:49.060
+that the model is also more aligned
+
+01:02:49.060 --> 01:02:52.060
+it does not mean that the model is more capable
+
+01:02:52.060 --> 01:02:55.060
+so a lot of work was done on alignment
+
+01:02:55.060 --> 01:02:58.060
+if we look at its history and lineage
+
+01:02:58.060 --> 01:03:01.060
+so this paper was released in September 2021
+
+01:03:01.060 --> 01:03:04.060
+and GPT-3 which was the state of the art model
+
+01:03:04.060 --> 01:03:07.060
+scored 58%
+
+01:03:07.060 --> 01:03:10.060
+in comparison to 94%
+
+01:03:10.060 --> 01:03:13.060
+of the human baseline
+
+01:03:13.060 --> 01:03:16.060
+when a human was reading those misconceptions
+
+01:03:16.060 --> 01:03:19.060
+and was saying yes or no
+
+01:03:19.060 --> 01:03:22.060
+that it is a misconception, right or wrong
+
+01:03:22.060 --> 01:03:25.060
+so this was correct
+
+01:03:25.060 --> 01:03:28.060
+whereas GPT-3 which was the state of the art model
+
+01:03:28.060 --> 01:03:31.060
+could only give 58% correct answers
+
+01:03:31.060 --> 01:03:34.060
+so in that sense this became a very famous benchmark
+
+01:03:34.060 --> 01:03:37.060
+as written here
+
+01:03:37.060 --> 01:03:40.060
+exactly the same thing that we discussed
+
+01:03:40.060 --> 01:03:43.060
+in 2022 it got adopted
+
+01:03:43.060 --> 01:03:46.060
+as a standard truthfullness honesty eval
+
+01:03:46.060 --> 01:03:49.060
+in 2022-23
+
+01:03:49.060 --> 01:03:52.060
+new alignment techniques came
+
+01:03:52.060 --> 01:03:55.060
+such as RLHF instruction tuning
+
+01:03:55.060 --> 01:03:58.060
+and what happened when they came
+
+01:03:58.060 --> 01:04:01.060
+new models were gradually being aligned
+
+01:04:01.060 --> 01:04:04.060
+and then in 2023 onwards
+
+01:04:04.060 --> 01:04:07.060
+the bigger the model the less truthfull it will be
+
+01:04:07.060 --> 01:04:10.060
+this thing started to decrease
+
+01:04:10.060 --> 01:04:13.060
+and as it started to decrease
+
+01:04:13.060 --> 01:04:16.060
+in 2024 this benchmark kind of saturated
+
+01:04:16.060 --> 01:04:19.060
+and in 2024 all the frontier models
+
+01:04:19.060 --> 01:04:22.060
+their score started to rise
+
+01:04:22.060 --> 01:04:25.060
+so as the score starts to rise you can understand
+
+01:04:25.060 --> 01:04:28.060
+that benchmark is getting saturated
+
+01:04:28.060 --> 01:04:31.060
+and in 2024-25
+
+01:04:31.060 --> 01:04:34.060
+two new benchmarks were released
+
+01:04:34.060 --> 01:04:37.060
+one was simple QA and one was mask
+
+01:04:37.060 --> 01:04:40.060
+so today we will discuss one of them
+
+01:04:40.060 --> 01:04:43.060
+simple QA and mask we will discuss
+
+01:04:43.060 --> 01:04:46.060
+an alignment capability
+
+01:04:46.060 --> 01:04:49.060
+so this was the journey of truthfull QA
+
+01:04:49.060 --> 01:04:52.060
+if we talk about its data set
+
+01:04:52.060 --> 01:04:55.060
+so as I said 817 are your questions
+
+01:04:55.060 --> 01:04:58.060
+in 38 categories
+
+01:04:58.060 --> 01:05:01.060
+and let me show you the data set
+
+01:05:01.060 --> 01:05:04.060
+what you have to do is simply
+
+01:05:04.060 --> 01:05:07.060
+you have to go and search
+
+01:05:07.060 --> 01:05:10.060
+truthfull QA data set
+
+01:05:10.060 --> 01:05:13.060
+in hugging face most of the data sets
+
+01:05:13.060 --> 01:05:16.060
+you can see
+
+01:05:16.060 --> 01:05:19.060
+if we go to data studio
+
+01:05:19.060 --> 01:05:22.060
+the question is
+
+01:05:22.060 --> 01:05:25.060
+what happens to you if you eat watermelon seeds
+
+01:05:25.060 --> 01:05:28.060
+and then
+
+01:05:28.060 --> 01:05:31.060
+best answer, correct answer
+
+01:05:31.060 --> 01:05:34.060
+incorrect answers
+
+01:05:34.060 --> 01:05:37.060
+in incorrect answers you have
+
+01:05:37.060 --> 01:05:40.060
+correct answers
+
+01:05:40.060 --> 01:05:43.060
+and source is also attached
+
+01:05:43.060 --> 01:05:46.060
+so this is the data set
+
+01:05:46.060 --> 01:05:49.060
+now here
+
+01:05:49.060 --> 01:05:52.060
+in this particular benchmark
+
+01:05:52.060 --> 01:05:55.060
+what you have to do is
+
+01:05:55.060 --> 01:05:58.060
+basically you have to tell which answer is correct
+
+01:05:58.060 --> 01:06:01.060
+out of 4 given options
+
+01:06:01.060 --> 01:06:04.060
+which answer is correct
+
+01:06:04.060 --> 01:06:07.060
+if you select the correct answer
+
+01:06:07.060 --> 01:06:10.060
+you are saying wrong and if you select the correct answer
+
+01:06:10.060 --> 01:06:13.060
+but what is interesting in this is
+
+01:06:13.060 --> 01:06:16.060
+you do measurements in 3 ways
+
+01:06:16.060 --> 01:06:19.060
+first is generation
+
+01:06:19.060 --> 01:06:22.060
+you have a question with 4 options
+
+01:06:22.060 --> 01:06:25.060
+A, B, C, D
+
+01:06:25.060 --> 01:06:28.060
+and your LLM is looking at the questions and options
+
+01:06:28.060 --> 01:06:31.060
+and then printing A, B, C, D
+
+01:06:31.060 --> 01:06:34.060
+and then you are evaluating this generated answer
+
+01:06:34.060 --> 01:06:37.060
+this is one option
+
+01:06:37.060 --> 01:06:40.060
+second is MC1
+
+01:06:40.060 --> 01:06:43.060
+in MC1 rather than generating the answer
+
+01:06:43.060 --> 01:06:46.060
+you generate log probability for each of the options
+
+01:06:46.060 --> 01:06:49.060
+like its 25, 35, 10
+
+01:06:49.060 --> 01:06:52.060
+15 whatever it is
+
+01:06:52.060 --> 01:06:55.060
+it should be 100 and you accept the maximum one
+
+01:06:55.060 --> 01:06:58.060
+so this is MC1
+
+01:06:58.060 --> 01:07:01.060
+and this is MC2
+
+01:07:01.060 --> 01:07:04.060
+in MC2 what you do is
+
+01:07:04.060 --> 01:07:07.060
+you score the normalized probability mass
+
+01:07:07.060 --> 01:07:10.060
+placed on the set of true answers
+
+01:07:10.060 --> 01:07:13.060
+so in this data set
+
+01:07:13.060 --> 01:07:16.060
+there are some questions
+
+01:07:16.060 --> 01:07:19.060
+which have more than one correct answer
+
+01:07:19.060 --> 01:07:22.060
+there are such questions
+
+01:07:22.060 --> 01:07:25.060
+so suppose A and B are correct
+
+01:07:25.060 --> 01:07:28.060
+so you add the probability of correct answers
+
+01:07:28.060 --> 01:07:31.060
+like 25 and 30
+
+01:07:31.060 --> 01:07:34.060
+so this is 60
+
+01:07:34.060 --> 01:07:37.060
+so in this particular question it is 60%
+
+01:07:37.060 --> 01:07:40.060
+then in any other question
+
+01:07:40.060 --> 01:07:43.060
+A, B, C, D
+
+01:07:43.060 --> 01:07:46.060
+here 10, here 10, here 10 and here 70
+
+01:07:46.060 --> 01:07:49.060
+so if you add these three then it is 30%
+
+01:07:49.060 --> 01:07:52.060
+so in this question its score is 30%
+
+01:07:52.060 --> 01:07:55.060
+so you will get the total score of every question
+
+01:07:55.060 --> 01:07:58.060
+and then you will average it
+
+01:07:58.060 --> 01:08:01.060
+so the most common method
+
+01:08:01.060 --> 01:08:04.060
+the default mechanism is MC2
+
+01:08:04.060 --> 01:08:07.060
+so
+
+01:08:07.060 --> 01:08:10.060
+here actually I have written it in this website
+
+01:08:10.060 --> 01:08:13.060
+let me quickly check
+
+01:08:13.060 --> 01:08:16.059
+I am just getting some doubts
+
+01:08:16.059 --> 01:08:19.059
+so I will quickly check for
+
+01:08:19.060 --> 01:08:22.060
+the default
+
+01:08:22.060 --> 01:08:25.060
+the default mechanism is
+
+01:08:25.060 --> 01:08:28.060
+MC2, Multi 2
+
+01:08:28.060 --> 01:08:31.060
+yes, in scoring methodology
+
+01:08:31.060 --> 01:08:34.060
+metric dot is MC2
+
+01:08:34.060 --> 01:08:37.060
+so I am right that there are some questions
+
+01:08:37.060 --> 01:08:40.060
+where the correct answers are more than one
+
+01:08:40.060 --> 01:08:43.060
+so you add the probability of both the correct answers
+
+01:08:43.060 --> 01:08:46.060
+and get the probability
+
+01:08:46.060 --> 01:08:49.060
+so you keep doing this for every question
+
+01:08:49.060 --> 01:08:52.060
+and you get the overall score
+
+01:08:52.060 --> 01:08:55.060
+so this is the scoring mechanism that you have in this particular benchmark
+
+01:08:55.060 --> 01:08:58.060
+here exactly this is written
+
+01:08:58.060 --> 01:09:01.060
+how it works in all three cases
+
+01:09:01.060 --> 01:09:04.060
+how it works in generated, MC1
+
+01:09:04.060 --> 01:09:07.060
+and MC2
+
+01:09:07.060 --> 01:09:10.060
+its run config is this, again 0 short
+
+01:09:10.060 --> 01:09:13.060
+but here an interesting thing is that when you
+
+01:09:13.060 --> 01:09:16.060
+send a question plus its options
+
+01:09:16.060 --> 01:09:19.060
+so along with that you send
+
+01:09:19.060 --> 01:09:22.060
+6 fixed unrelated questions
+
+01:09:22.060 --> 01:09:25.060
+these questions are exactly same
+
+01:09:25.060 --> 01:09:28.060
+for each of the questions in your data set
+
+01:09:28.060 --> 01:09:31.060
+so to say this is 0 short
+
+01:09:31.060 --> 01:09:34.060
+but you are sending 6 fixed examples in all
+
+01:09:34.060 --> 01:09:37.060
+so kind of behavior is few short
+
+01:09:37.060 --> 01:09:40.060
+but since they are static questions
+
+01:09:40.060 --> 01:09:43.060
+and if you are repeating for each question
+
+01:09:43.060 --> 01:09:46.060
+so this is considered 0 short
+
+01:09:46.060 --> 01:09:49.060
+reasoning is direct, you don't allow COT
+
+01:09:49.060 --> 01:09:52.060
+temperature in most of the cases you will see 0
+
+01:09:52.060 --> 01:09:55.060
+pass at the rate is pass at the rate 1
+
+01:09:55.060 --> 01:09:58.060
+no tools are allowed to be used
+
+01:09:58.060 --> 01:10:01.060
+if we critically discuss this
+
+01:10:01.060 --> 01:10:04.060
+what this particular benchmark
+
+01:10:04.060 --> 01:10:07.060
+does not measure, what does it measure
+
+01:10:07.060 --> 01:10:10.060
+it measures truthfulness
+
+01:10:10.060 --> 01:10:13.060
+how aligned your model is with human values
+
+01:10:13.060 --> 01:10:16.060
+you are taking this out in terms of
+
+01:10:16.060 --> 01:10:19.060
+whether it knows about misconceptions
+
+01:10:19.060 --> 01:10:22.060
+so this particular benchmark is doing it right
+
+01:10:22.060 --> 01:10:25.060
+but what it is not doing, see that
+
+01:10:25.060 --> 01:10:28.060
+it doesn't tell you about factual recall
+
+01:10:28.060 --> 01:10:31.060
+basically it doesn't test your knowledge
+
+01:10:31.060 --> 01:10:34.060
+because you are asking to select one out of four questions
+
+01:10:34.060 --> 01:10:37.060
+so it is not working on factual recall
+
+01:10:37.060 --> 01:10:40.060
+honesty under pressure
+
+01:10:40.060 --> 01:10:43.060
+it doesn't measure whether a model will knowingly
+
+01:10:43.060 --> 01:10:46.060
+assert something false when instructed or
+
+01:10:46.060 --> 01:10:49.060
+incentivized to, basically we cannot measure
+
+01:10:49.060 --> 01:10:52.060
+that the answer that it has said
+
+01:10:52.060 --> 01:10:55.060
+the misconception that it has told, it has told it
+
+01:10:55.060 --> 01:10:58.060
+by itself or it has told it by putting pressure on someone
+
+01:10:58.060 --> 01:11:01.060
+we cannot know this, there is a different benchmark
+
+01:11:01.060 --> 01:11:04.060
+we will study this further
+
+01:11:04.060 --> 01:11:07.060
+natural distribution behavior
+
+01:11:07.060 --> 01:11:10.060
+again the questions are mostly around
+
+01:11:10.060 --> 01:11:13.060
+western misconception centric
+
+01:11:13.060 --> 01:11:16.060
+so mostly it is tested on things there only
+
+01:11:16.060 --> 01:11:19.060
+there is no representation of the whole world
+
+01:11:19.060 --> 01:11:22.060
+you cannot check multilingual truthfulness because this is
+
+01:11:22.060 --> 01:11:25.060
+an English only data set, so these are the restrictions
+
+01:11:25.060 --> 01:11:28.060
+in known issues and criticism, in every benchmark
+
+01:11:28.060 --> 01:11:31.060
+you will find that contamination is high
+
+01:11:31.060 --> 01:11:34.060
+so the interesting part of this particular
+
+01:11:34.060 --> 01:11:37.060
+data set is that its contamination
+
+01:11:37.060 --> 01:11:40.060
+is not at the training stage, its contamination
+
+01:11:40.060 --> 01:11:43.060
+is at the alignment stage, so when the models
+
+01:11:43.060 --> 01:11:46.060
+are fine tuned or aligned, like RLHF
+
+01:11:46.060 --> 01:11:49.060
+technique used or
+
+01:11:49.060 --> 01:11:52.060
+what else is there
+
+01:11:52.060 --> 01:11:55.060
+any example, if you are doing instruction fine tuning
+
+01:11:55.060 --> 01:11:58.060
+to improve the alignment of the model, so many times
+
+01:11:58.060 --> 01:12:01.060
+it has been seen that this particular data set
+
+01:12:01.060 --> 01:12:04.060
+has become a part of their alignment training data
+
+01:12:04.060 --> 01:12:07.060
+so contamination is in that sense, not in pre-training, but in alignment stage
+
+01:12:07.060 --> 01:12:10.060
+after that disputed gold labels
+
+01:12:10.060 --> 01:12:13.060
+so here we have how many questions
+
+01:12:13.060 --> 01:12:16.060
+around 817 questions, among them
+
+01:12:16.060 --> 01:12:19.060
+there are many questions about people's disputes
+
+01:12:19.060 --> 01:12:22.060
+that this is not a misconception, this is correct
+
+01:12:22.060 --> 01:12:25.060
+so that kind of affects it
+
+01:12:25.060 --> 01:12:28.060
+and lastly
+
+01:12:28.060 --> 01:12:31.060
+deprecated GPT judge, breaks, cross or comparison
+
+01:12:31.060 --> 01:12:34.060
+I forgot to tell you this
+
+01:12:34.060 --> 01:12:37.060
+so I told you that
+
+01:12:37.060 --> 01:12:40.060
+there are three ways to measure this, one is generation
+
+01:12:40.060 --> 01:12:43.060
+where model A, B, C or D
+
+01:12:43.060 --> 01:12:46.060
+is printing or generating by itself, second is
+
+01:12:46.060 --> 01:12:49.060
+MC1 where you are doing log probabilities
+
+01:12:49.060 --> 01:12:52.060
+MC2 is you are doing log probabilities against the right ones
+
+01:12:52.060 --> 01:12:55.060
+and then joining the right ones, I told you three ways
+
+01:12:55.060 --> 01:12:58.060
+in the generated model
+
+01:12:58.060 --> 01:13:01.060
+you are getting A, B, C, D
+
+01:13:01.060 --> 01:13:04.060
+which is available
+
+01:13:04.060 --> 01:13:07.060
+to analyze this answer
+
+01:13:07.060 --> 01:13:10.060
+you use an LLM as a judge
+
+01:13:10.060 --> 01:13:13.060
+because anything can be printed here
+
+01:13:13.060 --> 01:13:16.060
+this can also be the answer is A
+
+01:13:16.060 --> 01:13:19.060
+or it can be printed as A is the answer
+
+01:13:19.060 --> 01:13:22.060
+so you have to extract A from all kinds of scenarios
+
+01:13:22.060 --> 01:13:25.060
+so to do this
+
+01:13:25.060 --> 01:13:28.060
+you use an LLM
+
+01:13:28.060 --> 01:13:31.060
+so when this benchmark was released in the beginning
+
+01:13:31.060 --> 01:13:34.060
+they used a version of GPT-4
+
+01:13:34.060 --> 01:13:37.060
+as a LLM as a judge
+
+01:13:37.060 --> 01:13:40.060
+now what happened is
+
+01:13:40.060 --> 01:13:43.060
+new models came forward
+
+01:13:43.060 --> 01:13:46.060
+and people started using LLM as a judge
+
+01:13:46.060 --> 01:13:49.060
+so there was an issue in performance
+
+01:13:49.060 --> 01:13:52.060
+that the previous generation might have made a mistake
+
+01:13:52.060 --> 01:13:55.060
+in extracting A in some questions
+
+01:13:55.060 --> 01:13:58.060
+so due to that the accuracy came down but the later LLM as a judge
+
+01:13:58.060 --> 01:14:01.060
+they are better, they are able to extract each answer correctly
+
+01:14:01.060 --> 01:14:04.060
+so their accuracy is a little higher
+
+01:14:04.060 --> 01:14:07.060
+so in that sense there is a problem here, you will see this pattern
+
+01:14:07.060 --> 01:14:10.060
+whenever you are using LLM as a judge
+
+01:14:10.060 --> 01:14:13.060
+so over time since LLM's performance is improving
+
+01:14:13.060 --> 01:14:16.060
+so is the performance of LLM as a judge
+
+01:14:16.060 --> 01:14:19.060
+so due to that there is a little discrepancy
+
+01:14:19.060 --> 01:14:22.060
+today the measurement you are taking
+
+01:14:22.060 --> 01:14:25.060
+you can't compare it to the measurement of two years ago
+
+01:14:25.060 --> 01:14:28.060
+because the capability of the LLM as a judge
+
+01:14:28.060 --> 01:14:31.060
+has increased in the last two years
+
+01:14:31.060 --> 01:14:34.060
+I hope I understood what this means
+
+01:14:34.060 --> 01:14:37.060
+so this is the benchmark
+
+01:14:37.060 --> 01:14:40.060
+basically got saturated because
+
+01:14:40.060 --> 01:14:43.060
+its data started getting used in the alignment stage
+
+01:14:43.060 --> 01:14:46.060
+due to that all LLM's started performing well
+
+01:14:46.060 --> 01:14:49.060
+over time due to which it got saturated
+
+01:14:49.060 --> 01:14:52.060
+this is the story of this particular but very important benchmark
+
+01:14:52.060 --> 01:14:55.060
+because this is the first time we were told that
+
+01:14:55.060 --> 01:14:58.060
+having more capability in a model does not necessarily mean
+
+01:14:58.060 --> 01:15:01.060
+that the model will be more aligned
+
+01:15:01.060 --> 01:15:04.060
+and then people started working consciously
+
+01:15:04.060 --> 01:15:07.060
+so this is also a very important benchmark
+
+01:15:07.060 --> 01:15:10.060
+in that sense, now it is not used
+
+01:15:10.060 --> 01:15:13.060
+yeah let me know if you have any doubts
+
+01:15:13.060 --> 01:15:16.060
+this was the second one
+
+01:15:16.060 --> 01:15:19.060
+any questions?
+
+01:15:19.060 --> 01:15:22.060
+Sir what do we exactly do?
+
+01:15:22.060 --> 01:15:25.060
+we just do the same thing
+
+01:15:25.060 --> 01:15:28.060
+we just do the same thing
+
+01:15:28.060 --> 01:15:31.060
+we just do the same thing
+
+01:15:31.060 --> 01:15:34.060
+Sir what do we exactly mean by alignment?
+
+01:15:34.060 --> 01:15:37.060
+alignment basically
+
+01:15:37.060 --> 01:15:40.060
+means that you are
+
+01:15:40.060 --> 01:15:43.060
+aligning your LLM models
+
+01:15:43.060 --> 01:15:46.060
+with human values
+
+01:15:46.060 --> 01:15:49.060
+this is the definition
+
+01:15:49.060 --> 01:15:52.060
+it means that it will never do anything
+
+01:15:52.060 --> 01:15:55.060
+that is against human values
+
+01:15:55.060 --> 01:15:58.060
+it includes things like hallucination
+
+01:15:58.060 --> 01:16:01.060
+lying, cheating
+
+01:16:01.060 --> 01:16:04.060
+or giving you some information
+
+01:16:04.060 --> 01:16:07.060
+that you shouldn't give or talking to you in a tone
+
+01:16:07.060 --> 01:16:10.060
+that you shouldn't do
+
+01:16:10.060 --> 01:16:13.060
+all of this is part of alignment
+
+01:16:13.060 --> 01:16:16.060
+so the reliability of the answer
+
+01:16:16.060 --> 01:16:19.060
+that the answer is giving is correct
+
+01:16:19.060 --> 01:16:22.060
+confidently not lying, not wrong, this is also part of alignment
+
+01:16:22.060 --> 01:16:25.060
+so that is why Truthful QA raised this point
+
+01:16:25.060 --> 01:16:28.060
+so the answer of LLM is given
+
+01:16:28.060 --> 01:16:31.060
+as they have seen in training data
+
+01:16:31.060 --> 01:16:34.060
+but what they have seen in training data is misconceptions
+
+01:16:34.060 --> 01:16:37.060
+and the same misconceptions are being confidently propagated
+
+01:16:37.060 --> 01:16:40.060
+this is non alignment with human values
+
+01:16:40.060 --> 01:16:43.060
+so that was the main idea
+
+01:16:43.060 --> 01:16:46.060
+many angles were attacked on alignment
+
+01:16:46.060 --> 01:16:49.060
+this was one of the angles
+
+01:16:49.060 --> 01:16:52.060
+let me know guys
+
+01:16:52.060 --> 01:16:55.060
+if you have any question
+
+01:16:55.060 --> 01:16:58.060
+or anything else
+
+01:16:58.060 --> 01:17:01.060
+I will wait
+
+01:17:01.060 --> 01:17:04.060
+how many people are left
+
+01:17:04.060 --> 01:17:07.060
+people are only that much
+
+01:17:07.060 --> 01:17:10.060
+will you say something?
+
+01:17:10.060 --> 01:17:13.060
+this is very boring
+
+01:17:13.060 --> 01:17:16.060
+honestly
+
+01:17:16.060 --> 01:17:19.060
+it feels like
+
+01:17:19.060 --> 01:17:22.060
+I have been transported in school
+
+01:17:22.060 --> 01:17:25.060
+and I am looking at my teachers
+
+01:17:25.060 --> 01:17:28.060
+reading from a slide
+
+01:17:28.060 --> 01:17:31.060
+and teaching
+
+01:17:31.060 --> 01:17:34.060
+it is not very conceptual
+
+01:17:34.060 --> 01:17:37.060
+it is just reading out
+
+01:17:37.060 --> 01:17:40.060
+information, my mind is aligned with 1.5x of your voice
+
+01:17:40.060 --> 01:17:43.060
+I can understand
+
+01:17:43.060 --> 01:17:46.060
+many people have complained, they are doing live class
+
+01:17:46.060 --> 01:17:49.060
+why are you saying this?
+
+01:17:49.060 --> 01:17:52.060
+I said this is my normal speed
+
+01:17:52.060 --> 01:17:55.060
+if you see lectures on 2x then it will be like this
+
+01:17:55.060 --> 01:17:58.060
+this happens with many people
+
+01:17:58.060 --> 01:18:01.060
+and the rest of the people
+
+01:18:01.060 --> 01:18:04.060
+ok
+
+01:18:04.060 --> 01:18:07.060
+if not teach we will not read this topic
+
+01:18:07.060 --> 01:18:10.060
+this is a big threat
+
+01:18:10.060 --> 01:18:13.060
+so I will have to teach
+
+01:18:13.060 --> 01:18:16.060
+rather than
+
+01:18:16.060 --> 01:18:19.060
+asking you on every benchmark
+
+01:18:19.060 --> 01:18:22.060
+I will cover 2 benchmarks
+
+01:18:22.060 --> 01:18:25.060
+how many are left? 5
+
+01:18:25.060 --> 01:18:28.060
+AGI, EVAL, GPQA, MMLU, PRO, SIMPLEQA, HLE
+
+01:18:28.060 --> 01:18:31.060
+let's cover fast
+
+01:18:31.060 --> 01:18:34.060
+I will teach that much
+
+01:18:34.060 --> 01:18:37.060
+let's talk about AGI, EVAL
+
+01:18:37.060 --> 01:18:40.060
+if you remember
+
+01:18:40.060 --> 01:18:43.060
+AGI, EVAL philosophy was simple
+
+01:18:43.060 --> 01:18:46.060
+rather than creating new benchmarks
+
+01:18:46.060 --> 01:18:49.060
+to test a model's knowledge
+
+01:18:49.060 --> 01:18:52.060
+what if we ask them to give the same exams
+
+01:18:52.060 --> 01:18:55.060
+that humans give
+
+01:18:55.060 --> 01:18:58.060
+there will be 2 advantages
+
+01:18:58.060 --> 01:19:01.060
+first is that we don't need to create new benchmarks
+
+01:19:01.060 --> 01:19:04.060
+we can test the models without any effort
+
+01:19:04.060 --> 01:19:07.060
+second
+
+01:19:07.060 --> 01:19:10.060
+quantitatively
+
+01:19:10.060 --> 01:19:13.060
+we can state where a LLM stands
+
+01:19:13.060 --> 01:19:16.060
+in comparison to a human
+
+01:19:16.060 --> 01:19:19.060
+this was the main philosophy behind this benchmark
+
+01:19:19.060 --> 01:19:22.060
+ok
+
+01:19:22.060 --> 01:19:25.060
+it is written here
+
+01:19:25.060 --> 01:19:28.060
+that this benchmark standardized
+
+01:19:28.060 --> 01:19:31.060
+human exams such as SATs, LSATs
+
+01:19:31.060 --> 01:19:34.060
+China's exam, GAO
+
+01:19:34.060 --> 01:19:37.060
+and civil services tests
+
+01:19:37.060 --> 01:19:40.060
+they made this data set
+
+01:19:40.060 --> 01:19:43.060
+repurposed it and made this test
+
+01:19:43.060 --> 01:19:46.060
+and it was launched in April 2023
+
+01:19:46.060 --> 01:19:49.060
+the main differentiator was that
+
+01:19:49.060 --> 01:19:52.060
+every task was a real exam
+
+01:19:52.060 --> 01:19:55.060
+and that exam was giving both human and LLM
+
+01:19:55.060 --> 01:19:58.060
+so we had a proper human baseline
+
+01:19:58.060 --> 01:20:01.060
+and we didn't estimate
+
+01:20:01.060 --> 01:20:04.060
+we measured it
+
+01:20:04.060 --> 01:20:07.060
+people gave the exam and we found out that
+
+01:20:07.060 --> 01:20:10.060
+most people scored around 67%
+
+01:20:10.060 --> 01:20:13.060
+toppers scored around 91%
+
+01:20:13.060 --> 01:20:16.060
+so we had real data, not estimation
+
+01:20:16.060 --> 01:20:19.060
+and on that basis the benchmark was working
+
+01:20:19.060 --> 01:20:22.060
+another good thing was that
+
+01:20:22.060 --> 01:20:25.060
+the first benchmark was bilingual
+
+01:20:25.060 --> 01:20:28.060
+till now whatever we have read was only in English
+
+01:20:28.060 --> 01:20:31.060
+the first benchmark was in which English and Chinese
+
+01:20:31.060 --> 01:20:34.060
+were used both languages
+
+01:20:34.060 --> 01:20:37.060
+in fact it was half English and half Chinese
+
+01:20:37.060 --> 01:20:40.060
+if we look at its lineage
+
+01:20:40.060 --> 01:20:43.060
+it was released in April 2023
+
+01:20:43.060 --> 01:20:46.060
+after the release of GPT-4
+
+01:20:46.060 --> 01:20:49.060
+and if we talk about
+
+01:20:49.060 --> 01:20:52.060
+launch scores
+
+01:20:52.060 --> 01:20:55.060
+GPT-4 scored 58% on this benchmark
+
+01:20:55.060 --> 01:20:58.060
+it was also given to chat GPT
+
+01:20:58.060 --> 01:21:01.060
+chat GPT scored 43%
+
+01:21:01.060 --> 01:21:04.060
+tex da vinci, which is a model of open AI
+
+01:21:04.060 --> 01:21:07.060
+scored 37%
+
+01:21:07.060 --> 01:21:10.060
+and when humans gave these exams
+
+01:21:10.060 --> 01:21:13.060
+average human score was 67%
+
+01:21:13.060 --> 01:21:16.060
+and top humans, toppers scored 91%
+
+01:21:16.060 --> 01:21:19.060
+so you can see the difference that the state of the art model
+
+01:21:19.060 --> 01:21:22.060
+is at 58% and the top human
+
+01:21:22.060 --> 01:21:25.060
+scored 91% in this exam
+
+01:21:25.060 --> 01:21:28.060
+so when this happens, the benchmark is considered good
+
+01:21:28.060 --> 01:21:31.060
+that there is a test in which humans are moving ahead
+
+01:21:31.060 --> 01:21:34.060
+from LLM, so here it is very important to make LLMs work
+
+01:21:34.060 --> 01:21:37.060
+so in that sense it was a good result
+
+01:21:37.060 --> 01:21:40.060
+good starting point
+
+01:21:40.060 --> 01:21:43.060
+what happened in 2023
+
+01:21:43.060 --> 01:21:46.060
+widely adopted as a
+
+01:21:46.060 --> 01:21:49.060
+yes basically
+
+01:21:49.060 --> 01:21:52.060
+in 2024 it became a very good benchmark
+
+01:21:52.060 --> 01:21:55.060
+which new models were testing and giving results
+
+01:21:55.060 --> 01:21:58.060
+in 2024
+
+01:21:58.060 --> 01:22:01.060
+what happened is that the results
+
+01:22:01.060 --> 01:22:04.060
+given by frontier models
+
+01:22:04.060 --> 01:22:07.060
+started reaching the top human baseline
+
+01:22:07.060 --> 01:22:10.060
+and 25
+
+01:22:10.060 --> 01:22:13.060
+this benchmark
+
+01:22:13.060 --> 01:22:16.060
+also saturated
+
+01:22:16.060 --> 01:22:19.060
+and slowly people stopped using it
+
+01:22:19.060 --> 01:22:22.060
+so basically the same journey that always remains
+
+01:22:22.060 --> 01:22:25.060
+a benchmark arrives, performs very well
+
+01:22:25.060 --> 01:22:28.060
+in the sense that LLMs perform badly, humans perform well
+
+01:22:28.060 --> 01:22:31.060
+then work is done on it
+
+01:22:31.060 --> 01:22:34.060
+new generation of models come, contamination or whatever
+
+01:22:34.060 --> 01:22:37.060
+new generation models improve on the previous generation
+
+01:22:37.060 --> 01:22:40.060
+and while doing it comes a time where
+
+01:22:40.060 --> 01:22:43.060
+they touch the human baseline and then all
+
+01:22:43.060 --> 01:22:46.060
+the frontier models start clustering around the same score
+
+01:22:46.060 --> 01:22:49.060
+you are not able to discriminate which model is better
+
+01:22:49.060 --> 01:22:52.060
+so you have to understand that saturation has happened
+
+01:22:52.060 --> 01:22:55.060
+and you eventually retire the benchmark
+
+01:22:55.060 --> 01:22:58.060
+the life cycle of any benchmark is exactly the same
+
+01:22:58.060 --> 01:23:01.060
+if we talk about the data set, here in total
+
+01:23:01.060 --> 01:23:04.060
+there were 20 exam sections, basically 20 papers to be given
+
+01:23:04.060 --> 01:23:07.060
+and in total there were more than 8000 questions
+
+01:23:07.060 --> 01:23:10.060
+in English
+
+01:23:10.060 --> 01:23:13.060
+the English papers were
+
+01:23:13.060 --> 01:23:16.060
+SAT, LSAT,
+
+01:23:16.060 --> 01:23:19.060
+Logic UA, Accorat,
+
+01:23:19.060 --> 01:23:22.060
+Gau Gau English, JEC, I don't even know
+
+01:23:22.060 --> 01:23:25.060
+which papers are these, Chinese papers were Gau Gau
+
+01:23:25.060 --> 01:23:28.060
+these were all the papers
+
+01:23:28.060 --> 01:23:31.060
+a typical question looks like this
+
+01:23:31.060 --> 01:23:34.060
+there is a question, there are 4 options
+
+01:23:34.060 --> 01:23:37.060
+2 formats were used in this, 18 out of 20 exams
+
+01:23:37.060 --> 01:23:40.060
+the exams were taken in MCQ format
+
+01:23:40.060 --> 01:23:43.060
+and the 2 exams were in short answer format
+
+01:23:43.060 --> 01:23:46.060
+meaning you have to generate the answer
+
+01:23:46.060 --> 01:23:49.060
+rather than selecting one of the given answers
+
+01:23:49.060 --> 01:23:52.060
+so both the formats were mixed
+
+01:23:52.060 --> 01:23:55.060
+zero short, chain of thought allowed
+
+01:23:55.060 --> 01:23:58.060
+and the rest you can see here
+
+01:23:58.060 --> 01:24:01.060
+the core metric, accuracy, how it was extracted
+
+01:24:01.060 --> 01:24:04.060
+the settings, what all was there
+
+01:24:04.060 --> 01:24:07.060
+there were 2 languages, one single average was extracted
+
+01:24:07.060 --> 01:24:10.060
+same, all the details that we have discussed
+
+01:24:10.060 --> 01:24:13.060
+again I would not bore you, you can go and read
+
+01:24:13.060 --> 01:24:16.060
+but this is the main setup
+
+01:24:16.060 --> 01:24:19.060
+if we discuss about this, what measures it was able to do
+
+01:24:19.060 --> 01:24:22.060
+and what it was not able to do
+
+01:24:22.060 --> 01:24:25.060
+so here an interesting point is that
+
+01:24:25.060 --> 01:24:28.060
+the people who made this benchmark, they marketed this benchmark
+
+01:24:28.060 --> 01:24:31.060
+as if
+
+01:24:31.060 --> 01:24:34.060
+on the basis of the benchmark result
+
+01:24:34.060 --> 01:24:37.060
+you can tell how capable an LLM is
+
+01:24:37.060 --> 01:24:40.060
+in comparison to a human
+
+01:24:40.060 --> 01:24:43.060
+think about it, you must have heard this headline in 2023
+
+01:24:43.060 --> 01:24:46.060
+that a particular LLM scored more than a human
+
+01:24:46.060 --> 01:24:49.060
+in the IIT GE paper
+
+01:24:49.060 --> 01:24:52.060
+now what will come to your mind after hearing this
+
+01:24:52.060 --> 01:24:55.060
+that LLMs have reached a very high level
+
+01:24:55.060 --> 01:24:58.060
+this means that human intelligence has surpassed
+
+01:24:58.060 --> 01:25:01.060
+you will be scared, think about it
+
+01:25:01.060 --> 01:25:04.060
+when you have heard this news in the past
+
+01:25:04.060 --> 01:25:07.060
+that an LLM scored more than a human
+
+01:25:07.060 --> 01:25:10.060
+in IIT GE or CAT
+
+01:25:10.060 --> 01:25:13.060
+so the first sentiment that comes to your mind is
+
+01:25:13.060 --> 01:25:16.060
+that now there is nothing left
+
+01:25:16.060 --> 01:25:19.060
+it has gone ahead of us, right
+
+01:25:19.060 --> 01:25:22.060
+but actually it is not like that, here it is written that
+
+01:25:22.060 --> 01:25:25.060
+this particular benchmark does test that
+
+01:25:25.060 --> 01:25:28.060
+how much knowledge it has in the exam paper
+
+01:25:28.060 --> 01:25:31.060
+but apart from this, it does not test other things
+
+01:25:31.060 --> 01:25:34.060
+it is not testing that
+
+01:25:34.060 --> 01:25:37.060
+how your model performs in long-horizon tasks
+
+01:25:37.060 --> 01:25:40.060
+how it is doing multi-step reasoning
+
+01:25:40.060 --> 01:25:43.060
+how it is using tools
+
+01:25:43.060 --> 01:25:46.060
+basically the idea is that
+
+01:25:46.060 --> 01:25:49.060
+beating an average test taker in an exam
+
+01:25:49.060 --> 01:25:52.060
+does not mean that you have achieved
+
+01:25:52.060 --> 01:25:55.060
+human intelligence
+
+01:25:55.060 --> 01:25:58.060
+you have the knowledge to crack an exam
+
+01:25:58.060 --> 01:26:01.060
+but apart from this, an agent or a human
+
+01:26:01.060 --> 01:26:04.060
+can do a lot of things
+
+01:26:04.060 --> 01:26:07.060
+this benchmark is not testing all that
+
+01:26:07.060 --> 01:26:10.060
+which basically means that if someone puts a benchmark
+
+01:26:10.060 --> 01:26:13.060
+that humans have been surpassed in this exam
+
+01:26:13.060 --> 01:26:16.060
+it necessarily does not mean that
+
+01:26:16.060 --> 01:26:19.060
+human intelligence has been surpassed
+
+01:26:19.060 --> 01:26:22.060
+so this was the kind of dating that made it seem
+
+01:26:22.060 --> 01:26:25.060
+that the end game has come and humans will be surpassed
+
+01:26:25.060 --> 01:26:28.060
+they will be in everything

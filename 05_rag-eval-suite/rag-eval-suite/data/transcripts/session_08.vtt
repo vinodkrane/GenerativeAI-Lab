@@ -1,0 +1,6776 @@
+WEBVTT
+
+00:02:00.000 --> 00:02:24.120
+Hi guys, good evening. Am I audible? Okay, thank you. So sorry for the delay. I don't
+
+00:02:24.680 --> 00:02:37.640
+take all of this time. Okay.
+
+00:02:37.640 --> 00:02:39.640
+and then we will start the class
+
+00:02:40.959 --> 00:02:42.959
+meanwhile if you have any questions
+
+00:02:42.959 --> 00:02:43.959
+you can ask
+
+00:02:54.239 --> 00:02:56.239
+good evening, good evening everyone
+
+00:03:07.640 --> 00:03:09.640
+if you have any questions you can ask
+
+00:03:15.640 --> 00:03:17.640
+yeah
+
+00:03:17.640 --> 00:03:19.640
+there is a small announcement
+
+00:03:19.640 --> 00:03:21.640
+if you remember we were studying benchmarks
+
+00:03:21.640 --> 00:03:23.640
+and there we were studying different model capabilities
+
+00:03:23.640 --> 00:03:25.640
+I have given you knowledge capabilities
+
+00:03:25.640 --> 00:03:27.640
+and you can also use it as a benchmark
+
+00:03:27.640 --> 00:03:29.640
+so if you want to learn more about
+
+00:03:29.640 --> 00:03:31.640
+the different models
+
+00:03:31.640 --> 00:03:33.640
+you can also use it as a benchmark
+
+00:03:33.640 --> 00:03:35.640
+and you can also use it as a benchmark
+
+00:03:35.640 --> 00:03:37.640
+I have given you knowledge capabilities
+
+00:03:37.640 --> 00:03:39.640
+in very detailed
+
+00:03:39.640 --> 00:03:41.640
+and I have promised you that
+
+00:03:41.640 --> 00:03:43.640
+we will provide you lectures on other capabilities
+
+00:03:43.640 --> 00:03:45.640
+and I have promised you that we will provide you lectures on other capabilities
+
+00:03:45.640 --> 00:03:47.640
+so now in your dashboard
+
+00:03:47.640 --> 00:03:49.640
+you will get to see lectures
+
+00:03:49.640 --> 00:03:51.640
+on three other capabilities
+
+00:03:51.640 --> 00:03:53.640
+one is
+
+00:03:53.640 --> 00:03:55.640
+reasoning
+
+00:03:55.640 --> 00:03:57.640
+one is maths
+
+00:03:57.640 --> 00:03:59.640
+and the last one is coding
+
+00:03:59.640 --> 00:04:01.640
+so we have recorded three so far
+
+00:04:01.640 --> 00:04:03.640
+there are big lectures, properly covered
+
+00:04:03.640 --> 00:04:05.640
+there are big lectures, properly covered
+
+00:04:05.640 --> 00:04:07.640
+there are two hours of lectures
+
+00:04:07.640 --> 00:04:09.640
+so whenever you get time
+
+00:04:09.640 --> 00:04:11.640
+you can see it once
+
+00:04:11.640 --> 00:04:13.640
+you will have knowledge
+
+00:04:13.640 --> 00:04:15.640
+and the three or four capabilities left
+
+00:04:15.640 --> 00:04:17.640
+such as
+
+00:04:17.640 --> 00:04:19.640
+instruction following
+
+00:04:19.640 --> 00:04:21.640
+long context
+
+00:04:21.640 --> 00:04:23.640
+or safety
+
+00:04:23.640 --> 00:04:25.640
+we are recording lectures on these
+
+00:04:25.640 --> 00:04:27.640
+and it will take one more week
+
+00:04:27.640 --> 00:04:29.640
+and you will get that too
+
+00:04:29.640 --> 00:04:31.640
+in the dashboard
+
+00:04:31.640 --> 00:04:33.640
+it is on you
+
+00:04:33.640 --> 00:04:35.640
+you can cover it on your own pace
+
+00:04:35.640 --> 00:04:37.640
+ok?
+
+00:04:41.640 --> 00:04:43.640
+I have missed some of the classes in between
+
+00:04:43.640 --> 00:04:45.640
+can I pick up the class from today
+
+00:04:45.640 --> 00:04:47.640
+or should I come here after
+
+00:04:47.640 --> 00:04:49.640
+completing back notes?
+
+00:04:49.640 --> 00:04:51.640
+honestly today's class doesn't depend
+
+00:04:51.640 --> 00:04:53.640
+on the previous classes
+
+00:04:53.640 --> 00:04:55.640
+so you can attend this one
+
+00:04:55.640 --> 00:04:57.640
+and the next one also
+
+00:04:57.640 --> 00:04:59.640
+meanwhile whenever you get time
+
+00:04:59.640 --> 00:05:01.640
+you can cover some of the things
+
+00:05:01.640 --> 00:05:03.640
+you can attend today's class
+
+00:05:03.640 --> 00:05:05.640
+there will be no problem
+
+00:05:05.640 --> 00:05:07.640
+so what I will do is
+
+00:05:07.640 --> 00:05:09.640
+I will first of all share my screen
+
+00:05:09.640 --> 00:05:11.640
+and let's start our
+
+00:05:11.640 --> 00:05:13.640
+session
+
+00:05:13.640 --> 00:05:15.640
+ok?
+
+00:05:15.640 --> 00:05:17.640
+let's start the session
+
+00:05:23.640 --> 00:05:25.640
+so
+
+00:05:25.640 --> 00:05:27.640
+what we are going to do in the session
+
+00:05:27.640 --> 00:05:29.640
+before I tell you about it
+
+00:05:29.640 --> 00:05:31.640
+I would like to give a recap
+
+00:05:31.640 --> 00:05:33.640
+of this playlist
+
+00:05:33.640 --> 00:05:35.640
+because we have covered
+
+00:05:35.640 --> 00:05:37.640
+two big milestones in this playlist
+
+00:05:37.640 --> 00:05:39.640
+so you should know
+
+00:05:39.640 --> 00:05:41.640
+where we are lying
+
+00:05:41.640 --> 00:05:43.640
+in the whole curriculum
+
+00:05:43.640 --> 00:05:45.640
+so in the LLMEval
+
+00:05:45.640 --> 00:05:47.640
+playlist
+
+00:05:47.640 --> 00:05:49.640
+we have covered three or four lectures
+
+00:05:49.640 --> 00:05:51.640
+which we spent
+
+00:05:51.640 --> 00:05:53.640
+in the introduction
+
+00:05:53.640 --> 00:05:55.640
+or you can say fundamentals
+
+00:05:55.640 --> 00:05:57.640
+where we
+
+00:05:57.640 --> 00:05:59.640
+understood
+
+00:05:59.640 --> 00:06:01.640
+why LLMEval is needed
+
+00:06:01.640 --> 00:06:03.640
+what are LLMEval
+
+00:06:03.640 --> 00:06:05.640
+we covered all these things
+
+00:06:05.640 --> 00:06:07.640
+we discussed
+
+00:06:07.640 --> 00:06:09.640
+reference based evals, reference free evals
+
+00:06:09.640 --> 00:06:11.640
+we discussed online evals
+
+00:06:11.640 --> 00:06:13.640
+offline evals
+
+00:06:13.640 --> 00:06:15.640
+we discussed all these concepts
+
+00:06:15.640 --> 00:06:17.640
+and the most important concept we discussed
+
+00:06:17.640 --> 00:06:19.640
+was that there are two types of LLMEval
+
+00:06:19.640 --> 00:06:21.640
+one is model evals
+
+00:06:21.640 --> 00:06:23.640
+and the other is
+
+00:06:23.640 --> 00:06:25.640
+application evals
+
+00:06:25.640 --> 00:06:27.640
+and we discussed that
+
+00:06:27.640 --> 00:06:29.640
+we will focus more on application evals
+
+00:06:29.640 --> 00:06:31.640
+but
+
+00:06:31.640 --> 00:06:33.640
+we first
+
+00:06:33.640 --> 00:06:35.640
+covered model evals
+
+00:06:35.640 --> 00:06:37.640
+which we are doing in the last two or three sessions
+
+00:06:37.640 --> 00:06:39.640
+so while studying model evals
+
+00:06:39.640 --> 00:06:41.640
+we discussed that
+
+00:06:41.640 --> 00:06:43.640
+model evals also have two types of evals
+
+00:06:43.640 --> 00:06:45.640
+one is standardized evals
+
+00:06:45.640 --> 00:06:47.640
+which we call
+
+00:06:47.640 --> 00:06:49.640
+benchmarks
+
+00:06:49.640 --> 00:06:51.640
+which we
+
+00:06:51.640 --> 00:06:53.640
+studied knowledge capability
+
+00:06:53.640 --> 00:06:55.640
+where we discussed multiple benchmarks
+
+00:06:55.640 --> 00:06:57.640
+that
+
+00:06:57.640 --> 00:06:59.640
+comes under this topic
+
+00:06:59.640 --> 00:07:01.640
+and then we also discussed
+
+00:07:01.640 --> 00:07:03.640
+that according to your application
+
+00:07:03.640 --> 00:07:05.640
+when you have to choose a model
+
+00:07:05.640 --> 00:07:07.640
+you can run custom
+
+00:07:07.640 --> 00:07:09.640
+model evals
+
+00:07:11.640 --> 00:07:13.640
+which you make your own dataset
+
+00:07:13.640 --> 00:07:15.640
+and run
+
+00:07:15.640 --> 00:07:17.640
+so we covered this in the previous lecture
+
+00:07:17.640 --> 00:07:19.640
+so in short
+
+00:07:19.640 --> 00:07:21.640
+we have covered
+
+00:07:21.640 --> 00:07:23.640
+so much in this playlist
+
+00:07:25.640 --> 00:07:27.640
+and now the most important
+
+00:07:27.640 --> 00:07:29.640
+part of this playlist is
+
+00:07:29.640 --> 00:07:31.640
+which is this
+
+00:07:31.640 --> 00:07:33.640
+application evals
+
+00:07:33.640 --> 00:07:35.640
+and we will start from today
+
+00:07:35.640 --> 00:07:37.640
+from today we will learn that
+
+00:07:37.640 --> 00:07:39.640
+if you have an LLMEval based application
+
+00:07:39.640 --> 00:07:41.640
+then how can you evaluate it
+
+00:07:41.640 --> 00:07:43.640
+based on all the knowledge
+
+00:07:43.640 --> 00:07:45.640
+that we have gathered till now
+
+00:07:45.640 --> 00:07:47.640
+and
+
+00:07:47.640 --> 00:07:49.640
+here also you have to understand
+
+00:07:49.640 --> 00:07:51.640
+that there can be
+
+00:07:51.640 --> 00:07:53.640
+many types of LLME based applications
+
+00:07:53.640 --> 00:07:55.640
+right
+
+00:07:55.640 --> 00:07:57.640
+so you can have simple chatbots
+
+00:07:59.640 --> 00:08:01.640
+or you can have
+
+00:08:01.640 --> 00:08:03.640
+rack based chatbots
+
+00:08:05.640 --> 00:08:07.640
+or you can have
+
+00:08:07.640 --> 00:08:09.640
+agents
+
+00:08:09.640 --> 00:08:11.640
+all of these are examples of LLME
+
+00:08:11.640 --> 00:08:13.640
+based applications
+
+00:08:13.640 --> 00:08:15.640
+so if I give you an example of LLME
+
+00:08:15.640 --> 00:08:17.640
+then it can be multi model apps
+
+00:08:17.640 --> 00:08:19.640
+basically such applications
+
+00:08:19.640 --> 00:08:21.640
+where
+
+00:08:21.640 --> 00:08:23.640
+apart from text
+
+00:08:23.640 --> 00:08:25.640
+in some modality
+
+00:08:25.640 --> 00:08:27.640
+for example
+
+00:08:27.640 --> 00:08:29.640
+image generator
+
+00:08:29.640 --> 00:08:31.640
+that is also an LLME based application
+
+00:08:31.640 --> 00:08:33.640
+but there you are generating image
+
+00:08:33.640 --> 00:08:35.640
+then you can have
+
+00:08:35.640 --> 00:08:37.640
+fixed
+
+00:08:37.640 --> 00:08:39.640
+schema
+
+00:08:39.640 --> 00:08:41.640
+output
+
+00:08:41.640 --> 00:08:43.640
+type of application
+
+00:08:43.640 --> 00:08:45.640
+where your application
+
+00:08:45.640 --> 00:08:47.640
+uses LLME and gives
+
+00:08:47.640 --> 00:08:49.640
+fixed schema output
+
+00:08:49.640 --> 00:08:51.640
+which can be an example of Zomato
+
+00:08:51.640 --> 00:08:53.640
+which case study we discussed
+
+00:08:53.640 --> 00:08:55.640
+2-3 lectures before
+
+00:08:55.640 --> 00:08:57.640
+where you are reading the email
+
+00:08:57.640 --> 00:08:59.640
+its content and you are classifying
+
+00:08:59.640 --> 00:09:01.640
+it as support email
+
+00:09:01.640 --> 00:09:03.640
+or
+
+00:09:03.640 --> 00:09:05.640
+refund email or technical email
+
+00:09:05.640 --> 00:09:07.640
+so here output
+
+00:09:07.640 --> 00:09:09.640
+will follow a fixed schema
+
+00:09:09.640 --> 00:09:11.640
+so this is also a type of LLME based application
+
+00:09:11.640 --> 00:09:13.640
+so honestly
+
+00:09:13.640 --> 00:09:15.640
+it is not possible for me
+
+00:09:15.640 --> 00:09:17.640
+to teach you all
+
+00:09:17.640 --> 00:09:19.640
+kind of applications and their
+
+00:09:19.640 --> 00:09:21.640
+application evals
+
+00:09:21.640 --> 00:09:23.640
+I can't teach you how to run
+
+00:09:23.640 --> 00:09:25.640
+application eval on chatbots
+
+00:09:25.640 --> 00:09:27.640
+on rack
+
+00:09:27.640 --> 00:09:29.640
+on agents
+
+00:09:29.640 --> 00:09:31.640
+so I had to
+
+00:09:31.640 --> 00:09:33.640
+select
+
+00:09:33.640 --> 00:09:35.640
+and I had in mind that I will teach you
+
+00:09:35.640 --> 00:09:37.640
+2 things
+
+00:09:37.640 --> 00:09:39.640
+I have selected 2 things
+
+00:09:39.640 --> 00:09:41.640
+which we are going to study
+
+00:09:41.640 --> 00:09:43.640
+1st is rack
+
+00:09:43.640 --> 00:09:45.640
+because it is very important
+
+00:09:45.640 --> 00:09:47.640
+most of the chatbots
+
+00:09:47.640 --> 00:09:49.640
+that you will build
+
+00:09:49.640 --> 00:09:51.640
+in your professional journey
+
+00:09:51.640 --> 00:09:53.640
+will have rack functionality
+
+00:09:53.640 --> 00:09:55.640
+so rack becomes very important
+
+00:09:55.640 --> 00:09:57.640
+in that sense and 2nd
+
+00:09:57.640 --> 00:09:59.640
+I will teach you agents application
+
+00:09:59.640 --> 00:10:01.640
+eval
+
+00:10:01.640 --> 00:10:03.640
+because agents is also very important
+
+00:10:03.640 --> 00:10:05.640
+so the rest of the things
+
+00:10:05.640 --> 00:10:07.640
+which is a simple chatbot
+
+00:10:07.640 --> 00:10:09.640
+which doesn't have any function of rack
+
+00:10:09.640 --> 00:10:11.640
+or agent
+
+00:10:11.640 --> 00:10:13.640
+I am not teaching you how to evaluate that
+
+00:10:13.640 --> 00:10:15.640
+I would expect that
+
+00:10:15.640 --> 00:10:17.640
+if you read more difficult things
+
+00:10:17.640 --> 00:10:19.640
+then you will automatically
+
+00:10:19.640 --> 00:10:21.640
+do easy things
+
+00:10:21.640 --> 00:10:23.640
+this one is also kind of easy
+
+00:10:23.640 --> 00:10:25.640
+this is also kind of easy
+
+00:10:25.640 --> 00:10:27.640
+multimodal
+
+00:10:27.640 --> 00:10:29.640
+app is a little different
+
+00:10:29.640 --> 00:10:31.640
+I would not say it is difficult
+
+00:10:31.640 --> 00:10:33.640
+it is slightly different from the other things
+
+00:10:33.640 --> 00:10:35.640
+but anyway you can do it
+
+00:10:35.640 --> 00:10:37.640
+the only thing is that
+
+00:10:37.640 --> 00:10:39.640
+they exist less in production setup
+
+00:10:39.640 --> 00:10:41.640
+means there are very few companies
+
+00:10:41.640 --> 00:10:43.640
+very few projects which are of multimodal nature
+
+00:10:43.640 --> 00:10:45.640
+mostly you will see rack
+
+00:10:45.640 --> 00:10:47.640
+and agent design patterns
+
+00:10:47.640 --> 00:10:49.640
+that is why we are going to cover
+
+00:10:49.640 --> 00:10:51.640
+rack and agents
+
+00:10:51.640 --> 00:10:53.640
+application eval going forward
+
+00:10:53.640 --> 00:10:55.640
+so now
+
+00:10:55.640 --> 00:10:57.640
+today's session and next 2-3 sessions
+
+00:10:57.640 --> 00:10:59.640
+which are going to be
+
+00:10:59.640 --> 00:11:01.640
+on rack eval
+
+00:11:01.640 --> 00:11:03.640
+basically we will make a rack chatbot
+
+00:11:03.640 --> 00:11:05.640
+and we will properly
+
+00:11:05.640 --> 00:11:07.640
+evaluate it
+
+00:11:07.640 --> 00:11:09.640
+and after watching these 3-4 sessions
+
+00:11:09.640 --> 00:11:11.640
+you will be able to answer
+
+00:11:11.640 --> 00:11:13.640
+this very important interview question
+
+00:11:13.640 --> 00:11:15.640
+very easily
+
+00:11:15.640 --> 00:11:17.640
+the question is
+
+00:11:17.640 --> 00:11:19.640
+how do you
+
+00:11:19.640 --> 00:11:21.640
+evaluate
+
+00:11:21.640 --> 00:11:23.640
+your
+
+00:11:23.640 --> 00:11:25.640
+rack chatbot
+
+00:11:25.640 --> 00:11:27.640
+very famous question
+
+00:11:27.640 --> 00:11:29.640
+for JNAI interviews
+
+00:11:29.640 --> 00:11:31.640
+almost 8 out of 10
+
+00:11:31.640 --> 00:11:33.640
+interviews are asked
+
+00:11:33.640 --> 00:11:35.640
+and most of the times students
+
+00:11:35.640 --> 00:11:37.640
+are not able to give convincing answers
+
+00:11:37.640 --> 00:11:39.640
+many people don't know
+
+00:11:39.640 --> 00:11:41.640
+because they have never studied evals
+
+00:11:41.640 --> 00:11:43.640
+those who have studied evals
+
+00:11:43.640 --> 00:11:45.640
+they are not able to give structured answers
+
+00:11:45.640 --> 00:11:47.640
+I guarantee you that if you watch
+
+00:11:47.640 --> 00:11:49.640
+today's session and next 3-4 sessions properly
+
+00:11:49.640 --> 00:11:51.640
+then you
+
+00:11:51.640 --> 00:11:53.640
+will be able to give a very proper answer
+
+00:11:53.640 --> 00:11:55.640
+and you will impress the other person
+
+00:11:55.640 --> 00:11:57.640
+that is my guarantee
+
+00:11:57.640 --> 00:11:59.640
+so I hope I was able to explain to you
+
+00:11:59.640 --> 00:12:01.640
+where we are existing in this playlist
+
+00:12:01.640 --> 00:12:03.640
+and what is our next direction
+
+00:12:03.640 --> 00:12:05.640
+our next direction
+
+00:12:05.640 --> 00:12:07.640
+is based on whatever we have
+
+00:12:07.640 --> 00:12:09.640
+learned so far
+
+00:12:09.640 --> 00:12:11.640
+we are going to use that to read rack evals
+
+00:12:11.640 --> 00:12:13.640
+with the help of a case study
+
+00:12:13.640 --> 00:12:15.640
+so is this entire
+
+00:12:15.640 --> 00:12:17.640
+discussion clear? I took around 5-10 minutes
+
+00:12:17.640 --> 00:12:19.640
+but this clarity is very important
+
+00:12:19.640 --> 00:12:21.640
+in the starting so that is why
+
+00:12:21.640 --> 00:12:23.640
+I told you in detail
+
+00:12:23.640 --> 00:12:25.640
+let me know if you have any doubts
+
+00:12:25.640 --> 00:12:27.640
+questions, confusion, anything
+
+00:12:27.640 --> 00:12:29.640
+you can tell me
+
+00:12:29.640 --> 00:12:31.640
+if not
+
+00:12:31.640 --> 00:12:33.640
+then we will move ahead
+
+00:12:37.640 --> 00:12:39.640
+I will just wait for 30 seconds
+
+00:12:39.640 --> 00:12:41.640
+if any question comes I will answer
+
+00:12:41.640 --> 00:12:43.640
+ok
+
+00:12:53.640 --> 00:12:55.640
+ok
+
+00:12:55.640 --> 00:12:57.640
+so I guess most likely things are clear
+
+00:12:57.640 --> 00:12:59.640
+so now we
+
+00:12:59.640 --> 00:13:01.640
+start our
+
+00:13:01.640 --> 00:13:03.640
+rack eval
+
+00:13:03.640 --> 00:13:05.640
+obviously first of all
+
+00:13:05.640 --> 00:13:07.640
+we need a
+
+00:13:07.640 --> 00:13:09.640
+rack project
+
+00:13:09.640 --> 00:13:11.640
+which we will evaluate
+
+00:13:11.640 --> 00:13:13.640
+so I will tell you
+
+00:13:13.640 --> 00:13:15.640
+what this project is
+
+00:13:15.640 --> 00:13:17.640
+I did not choose
+
+00:13:17.640 --> 00:13:19.640
+very fancy
+
+00:13:19.640 --> 00:13:21.640
+problem statement intentionally
+
+00:13:21.640 --> 00:13:23.640
+I had very good problem statements
+
+00:13:23.640 --> 00:13:25.640
+in which
+
+00:13:25.640 --> 00:13:27.640
+you can do very different things
+
+00:13:27.640 --> 00:13:29.640
+in the process of making the application
+
+00:13:29.640 --> 00:13:31.640
+but I felt that
+
+00:13:31.640 --> 00:13:33.640
+our focus here
+
+00:13:33.640 --> 00:13:35.640
+instead of making a very fancy
+
+00:13:35.640 --> 00:13:37.640
+rack application
+
+00:13:37.640 --> 00:13:39.640
+how can we evaluate
+
+00:13:39.640 --> 00:13:41.640
+a simple rack application
+
+00:13:41.640 --> 00:13:43.640
+and that is why
+
+00:13:43.640 --> 00:13:45.640
+I have taken a very simple problem statement
+
+00:13:45.640 --> 00:13:47.640
+it will be a rack chart bot
+
+00:13:47.640 --> 00:13:49.640
+but it will be simple
+
+00:13:49.640 --> 00:13:51.640
+but you will enjoy doing its evaluation
+
+00:13:51.640 --> 00:13:53.640
+so what we are building is
+
+00:13:53.640 --> 00:13:55.640
+we are basically building
+
+00:13:55.640 --> 00:13:57.640
+a campus x
+
+00:13:57.640 --> 00:13:59.640
+doubt
+
+00:13:59.640 --> 00:14:01.640
+solver
+
+00:14:01.640 --> 00:14:03.640
+so basic problem statement
+
+00:14:03.640 --> 00:14:05.640
+premise is that
+
+00:14:05.640 --> 00:14:07.640
+you are doing this course
+
+00:14:07.640 --> 00:14:09.640
+of LLMEval
+
+00:14:09.640 --> 00:14:11.640
+where we take around 2 lectures every week
+
+00:14:11.640 --> 00:14:13.640
+and at the end of every lecture
+
+00:14:13.640 --> 00:14:15.640
+we provide you
+
+00:14:15.640 --> 00:14:17.640
+recording and
+
+00:14:17.640 --> 00:14:19.640
+transcript
+
+00:14:19.640 --> 00:14:21.640
+of the lecture
+
+00:14:21.640 --> 00:14:23.640
+so till now every lecture
+
+00:14:23.640 --> 00:14:25.640
+has a transcript
+
+00:14:25.640 --> 00:14:27.640
+so what we will do is
+
+00:14:27.640 --> 00:14:29.640
+use these transcripts as
+
+00:14:29.640 --> 00:14:31.640
+documents
+
+00:14:31.640 --> 00:14:33.640
+and we will feed these documents in LLME
+
+00:14:33.640 --> 00:14:35.640
+and then with this LLME
+
+00:14:35.640 --> 00:14:37.640
+you can ask
+
+00:14:37.640 --> 00:14:39.640
+any doubt which is in this
+
+00:14:39.640 --> 00:14:41.640
+playlist
+
+00:14:41.640 --> 00:14:43.640
+so basically we are making a rack chart bot
+
+00:14:43.640 --> 00:14:45.640
+for this particular course
+
+00:14:45.640 --> 00:14:47.640
+with the help of all the transcripts
+
+00:14:47.640 --> 00:14:49.640
+that we have
+
+00:14:49.640 --> 00:14:51.640
+I won't explain how the rack works
+
+00:14:51.640 --> 00:14:53.640
+I am pretty sure you have read it so many times
+
+00:14:53.640 --> 00:14:55.640
+that you know how the rack works
+
+00:14:55.640 --> 00:14:57.640
+retriever, generator
+
+00:14:57.640 --> 00:14:59.640
+and a vector database
+
+00:14:59.640 --> 00:15:01.640
+an embedding model
+
+00:15:01.640 --> 00:15:03.640
+you understand all of that
+
+00:15:03.640 --> 00:15:05.640
+so it is not going into working but roughly explaining
+
+00:15:05.640 --> 00:15:07.640
+the problem statement that we are going to
+
+00:15:07.640 --> 00:15:09.640
+build a simple campus x doubt
+
+00:15:09.640 --> 00:15:11.640
+solver for this particular course
+
+00:15:11.640 --> 00:15:13.640
+I am not talking about other courses
+
+00:15:13.640 --> 00:15:15.640
+just LLMEval course
+
+00:15:15.640 --> 00:15:17.640
+because we have
+
+00:15:17.640 --> 00:15:19.640
+transcripts of every lecture of this course
+
+00:15:19.640 --> 00:15:21.640
+so what we will do
+
+00:15:21.640 --> 00:15:23.640
+we will first
+
+00:15:23.640 --> 00:15:25.640
+build this
+
+00:15:25.640 --> 00:15:27.640
+chart bot, this rack project
+
+00:15:27.640 --> 00:15:29.640
+and then we will evaluate it
+
+00:15:29.640 --> 00:15:31.640
+in fact
+
+00:15:31.640 --> 00:15:33.640
+in the process of building it
+
+00:15:33.640 --> 00:15:35.640
+we will also evaluate it
+
+00:15:35.640 --> 00:15:37.640
+so I hope you understood the problem statement
+
+00:15:37.640 --> 00:15:39.640
+there is nothing special to explain here
+
+00:15:39.640 --> 00:15:41.640
+so let's move ahead
+
+00:15:41.640 --> 00:15:43.640
+and discuss the most important thing
+
+00:15:43.640 --> 00:15:45.640
+that when
+
+00:15:45.640 --> 00:15:47.640
+this chart bot is built
+
+00:15:47.640 --> 00:15:49.640
+then how will we evaluate it
+
+00:15:49.640 --> 00:15:51.640
+we understand this
+
+00:15:51.640 --> 00:15:53.640
+so we are going to
+
+00:15:53.640 --> 00:15:55.640
+make a proper
+
+00:15:55.640 --> 00:15:57.640
+eval suite
+
+00:15:57.640 --> 00:15:59.640
+I think I have taught you this in
+
+00:15:59.640 --> 00:16:01.640
+a lecture, I don't know if you remember
+
+00:16:01.640 --> 00:16:03.640
+that whenever you make
+
+00:16:03.640 --> 00:16:05.640
+an LLM based application
+
+00:16:05.640 --> 00:16:07.640
+then it doesn't have just one
+
+00:16:07.640 --> 00:16:09.640
+single evaluation
+
+00:16:09.640 --> 00:16:11.640
+it has multiple evaluations
+
+00:16:11.640 --> 00:16:13.640
+so we are going to do that
+
+00:16:13.640 --> 00:16:15.640
+that we will evaluate our
+
+00:16:15.640 --> 00:16:17.640
+made rack chart bot from every angle
+
+00:16:17.640 --> 00:16:19.640
+at different levels
+
+00:16:19.640 --> 00:16:21.640
+and we will deploy it
+
+00:16:21.640 --> 00:16:23.640
+only after all those evaluations
+
+00:16:23.640 --> 00:16:25.640
+and even after
+
+00:16:25.640 --> 00:16:27.640
+all those evaluations we will evaluate it
+
+00:16:27.640 --> 00:16:29.640
+with the help of online evals
+
+00:16:29.640 --> 00:16:31.640
+so the whole process
+
+00:16:31.640 --> 00:16:33.640
+of this rack chart bot
+
+00:16:33.640 --> 00:16:35.640
+evaluation, I want to share
+
+00:16:35.640 --> 00:16:37.640
+that framework with you
+
+00:16:37.640 --> 00:16:39.640
+so the first and
+
+00:16:39.640 --> 00:16:41.640
+most important thing
+
+00:16:41.640 --> 00:16:43.640
+that we will evaluate our rack chart bot
+
+00:16:43.640 --> 00:16:45.640
+at three levels
+
+00:16:45.640 --> 00:16:47.640
+the first level will be
+
+00:16:47.640 --> 00:16:49.640
+component level
+
+00:16:49.640 --> 00:16:51.640
+second level
+
+00:16:51.640 --> 00:16:53.640
+pipeline
+
+00:16:53.640 --> 00:16:55.640
+pipeline level
+
+00:16:55.640 --> 00:16:57.640
+and third level
+
+00:16:57.640 --> 00:16:59.640
+application or system level
+
+00:16:59.640 --> 00:17:01.640
+I have already
+
+00:17:01.640 --> 00:17:03.640
+taught you this
+
+00:17:03.640 --> 00:17:05.639
+that you can evaluate any LLM based application
+
+00:17:05.639 --> 00:17:07.639
+at three levels
+
+00:17:07.639 --> 00:17:09.639
+these are the three levels
+
+00:17:09.639 --> 00:17:11.639
+so first of all let's talk about
+
+00:17:11.639 --> 00:17:13.639
+component level
+
+00:17:13.639 --> 00:17:15.639
+what you do at component level
+
+00:17:15.639 --> 00:17:17.639
+is that the time you are building a rack chart bot
+
+00:17:17.639 --> 00:17:19.639
+at that time
+
+00:17:19.639 --> 00:17:21.639
+you also evaluate the components
+
+00:17:21.640 --> 00:17:23.640
+so
+
+00:17:23.640 --> 00:17:25.640
+we will have to discuss a little
+
+00:17:25.640 --> 00:17:27.640
+about the architecture of the rack chart bot
+
+00:17:27.640 --> 00:17:29.640
+you must know that you have a
+
+00:17:29.640 --> 00:17:31.640
+retriever
+
+00:17:31.640 --> 00:17:33.640
+and you have a generator
+
+00:17:33.640 --> 00:17:35.640
+and you have
+
+00:17:35.640 --> 00:17:37.640
+a vector database
+
+00:17:37.640 --> 00:17:39.640
+in which
+
+00:17:39.640 --> 00:17:41.640
+all your documents
+
+00:17:41.640 --> 00:17:43.640
+are stored in the form of vectors
+
+00:17:43.640 --> 00:17:45.640
+as soon as you get a query
+
+00:17:45.640 --> 00:17:47.640
+you send that query
+
+00:17:47.640 --> 00:17:49.640
+to the vector database
+
+00:17:49.640 --> 00:17:51.640
+so what the vector database does
+
+00:17:51.640 --> 00:17:53.640
+is that it sends
+
+00:17:53.640 --> 00:17:55.640
+the closest four to five relevant
+
+00:17:55.640 --> 00:17:57.640
+documents
+
+00:17:57.640 --> 00:17:59.640
+basically this whole work is
+
+00:17:59.640 --> 00:18:01.640
+of retriever
+
+00:18:01.640 --> 00:18:03.640
+so the retriever gives you
+
+00:18:03.640 --> 00:18:05.640
+question plus relevant context
+
+00:18:05.640 --> 00:18:07.640
+you send this question and relevant context
+
+00:18:07.640 --> 00:18:09.640
+to the generator
+
+00:18:09.640 --> 00:18:11.640
+and the generator
+
+00:18:11.640 --> 00:18:13.640
+generates an answer about both these things
+
+00:18:13.640 --> 00:18:15.640
+this is the working of a basic
+
+00:18:15.640 --> 00:18:17.640
+rack chart bot
+
+00:18:17.640 --> 00:18:19.640
+so if you want to develop step by step
+
+00:18:19.640 --> 00:18:21.640
+obviously what you will do first
+
+00:18:21.640 --> 00:18:23.640
+you will build this retriever
+
+00:18:23.640 --> 00:18:25.640
+once this retriever is built
+
+00:18:25.640 --> 00:18:27.640
+then you will build this generator
+
+00:18:27.640 --> 00:18:29.640
+and you will connect both of them
+
+00:18:29.640 --> 00:18:31.640
+so this pipeline
+
+00:18:31.640 --> 00:18:33.640
+you call it a rack
+
+00:18:33.640 --> 00:18:35.640
+so our strategy will be
+
+00:18:35.640 --> 00:18:37.640
+that on step one
+
+00:18:37.640 --> 00:18:39.640
+first of all
+
+00:18:39.640 --> 00:18:41.640
+we will build the retriever
+
+00:18:41.640 --> 00:18:43.640
+basically we will write the retriever code
+
+00:18:43.640 --> 00:18:45.640
+so here you do all the work
+
+00:18:45.640 --> 00:18:47.640
+you load the documents
+
+00:18:47.640 --> 00:18:49.640
+chunk them
+
+00:18:49.640 --> 00:18:51.640
+put them in the embedding model
+
+00:18:51.640 --> 00:18:53.640
+and convert them into vectors
+
+00:18:53.640 --> 00:18:55.640
+and after that with the help of a retriever
+
+00:18:55.640 --> 00:18:57.640
+you will bring a new query and fetch relevant documents
+
+00:18:57.640 --> 00:18:59.640
+so we call this whole work
+
+00:18:59.640 --> 00:19:01.640
+the retriever
+
+00:19:01.640 --> 00:19:03.640
+so as soon as we build this retriever
+
+00:19:03.640 --> 00:19:05.640
+in step two
+
+00:19:05.640 --> 00:19:07.640
+we will immediately
+
+00:19:07.640 --> 00:19:09.640
+evaluate this retriever
+
+00:19:09.640 --> 00:19:11.640
+independently, just the retriever
+
+00:19:11.640 --> 00:19:13.640
+we are not focusing on the entire application
+
+00:19:13.640 --> 00:19:15.640
+right now our entire focus is
+
+00:19:15.640 --> 00:19:17.640
+that the retriever we have built
+
+00:19:17.640 --> 00:19:19.640
+is it working properly or not
+
+00:19:19.640 --> 00:19:21.640
+and the retriever
+
+00:19:21.640 --> 00:19:23.640
+is working properly
+
+00:19:23.640 --> 00:19:25.640
+it means that given a question
+
+00:19:25.640 --> 00:19:27.640
+is my retriever
+
+00:19:27.640 --> 00:19:29.640
+able to fetch the right documents
+
+00:19:29.640 --> 00:19:31.640
+from the vector database
+
+00:19:31.640 --> 00:19:33.640
+or not
+
+00:19:33.640 --> 00:19:35.640
+so here we will use two metrics for evaluation
+
+00:19:35.640 --> 00:19:37.640
+one will be recall
+
+00:19:37.640 --> 00:19:39.640
+which tells
+
+00:19:39.640 --> 00:19:41.640
+how many of the right documents
+
+00:19:41.640 --> 00:19:43.640
+I was able to bring
+
+00:19:43.640 --> 00:19:45.640
+and the second is precision
+
+00:19:45.640 --> 00:19:47.640
+which means
+
+00:19:47.640 --> 00:19:49.640
+how many of the documents
+
+00:19:49.640 --> 00:19:51.640
+I brought were of use
+
+00:19:51.640 --> 00:19:53.640
+so we will evaluate
+
+00:19:53.640 --> 00:19:55.640
+our retriever on both of them
+
+00:19:55.640 --> 00:19:57.640
+and once this evaluation is done
+
+00:19:57.640 --> 00:19:59.640
+and we are satisfied
+
+00:19:59.640 --> 00:20:01.640
+that our retriever is working properly
+
+00:20:01.640 --> 00:20:03.640
+then we will move to step three
+
+00:20:03.640 --> 00:20:05.640
+and in step three
+
+00:20:05.640 --> 00:20:07.640
+we will start
+
+00:20:07.640 --> 00:20:09.640
+building our generator
+
+00:20:09.640 --> 00:20:11.640
+so now we will write the generator code
+
+00:20:11.640 --> 00:20:13.640
+generator is basically
+
+00:20:13.640 --> 00:20:15.640
+an LLM in which you give
+
+00:20:15.640 --> 00:20:17.640
+a question and relevant context
+
+00:20:17.640 --> 00:20:19.640
+and that generator
+
+00:20:19.640 --> 00:20:21.640
+gives you an answer in return
+
+00:20:21.640 --> 00:20:23.640
+so we will build this in isolation
+
+00:20:23.640 --> 00:20:25.640
+and after building this
+
+00:20:25.640 --> 00:20:27.640
+we will evaluate this
+
+00:20:27.640 --> 00:20:29.640
+in step four
+
+00:20:29.640 --> 00:20:31.640
+and in evaluating this
+
+00:20:31.640 --> 00:20:33.640
+you will learn two or three metrics
+
+00:20:33.640 --> 00:20:35.640
+one will be faithfulness
+
+00:20:35.640 --> 00:20:37.640
+which basically tells
+
+00:20:37.640 --> 00:20:39.640
+whether the answer is generated
+
+00:20:39.640 --> 00:20:41.640
+in the given context
+
+00:20:41.640 --> 00:20:43.640
+or the model hallucinated
+
+00:20:43.640 --> 00:20:45.640
+by itself
+
+00:20:45.640 --> 00:20:47.640
+so we will check this
+
+00:20:47.640 --> 00:20:49.640
+second we will check
+
+00:20:49.640 --> 00:20:51.640
+that your answer
+
+00:20:51.640 --> 00:20:53.640
+generated
+
+00:20:53.640 --> 00:20:55.640
+is relevant with the question
+
+00:20:55.640 --> 00:20:57.640
+and third
+
+00:20:57.640 --> 00:20:59.640
+we will judge citation accuracy
+
+00:20:59.640 --> 00:21:01.640
+so you must have seen
+
+00:21:01.640 --> 00:21:03.640
+that chart GPTB sometimes gives
+
+00:21:03.640 --> 00:21:05.640
+answers by looking at a document
+
+00:21:05.640 --> 00:21:07.640
+so you must have seen that
+
+00:21:07.640 --> 00:21:09.640
+I have picked this up from this document
+
+00:21:09.640 --> 00:21:11.640
+or from this link
+
+00:21:11.640 --> 00:21:13.640
+so we call this citation
+
+00:21:13.640 --> 00:21:15.640
+so what is our doubt solver
+
+00:21:15.640 --> 00:21:17.640
+doing?
+
+00:21:17.640 --> 00:21:19.640
+solving a doubt for a given question
+
+00:21:19.640 --> 00:21:21.640
+so along with that he will tell us
+
+00:21:21.640 --> 00:21:23.640
+that this question
+
+00:21:23.640 --> 00:21:25.640
+which session Nitesh sir
+
+00:21:25.640 --> 00:21:27.640
+discussed, so we will provide the link
+
+00:21:27.640 --> 00:21:29.640
+of that transcript
+
+00:21:29.640 --> 00:21:31.640
+so we will judge citation accuracy
+
+00:21:31.640 --> 00:21:33.640
+in the generator
+
+00:21:33.640 --> 00:21:35.640
+important thing
+
+00:21:35.640 --> 00:21:37.640
+we will evaluate the generator
+
+00:21:37.640 --> 00:21:39.640
+in isolation
+
+00:21:39.640 --> 00:21:41.640
+which basically means
+
+00:21:41.640 --> 00:21:43.640
+that at this point your generator
+
+00:21:43.640 --> 00:21:45.640
+is not connected
+
+00:21:45.640 --> 00:21:47.640
+to the retriever
+
+00:21:47.640 --> 00:21:49.640
+which basically means that
+
+00:21:49.640 --> 00:21:51.640
+we will manually
+
+00:21:51.640 --> 00:21:53.640
+provide some question
+
+00:21:53.640 --> 00:21:55.640
+and context
+
+00:21:55.640 --> 00:21:57.640
+kind of like a golden dataset
+
+00:21:57.640 --> 00:21:59.640
+we are providing independently
+
+00:21:59.640 --> 00:22:01.640
+retrievers are not getting
+
+00:22:01.640 --> 00:22:03.640
+any input, we have not made this pipeline
+
+00:22:03.640 --> 00:22:05.640
+we are doing component level
+
+00:22:05.640 --> 00:22:07.640
+evaluation
+
+00:22:07.640 --> 00:22:09.640
+once this is evaluated
+
+00:22:09.640 --> 00:22:11.640
+in isolation, generator
+
+00:22:11.640 --> 00:22:13.640
+and we are satisfied that this generator
+
+00:22:13.640 --> 00:22:15.640
+is working well on its own
+
+00:22:15.640 --> 00:22:17.640
+then our level
+
+00:22:17.640 --> 00:22:19.640
+will achieve
+
+00:22:19.640 --> 00:22:21.640
+that we have done things at component level
+
+00:22:21.640 --> 00:22:23.640
+our retriever is working well in isolation
+
+00:22:23.640 --> 00:22:25.640
+our generator is working well in isolation
+
+00:22:25.640 --> 00:22:27.640
+we are done with the stage one
+
+00:22:27.640 --> 00:22:29.640
+after that
+
+00:22:29.640 --> 00:22:31.640
+we come to the next stage
+
+00:22:31.640 --> 00:22:33.640
+which is step five
+
+00:22:33.640 --> 00:22:35.640
+where now what we will do
+
+00:22:35.640 --> 00:22:37.640
+we will build our rag pipeline
+
+00:22:37.640 --> 00:22:39.640
+we will build our rag pipeline
+
+00:22:39.640 --> 00:22:41.640
+rag pipeline means
+
+00:22:41.640 --> 00:22:43.640
+that we will connect
+
+00:22:43.640 --> 00:22:45.640
+our retriever and generator
+
+00:22:45.640 --> 00:22:47.640
+very simple code
+
+00:22:47.640 --> 00:22:49.640
+connected, after this
+
+00:22:49.640 --> 00:22:51.640
+comes step six
+
+00:22:51.640 --> 00:22:53.640
+where we will check that
+
+00:22:53.640 --> 00:22:55.640
+when these two are connected
+
+00:22:55.640 --> 00:22:57.640
+and a pipeline is formed
+
+00:22:57.640 --> 00:22:59.640
+is this pipeline working properly
+
+00:22:59.640 --> 00:23:01.640
+or not
+
+00:23:01.640 --> 00:23:03.640
+and here the evaluation
+
+00:23:03.640 --> 00:23:05.640
+is a very famous term
+
+00:23:05.640 --> 00:23:07.640
+we call it rag
+
+00:23:07.640 --> 00:23:09.640
+triad
+
+00:23:09.640 --> 00:23:11.640
+so basically what you do here
+
+00:23:11.640 --> 00:23:13.640
+as soon as you make rag pipeline
+
+00:23:13.640 --> 00:23:15.640
+you check three
+
+00:23:15.640 --> 00:23:17.640
+metrics
+
+00:23:17.640 --> 00:23:19.640
+and we call these three metrics rag triad
+
+00:23:19.640 --> 00:23:21.640
+why I tell you
+
+00:23:21.640 --> 00:23:23.640
+so three things are existing here
+
+00:23:23.640 --> 00:23:25.640
+first of all the user's question
+
+00:23:27.640 --> 00:23:29.640
+the context we have got
+
+00:23:29.640 --> 00:23:31.640
+from vector database
+
+00:23:31.640 --> 00:23:33.640
+which has brought the retriever
+
+00:23:33.640 --> 00:23:35.640
+and the answer generated
+
+00:23:35.640 --> 00:23:37.640
+by generator
+
+00:23:37.640 --> 00:23:39.640
+these three things exist
+
+00:23:39.640 --> 00:23:41.640
+so
+
+00:23:41.640 --> 00:23:43.640
+in these three
+
+00:23:43.640 --> 00:23:45.640
+pairs
+
+00:23:45.640 --> 00:23:47.640
+three metrics exist
+
+00:23:47.640 --> 00:23:49.640
+like for question and context
+
+00:23:49.640 --> 00:23:51.640
+a metric exists
+
+00:23:51.640 --> 00:23:53.640
+which we call context
+
+00:23:53.640 --> 00:23:55.640
+relevance
+
+00:23:55.640 --> 00:23:57.640
+which tells
+
+00:23:57.640 --> 00:23:59.640
+that for a given question
+
+00:23:59.640 --> 00:24:01.640
+the context
+
+00:24:01.640 --> 00:24:03.640
+which has been fetched from retriever
+
+00:24:03.640 --> 00:24:05.640
+is it relevant or not
+
+00:24:05.640 --> 00:24:07.640
+with the question
+
+00:24:07.640 --> 00:24:09.640
+second is
+
+00:24:09.640 --> 00:24:11.640
+answer and context
+
+00:24:11.640 --> 00:24:13.640
+we call this faithfulness
+
+00:24:13.640 --> 00:24:15.640
+this basically
+
+00:24:15.640 --> 00:24:17.640
+tells us that the answer
+
+00:24:17.640 --> 00:24:19.640
+generated is it
+
+00:24:19.640 --> 00:24:21.640
+generated from context or
+
+00:24:21.640 --> 00:24:23.640
+something hallucinated the model
+
+00:24:23.640 --> 00:24:25.640
+and third you will check
+
+00:24:25.640 --> 00:24:27.640
+that is there a relation
+
+00:24:27.640 --> 00:24:29.640
+between answer and question
+
+00:24:29.640 --> 00:24:31.640
+and the metric for this we call
+
+00:24:31.640 --> 00:24:33.640
+answer relevance
+
+00:24:35.640 --> 00:24:37.640
+here basically
+
+00:24:37.640 --> 00:24:39.640
+it is told that given a question
+
+00:24:39.640 --> 00:24:41.640
+the answer generated is
+
+00:24:41.640 --> 00:24:43.640
+relevant for the question or not
+
+00:24:43.640 --> 00:24:45.640
+so we
+
+00:24:45.640 --> 00:24:47.640
+in isolation
+
+00:24:47.640 --> 00:24:49.640
+test these three metrics
+
+00:24:49.640 --> 00:24:51.640
+of our rag pipeline
+
+00:24:51.640 --> 00:24:53.640
+if these three metrics
+
+00:24:53.640 --> 00:24:55.640
+are working properly
+
+00:24:55.640 --> 00:24:57.640
+it means that your rag pipeline
+
+00:24:57.640 --> 00:24:59.640
+is working properly
+
+00:24:59.640 --> 00:25:01.640
+and if these three metrics are done
+
+00:25:01.640 --> 00:25:03.640
+then our particular level
+
+00:25:03.640 --> 00:25:05.640
+will be done
+
+00:25:05.640 --> 00:25:07.640
+so so far the flow
+
+00:25:07.640 --> 00:25:09.640
+is clear to everyone, what we are doing
+
+00:25:09.640 --> 00:25:11.640
+we are not doing that we have made
+
+00:25:11.640 --> 00:25:13.640
+our rag chart board first
+
+00:25:13.640 --> 00:25:15.640
+and then we are evaluating it
+
+00:25:15.640 --> 00:25:17.640
+no, this is not how it works
+
+00:25:17.640 --> 00:25:19.640
+your building the chart board
+
+00:25:19.640 --> 00:25:21.640
+and evaluating it
+
+00:25:21.640 --> 00:25:23.640
+it works together, it is just like software
+
+00:25:23.640 --> 00:25:25.640
+software we don't do that
+
+00:25:25.640 --> 00:25:27.640
+that you make the whole application and then
+
+00:25:27.640 --> 00:25:29.640
+test it, no, you
+
+00:25:29.640 --> 00:25:31.640
+test it at the feature level and function level
+
+00:25:31.640 --> 00:25:33.640
+here exactly the same is happening
+
+00:25:33.640 --> 00:25:35.640
+that you tested your components
+
+00:25:35.640 --> 00:25:37.640
+when you joined the components
+
+00:25:37.640 --> 00:25:39.640
+you tested the pipeline
+
+00:25:39.640 --> 00:25:41.640
+now your application is there
+
+00:25:41.640 --> 00:25:43.640
+so you will test it at the application level
+
+00:25:43.640 --> 00:25:45.640
+so I really hope you are understanding
+
+00:25:45.640 --> 00:25:47.640
+the flow till now, okay
+
+00:25:47.640 --> 00:25:49.640
+so now
+
+00:25:49.640 --> 00:25:51.640
+now that we have tested
+
+00:25:51.640 --> 00:25:53.640
+the pipeline, next is
+
+00:25:53.640 --> 00:25:55.640
+that now on step 7
+
+00:25:59.640 --> 00:26:01.640
+do application level testing
+
+00:26:05.640 --> 00:26:07.640
+here basically you are testing
+
+00:26:07.640 --> 00:26:09.640
+that your application, the downed
+
+00:26:09.640 --> 00:26:11.640
+solver is working properly or not
+
+00:26:11.640 --> 00:26:13.640
+so here
+
+00:26:13.640 --> 00:26:15.640
+there are many more metrics
+
+00:26:15.640 --> 00:26:17.640
+so one very important metric is
+
+00:26:17.640 --> 00:26:19.640
+correctness
+
+00:26:19.640 --> 00:26:21.640
+the answer that has come out
+
+00:26:21.640 --> 00:26:23.640
+is it correct or not
+
+00:26:23.640 --> 00:26:25.640
+you have to find out this
+
+00:26:25.640 --> 00:26:27.640
+then there is another metric
+
+00:26:27.640 --> 00:26:29.640
+which we call completeness
+
+00:26:29.640 --> 00:26:31.640
+completeness tells that
+
+00:26:31.640 --> 00:26:33.640
+given a question, is the answer
+
+00:26:33.640 --> 00:26:35.640
+completely
+
+00:26:35.640 --> 00:26:37.640
+answering that question or not
+
+00:26:37.640 --> 00:26:39.640
+suppose there are two parts in your question
+
+00:26:39.640 --> 00:26:41.640
+but the answer that you got
+
+00:26:41.640 --> 00:26:43.640
+is answering only one part and ignoring the other part
+
+00:26:43.640 --> 00:26:45.640
+so there is no completeness
+
+00:26:45.640 --> 00:26:47.640
+even though the answer of one part is correct
+
+00:26:47.640 --> 00:26:49.640
+but there is no completeness
+
+00:26:49.640 --> 00:26:51.640
+so we will check that too
+
+00:26:51.640 --> 00:26:53.640
+third, we will check style
+
+00:26:53.640 --> 00:26:55.640
+we will try
+
+00:26:55.640 --> 00:26:57.640
+that our
+
+00:26:57.640 --> 00:26:59.640
+campusx downed solver
+
+00:26:59.640 --> 00:27:01.640
+its explanation style is same
+
+00:27:01.640 --> 00:27:03.640
+which is of campusx teachers
+
+00:27:03.640 --> 00:27:05.640
+we will evaluate this also
+
+00:27:05.640 --> 00:27:07.640
+and you can do this
+
+00:27:07.640 --> 00:27:09.640
+so this also comes in application level
+
+00:27:09.640 --> 00:27:11.640
+evaluation
+
+00:27:11.640 --> 00:27:13.640
+so these are some quality related metrics
+
+00:27:13.640 --> 00:27:15.640
+apart from this, if you talk about application level
+
+00:27:15.640 --> 00:27:17.640
+then you will also
+
+00:27:17.640 --> 00:27:19.640
+test safety here
+
+00:27:19.640 --> 00:27:21.640
+you will check that your response
+
+00:27:21.640 --> 00:27:23.640
+is not toxic
+
+00:27:23.640 --> 00:27:25.640
+or you will check that your
+
+00:27:25.640 --> 00:27:27.640
+response is not giving any
+
+00:27:27.640 --> 00:27:29.640
+personally identifiable information
+
+00:27:29.640 --> 00:27:31.640
+you will check that
+
+00:27:31.640 --> 00:27:33.640
+your campusx downed solver
+
+00:27:33.640 --> 00:27:35.640
+can't be jailbreak
+
+00:27:35.640 --> 00:27:37.640
+so we will do these safety
+
+00:27:37.640 --> 00:27:39.640
+evaluations on step no.8
+
+00:27:39.640 --> 00:27:41.640
+on step no.8
+
+00:27:41.640 --> 00:27:43.640
+we will
+
+00:27:43.640 --> 00:27:45.640
+run safety evaluations
+
+00:27:45.640 --> 00:27:47.640
+on this application
+
+00:27:47.640 --> 00:27:49.640
+and lastly
+
+00:27:49.640 --> 00:27:51.640
+comes operations evaluations
+
+00:27:51.640 --> 00:27:53.640
+where you check 3 things
+
+00:27:53.640 --> 00:27:55.640
+primarily, your latency
+
+00:27:55.640 --> 00:27:57.640
+of the application, cost
+
+00:27:57.640 --> 00:27:59.640
+how much you are getting per query
+
+00:27:59.640 --> 00:28:01.640
+and how many tokens you are spending
+
+00:28:01.640 --> 00:28:03.640
+so this comes in step no.9
+
+00:28:03.640 --> 00:28:05.640
+we call this
+
+00:28:05.640 --> 00:28:07.640
+ops evaluations
+
+00:28:07.640 --> 00:28:09.640
+we will test this
+
+00:28:09.640 --> 00:28:11.640
+so
+
+00:28:11.640 --> 00:28:13.640
+this whole thing
+
+00:28:13.640 --> 00:28:15.640
+that I have told you
+
+00:28:15.640 --> 00:28:17.640
+component, pipeline and application
+
+00:28:17.640 --> 00:28:19.640
+these three levels
+
+00:28:19.640 --> 00:28:21.640
+that we are evaluating
+
+00:28:21.640 --> 00:28:23.640
+our whole application
+
+00:28:23.640 --> 00:28:25.640
+we call this in combined form
+
+00:28:25.640 --> 00:28:27.640
+eval suite
+
+00:28:27.640 --> 00:28:29.640
+this is like our entire
+
+00:28:29.640 --> 00:28:31.640
+testing suite
+
+00:28:31.640 --> 00:28:33.640
+whenever we want to test our application
+
+00:28:33.640 --> 00:28:35.640
+then we don't run just one test
+
+00:28:35.640 --> 00:28:37.640
+we run all these tests
+
+00:28:37.640 --> 00:28:39.640
+together
+
+00:28:39.640 --> 00:28:41.640
+then we get to know
+
+00:28:41.640 --> 00:28:43.640
+from every aspect
+
+00:28:43.640 --> 00:28:45.640
+is our application working right
+
+00:28:45.640 --> 00:28:47.640
+or not
+
+00:28:47.640 --> 00:28:49.640
+so we are going to do so many tests
+
+00:28:49.640 --> 00:28:51.640
+so many evaluations
+
+00:28:51.640 --> 00:28:53.640
+this will be our evaluation strategy
+
+00:28:53.640 --> 00:28:55.640
+so at this point I will take a break
+
+00:28:55.640 --> 00:28:57.640
+and I will take questions
+
+00:28:57.640 --> 00:28:59.640
+if you have any doubts
+
+00:28:59.640 --> 00:29:01.640
+you can ask, this is what we are going to do
+
+00:29:01.640 --> 00:29:03.640
+in the next 3-4 sessions
+
+00:29:03.640 --> 00:29:05.640
+but primarily we are going to do these things
+
+00:29:09.640 --> 00:29:11.640
+let me know if you have any questions
+
+00:29:23.640 --> 00:29:25.640
+guys
+
+00:29:25.640 --> 00:29:27.640
+any question till this point
+
+00:29:27.640 --> 00:29:29.640
+something like
+
+00:29:29.640 --> 00:29:31.640
+what you think I have missed
+
+00:29:31.640 --> 00:29:33.640
+what should have been
+
+00:29:33.640 --> 00:29:35.640
+for a rad chart bot
+
+00:29:35.640 --> 00:29:37.640
+or any other suggestion
+
+00:29:37.640 --> 00:29:39.640
+or any doubt
+
+00:29:39.640 --> 00:29:41.640
+are we going to generate golden data sets
+
+00:29:41.640 --> 00:29:43.640
+yes Amar
+
+00:29:43.640 --> 00:29:45.640
+there are many evals
+
+00:29:45.640 --> 00:29:47.640
+for which you will have to generate golden data sets
+
+00:29:47.640 --> 00:29:49.640
+some evals are also
+
+00:29:49.640 --> 00:29:51.640
+where you don't need golden data sets
+
+00:29:51.640 --> 00:29:53.640
+so
+
+00:29:53.640 --> 00:29:55.640
+you will know that
+
+00:29:55.640 --> 00:29:57.640
+in most of the cases
+
+00:29:57.640 --> 00:29:59.640
+you will need golden data sets
+
+00:29:59.640 --> 00:30:01.640
+and you will have to generate golden data sets
+
+00:30:01.640 --> 00:30:03.640
+so yeah
+
+00:30:03.640 --> 00:30:05.640
+the answer is yes
+
+00:30:05.640 --> 00:30:07.640
+any other question
+
+00:30:07.640 --> 00:30:09.640
+at this point
+
+00:30:13.640 --> 00:30:15.640
+ok
+
+00:30:15.640 --> 00:30:17.640
+ok, this question
+
+00:30:17.640 --> 00:30:19.640
+was a good reminder
+
+00:30:19.640 --> 00:30:21.640
+till now
+
+00:30:21.640 --> 00:30:23.640
+whatever classes we have done
+
+00:30:23.640 --> 00:30:25.640
+in that we were
+
+00:30:25.640 --> 00:30:27.640
+making evals, we were writing the code
+
+00:30:27.640 --> 00:30:29.640
+especially if you have seen the last lecture
+
+00:30:29.640 --> 00:30:31.640
+where we were
+
+00:30:31.640 --> 00:30:33.640
+running custom model evals
+
+00:30:33.640 --> 00:30:35.640
+you must have seen that we were writing our own code
+
+00:30:35.640 --> 00:30:37.640
+but we are not
+
+00:30:37.640 --> 00:30:39.640
+going to do that in this case
+
+00:30:39.640 --> 00:30:41.640
+if we write all this code ourselves
+
+00:30:41.640 --> 00:30:43.640
+then it will be a very big project
+
+00:30:43.640 --> 00:30:45.640
+instead what we will do is
+
+00:30:45.640 --> 00:30:47.640
+we will use a library
+
+00:30:47.640 --> 00:30:49.640
+which is called deep eval
+
+00:30:49.640 --> 00:30:51.640
+in deep eval
+
+00:30:51.640 --> 00:30:53.640
+if you go then you will see
+
+00:30:53.640 --> 00:30:55.640
+that from the discussions
+
+00:30:55.640 --> 00:30:57.640
+there are many metrics
+
+00:30:57.640 --> 00:30:59.640
+already exist
+
+00:30:59.640 --> 00:31:01.640
+like here
+
+00:31:01.640 --> 00:31:03.640
+if you go to rag
+
+00:31:03.640 --> 00:31:05.640
+then you will see answer relevancy, faithfulness
+
+00:31:05.640 --> 00:31:07.640
+contextual precision recall
+
+00:31:07.640 --> 00:31:09.640
+contextual relevancy
+
+00:31:09.640 --> 00:31:11.640
+all these things already exist
+
+00:31:11.640 --> 00:31:13.640
+then if you go to safety
+
+00:31:13.640 --> 00:31:15.640
+then toxicity
+
+00:31:15.640 --> 00:31:17.640
+PII leakage
+
+00:31:17.640 --> 00:31:19.640
+all these things already exist
+
+00:31:19.640 --> 00:31:21.640
+so instead of writing
+
+00:31:21.640 --> 00:31:23.640
+custom code to evaluate
+
+00:31:23.640 --> 00:31:25.640
+our rag application
+
+00:31:25.640 --> 00:31:27.640
+we will instead use this great library
+
+00:31:27.640 --> 00:31:29.640
+called deep eval
+
+00:31:29.640 --> 00:31:31.640
+which is the state of the art library
+
+00:31:31.640 --> 00:31:33.640
+most of the big companies
+
+00:31:33.640 --> 00:31:35.640
+use this library
+
+00:31:35.640 --> 00:31:37.640
+to do LLM based evaluations
+
+00:31:37.640 --> 00:31:39.640
+and the best part about this library is
+
+00:31:39.640 --> 00:31:41.640
+that it is based on
+
+00:31:41.640 --> 00:31:43.640
+the main library of python
+
+00:31:43.640 --> 00:31:45.640
+for software testing
+
+00:31:45.640 --> 00:31:47.640
+so if you have ever done software testing
+
+00:31:47.640 --> 00:31:49.640
+using PITest
+
+00:31:49.640 --> 00:31:51.640
+then this library will make you feel at home
+
+00:31:51.640 --> 00:31:53.640
+so we are going to use this library
+
+00:31:53.640 --> 00:31:55.640
+we are not going to use ragas
+
+00:31:55.640 --> 00:31:57.640
+because you can use both
+
+00:31:57.640 --> 00:31:59.640
+you can do all this in ragas
+
+00:31:59.640 --> 00:32:01.640
+and deep eval
+
+00:32:01.640 --> 00:32:03.640
+I am selecting deep eval
+
+00:32:03.640 --> 00:32:05.640
+particularly because of two reasons
+
+00:32:05.640 --> 00:32:07.640
+first is ragas we have already studied
+
+00:32:07.640 --> 00:32:09.640
+in the advanced rag course
+
+00:32:09.640 --> 00:32:11.640
+second
+
+00:32:11.640 --> 00:32:13.640
+deep eval is a broader library
+
+00:32:13.640 --> 00:32:15.640
+its scope
+
+00:32:15.640 --> 00:32:17.640
+is even more
+
+00:32:17.640 --> 00:32:19.640
+like agents where you can see here
+
+00:32:19.640 --> 00:32:21.640
+agents, multi turn chat bots
+
+00:32:23.640 --> 00:32:25.640
+non LLM applications
+
+00:32:25.640 --> 00:32:27.640
+image based applications
+
+00:32:27.640 --> 00:32:29.640
+for all kinds of things you can use deep eval
+
+00:32:29.640 --> 00:32:31.640
+so that is why its adoption is also more
+
+00:32:31.640 --> 00:32:33.640
+and there is a good chance that
+
+00:32:33.640 --> 00:32:35.640
+after a year or two
+
+00:32:35.640 --> 00:32:37.640
+this NLM evaluations
+
+00:32:37.640 --> 00:32:39.640
+will become
+
+00:32:39.640 --> 00:32:41.640
+a benchmark library
+
+00:32:41.640 --> 00:32:43.640
+it will become the standard
+
+00:32:43.640 --> 00:32:45.640
+so its a good strategy that we are focusing more on deep eval
+
+00:32:45.640 --> 00:32:47.640
+I really hope you don't have any problem with this
+
+00:32:47.640 --> 00:32:49.640
+yeah ragas is good
+
+00:32:49.640 --> 00:32:51.640
+obviously there is no problem with this
+
+00:32:51.640 --> 00:32:53.640
+as I have already told you two reasons
+
+00:32:53.640 --> 00:32:55.640
+we have already covered this
+
+00:32:55.640 --> 00:32:57.640
+and second deep eval is a better library
+
+00:32:57.640 --> 00:32:59.640
+in comparison to ragas
+
+00:32:59.640 --> 00:33:01.640
+so yeah
+
+00:33:01.640 --> 00:33:03.640
+any other question is point pin
+
+00:33:07.640 --> 00:33:09.640
+move forward
+
+00:33:09.640 --> 00:33:11.640
+okay
+
+00:33:11.640 --> 00:33:13.640
+okay
+
+00:33:13.640 --> 00:33:15.640
+okay
+
+00:33:15.640 --> 00:33:17.640
+now
+
+00:33:17.640 --> 00:33:19.640
+a very important discussion
+
+00:33:19.640 --> 00:33:21.640
+once you
+
+00:33:21.640 --> 00:33:23.640
+make such a eval suite
+
+00:33:23.640 --> 00:33:25.640
+which we have also made
+
+00:33:25.640 --> 00:33:27.640
+after that
+
+00:33:27.640 --> 00:33:29.640
+comes a very important task
+
+00:33:29.640 --> 00:33:31.640
+which we call regression
+
+00:33:31.640 --> 00:33:33.640
+testing
+
+00:33:33.640 --> 00:33:35.640
+after that we do
+
+00:33:35.640 --> 00:33:37.640
+regression testing
+
+00:33:37.640 --> 00:33:39.640
+what is regression testing?
+
+00:33:39.640 --> 00:33:41.640
+regression testing is basically
+
+00:33:41.640 --> 00:33:43.640
+the act of
+
+00:33:43.640 --> 00:33:45.640
+running
+
+00:33:45.640 --> 00:33:47.640
+your
+
+00:33:47.640 --> 00:33:49.640
+eval
+
+00:33:49.640 --> 00:33:51.640
+suite
+
+00:33:51.640 --> 00:33:53.640
+on your
+
+00:33:53.640 --> 00:33:55.640
+application
+
+00:33:55.640 --> 00:33:57.640
+till now what we are doing
+
+00:33:57.640 --> 00:33:59.640
+we are building our eval suite
+
+00:33:59.640 --> 00:34:01.640
+we are writing different
+
+00:34:01.640 --> 00:34:03.640
+evaluation codes
+
+00:34:03.640 --> 00:34:05.640
+for different different components
+
+00:34:05.640 --> 00:34:07.640
+and pipelines and applications
+
+00:34:07.640 --> 00:34:09.640
+once everything is done
+
+00:34:09.640 --> 00:34:11.640
+then when you run it
+
+00:34:11.640 --> 00:34:13.640
+on the whole application
+
+00:34:13.640 --> 00:34:15.640
+we call this regression testing
+
+00:34:15.640 --> 00:34:17.640
+the simple foundation of regression testing
+
+00:34:17.640 --> 00:34:19.640
+is that if your version
+
+00:34:19.640 --> 00:34:21.640
+one of the software is running
+
+00:34:21.640 --> 00:34:23.640
+now you have made version two
+
+00:34:23.640 --> 00:34:25.640
+of the same software
+
+00:34:25.640 --> 00:34:27.640
+so how do you know version two
+
+00:34:27.640 --> 00:34:29.640
+is objectively not
+
+00:34:29.640 --> 00:34:31.640
+worse than version one
+
+00:34:31.640 --> 00:34:33.640
+is my application worse
+
+00:34:33.639 --> 00:34:35.639
+how do I test if it is not
+
+00:34:35.639 --> 00:34:37.639
+better than version one
+
+00:34:37.639 --> 00:34:39.639
+this is the answer you get in regression testing
+
+00:34:39.639 --> 00:34:41.639
+so there is nothing special in regression testing
+
+00:34:41.639 --> 00:34:43.639
+basically the eval suite you have made
+
+00:34:43.639 --> 00:34:45.639
+you run it
+
+00:34:45.639 --> 00:34:47.639
+once
+
+00:34:47.639 --> 00:34:49.639
+and by running you get results
+
+00:34:49.639 --> 00:34:51.639
+you get a whole report
+
+00:34:51.639 --> 00:34:53.639
+that this is in this metric
+
+00:34:53.639 --> 00:34:55.639
+this is in this metric
+
+00:34:55.639 --> 00:34:57.640
+this is more than that
+
+00:34:57.640 --> 00:34:59.640
+so by running this whole regression testing
+
+00:34:59.640 --> 00:35:01.640
+you get a very clear picture
+
+00:35:01.640 --> 00:35:03.640
+so the new version of the software
+
+00:35:03.640 --> 00:35:05.640
+we have made
+
+00:35:05.640 --> 00:35:07.640
+is it objectively better than the previous version
+
+00:35:07.640 --> 00:35:09.640
+or not
+
+00:35:09.640 --> 00:35:11.640
+and on the basis of that
+
+00:35:11.640 --> 00:35:13.640
+we decide whether we will deploy
+
+00:35:13.640 --> 00:35:15.640
+the new version or not
+
+00:35:15.640 --> 00:35:17.640
+so I will explain it in simple words
+
+00:35:17.640 --> 00:35:19.640
+so what will happen
+
+00:35:19.640 --> 00:35:21.640
+step by step
+
+00:35:21.640 --> 00:35:23.640
+we will make a project folder
+
+00:35:23.640 --> 00:35:25.640
+in that project folder
+
+00:35:25.640 --> 00:35:27.640
+there will be a folder called src
+
+00:35:27.640 --> 00:35:29.640
+in which we will write our
+
+00:35:29.640 --> 00:35:31.640
+source code
+
+00:35:31.640 --> 00:35:33.640
+here will be our retriever file
+
+00:35:33.640 --> 00:35:35.640
+generator file, rag pipeline file
+
+00:35:35.640 --> 00:35:37.640
+we can use fast api
+
+00:35:37.640 --> 00:35:39.640
+to make api
+
+00:35:39.640 --> 00:35:41.640
+we can use streamlit
+
+00:35:41.640 --> 00:35:43.640
+to make ui
+
+00:35:43.640 --> 00:35:45.640
+so all this will be in src
+
+00:35:45.640 --> 00:35:47.640
+apart from that in our project folder
+
+00:35:47.640 --> 00:35:49.640
+there will be another folder called eval
+
+00:35:49.640 --> 00:35:51.640
+in which all our evaluation files will be
+
+00:35:51.640 --> 00:35:53.640
+so here you will have
+
+00:35:53.640 --> 00:35:55.640
+a retriever
+
+00:35:55.640 --> 00:35:57.640
+.py file
+
+00:35:57.640 --> 00:35:59.640
+or eval
+
+00:35:59.640 --> 00:36:01.640
+retriever.py file
+
+00:36:01.640 --> 00:36:03.640
+which will basically do this
+
+00:36:03.640 --> 00:36:05.640
+then you will have
+
+00:36:05.640 --> 00:36:07.640
+similarly another file
+
+00:36:07.640 --> 00:36:09.640
+which will be called
+
+00:36:09.640 --> 00:36:11.640
+eval
+
+00:36:11.640 --> 00:36:13.640
+generator.py
+
+00:36:13.640 --> 00:36:15.640
+in which we
+
+00:36:15.640 --> 00:36:17.640
+will write the code to evaluate it
+
+00:36:17.640 --> 00:36:19.640
+similarly you can understand
+
+00:36:19.640 --> 00:36:21.640
+a rag pipeline
+
+00:36:21.640 --> 00:36:23.640
+will have a different file
+
+00:36:23.640 --> 00:36:25.640
+an application
+
+00:36:25.640 --> 00:36:27.640
+will have a different file to test
+
+00:36:27.640 --> 00:36:29.640
+a different file for safety
+
+00:36:29.640 --> 00:36:31.640
+a different file for operations
+
+00:36:31.640 --> 00:36:33.640
+so basically all these files
+
+00:36:33.640 --> 00:36:35.640
+in the eval folder
+
+00:36:35.640 --> 00:36:37.640
+where we have written all our tests
+
+00:36:37.640 --> 00:36:39.640
+we call this
+
+00:36:39.640 --> 00:36:41.640
+our eval suite
+
+00:36:41.640 --> 00:36:43.640
+and then what will happen
+
+00:36:43.640 --> 00:36:45.640
+outside all the folders
+
+00:36:45.640 --> 00:36:47.640
+we will have
+
+00:36:47.640 --> 00:36:49.640
+a file which we will call
+
+00:36:49.640 --> 00:36:51.640
+run evals.py
+
+00:36:51.640 --> 00:36:53.640
+and what code will be written in this
+
+00:36:53.640 --> 00:36:55.640
+as soon as we
+
+00:36:55.640 --> 00:36:57.640
+trigger this file
+
+00:36:57.640 --> 00:36:59.640
+then what will this file do
+
+00:36:59.640 --> 00:37:01.640
+one by one
+
+00:37:01.640 --> 00:37:03.640
+all these tests
+
+00:37:03.640 --> 00:37:05.640
+will be
+
+00:37:05.640 --> 00:37:07.640
+run on our application
+
+00:37:07.640 --> 00:37:09.640
+and
+
+00:37:09.640 --> 00:37:11.640
+will generate a report
+
+00:37:11.640 --> 00:37:13.640
+and will give it
+
+00:37:13.640 --> 00:37:15.640
+and when you
+
+00:37:15.640 --> 00:37:17.640
+analyze that report
+
+00:37:17.640 --> 00:37:19.640
+then you will understand
+
+00:37:19.640 --> 00:37:21.640
+that your new version
+
+00:37:21.640 --> 00:37:23.640
+of the software
+
+00:37:23.640 --> 00:37:25.640
+is objectively better
+
+00:37:25.640 --> 00:37:27.640
+than the previous version
+
+00:37:27.640 --> 00:37:29.640
+your retriever file
+
+00:37:29.640 --> 00:37:31.640
+is telling that your new retriever
+
+00:37:31.640 --> 00:37:33.640
+is better than the previous one
+
+00:37:33.640 --> 00:37:35.640
+the new generator
+
+00:37:35.640 --> 00:37:37.640
+is telling that the new generator
+
+00:37:37.640 --> 00:37:39.640
+is better than the previous one
+
+00:37:39.640 --> 00:37:41.640
+and so on
+
+00:37:41.640 --> 00:37:43.640
+I guess you understand
+
+00:37:43.640 --> 00:37:45.640
+this is how you do regression
+
+00:37:45.640 --> 00:37:47.640
+testing. Is the concept of
+
+00:37:47.640 --> 00:37:49.640
+regression testing clear?
+
+00:37:49.640 --> 00:37:51.640
+what did we do step by step?
+
+00:37:51.640 --> 00:37:53.640
+we made an application
+
+00:37:53.640 --> 00:37:55.640
+in the process of making the application
+
+00:37:55.640 --> 00:37:57.640
+we built our eval suite
+
+00:37:57.640 --> 00:37:59.640
+in which we created multiple evaluation files
+
+00:37:59.640 --> 00:38:01.640
+and then to run all
+
+00:38:01.640 --> 00:38:03.640
+these evaluation files
+
+00:38:03.640 --> 00:38:05.640
+we have a single code
+
+00:38:05.640 --> 00:38:07.640
+which is run eval.py
+
+00:38:07.640 --> 00:38:09.640
+so whenever our application is complete
+
+00:38:09.640 --> 00:38:11.640
+or changes are done
+
+00:38:11.640 --> 00:38:13.640
+then we run this run eval.py file
+
+00:38:13.640 --> 00:38:15.640
+and it gives us
+
+00:38:15.640 --> 00:38:17.640
+a report
+
+00:38:17.640 --> 00:38:19.640
+that where does the new version
+
+00:38:19.640 --> 00:38:21.640
+stand in comparison to the previous one
+
+00:38:21.640 --> 00:38:23.640
+this helps us understand
+
+00:38:23.640 --> 00:38:25.640
+whether we should deploy the new version
+
+00:38:25.640 --> 00:38:27.640
+or not. Is everything clear?
+
+00:38:27.640 --> 00:38:29.640
+is it clear?
+
+00:38:31.640 --> 00:38:33.640
+simple right?
+
+00:38:33.640 --> 00:38:35.640
+nothing is too difficult here
+
+00:38:35.640 --> 00:38:37.640
+now
+
+00:38:43.640 --> 00:38:45.640
+now I want to explain one more thing
+
+00:38:45.640 --> 00:38:47.640
+here
+
+00:38:47.640 --> 00:38:49.640
+the discussion we will do now
+
+00:38:49.640 --> 00:38:51.640
+will be more in the
+
+00:38:51.640 --> 00:38:53.640
+LLM ops domain
+
+00:38:53.640 --> 00:38:55.640
+rather than
+
+00:38:55.640 --> 00:38:57.640
+just evaluation but I want to tell you
+
+00:38:57.640 --> 00:38:59.640
+because it is related
+
+00:38:59.640 --> 00:39:01.640
+so regression testing
+
+00:39:01.640 --> 00:39:03.640
+is very
+
+00:39:05.640 --> 00:39:07.640
+kind of advanced
+
+00:39:07.640 --> 00:39:09.640
+method
+
+00:39:09.640 --> 00:39:11.640
+what I told you is a very basic method
+
+00:39:11.640 --> 00:39:13.640
+that you just run this file
+
+00:39:13.640 --> 00:39:15.640
+what this file did
+
+00:39:15.640 --> 00:39:17.640
+compared all your metrics
+
+00:39:17.640 --> 00:39:19.640
+compared to the previous version
+
+00:39:19.640 --> 00:39:21.640
+and told whether the new version is better
+
+00:39:21.640 --> 00:39:23.640
+or not but in this
+
+00:39:23.640 --> 00:39:25.640
+many more things can be done
+
+00:39:25.640 --> 00:39:27.640
+what I will tell you
+
+00:39:27.640 --> 00:39:29.640
+the first thing is
+
+00:39:29.640 --> 00:39:31.640
+that in this
+
+00:39:31.640 --> 00:39:33.640
+you can do experiment
+
+00:39:33.640 --> 00:39:35.640
+tracking
+
+00:39:35.640 --> 00:39:37.640
+so if you have read ML ops
+
+00:39:37.640 --> 00:39:39.640
+then you might have heard about ML flow
+
+00:39:39.640 --> 00:39:41.640
+which we use
+
+00:39:41.640 --> 00:39:43.640
+to run multiple
+
+00:39:43.640 --> 00:39:45.640
+experiments on our application
+
+00:39:45.640 --> 00:39:47.640
+so here also you can do
+
+00:39:47.640 --> 00:39:49.640
+exactly the same thing
+
+00:39:49.640 --> 00:39:51.640
+so basically what you will do is
+
+00:39:51.640 --> 00:39:53.640
+that you built your application for the first time
+
+00:39:53.640 --> 00:39:55.640
+now
+
+00:39:55.640 --> 00:39:57.640
+you will have some settings
+
+00:39:57.640 --> 00:39:59.640
+right?
+
+00:39:59.640 --> 00:40:01.640
+for chunking
+
+00:40:01.640 --> 00:40:03.640
+how many characters you are using
+
+00:40:03.640 --> 00:40:05.640
+how much overlap
+
+00:40:05.640 --> 00:40:07.640
+how much temperature
+
+00:40:07.640 --> 00:40:09.640
+you are using
+
+00:40:09.640 --> 00:40:11.640
+some settings related to your embedding model
+
+00:40:11.640 --> 00:40:13.640
+so
+
+00:40:13.640 --> 00:40:15.640
+you have kept all these settings
+
+00:40:15.640 --> 00:40:17.640
+and you have run
+
+00:40:17.640 --> 00:40:19.640
+this eval suite
+
+00:40:19.640 --> 00:40:21.640
+for the first time
+
+00:40:21.640 --> 00:40:23.640
+so what this eval suite
+
+00:40:23.640 --> 00:40:25.640
+will do is
+
+00:40:25.640 --> 00:40:27.640
+for all the metrics
+
+00:40:27.640 --> 00:40:29.640
+it will give you some numbers
+
+00:40:29.640 --> 00:40:31.640
+for example
+
+00:40:31.640 --> 00:40:33.640
+your retriever
+
+00:40:33.640 --> 00:40:35.640
+recall
+
+00:40:35.640 --> 00:40:37.640
+came to 0.82
+
+00:40:37.640 --> 00:40:39.640
+and precision
+
+00:40:39.640 --> 00:40:41.640
+came to 0.68
+
+00:40:41.640 --> 00:40:43.640
+so in this way
+
+00:40:43.640 --> 00:40:45.640
+every metric will have some numbers
+
+00:40:45.640 --> 00:40:47.640
+so what you will do is
+
+00:40:47.640 --> 00:40:49.640
+the run you have done to your software
+
+00:40:49.640 --> 00:40:51.640
+and all the configuration numbers
+
+00:40:51.640 --> 00:40:53.640
+and the metrics numbers
+
+00:40:53.640 --> 00:40:55.640
+you will go and log them
+
+00:40:55.640 --> 00:40:57.640
+where? on ML flow like software
+
+00:40:57.640 --> 00:40:59.640
+so basically experiment 1
+
+00:40:59.640 --> 00:41:01.640
+these were the configuration values
+
+00:41:01.640 --> 00:41:03.640
+around that
+
+00:41:03.640 --> 00:41:05.640
+we got these metric values
+
+00:41:05.640 --> 00:41:07.640
+and what you will call this
+
+00:41:07.640 --> 00:41:09.640
+you will call this your baseline
+
+00:41:09.640 --> 00:41:11.640
+that when we run the software for the first time
+
+00:41:11.640 --> 00:41:13.640
+we got these readings
+
+00:41:13.640 --> 00:41:15.640
+after that you thought
+
+00:41:15.640 --> 00:41:17.640
+let's improve a little
+
+00:41:17.640 --> 00:41:19.640
+so to improve you went
+
+00:41:19.640 --> 00:41:21.640
+you increased the size of chunking
+
+00:41:21.640 --> 00:41:23.640
+reduced the size of overlapping
+
+00:41:23.640 --> 00:41:25.640
+and again
+
+00:41:25.640 --> 00:41:27.640
+you run it
+
+00:41:27.640 --> 00:41:29.640
+with the help of this file
+
+00:41:29.640 --> 00:41:31.640
+now for new settings
+
+00:41:31.640 --> 00:41:33.640
+new readings came
+
+00:41:33.640 --> 00:41:35.640
+so now you can go and log it
+
+00:41:35.640 --> 00:41:37.640
+so you can compare it
+
+00:41:37.640 --> 00:41:39.640
+visually
+
+00:41:39.640 --> 00:41:41.640
+you get a dashboard
+
+00:41:41.640 --> 00:41:43.640
+and on that dashboard
+
+00:41:43.640 --> 00:41:45.640
+you can compare
+
+00:41:45.640 --> 00:41:47.640
+every metric
+
+00:41:47.640 --> 00:41:49.640
+that how I ran it last 10 times
+
+00:41:49.640 --> 00:41:51.640
+so how this metric is going up and down
+
+00:41:51.640 --> 00:41:53.640
+so this regression testing
+
+00:41:53.640 --> 00:41:55.640
+is called experiment tracking
+
+00:41:55.640 --> 00:41:57.640
+and this part
+
+00:41:57.640 --> 00:41:59.640
+is called dashboarding
+
+00:42:01.640 --> 00:42:03.640
+so this
+
+00:42:03.640 --> 00:42:05.640
+basic level regression testing can also be done
+
+00:42:05.640 --> 00:42:07.640
+and if you want to make it more advanced
+
+00:42:07.640 --> 00:42:09.640
+then add an experiment tracker
+
+00:42:09.640 --> 00:42:11.640
+and a dashboard tool
+
+00:42:11.640 --> 00:42:13.640
+so it gets a little better
+
+00:42:13.640 --> 00:42:15.640
+infact you can make it better
+
+00:42:15.640 --> 00:42:17.640
+by adding
+
+00:42:19.640 --> 00:42:21.640
+CI to the mix
+
+00:42:21.640 --> 00:42:23.640
+CI stands for
+
+00:42:23.640 --> 00:42:25.640
+continuous integration
+
+00:42:25.640 --> 00:42:27.640
+so what you will do is
+
+00:42:27.640 --> 00:42:29.640
+that you will take a CI tool
+
+00:42:29.640 --> 00:42:31.640
+for example you
+
+00:42:31.640 --> 00:42:33.640
+took a github action
+
+00:42:33.640 --> 00:42:35.640
+and what you did
+
+00:42:35.640 --> 00:42:37.640
+you put
+
+00:42:37.640 --> 00:42:39.640
+some conditions
+
+00:42:39.640 --> 00:42:41.640
+there that as soon as you
+
+00:42:41.640 --> 00:42:43.640
+change anything in your code
+
+00:42:43.640 --> 00:42:45.640
+and push git
+
+00:42:45.640 --> 00:42:47.640
+suppose you changed the size
+
+00:42:47.640 --> 00:42:49.640
+of chunking value
+
+00:42:49.640 --> 00:42:51.640
+and pushed it
+
+00:42:51.640 --> 00:42:53.640
+so as soon as you changed the code
+
+00:42:53.640 --> 00:42:55.640
+you wrote this code in your CI
+
+00:42:55.640 --> 00:42:57.640
+that as soon as anything changes in the code
+
+00:42:57.640 --> 00:42:59.640
+then run eval
+
+00:42:59.640 --> 00:43:01.640
+again
+
+00:43:01.640 --> 00:43:03.640
+run eval suite again
+
+00:43:03.640 --> 00:43:05.640
+and as soon as it runs
+
+00:43:05.640 --> 00:43:07.640
+basically a new set of
+
+00:43:07.640 --> 00:43:09.640
+readings will come
+
+00:43:09.640 --> 00:43:11.640
+you will quickly compare
+
+00:43:11.640 --> 00:43:13.640
+those readings with the current baseline
+
+00:43:13.640 --> 00:43:15.640
+if
+
+00:43:15.640 --> 00:43:17.640
+your current reading
+
+00:43:17.640 --> 00:43:19.640
+is less than the baseline
+
+00:43:19.640 --> 00:43:21.640
+you will define a threshold
+
+00:43:21.640 --> 00:43:23.640
+that should not be less than 0.3
+
+00:43:23.640 --> 00:43:25.640
+suppose it is less
+
+00:43:25.640 --> 00:43:27.640
+so what you will do instantly
+
+00:43:27.640 --> 00:43:29.640
+you will pause your new deployment
+
+00:43:29.640 --> 00:43:31.640
+you will say
+
+00:43:31.640 --> 00:43:33.640
+that the new change that has been made
+
+00:43:33.640 --> 00:43:35.640
+I cannot deploy it
+
+00:43:35.640 --> 00:43:37.640
+because my current baseline
+
+00:43:37.640 --> 00:43:39.640
+is worse than that
+
+00:43:39.640 --> 00:43:41.640
+so the software
+
+00:43:41.640 --> 00:43:43.640
+is regressed, it is bad
+
+00:43:43.640 --> 00:43:45.640
+on the other hand if you
+
+00:43:45.640 --> 00:43:47.640
+changed the baseline a lot
+
+00:43:47.640 --> 00:43:49.640
+and your baseline improved
+
+00:43:49.640 --> 00:43:51.640
+then you will allow
+
+00:43:51.640 --> 00:43:53.640
+that now you get deployed
+
+00:43:53.640 --> 00:43:55.640
+so basically
+
+00:43:55.640 --> 00:43:57.640
+with the help of CI
+
+00:43:57.640 --> 00:43:59.640
+you can create a gating mechanism
+
+00:43:59.640 --> 00:44:01.640
+which will
+
+00:44:01.640 --> 00:44:03.640
+allow you to
+
+00:44:03.640 --> 00:44:05.640
+easily, without any tension
+
+00:44:05.640 --> 00:44:07.640
+change the software
+
+00:44:07.640 --> 00:44:09.640
+bring improvements in it
+
+00:44:09.640 --> 00:44:11.640
+and push it
+
+00:44:11.640 --> 00:44:13.640
+and deploy it
+
+00:44:13.640 --> 00:44:15.640
+and it will deploy only
+
+00:44:15.640 --> 00:44:17.640
+when your changes
+
+00:44:17.640 --> 00:44:19.640
+bring some positive
+
+00:44:19.640 --> 00:44:21.640
+impact on your current
+
+00:44:21.640 --> 00:44:23.640
+baseline otherwise it will
+
+00:44:23.640 --> 00:44:25.640
+be rejected so I really hope you
+
+00:44:25.640 --> 00:44:27.640
+understand how this whole thing
+
+00:44:27.640 --> 00:44:29.640
+is handled by an engineering team
+
+00:44:29.640 --> 00:44:31.640
+so you guys
+
+00:44:31.640 --> 00:44:33.640
+built an evaluation suite
+
+00:44:33.640 --> 00:44:35.640
+we are using that
+
+00:44:35.640 --> 00:44:37.640
+evaluation suite in regression
+
+00:44:37.640 --> 00:44:39.640
+testing as a gating
+
+00:44:39.640 --> 00:44:41.640
+mechanism I really hope you
+
+00:44:41.640 --> 00:44:43.640
+understand this all I will show you
+
+00:44:43.640 --> 00:44:45.640
+by the way CI
+
+00:44:45.640 --> 00:44:47.640
+I am not really sure if I can show you
+
+00:44:47.640 --> 00:44:49.640
+continuous integration or not but
+
+00:44:49.640 --> 00:44:51.640
+most likely Himanshu will show it to you
+
+00:44:51.640 --> 00:44:53.640
+because it will be taught to you in LLM Ops
+
+00:44:53.640 --> 00:44:55.640
+I could have skipped this topic
+
+00:44:55.640 --> 00:44:57.640
+but I thought since it is
+
+00:44:57.640 --> 00:44:59.640
+related so I will teach you once
+
+00:44:59.640 --> 00:45:01.640
+so is this point clear
+
+00:45:01.640 --> 00:45:03.640
+which I also said even if
+
+00:45:03.640 --> 00:45:05.640
+let's say if you don't know all this
+
+00:45:05.640 --> 00:45:07.640
+you have not studied in ML Ops
+
+00:45:07.640 --> 00:45:09.640
+in that case no problem you can ignore
+
+00:45:09.640 --> 00:45:11.640
+it
+
+00:45:11.640 --> 00:45:13.640
+then also you will understand things
+
+00:45:13.640 --> 00:45:15.640
+I have taught a little extra
+
+00:45:15.640 --> 00:45:17.640
+so on the basis of discussion
+
+00:45:17.640 --> 00:45:19.640
+so far
+
+00:45:19.640 --> 00:45:21.640
+our whole eval strategy is
+
+00:45:21.640 --> 00:45:23.640
+that we are building an eval suite
+
+00:45:23.640 --> 00:45:25.640
+on three levels and with the help of
+
+00:45:25.640 --> 00:45:27.640
+that eval suite we are doing regression
+
+00:45:27.640 --> 00:45:29.640
+testing now in regression testing
+
+00:45:29.640 --> 00:45:31.640
+we have discussed three levels first
+
+00:45:31.640 --> 00:45:33.640
+level simple regression testing
+
+00:45:33.640 --> 00:45:35.640
+where we are running the software
+
+00:45:35.640 --> 00:45:37.640
+once and bringing baseline numbers
+
+00:45:37.640 --> 00:45:39.640
+then every time
+
+00:45:39.640 --> 00:45:41.640
+running and bringing the next number
+
+00:45:41.640 --> 00:45:43.640
+and comparing manually
+
+00:45:43.640 --> 00:45:45.640
+with that we are understanding that
+
+00:45:45.640 --> 00:45:47.640
+our software is improving or not
+
+00:45:47.640 --> 00:45:49.640
+level number two you can automate it
+
+00:45:49.640 --> 00:45:51.640
+by adding a experiment tracking
+
+00:45:51.640 --> 00:45:53.640
+tool such as MLflow
+
+00:45:53.640 --> 00:45:55.640
+so now what are you doing
+
+00:45:55.640 --> 00:45:57.640
+every time you are triggering your eval pipeline
+
+00:45:57.640 --> 00:45:59.640
+every time according to your configuration settings
+
+00:45:59.640 --> 00:46:01.640
+the matrix value is getting logged
+
+00:46:01.640 --> 00:46:03.640
+and you can see it visually with the help
+
+00:46:03.640 --> 00:46:05.640
+of a dashboard so it got a little better
+
+00:46:05.640 --> 00:46:07.640
+and what is a better strategy than this
+
+00:46:07.640 --> 00:46:09.640
+that you use this whole thing
+
+00:46:09.640 --> 00:46:11.640
+for automation
+
+00:46:11.640 --> 00:46:13.640
+bring the CI tool in the picture
+
+00:46:13.640 --> 00:46:15.640
+and tell it that whenever
+
+00:46:15.640 --> 00:46:17.640
+I run my eval pipeline
+
+00:46:17.640 --> 00:46:19.640
+automatically test
+
+00:46:19.640 --> 00:46:21.640
+that my new version of the software
+
+00:46:21.640 --> 00:46:23.640
+is its matrix better
+
+00:46:23.640 --> 00:46:25.640
+than my baseline or not
+
+00:46:25.640 --> 00:46:27.640
+if it is better than the baseline
+
+00:46:27.640 --> 00:46:29.640
+then we will also do deployment
+
+00:46:29.640 --> 00:46:31.640
+and we will change our baseline to the new
+
+00:46:31.640 --> 00:46:33.640
+matrix and you do this continuously
+
+00:46:33.640 --> 00:46:35.640
+so this is how this entire thing is
+
+00:46:35.640 --> 00:46:37.640
+done
+
+00:46:37.640 --> 00:46:39.640
+so is it clear
+
+00:46:39.640 --> 00:46:41.640
+whatever we discussed so far
+
+00:46:41.640 --> 00:46:43.640
+Krishna is asking for these
+
+00:46:43.640 --> 00:46:45.640
+tracking we will use MLflow
+
+00:46:45.640 --> 00:46:47.640
+or LAMFuse
+
+00:46:47.640 --> 00:46:49.640
+honestly Krishna
+
+00:46:49.640 --> 00:46:51.640
+I don't have a plan right now
+
+00:46:51.640 --> 00:46:53.640
+to teach you experiment tracking
+
+00:46:53.640 --> 00:46:55.640
+or to teach you CI so the regression
+
+00:46:55.640 --> 00:46:57.640
+testing I will teach you will be
+
+00:46:57.640 --> 00:46:59.640
+first level where we will run
+
+00:46:59.640 --> 00:47:01.640
+those reports
+
+00:47:01.640 --> 00:47:03.640
+and we will show it in demand prompt
+
+00:47:03.640 --> 00:47:05.640
+and from there we will discuss whether it is better
+
+00:47:05.640 --> 00:47:07.640
+or bad
+
+00:47:07.640 --> 00:47:09.640
+so I am making it level 1
+
+00:47:09.640 --> 00:47:11.640
+Himanshu will make you level 2 and level 3
+
+00:47:11.640 --> 00:47:13.640
+that is
+
+00:47:13.640 --> 00:47:15.640
+part of the NLMops course
+
+00:47:15.640 --> 00:47:17.640
+I just taught it here
+
+00:47:17.640 --> 00:47:19.640
+by the way
+
+00:47:19.640 --> 00:47:21.640
+MLflow is not the only option
+
+00:47:21.640 --> 00:47:23.640
+you can use many more kinds of
+
+00:47:23.640 --> 00:47:25.640
+software for experiment tracking
+
+00:47:25.640 --> 00:47:27.640
+even the deep eval
+
+00:47:27.640 --> 00:47:29.640
+company software
+
+00:47:29.640 --> 00:47:31.640
+AI
+
+00:47:31.640 --> 00:47:33.640
+weights and biases
+
+00:47:33.640 --> 00:47:35.640
+software
+
+00:47:35.640 --> 00:47:37.640
+there are many players in this
+
+00:47:37.640 --> 00:47:39.640
+so the main idea is
+
+00:47:39.640 --> 00:47:41.640
+don't catch the tool, catch the concept
+
+00:47:41.640 --> 00:47:43.640
+so that if you understand the concept
+
+00:47:43.640 --> 00:47:45.640
+then you will learn it in a week
+
+00:47:45.640 --> 00:47:47.640
+because it is not necessary
+
+00:47:47.640 --> 00:47:49.640
+that we teach you MLflow here
+
+00:47:49.640 --> 00:47:51.640
+and send it to the company where you
+
+00:47:51.640 --> 00:47:53.640
+get a job MLflow is used there too
+
+00:47:53.640 --> 00:47:55.640
+it is not necessary
+
+00:47:55.640 --> 00:47:57.640
+no standard tool has been established
+
+00:47:57.640 --> 00:47:59.640
+for MLLms
+
+00:47:59.640 --> 00:48:01.640
+for machine learning yes
+
+00:48:01.640 --> 00:48:03.640
+MLflow has become the de facto standard
+
+00:48:03.640 --> 00:48:05.640
+here no standard has been established
+
+00:48:05.640 --> 00:48:07.640
+so focus on the concept
+
+00:48:13.640 --> 00:48:15.640
+is it clear
+
+00:48:15.640 --> 00:48:17.640
+whatever we discussed till now
+
+00:48:17.640 --> 00:48:19.640
+till regression testing
+
+00:48:19.640 --> 00:48:21.640
+is the concept clear?
+
+00:48:21.640 --> 00:48:23.640
+summary is
+
+00:48:23.640 --> 00:48:25.640
+after making the evaluation suite
+
+00:48:25.640 --> 00:48:27.640
+we will also do regression testing
+
+00:48:27.640 --> 00:48:29.640
+that will be
+
+00:48:29.640 --> 00:48:31.640
+part of our evaluation strategy
+
+00:48:31.640 --> 00:48:33.640
+regression testing
+
+00:48:33.640 --> 00:48:35.640
+not experiment tracking
+
+00:48:35.640 --> 00:48:37.640
+not CI
+
+00:48:37.640 --> 00:48:39.640
+ok
+
+00:48:39.640 --> 00:48:41.640
+now let's talk about the last step
+
+00:48:41.640 --> 00:48:43.640
+once
+
+00:48:43.640 --> 00:48:45.640
+now you have done
+
+00:48:45.640 --> 00:48:47.640
+your regression testing
+
+00:48:47.640 --> 00:48:49.640
+and you realized
+
+00:48:49.640 --> 00:48:51.640
+that the readings of the new version of the software
+
+00:48:51.640 --> 00:48:53.640
+its metrics
+
+00:48:53.640 --> 00:48:55.640
+are better than the baseline
+
+00:48:55.640 --> 00:48:57.640
+so what will you do now?
+
+00:48:57.640 --> 00:48:59.640
+now you will deploy
+
+00:48:59.640 --> 00:49:01.640
+that software
+
+00:49:01.640 --> 00:49:03.640
+right, deployment will be done
+
+00:49:03.640 --> 00:49:05.640
+but after deployment
+
+00:49:05.640 --> 00:49:07.640
+the evaluation does not stop
+
+00:49:07.640 --> 00:49:09.640
+I had taught you this
+
+00:49:09.640 --> 00:49:11.640
+and we are going to do the same thing here
+
+00:49:11.640 --> 00:49:13.640
+once the software is deployed
+
+00:49:13.640 --> 00:49:15.640
+even after that
+
+00:49:15.640 --> 00:49:17.640
+we will keep evaluating it
+
+00:49:17.640 --> 00:49:19.640
+and this evaluation is called
+
+00:49:19.640 --> 00:49:21.640
+online evaluation
+
+00:49:21.640 --> 00:49:23.640
+now what all things you will do here
+
+00:49:23.640 --> 00:49:25.640
+I will tell you quickly
+
+00:49:25.640 --> 00:49:27.640
+here you measure 3-4 things
+
+00:49:27.640 --> 00:49:29.640
+once the software is online
+
+00:49:29.640 --> 00:49:31.640
+you measure 3-4 things
+
+00:49:31.640 --> 00:49:33.640
+first you
+
+00:49:33.640 --> 00:49:35.640
+capture some things
+
+00:49:35.640 --> 00:49:37.640
+like
+
+00:49:37.640 --> 00:49:39.640
+every time when a student
+
+00:49:39.640 --> 00:49:41.640
+comes to our chatbot and asks doubts
+
+00:49:41.640 --> 00:49:43.640
+then to answer his question
+
+00:49:43.640 --> 00:49:45.640
+what is the latency
+
+00:49:45.640 --> 00:49:47.640
+how much is the cost
+
+00:49:47.640 --> 00:49:49.640
+did he give thumbs up
+
+00:49:49.640 --> 00:49:51.640
+or thumbs down
+
+00:49:51.640 --> 00:49:53.640
+you capture all these signals
+
+00:49:53.640 --> 00:49:55.640
+quickly write to me in the chat
+
+00:49:55.640 --> 00:49:57.640
+to do this whole thing
+
+00:49:57.640 --> 00:49:59.640
+which software can we use
+
+00:49:59.640 --> 00:50:01.640
+give me one software name
+
+00:50:01.640 --> 00:50:03.640
+which we can use, I have shown you in the past
+
+00:50:07.640 --> 00:50:09.640
+which software can we use for this work
+
+00:50:09.640 --> 00:50:11.640
+to collect these signals
+
+00:50:11.640 --> 00:50:13.640
+Lansmith
+
+00:50:13.640 --> 00:50:15.640
+Langgraph
+
+00:50:15.640 --> 00:50:17.640
+Langsmith is one option
+
+00:50:19.640 --> 00:50:21.640
+we also have Lansfuse
+
+00:50:21.640 --> 00:50:23.640
+in fact
+
+00:50:23.640 --> 00:50:25.640
+Confident AI also works
+
+00:50:25.640 --> 00:50:27.640
+we call it tracing
+
+00:50:27.640 --> 00:50:29.640
+or observability
+
+00:50:29.640 --> 00:50:31.640
+in the world of LLMs
+
+00:50:31.640 --> 00:50:33.640
+so basically what we will do
+
+00:50:33.640 --> 00:50:35.640
+we will add some
+
+00:50:35.640 --> 00:50:37.640
+tracking code in our code
+
+00:50:37.640 --> 00:50:39.640
+and by adding that tracking code
+
+00:50:39.640 --> 00:50:41.640
+we will capture all the interactions
+
+00:50:41.640 --> 00:50:43.640
+on our software when it is live
+
+00:50:43.640 --> 00:50:45.640
+all the interactions related data
+
+00:50:45.640 --> 00:50:47.640
+we will capture
+
+00:50:47.640 --> 00:50:49.640
+latency, cost, tokens, thumbs up
+
+00:50:49.640 --> 00:50:51.640
+thumbs down, all these things we will capture
+
+00:50:51.640 --> 00:50:53.640
+and all that we will see
+
+00:50:53.640 --> 00:50:55.640
+in one place in a dashboard
+
+00:50:55.640 --> 00:50:57.640
+which is Lansmith's dashboard
+
+00:50:57.640 --> 00:50:59.640
+apart from this
+
+00:50:59.640 --> 00:51:01.640
+we will also compute some other values
+
+00:51:01.640 --> 00:51:03.640
+these are captured values
+
+00:51:03.640 --> 00:51:05.640
+whatever is coming, we are storing it as it is coming
+
+00:51:05.640 --> 00:51:07.640
+but we will also capture some things
+
+00:51:07.640 --> 00:51:09.640
+like when our software
+
+00:51:09.640 --> 00:51:11.640
+is deployed
+
+00:51:11.640 --> 00:51:13.640
+online
+
+00:51:13.640 --> 00:51:15.640
+how is its faithfulness
+
+00:51:15.640 --> 00:51:17.640
+or how is its answer relevance
+
+00:51:17.640 --> 00:51:19.640
+or how is its correctness
+
+00:51:19.640 --> 00:51:21.640
+the things we tested offline
+
+00:51:21.640 --> 00:51:23.640
+the same things
+
+00:51:23.640 --> 00:51:25.640
+we test online
+
+00:51:25.640 --> 00:51:27.640
+so this is also our work
+
+00:51:27.640 --> 00:51:29.640
+after that we
+
+00:51:29.640 --> 00:51:31.640
+check drift
+
+00:51:31.640 --> 00:51:33.640
+drift basically means
+
+00:51:33.640 --> 00:51:35.640
+that over time our software
+
+00:51:35.640 --> 00:51:37.640
+performance is not getting bad
+
+00:51:37.640 --> 00:51:39.640
+I had told this in a lecture
+
+00:51:39.640 --> 00:51:41.640
+that we have
+
+00:51:41.640 --> 00:51:43.640
+a last 24 hours graph
+
+00:51:43.640 --> 00:51:45.640
+in that we are tracking some metric
+
+00:51:45.640 --> 00:51:47.640
+for example faithfulness
+
+00:51:47.640 --> 00:51:49.640
+so suddenly in the last 8 hours
+
+00:51:49.640 --> 00:51:51.640
+the curve of faithfulness is going down
+
+00:51:51.640 --> 00:51:53.640
+so this is a kind of
+
+00:51:53.640 --> 00:51:55.640
+drift which we are detecting
+
+00:51:55.640 --> 00:51:57.640
+and with that we do alerting
+
+00:51:57.640 --> 00:51:59.640
+and after alerting we improve it
+
+00:51:59.640 --> 00:52:01.640
+so you have to do this whole thing
+
+00:52:01.640 --> 00:52:03.640
+once the software
+
+00:52:03.640 --> 00:52:05.640
+is deployed
+
+00:52:05.640 --> 00:52:07.640
+after that we will do this
+
+00:52:07.640 --> 00:52:09.640
+and lastly there will be
+
+00:52:09.640 --> 00:52:11.640
+a self improving loop
+
+00:52:11.640 --> 00:52:13.640
+which basically means
+
+00:52:13.640 --> 00:52:15.640
+that sometime there will be a chat
+
+00:52:15.640 --> 00:52:17.640
+with a student
+
+00:52:17.640 --> 00:52:19.640
+where our software will misbehave
+
+00:52:19.640 --> 00:52:21.640
+our application will misbehave
+
+00:52:21.640 --> 00:52:23.640
+so we will pick up
+
+00:52:23.640 --> 00:52:25.640
+those specific instances
+
+00:52:25.640 --> 00:52:27.640
+and make our offline
+
+00:52:27.640 --> 00:52:29.640
+eval part
+
+00:52:29.640 --> 00:52:31.640
+our offline data set part
+
+00:52:31.640 --> 00:52:33.640
+so that our offline data set
+
+00:52:33.640 --> 00:52:35.640
+our golden data sets
+
+00:52:35.640 --> 00:52:37.640
+get more enriched
+
+00:52:37.640 --> 00:52:39.640
+so that when we make a new version in future
+
+00:52:39.640 --> 00:52:41.640
+and when we evaluate it offline
+
+00:52:41.640 --> 00:52:43.640
+then it
+
+00:52:43.640 --> 00:52:45.640
+can be evaluated better
+
+00:52:45.640 --> 00:52:47.640
+so that is why there is a loop
+
+00:52:47.640 --> 00:52:49.640
+here
+
+00:52:49.640 --> 00:52:51.640
+so this is how
+
+00:52:51.640 --> 00:52:53.640
+the entire
+
+00:52:53.640 --> 00:52:55.640
+evaluation strategy will be carried out
+
+00:52:55.640 --> 00:52:57.640
+this is what I have thought for you
+
+00:52:57.640 --> 00:52:59.640
+that we will make a rag application
+
+00:52:59.640 --> 00:53:01.640
+and we will make it at this level
+
+00:53:01.640 --> 00:53:03.640
+the whole page that you can see on the screen
+
+00:53:03.640 --> 00:53:05.640
+we will test it
+
+00:53:05.640 --> 00:53:07.640
+according to this
+
+00:53:07.640 --> 00:53:09.640
+so my
+
+00:53:09.640 --> 00:53:11.640
+plan of action is
+
+00:53:11.640 --> 00:53:13.640
+that in the next class
+
+00:53:13.640 --> 00:53:15.640
+I will
+
+00:53:15.640 --> 00:53:17.640
+teach you
+
+00:53:17.640 --> 00:53:19.640
+the complete component
+
+00:53:19.640 --> 00:53:21.640
+level evaluation
+
+00:53:21.640 --> 00:53:23.640
+which basically means that in the next class
+
+00:53:23.640 --> 00:53:25.640
+I will make you a retriever
+
+00:53:25.640 --> 00:53:27.640
+and then teach you to test the retriever
+
+00:53:27.640 --> 00:53:29.640
+then I will make a generator
+
+00:53:29.640 --> 00:53:31.640
+and then I will teach you to test the generator
+
+00:53:31.640 --> 00:53:33.640
+and in the same process
+
+00:53:33.640 --> 00:53:35.640
+you will do deep eval
+
+00:53:35.640 --> 00:53:37.640
+for the first time
+
+00:53:37.640 --> 00:53:39.640
+after that in the next session
+
+00:53:39.640 --> 00:53:41.640
+we will build a rag pipeline
+
+00:53:41.640 --> 00:53:43.640
+and we will
+
+00:53:43.640 --> 00:53:45.640
+run this rag
+
+00:53:45.640 --> 00:53:47.640
+triad
+
+00:53:47.640 --> 00:53:49.640
+three metrics
+
+00:53:49.640 --> 00:53:51.640
+after that
+
+00:53:51.640 --> 00:53:53.640
+third session
+
+00:53:53.640 --> 00:53:55.640
+or maybe it can be a little early
+
+00:53:55.640 --> 00:53:57.640
+I don't really know because
+
+00:53:57.640 --> 00:53:59.640
+I don't know how it will turn out in the future
+
+00:53:59.640 --> 00:54:01.640
+we will run the entire evaluation
+
+00:54:01.640 --> 00:54:03.640
+at the application level
+
+00:54:03.640 --> 00:54:05.640
+and fourth, the final session
+
+00:54:05.640 --> 00:54:07.640
+we will cover regression testing
+
+00:54:07.640 --> 00:54:09.640
+and online eval
+
+00:54:09.640 --> 00:54:11.640
+we will cover this
+
+00:54:11.640 --> 00:54:13.640
+so basically in the next four sessions
+
+00:54:13.640 --> 00:54:15.640
+the whole framework that we have made
+
+00:54:15.640 --> 00:54:17.640
+of testing a rag application
+
+00:54:17.640 --> 00:54:19.640
+we will practically
+
+00:54:19.640 --> 00:54:21.640
+carry out
+
+00:54:21.640 --> 00:54:23.640
+this is our road map
+
+00:54:23.640 --> 00:54:25.640
+of the four sessions
+
+00:54:25.640 --> 00:54:27.640
+I am not starting today because
+
+00:54:27.640 --> 00:54:29.640
+this whole thing is
+
+00:54:29.640 --> 00:54:31.640
+around two hours
+
+00:54:31.640 --> 00:54:33.640
+and I want to do this in two hours in one stretch
+
+00:54:33.640 --> 00:54:35.640
+I don't want to make you read
+
+00:54:35.640 --> 00:54:37.640
+one hour today and then one hour on Saturday
+
+00:54:37.640 --> 00:54:39.640
+the flow breaks down
+
+00:54:39.640 --> 00:54:41.640
+so I have kept today's class specifically
+
+00:54:41.640 --> 00:54:43.640
+to have this entire discussion
+
+00:54:43.640 --> 00:54:45.640
+by the way I think
+
+00:54:45.640 --> 00:54:47.640
+on the basis of today's session
+
+00:54:47.640 --> 00:54:49.640
+you can kind of
+
+00:54:49.640 --> 00:54:51.640
+tackle this question
+
+00:54:51.640 --> 00:54:53.640
+don't you think?
+
+00:54:53.640 --> 00:54:55.640
+do you think
+
+00:54:55.640 --> 00:54:57.640
+if someone asks you this question now
+
+00:54:57.640 --> 00:54:59.640
+how do you evaluate
+
+00:54:59.640 --> 00:55:01.640
+your rag chatbot
+
+00:55:01.640 --> 00:55:03.640
+will you be able to answer this question?
+
+00:55:03.640 --> 00:55:05.640
+think about it, it's very simple
+
+00:55:05.640 --> 00:55:07.640
+what you have to say is
+
+00:55:07.640 --> 00:55:09.640
+first I will build an evaluation suite
+
+00:55:09.640 --> 00:55:11.640
+that person will ask
+
+00:55:11.640 --> 00:55:13.640
+what is an evaluation suite
+
+00:55:13.640 --> 00:55:15.640
+you will say that I will test
+
+00:55:15.640 --> 00:55:17.640
+my application at three levels
+
+00:55:17.640 --> 00:55:19.640
+I will test it on the
+
+00:55:19.640 --> 00:55:21.640
+component level where I
+
+00:55:21.640 --> 00:55:23.640
+will test the retriever and generator
+
+00:55:23.640 --> 00:55:25.640
+tell me the name of the metrics
+
+00:55:25.640 --> 00:55:27.640
+then I will test it at the pipeline level
+
+00:55:27.640 --> 00:55:29.640
+tell me rag triad
+
+00:55:29.640 --> 00:55:31.640
+then I will test it at the application level
+
+00:55:31.640 --> 00:55:33.640
+correctness, completeness
+
+00:55:33.640 --> 00:55:35.640
+then I will test the safety and operation metrics
+
+00:55:35.640 --> 00:55:37.640
+and once this whole thing is done
+
+00:55:37.640 --> 00:55:39.640
+I will use all of these
+
+00:55:39.640 --> 00:55:41.640
+and do regression testing
+
+00:55:41.640 --> 00:55:43.640
+regression testing can also have three levels
+
+00:55:43.640 --> 00:55:45.640
+basic, experiment tracking
+
+00:55:45.640 --> 00:55:47.640
+CICD
+
+00:55:47.640 --> 00:55:49.640
+I will operate at one level
+
+00:55:49.640 --> 00:55:51.640
+according to my company
+
+00:55:51.640 --> 00:55:53.640
+and once the regression testing is done
+
+00:55:53.640 --> 00:55:55.640
+and I get a new baseline
+
+00:55:55.640 --> 00:55:57.640
+I will deploy it
+
+00:55:57.640 --> 00:55:59.640
+and even after deploying I will not stop
+
+00:55:59.640 --> 00:56:01.640
+I will run online evaluations
+
+00:56:01.640 --> 00:56:03.640
+what will you run online?
+
+00:56:03.640 --> 00:56:05.640
+and I will make the mistakes there
+
+00:56:05.640 --> 00:56:07.640
+and make my offline eval part
+
+00:56:07.640 --> 00:56:09.640
+trust me on this
+
+00:56:09.640 --> 00:56:11.640
+when you answer this
+
+00:56:11.640 --> 00:56:13.640
+in the interview
+
+00:56:13.640 --> 00:56:15.640
+then the other person will properly understand
+
+00:56:15.640 --> 00:56:17.640
+because there is nothing
+
+00:56:17.640 --> 00:56:19.640
+other than this rag evaluation
+
+00:56:19.640 --> 00:56:21.640
+this is the answer to this question
+
+00:56:21.640 --> 00:56:23.640
+what many people do
+
+00:56:23.640 --> 00:56:25.640
+I have taken the interviews myself
+
+00:56:25.640 --> 00:56:27.640
+so I can tell you when I ask the candidates
+
+00:56:27.640 --> 00:56:29.640
+when I ask many people how to evaluate
+
+00:56:29.640 --> 00:56:31.640
+the rag chatbot
+
+00:56:31.640 --> 00:56:33.640
+a lot of people don't know this answer
+
+00:56:33.640 --> 00:56:35.640
+because they have never read the evaluations
+
+00:56:35.640 --> 00:56:37.640
+the people who have read the evaluations
+
+00:56:37.640 --> 00:56:39.640
+the majority of the people answer this
+
+00:56:39.640 --> 00:56:41.640
+that we will check the recall
+
+00:56:41.640 --> 00:56:43.640
+we will check the precision
+
+00:56:43.640 --> 00:56:45.640
+we will check the answer relevance
+
+00:56:45.640 --> 00:56:47.640
+they take the name of 3-4 metrics
+
+00:56:47.640 --> 00:56:49.640
+and they think that is the answer
+
+00:56:49.640 --> 00:56:51.640
+but trust me there is a framework
+
+00:56:51.640 --> 00:56:53.640
+when you will answer it
+
+00:56:53.640 --> 00:56:55.640
+like a framework
+
+00:56:55.640 --> 00:56:57.640
+then the other person will give you respect
+
+00:56:57.640 --> 00:56:59.640
+that yes boss he knows
+
+00:56:59.640 --> 00:57:01.640
+he has done it
+
+00:57:01.640 --> 00:57:03.640
+so when you will practically do this
+
+00:57:03.640 --> 00:57:05.640
+in the next 4 sessions
+
+00:57:05.640 --> 00:57:07.640
+then it will be ingrained in your mind
+
+00:57:07.640 --> 00:57:09.640
+and that is the idea
+
+00:57:09.640 --> 00:57:11.640
+that in the next 4 sessions I have to create a resource
+
+00:57:11.640 --> 00:57:13.640
+so that when anyone
+
+00:57:13.640 --> 00:57:15.640
+wants to understand rag evaluation
+
+00:57:15.640 --> 00:57:17.640
+then he will understand by seeing these 4 lectures
+
+00:57:17.640 --> 00:57:19.640
+that is the whole idea
+
+00:57:19.640 --> 00:57:21.640
+so yeah
+
+00:57:21.640 --> 00:57:23.640
+we are ending this lecture on a promise
+
+00:57:23.640 --> 00:57:25.640
+that the next 4 lectures
+
+00:57:25.640 --> 00:57:27.640
+will be very interesting
+
+00:57:27.640 --> 00:57:29.640
+so that is all for today
+
+00:57:29.640 --> 00:57:31.640
+small session
+
+00:57:31.640 --> 00:57:33.640
+let me know what are your thoughts
+
+00:57:35.640 --> 00:57:37.640
+you will answer this question guys
+
+00:57:37.640 --> 00:57:39.640
+this one, I think you will answer it now
+
+00:57:39.640 --> 00:57:41.640
+I actually started speaking
+
+00:57:41.640 --> 00:57:43.640
+so I didn't pay attention
+
+00:57:45.640 --> 00:57:47.640
+do you feel you can answer better
+
+00:57:47.640 --> 00:57:49.640
+than your competition
+
+00:57:49.640 --> 00:57:51.640
+you are in a better place to answer this question
+
+00:57:53.640 --> 00:57:55.640
+ok
+
+00:57:57.640 --> 00:57:59.640
+so we will see this practically
+
+00:57:59.640 --> 00:58:01.640
+there can be some plus or minus
+
+00:58:01.640 --> 00:58:03.640
+which I have planned
+
+00:58:03.640 --> 00:58:05.640
+because I have not done it practically
+
+00:58:05.640 --> 00:58:07.640
+so there will be some improvisations
+
+00:58:07.640 --> 00:58:09.640
+but largely
+
+00:58:09.640 --> 00:58:11.640
+the framework we have discussed
+
+00:58:11.640 --> 00:58:13.640
+we will stick to this
+
+00:58:13.640 --> 00:58:15.640
+and you will see a better version of this
+
+00:58:15.640 --> 00:58:17.640
+in the Himanchu course
+
+00:58:17.640 --> 00:58:19.640
+so you are getting this treatment from both sides
+
+00:58:19.640 --> 00:58:21.640
+and once we cover this
+
+00:58:21.640 --> 00:58:23.640
+then we will move to the eval of agents
+
+00:58:23.640 --> 00:58:25.640
+which is a little more difficult
+
+00:58:25.640 --> 00:58:27.640
+and a little more tricky
+
+00:58:27.640 --> 00:58:29.640
+but again it will be fun
+
+00:58:29.640 --> 00:58:31.640
+so if you have any questions
+
+00:58:31.640 --> 00:58:33.640
+you can ask
+
+00:58:33.640 --> 00:58:35.640
+today's session is short
+
+00:58:37.640 --> 00:58:39.640
+so if you have any questions
+
+00:58:39.640 --> 00:58:41.640
+or doubts
+
+00:58:41.640 --> 00:58:43.640
+then you can go
+
+00:58:43.640 --> 00:58:45.640
+before that
+
+00:58:45.640 --> 00:58:47.640
+an important thing
+
+00:58:47.640 --> 00:58:49.640
+we have shared the last month's feedback form with you
+
+00:58:49.640 --> 00:58:51.640
+give us feedback
+
+00:58:51.640 --> 00:58:53.640
+if you have any complaints then write it
+
+00:58:53.640 --> 00:58:55.640
+I have promised you
+
+00:58:55.640 --> 00:58:57.640
+that your feedback is very important
+
+00:58:57.640 --> 00:58:59.640
+we have made many changes in your last feedback
+
+00:58:59.640 --> 00:59:01.640
+you must have seen it
+
+00:59:01.640 --> 00:59:03.640
+so if you have any questions
+
+00:59:03.640 --> 00:59:05.640
+then write it
+
+00:59:05.640 --> 00:59:07.640
+we have made many changes in your last feedback
+
+00:59:07.640 --> 00:59:09.640
+you must have seen it
+
+00:59:09.640 --> 00:59:11.640
+so going forward
+
+00:59:11.640 --> 00:59:13.640
+whatever is in our control we will definitely do
+
+00:59:13.640 --> 00:59:15.640
+so please use your
+
+00:59:15.640 --> 00:59:17.640
+feedback power
+
+00:59:17.640 --> 00:59:19.640
+if you feel that you need any improvement
+
+00:59:19.640 --> 00:59:21.640
+or any suggestion
+
+00:59:21.640 --> 00:59:23.640
+then send it to us without hesitation
+
+00:59:23.640 --> 00:59:25.640
+we will try our best
+
+00:59:25.640 --> 00:59:27.640
+we talk about how to improve this
+
+00:59:27.640 --> 00:59:29.640
+so trust me we need your feedback
+
+00:59:29.640 --> 00:59:31.640
+it's kind of
+
+00:59:31.640 --> 00:59:33.640
+it gives us direction
+
+00:59:33.640 --> 00:59:35.640
+so
+
+00:59:37.640 --> 00:59:39.640
+Harry
+
+00:59:39.640 --> 00:59:41.640
+it's the same
+
+00:59:41.640 --> 00:59:43.640
+4 more sessions will be
+
+00:59:43.640 --> 00:59:45.640
+on the rag eval
+
+00:59:45.640 --> 00:59:47.640
+and I think 4 more sessions will be
+
+00:59:47.640 --> 00:59:49.640
+on the agent eval
+
+00:59:49.640 --> 00:59:51.640
+so take 8 more sessions
+
+00:59:55.640 --> 00:59:57.640
+please take one certification
+
+00:59:57.640 --> 00:59:59.640
+session
+
+00:59:59.640 --> 01:00:01.640
+what is
+
+01:00:01.640 --> 01:00:03.640
+a certification?
+
+01:00:05.640 --> 01:00:07.640
+can you share resource and books
+
+01:00:07.640 --> 01:00:09.640
+if someone wants to deep down more
+
+01:00:09.640 --> 01:00:11.640
+Ravi I will be very honest
+
+01:00:11.640 --> 01:00:13.640
+this is a very new topic
+
+01:00:13.640 --> 01:00:15.640
+and at this point
+
+01:00:15.640 --> 01:00:17.640
+if there are books
+
+01:00:17.640 --> 01:00:19.640
+then there is no standard set
+
+01:00:19.640 --> 01:00:21.640
+that this book is very good for this topic
+
+01:00:21.640 --> 01:00:23.640
+so
+
+01:00:23.640 --> 01:00:25.640
+there is a good chance that what we are teaching you
+
+01:00:25.640 --> 01:00:27.640
+is the most in depth
+
+01:00:27.640 --> 01:00:29.640
+because we are actually taking a lot of time
+
+01:00:29.640 --> 01:00:31.640
+so if I get some good resource
+
+01:00:31.640 --> 01:00:33.640
+then I will definitely share
+
+01:00:33.640 --> 01:00:35.640
+but I don't have
+
+01:00:35.640 --> 01:00:37.640
+a single book in my mind
+
+01:00:37.640 --> 01:00:39.640
+I have seen multiple books on this topic
+
+01:00:39.640 --> 01:00:41.640
+but when I saw the books
+
+01:00:41.640 --> 01:00:43.640
+I was not convinced that I should
+
+01:00:43.640 --> 01:00:45.640
+recommend it
+
+01:00:45.640 --> 01:00:47.640
+so at this point I cannot recommend
+
+01:00:47.640 --> 01:00:49.640
+for someone who is acting as
+
+01:00:49.640 --> 01:00:51.640
+a BA for AI agents
+
+01:00:51.640 --> 01:00:53.640
+what is BA?
+
+01:00:53.640 --> 01:00:55.640
+is BA
+
+01:00:55.640 --> 01:00:57.640
+business analyst?
+
+01:00:57.640 --> 01:00:59.640
+even if you are a
+
+01:00:59.640 --> 01:01:01.640
+business analyst
+
+01:01:01.640 --> 01:01:03.640
+this is
+
+01:01:03.640 --> 01:01:05.640
+a good amount of depth
+
+01:01:05.640 --> 01:01:07.640
+for you
+
+01:01:07.640 --> 01:01:09.640
+for that matter
+
+01:01:09.640 --> 01:01:11.640
+for any professional
+
+01:01:11.640 --> 01:01:13.640
+this is a very good
+
+01:01:13.640 --> 01:01:15.640
+level of depth
+
+01:01:15.640 --> 01:01:17.640
+if you achieve this
+
+01:01:17.640 --> 01:01:19.640
+you are able to make eval systems
+
+01:01:19.640 --> 01:01:21.640
+it's more than enough
+
+01:01:21.640 --> 01:01:23.640
+honestly
+
+01:01:23.640 --> 01:01:25.640
+yeah Amir I have seen
+
+01:01:25.640 --> 01:01:27.640
+I will unmute you in a while
+
+01:01:27.640 --> 01:01:29.640
+I will take the chat questions
+
+01:01:35.640 --> 01:01:37.640
+I am getting a lot of praise for the notes
+
+01:01:37.640 --> 01:01:39.640
+we have actually
+
+01:01:39.640 --> 01:01:41.640
+Himanshu and Sufal are working on this
+
+01:01:41.640 --> 01:01:43.640
+they are building
+
+01:01:43.640 --> 01:01:45.640
+some new system
+
+01:01:45.640 --> 01:01:47.640
+this is the output
+
+01:01:47.640 --> 01:01:49.640
+once the system becomes stable
+
+01:01:49.640 --> 01:01:51.640
+we are testing it
+
+01:01:51.640 --> 01:01:53.640
+we will start making it for everyone
+
+01:01:53.640 --> 01:01:55.640
+we have available transcripts
+
+01:01:55.640 --> 01:01:57.640
+we will make it for everyone
+
+01:01:57.640 --> 01:01:59.640
+you will have to be patient
+
+01:01:59.640 --> 01:02:01.640
+azure AWS certifications
+
+01:02:01.640 --> 01:02:03.640
+or parul
+
+01:02:03.640 --> 01:02:05.640
+this is our goal
+
+01:02:05.640 --> 01:02:07.640
+teach you these conceptual things
+
+01:02:07.640 --> 01:02:09.640
+like LLM Ops, LLME evals
+
+01:02:09.640 --> 01:02:11.640
+system design
+
+01:02:11.640 --> 01:02:13.640
+after teaching all this
+
+01:02:13.640 --> 01:02:15.640
+we will work tool based
+
+01:02:15.640 --> 01:02:17.640
+we will teach things around this
+
+01:02:17.640 --> 01:02:19.640
+Sir, I think
+
+01:02:19.640 --> 01:02:21.640
+the interviewer
+
+01:02:21.640 --> 01:02:23.640
+in the book reading session
+
+01:02:23.640 --> 01:02:25.640
+he doesn't seem interactive
+
+01:02:25.640 --> 01:02:27.640
+Krishna I said the same thing
+
+01:02:27.640 --> 01:02:29.640
+those who are coming from the industry
+
+01:02:29.640 --> 01:02:31.640
+don't expect
+
+01:02:31.640 --> 01:02:33.640
+from them
+
+01:02:33.640 --> 01:02:35.640
+that they will teach like a teacher
+
+01:02:35.640 --> 01:02:37.640
+because that person has worked in the industry
+
+01:02:37.640 --> 01:02:39.640
+he doesn't have that much experience in teaching
+
+01:02:39.640 --> 01:02:41.640
+so extract as much as you can
+
+01:02:41.640 --> 01:02:43.640
+from that
+
+01:02:43.640 --> 01:02:45.640
+we are there to teach
+
+01:02:45.640 --> 01:02:47.640
+even if it seems boring
+
+01:02:47.640 --> 01:02:49.640
+extract his experience
+
+01:02:49.640 --> 01:02:51.640
+that would be my suggestion
+
+01:02:51.640 --> 01:02:53.640
+I am saying again and again
+
+01:02:53.640 --> 01:02:55.640
+if someone is coming from the industry
+
+01:02:55.640 --> 01:02:57.640
+you will expect
+
+01:02:57.640 --> 01:02:59.640
+from them
+
+01:02:59.640 --> 01:03:01.640
+it is not possible
+
+01:03:01.640 --> 01:03:03.640
+because that is not his main job
+
+01:03:03.640 --> 01:03:05.640
+so extract his experience
+
+01:03:05.640 --> 01:03:07.640
+that is important
+
+01:03:07.640 --> 01:03:09.640
+we are there to teach
+
+01:03:09.640 --> 01:03:11.640
+we will teach
+
+01:03:11.640 --> 01:03:13.640
+please suggest which certificate
+
+01:03:13.640 --> 01:03:15.640
+would help me stand out
+
+01:03:15.640 --> 01:03:17.640
+Sneha I always keep one stand
+
+01:03:17.640 --> 01:03:19.640
+I honestly feel
+
+01:03:19.640 --> 01:03:21.640
+certifications don't
+
+01:03:21.640 --> 01:03:23.640
+help you much
+
+01:03:23.640 --> 01:03:25.640
+unless it is a very new certification
+
+01:03:25.640 --> 01:03:27.640
+and it is getting very popular
+
+01:03:27.640 --> 01:03:29.640
+I don't know if there is a new certification
+
+01:03:29.640 --> 01:03:31.640
+of Claude
+
+01:03:31.640 --> 01:03:33.640
+not many people will have it
+
+01:03:33.640 --> 01:03:35.640
+but over time it will also saturate
+
+01:03:35.640 --> 01:03:37.640
+so certificates
+
+01:03:37.640 --> 01:03:39.640
+I personally don't find them very useful
+
+01:03:39.640 --> 01:03:41.640
+especially if there is a cost attached
+
+01:03:41.640 --> 01:03:43.640
+I would recommend not to do any kind
+
+01:03:43.640 --> 01:03:45.640
+of certifications
+
+01:03:45.640 --> 01:03:47.640
+but again
+
+01:03:47.640 --> 01:03:49.640
+a new certification is coming from
+
+01:03:49.640 --> 01:03:51.640
+an established company
+
+01:03:51.640 --> 01:03:53.640
+in which not many people have enrolled
+
+01:03:53.640 --> 01:03:55.640
+that could be a good certification
+
+01:03:55.640 --> 01:03:57.640
+so Claude I think could be a good certification
+
+01:03:57.640 --> 01:03:59.640
+right now in the AI age
+
+01:03:59.640 --> 01:04:01.640
+because Claude is a leading provider
+
+01:04:01.640 --> 01:04:03.640
+so that would be one option
+
+01:04:05.640 --> 01:04:07.640
+Shagul business analyst
+
+01:04:07.640 --> 01:04:09.640
+if you are a business analyst
+
+01:04:09.640 --> 01:04:11.640
+then this level of depth
+
+01:04:11.640 --> 01:04:13.640
+is a good amount of depth
+
+01:04:13.640 --> 01:04:15.640
+if you do this I don't think there will be
+
+01:04:15.640 --> 01:04:17.640
+more expectations from someone
+
+01:04:17.640 --> 01:04:19.640
+plus when you learn this
+
+01:04:19.640 --> 01:04:21.640
+then you will be able to understand
+
+01:04:21.640 --> 01:04:23.640
+more than this
+
+01:04:23.640 --> 01:04:25.640
+it is like you have a torch in your hand
+
+01:04:25.640 --> 01:04:27.640
+and you have to go ahead in the jungle
+
+01:04:27.640 --> 01:04:29.640
+and the light of the torch is 10 meters
+
+01:04:29.640 --> 01:04:31.640
+so it does not mean that you are restricted
+
+01:04:31.640 --> 01:04:33.640
+to 10 meters
+
+01:04:33.640 --> 01:04:35.640
+if you go ahead 10 meters
+
+01:04:35.640 --> 01:04:37.640
+then you go ahead 10 meters
+
+01:04:37.640 --> 01:04:39.640
+which basically means that if you are able to
+
+01:04:39.640 --> 01:04:41.640
+handle this level of depth
+
+01:04:41.640 --> 01:04:43.640
+then automatically your appetite to
+
+01:04:43.640 --> 01:04:45.640
+handle more depth increases
+
+01:04:45.640 --> 01:04:47.640
+so that will start happening automatically
+
+01:04:47.640 --> 01:04:49.640
+so don't think about what level you have to learn
+
+01:04:49.640 --> 01:04:51.640
+now what we are bringing for you
+
+01:04:51.640 --> 01:04:53.640
+understand that
+
+01:04:53.640 --> 01:04:55.640
+upgrade yourself automatically
+
+01:04:55.640 --> 01:04:57.640
+your horizon will expand
+
+01:04:57.640 --> 01:04:59.640
+you will be able to understand more
+
+01:04:59.640 --> 01:05:01.640
+see more, decode more
+
+01:05:01.640 --> 01:05:03.640
+where to find the feedback
+
+01:05:03.640 --> 01:05:05.640
+feedback, survey
+
+01:05:05.640 --> 01:05:07.640
+the first session
+
+01:05:07.640 --> 01:05:09.640
+in the whatsapp group
+
+01:05:09.640 --> 01:05:11.640
+whatsapp group is there so far I guess
+
+01:05:11.640 --> 01:05:13.640
+for deployment
+
+01:05:13.640 --> 01:05:15.640
+can there be any specific sessions
+
+01:05:15.640 --> 01:05:17.640
+we will do it in LLM ops
+
+01:05:17.640 --> 01:05:19.640
+it is not part of this course
+
+01:05:19.640 --> 01:05:21.640
+we will teach you deployment in LLM ops
+
+01:05:33.640 --> 01:05:35.640
+so the old videos
+
+01:05:35.640 --> 01:05:37.640
+we can generate transcripts
+
+01:05:37.640 --> 01:05:39.640
+with the help of AI tool
+
+01:05:39.640 --> 01:05:41.640
+actually we are doing it but it is a slow process
+
+01:05:41.640 --> 01:05:43.640
+so we are not promising it
+
+01:05:43.640 --> 01:05:45.640
+because if we promise it then you will be surprised
+
+01:05:45.640 --> 01:05:47.640
+that where are the notes
+
+01:05:47.640 --> 01:05:49.640
+so rather than surprise it is a better strategy
+
+01:05:49.640 --> 01:05:51.640
+that here it is done
+
+01:05:51.640 --> 01:05:53.640
+rather than promising upfront
+
+01:05:53.640 --> 01:05:55.640
+and then failing
+
+01:06:03.640 --> 01:06:05.640
+any other question guys
+
+01:06:05.640 --> 01:06:07.640
+I guess I have answered all the questions
+
+01:06:07.640 --> 01:06:09.640
+I was talking about unmuting someone
+
+01:06:09.640 --> 01:06:11.640
+prioritizing the system design course
+
+01:06:11.640 --> 01:06:13.640
+would be very helpful
+
+01:06:13.640 --> 01:06:15.640
+so I will tell you upfront
+
+01:06:15.640 --> 01:06:17.640
+what is my plan
+
+01:06:17.640 --> 01:06:19.640
+this course will be over
+
+01:06:19.640 --> 01:06:21.640
+after this we will do one more course
+
+01:06:21.640 --> 01:06:23.640
+which will be
+
+01:06:23.640 --> 01:06:25.640
+AI security and governance course
+
+01:06:25.640 --> 01:06:27.640
+which is now getting popular in the market
+
+01:06:27.640 --> 01:06:29.640
+it will be a shorter course
+
+01:06:29.640 --> 01:06:31.640
+it won't be that big
+
+01:06:31.640 --> 01:06:33.640
+it will be a shorter course
+
+01:06:33.640 --> 01:06:35.640
+once it happens
+
+01:06:35.640 --> 01:06:37.640
+I have completed a stretch
+
+01:06:37.640 --> 01:06:39.640
+of the whole thing
+
+01:06:39.640 --> 01:06:41.640
+right from the line chain to this point
+
+01:06:41.640 --> 01:06:43.640
+then I will teach you AI system design
+
+01:06:43.640 --> 01:06:45.640
+so there is a good chance
+
+01:06:45.640 --> 01:06:47.640
+that mid of October
+
+01:06:47.640 --> 01:06:49.640
+or maybe
+
+01:06:49.640 --> 01:06:51.640
+last of October
+
+01:06:51.640 --> 01:06:53.640
+we will start system design
+
+01:06:53.640 --> 01:06:55.640
+and complete it in November-December
+
+01:06:55.640 --> 01:06:57.640
+with system design
+
+01:06:57.640 --> 01:06:59.640
+our entire AI engineering track
+
+01:06:59.640 --> 01:07:01.640
+will be completed
+
+01:07:01.640 --> 01:07:03.640
+because context engineering
+
+01:07:03.640 --> 01:07:05.640
+we are going to provide
+
+01:07:05.640 --> 01:07:07.640
+LLM Ops, LLM evals
+
+01:07:07.640 --> 01:07:09.640
+we have taught agents in Langraph
+
+01:07:09.640 --> 01:07:11.640
+we will teach you how to make
+
+01:07:11.640 --> 01:07:13.640
+multi agent systems
+
+01:07:13.640 --> 01:07:15.640
+so we can conduct some workshop
+
+01:07:15.640 --> 01:07:17.640
+so basically we will cover this entire site
+
+01:07:17.640 --> 01:07:19.640
+and then from New Year
+
+01:07:19.640 --> 01:07:21.640
+our plan is to move to builder side
+
+01:07:21.640 --> 01:07:23.640
+so right from where we have left
+
+01:07:23.640 --> 01:07:25.640
+on the transformer
+
+01:07:25.640 --> 01:07:27.640
+we will start from there
+
+01:07:27.640 --> 01:07:29.640
+and then we will do LLM Ops
+
+01:07:29.640 --> 01:07:31.640
+builder side
+
+01:07:31.640 --> 01:07:33.640
+so that is our goal
+
+01:07:33.640 --> 01:07:35.640
+so you might feel a little frustrating
+
+01:07:35.640 --> 01:07:37.640
+that in what order we are covering
+
+01:07:37.640 --> 01:07:39.640
+how slowly we are doing
+
+01:07:39.640 --> 01:07:41.640
+but I have always had two goals
+
+01:07:41.640 --> 01:07:43.640
+first is that
+
+01:07:43.640 --> 01:07:45.640
+the upper level plan
+
+01:07:45.640 --> 01:07:47.640
+which I had made a roadmap
+
+01:07:47.640 --> 01:07:49.640
+at the beginning of this year
+
+01:07:49.640 --> 01:07:51.640
+I have to complete it
+
+01:07:51.640 --> 01:07:53.640
+I am completing it bit by bit
+
+01:07:53.640 --> 01:07:55.640
+me along with my colleagues
+
+01:07:55.640 --> 01:07:57.640
+we should not be slow
+
+01:07:57.640 --> 01:07:59.640
+even if we are slow
+
+01:07:59.640 --> 01:08:01.640
+these are the two philosophies we are following
+
+01:08:01.640 --> 01:08:03.640
+and I can totally understand
+
+01:08:03.640 --> 01:08:05.640
+if you are relying on our courses
+
+01:08:05.640 --> 01:08:07.640
+or playlists
+
+01:08:07.640 --> 01:08:09.640
+then you might feel the speed is frustrating
+
+01:08:09.640 --> 01:08:11.640
+but I will be honest
+
+01:08:11.640 --> 01:08:13.640
+sometimes I literally
+
+01:08:13.640 --> 01:08:15.640
+intentionally slow it down
+
+01:08:15.640 --> 01:08:17.639
+because I feel that I am not getting complete control
+
+01:08:17.639 --> 01:08:19.639
+on this topic
+
+01:08:19.639 --> 01:08:21.639
+I mean I can deliver it
+
+01:08:21.639 --> 01:08:23.639
+on 70% but I stall it
+
+01:08:23.640 --> 01:08:25.640
+or I don't take today's class
+
+01:08:25.640 --> 01:08:27.640
+because I need more time
+
+01:08:27.640 --> 01:08:29.640
+I need more clarity
+
+01:08:29.640 --> 01:08:31.640
+that is why it slows down a little bit
+
+01:08:31.640 --> 01:08:33.640
+but the goal is always that
+
+01:08:33.640 --> 01:08:35.640
+if something comes from our side
+
+01:08:35.640 --> 01:08:37.640
+then it should fit in your mind
+
+01:08:37.640 --> 01:08:39.640
+so sorry if we disappoint you
+
+01:08:39.640 --> 01:08:41.640
+but
+
+01:08:41.640 --> 01:08:43.640
+our intention is very pure
+
+01:08:43.640 --> 01:08:45.640
+I can tell you that
+
+01:08:47.640 --> 01:08:49.640
+yeah yeah I know
+
+01:08:49.640 --> 01:08:51.640
+all the interviews are focusing on that
+
+01:08:51.640 --> 01:08:53.640
+project will be very helpful
+
+01:08:53.640 --> 01:08:55.640
+yeah project is also
+
+01:08:55.640 --> 01:08:57.640
+in the pipeline
+
+01:08:57.640 --> 01:08:59.640
+we will make a complete course
+
+01:08:59.640 --> 01:09:01.640
+which will have 4-5 projects on gen.ai systems
+
+01:09:01.640 --> 01:09:03.640
+so we have to do that
+
+01:09:03.640 --> 01:09:05.640
+I will not take that
+
+01:09:05.640 --> 01:09:07.640
+Ajay will do that but yeah
+
+01:09:07.640 --> 01:09:09.640
+sir I am a web developer
+
+01:09:09.640 --> 01:09:11.640
+so can I directly start
+
+01:09:11.640 --> 01:09:13.640
+landchain for AI engineering role or MLDL
+
+01:09:13.640 --> 01:09:15.640
+no you can start directly
+
+01:09:15.640 --> 01:09:17.640
+no need for MLDL
+
+01:09:17.640 --> 01:09:19.640
+you can see my playlist
+
+01:09:19.640 --> 01:09:21.640
+it will come in the next class
+
+01:09:23.640 --> 01:09:25.640
+can we have a deep dive on deep agent in between
+
+01:09:25.640 --> 01:09:27.640
+I mean I can try
+
+01:09:27.640 --> 01:09:29.640
+but I am not completely
+
+01:09:29.640 --> 01:09:31.640
+convinced about deep
+
+01:09:31.640 --> 01:09:33.640
+agents right now
+
+01:09:33.640 --> 01:09:35.640
+that is why I am giving it some time
+
+01:09:35.640 --> 01:09:37.640
+so once that window gets completed
+
+01:09:37.640 --> 01:09:39.640
+in my mind then I will take that topic
+
+01:09:39.640 --> 01:09:41.640
+it happens a little
+
+01:09:41.640 --> 01:09:43.640
+that it crosses a threshold
+
+01:09:43.640 --> 01:09:45.640
+that topic that yes universally
+
+01:09:45.640 --> 01:09:47.640
+it has been accepted that now everyone is
+
+01:09:47.640 --> 01:09:49.640
+following the concept
+
+01:09:49.640 --> 01:09:51.640
+so then it is useful to teach it otherwise
+
+01:09:51.640 --> 01:09:53.640
+then it becomes a waste of effort
+
+01:09:53.640 --> 01:09:55.640
+someone
+
+01:09:55.640 --> 01:09:57.640
+was talking about unmuting
+
+01:09:57.640 --> 01:09:59.640
+who asked to unmute
+
+01:09:59.640 --> 01:10:01.640
+I forgot the name
+
+01:10:01.640 --> 01:10:03.640
+Amar is it Amar
+
+01:10:03.640 --> 01:10:05.640
+Amar jeet
+
+01:10:05.640 --> 01:10:07.640
+what is happening here
+
+01:10:07.640 --> 01:10:09.640
+raise your hand again
+
+01:10:09.640 --> 01:10:11.640
+Amar
+
+01:10:11.640 --> 01:10:13.640
+then I
+
+01:10:13.640 --> 01:10:15.640
+yeah
+
+01:10:15.640 --> 01:10:17.640
+speak
+
+01:10:17.640 --> 01:10:19.640
+you can speak
+
+01:10:19.640 --> 01:10:21.640
+I have two questions
+
+01:10:21.640 --> 01:10:23.640
+first
+
+01:10:23.640 --> 01:10:25.640
+let's say if we are experimenting
+
+01:10:25.640 --> 01:10:27.640
+we have to start again
+
+01:10:27.640 --> 01:10:29.640
+sorry I couldn't hear the question from the beginning
+
+01:10:29.640 --> 01:10:31.640
+I have two questions
+
+01:10:31.640 --> 01:10:33.640
+first question is
+
+01:10:33.640 --> 01:10:35.640
+how do we generate embedding
+
+01:10:35.640 --> 01:10:37.640
+for a particular document
+
+01:10:37.640 --> 01:10:39.640
+let's say the chunk size overlapping
+
+01:10:39.640 --> 01:10:41.640
+can we version that
+
+01:10:41.640 --> 01:10:43.640
+let's say if I am experimenting
+
+01:10:43.640 --> 01:10:45.640
+I can change my embedding two or three times
+
+01:10:45.640 --> 01:10:47.640
+but in ten experiments
+
+01:10:47.640 --> 01:10:49.640
+I want to use the setting
+
+01:10:49.640 --> 01:10:51.640
+of two or three embedding
+
+01:10:51.640 --> 01:10:53.640
+so rather than
+
+01:10:53.640 --> 01:10:55.640
+burn my costing on embedding
+
+01:10:55.640 --> 01:10:57.640
+or if I want to
+
+01:10:57.640 --> 01:10:59.640
+do caching
+
+01:10:59.640 --> 01:11:01.640
+embedding
+
+01:11:01.640 --> 01:11:03.640
+let's say
+
+01:11:03.640 --> 01:11:05.640
+the chunk size of 1000
+
+01:11:05.640 --> 01:11:07.640
+overlap of 50
+
+01:11:07.640 --> 01:11:09.640
+one setting is my embedding
+
+01:11:09.640 --> 01:11:11.640
+and I am using a model of Olamas
+
+01:11:11.640 --> 01:11:13.640
+so I am using it for embedding
+
+01:11:13.640 --> 01:11:15.640
+so you want to save your embedding cost
+
+01:11:15.640 --> 01:11:17.640
+yes sir
+
+01:11:19.640 --> 01:11:21.640
+I understood your point
+
+01:11:21.640 --> 01:11:23.640
+let me tell you the answer
+
+01:11:23.640 --> 01:11:25.640
+in the next class
+
+01:11:25.640 --> 01:11:27.640
+by finding the exact solution
+
+01:11:27.640 --> 01:11:29.640
+and the second question
+
+01:11:31.640 --> 01:11:33.640
+yes tell
+
+01:11:33.640 --> 01:11:35.640
+answer second
+
+01:11:35.640 --> 01:11:37.640
+there was a second request sir
+
+01:11:37.640 --> 01:11:39.640
+if you can teach this course
+
+01:11:39.640 --> 01:11:41.640
+like py test
+
+01:11:41.640 --> 01:11:43.640
+and asynchronous programming
+
+01:11:43.640 --> 01:11:45.640
+so that will be
+
+01:11:45.640 --> 01:11:47.640
+helpful in the
+
+01:11:47.640 --> 01:11:49.640
+product
+
+01:11:49.640 --> 01:11:51.640
+we have already studied py test
+
+01:11:51.640 --> 01:11:53.640
+if you go to python course
+
+01:11:53.640 --> 01:11:55.640
+you have 40 courses
+
+01:11:55.640 --> 01:11:57.640
+and one of them is python
+
+01:11:57.640 --> 01:11:59.640
+in advanced python
+
+01:11:59.640 --> 01:12:01.640
+section
+
+01:12:01.640 --> 01:12:03.640
+we have studied py test
+
+01:12:03.640 --> 01:12:05.640
+Hemanshu have you studied py test
+
+01:12:05.640 --> 01:12:07.640
+yes
+
+01:12:07.640 --> 01:12:09.640
+we have studied async await
+
+01:12:09.640 --> 01:12:11.640
+but
+
+01:12:11.640 --> 01:12:13.640
+I can tell you the upfront of async await
+
+01:12:13.640 --> 01:12:15.640
+how is async await
+
+01:12:15.640 --> 01:12:17.640
+that it should be a proper course
+
+01:12:17.640 --> 01:12:19.640
+otherwise it can't be understood
+
+01:12:19.640 --> 01:12:21.640
+by watching one video or two videos
+
+01:12:21.640 --> 01:12:23.640
+that is the topic
+
+01:12:23.640 --> 01:12:25.640
+I thought of making a course in between
+
+01:12:25.640 --> 01:12:27.640
+but it is like hardcore software
+
+01:12:27.640 --> 01:12:29.640
+engineering topic
+
+01:12:29.640 --> 01:12:31.640
+so there
+
+01:12:31.640 --> 01:12:33.640
+I couldn't make it because I didn't have time
+
+01:12:33.640 --> 01:12:35.640
+but there are a lot of things to cover
+
+01:12:35.640 --> 01:12:37.640
+so we will cover it
+
+01:12:37.640 --> 01:12:39.640
+it might take 8 to 10 hours
+
+01:12:39.640 --> 01:12:41.640
+so we have
+
+01:12:41.640 --> 01:12:43.640
+some videos and some online
+
+01:12:43.640 --> 01:12:45.640
+from good youtube channels
+
+01:12:45.640 --> 01:12:47.640
+we have explained async await in python
+
+01:12:47.640 --> 01:12:49.640
+understand the basic concept
+
+01:12:49.640 --> 01:12:51.640
+don't try to understand it at the code level
+
+01:12:51.640 --> 01:12:53.640
+unless you are a software developer
+
+01:12:53.640 --> 01:12:55.640
+and you want to go for interviews
+
+01:12:55.640 --> 01:12:57.640
+the code will be generated
+
+01:12:57.640 --> 01:12:59.640
+you should know the concept
+
+01:12:59.640 --> 01:13:01.640
+when you need async
+
+01:13:01.640 --> 01:13:03.640
+that is the main thing
+
+01:13:03.640 --> 01:13:05.640
+so it will take a lot of time and effort
+
+01:13:05.640 --> 01:13:07.640
+it is a difficult topic
+
+01:13:07.640 --> 01:13:09.640
+in software programming
+
+01:13:09.640 --> 01:13:11.640
+unless you are directly required
+
+01:13:11.640 --> 01:13:13.640
+that will be my suggestion for now
+
+01:13:13.640 --> 01:13:15.640
+rest of the things
+
+01:13:15.640 --> 01:13:17.640
+you will get access
+
+01:13:17.640 --> 01:13:19.640
+we have it in our course
+
+01:13:19.640 --> 01:13:21.640
+we have it in online youtube
+
+01:13:21.640 --> 01:13:23.640
+chat gpt cloud
+
+01:13:23.640 --> 01:13:25.640
+yes
+
+01:13:25.640 --> 01:13:27.640
+kori shafur
+
+01:13:27.640 --> 01:13:29.640
+has a good video
+
+01:13:29.640 --> 01:13:31.640
+but I saw it a couple of times
+
+01:13:31.640 --> 01:13:33.640
+I couldn't control it
+
+01:13:35.640 --> 01:13:37.640
+any other question?
+
+01:13:45.640 --> 01:13:47.640
+any other question?
+
+01:13:49.640 --> 01:13:51.640
+neo4j semantic layer is also
+
+01:13:51.640 --> 01:13:53.640
+hyping in the industry
+
+01:13:53.640 --> 01:13:55.640
+yes, it is the same
+
+01:13:55.640 --> 01:13:57.640
+look at tools
+
+01:13:57.640 --> 01:13:59.640
+any provider
+
+01:13:59.640 --> 01:14:01.640
+is on the rise
+
+01:14:01.640 --> 01:14:03.640
+and if it is operating in an adjacent domain
+
+01:14:03.640 --> 01:14:05.640
+it will definitely
+
+01:14:05.640 --> 01:14:07.640
+bring its own solution in the market
+
+01:14:07.640 --> 01:14:09.640
+and this is happening
+
+01:14:09.640 --> 01:14:11.640
+every leading player
+
+01:14:11.640 --> 01:14:13.640
+in the MLDL domain
+
+01:14:13.640 --> 01:14:15.640
+or in the software
+
+01:14:15.640 --> 01:14:17.640
+it is bringing something of its own
+
+01:14:17.640 --> 01:14:19.640
+tooling
+
+01:14:19.640 --> 01:14:21.640
+now it is difficult to do everything
+
+01:14:21.640 --> 01:14:23.640
+because mostly the concept is same
+
+01:14:23.640 --> 01:14:25.640
+you
+
+01:14:25.640 --> 01:14:27.640
+evaluation, tracing, observability
+
+01:14:27.640 --> 01:14:29.640
+monitoring, alerting
+
+01:14:29.640 --> 01:14:31.640
+these are the domains
+
+01:14:31.640 --> 01:14:33.640
+so we want you
+
+01:14:33.640 --> 01:14:35.640
+to understand things in a conceptual level
+
+01:14:35.640 --> 01:14:37.640
+so that tomorrow
+
+01:14:37.640 --> 01:14:39.640
+if you read some documentation
+
+01:14:39.640 --> 01:14:41.640
+or watch a video
+
+01:14:41.640 --> 01:14:43.640
+you will understand
+
+01:14:43.640 --> 01:14:45.640
+that is the main idea
+
+01:14:45.640 --> 01:14:47.640
+to prepare you conceptually
+
+01:14:47.640 --> 01:14:49.640
+fundamentally
+
+01:14:49.640 --> 01:14:51.640
+because today is there, tomorrow will not be there
+
+01:14:51.640 --> 01:14:53.640
+nobody knows
+
+01:14:57.640 --> 01:14:59.640
+people are mostly using async functions
+
+01:14:59.640 --> 01:15:01.640
+yeah, obviously it is true
+
+01:15:01.640 --> 01:15:03.640
+this is what you have to do
+
+01:15:03.640 --> 01:15:05.640
+I will give you a simple example
+
+01:15:05.640 --> 01:15:07.640
+you are running an evaluation on your software
+
+01:15:07.640 --> 01:15:09.640
+let's say you have deployed
+
+01:15:09.640 --> 01:15:11.640
+and you have to do
+
+01:15:11.640 --> 01:15:13.640
+online evaluations
+
+01:15:13.640 --> 01:15:15.640
+so you will have to run
+
+01:15:15.640 --> 01:15:17.640
+online evaluations in asynchronous
+
+01:15:17.640 --> 01:15:19.640
+if you run it in synchronous
+
+01:15:19.640 --> 01:15:21.640
+then the latency of your app will increase
+
+01:15:21.640 --> 01:15:23.640
+because now you have to give a chat response
+
+01:15:23.640 --> 01:15:25.640
+but if you have done it in synchronous
+
+01:15:25.640 --> 01:15:27.640
+then you have to evaluate it
+
+01:15:27.640 --> 01:15:29.640
+you have to log it somewhere
+
+01:15:29.640 --> 01:15:31.640
+so that's why evaluations
+
+01:15:31.640 --> 01:15:33.640
+tracing, all that is asynchronous
+
+01:15:33.640 --> 01:15:35.640
+so asynchronous is a very important
+
+01:15:35.640 --> 01:15:37.640
+aspect of programming
+
+01:15:37.640 --> 01:15:39.640
+so you have to learn
+
+01:15:39.640 --> 01:15:41.640
+it is a good thing but it is a difficult concept
+
+01:15:41.640 --> 01:15:43.640
+it takes time to understand and teach
+
+01:15:43.640 --> 01:15:45.640
+that is why I said that understand basic level
+
+01:15:45.640 --> 01:15:47.640
+syntax and understand where
+
+01:15:47.640 --> 01:15:49.640
+the usage is
+
+01:15:49.640 --> 01:15:51.640
+the rest of the code is generated
+
+01:15:51.640 --> 01:15:53.640
+nobody is writing from today
+
+01:15:53.640 --> 01:15:55.640
+so there should be some building
+
+01:15:55.640 --> 01:15:57.640
+if understanding is there
+
+01:15:57.640 --> 01:15:59.640
+that is good enough
+
+01:15:59.640 --> 01:16:01.640
+will we have some classes on multi-agent
+
+01:16:01.640 --> 01:16:03.640
+architectures
+
+01:16:03.640 --> 01:16:05.640
+yes, we are planning to conduct one workshop
+
+01:16:05.640 --> 01:16:07.640
+kind of setup
+
+01:16:07.640 --> 01:16:09.640
+by the way, we are conducting a workshop this month
+
+01:16:09.640 --> 01:16:11.640
+you might have seen the schedule
+
+01:16:11.640 --> 01:16:13.640
+we are conducting a workshop on
+
+01:16:13.640 --> 01:16:15.640
+building voice AI agents
+
+01:16:15.640 --> 01:16:17.640
+so we have thought
+
+01:16:17.640 --> 01:16:19.640
+that we can pick a topic like this
+
+01:16:19.640 --> 01:16:21.640
+and teach you
+
+01:16:21.640 --> 01:16:23.640
+we are conducting a workshop on voice AI agents
+
+01:16:23.640 --> 01:16:25.640
+next month we can conduct a workshop
+
+01:16:25.640 --> 01:16:27.640
+on multi-agent architecture
+
+01:16:27.640 --> 01:16:29.640
+that is also a bit out of date
+
+01:16:29.640 --> 01:16:31.640
+we will teach you that too
+
+01:16:31.640 --> 01:16:33.640
+I have not worked on
+
+01:16:33.640 --> 01:16:35.640
+graph databases
+
+01:16:35.640 --> 01:16:37.640
+or knowledge bases
+
+01:16:37.640 --> 01:16:39.640
+till now, I am very interested
+
+01:16:39.640 --> 01:16:41.640
+in learning about
+
+01:16:41.640 --> 01:16:43.640
+the applications
+
+01:16:43.640 --> 01:16:45.640
+that are available
+
+01:16:45.640 --> 01:16:47.640
+so I am going to
+
+01:16:47.640 --> 01:16:49.640
+teach you the
+
+01:16:49.640 --> 01:16:51.640
+basic code of
+
+01:16:51.640 --> 01:16:53.640
+the application
+
+01:16:53.640 --> 01:16:55.640
+that is the basic code
+
+01:16:55.640 --> 01:16:57.640
+that is the basic code
+
+01:16:57.640 --> 01:16:59.640
+that is the basic code
+
+01:16:59.640 --> 01:17:01.640
+I am very interested
+
+01:17:01.640 --> 01:17:03.640
+but unfortunately
+
+01:17:03.640 --> 01:17:05.640
+I have not been able to do work on it
+
+01:17:05.640 --> 01:17:07.640
+so I will ask
+
+01:17:07.640 --> 01:17:09.640
+Himanshu and Ajay
+
+01:17:09.640 --> 01:17:11.640
+if they have worked on a graph database
+
+01:17:11.640 --> 01:17:13.640
+or knowledge database
+
+01:17:13.640 --> 01:17:15.640
+they will be able to guide you
+
+01:17:15.640 --> 01:17:17.640
+Himanshu is saying
+
+01:17:17.640 --> 01:17:19.640
+that graph rag
+
+01:17:19.640 --> 01:17:21.640
+was covered in advance rag
+
+01:17:21.640 --> 01:17:23.640
+so from there you can get some idea
+
+01:17:23.640 --> 01:17:25.640
+most likely you will be building graph rag
+
+01:17:25.640 --> 01:17:27.640
+I guess
+
+01:17:27.640 --> 01:17:29.640
+but yes, it is a very interesting thing
+
+01:17:31.640 --> 01:17:33.640
+there are many applications
+
+01:17:33.640 --> 01:17:35.640
+that
+
+01:17:35.640 --> 01:17:37.640
+can be represented in the form of
+
+01:17:37.640 --> 01:17:39.640
+graph even in gen AI
+
+01:17:43.640 --> 01:17:45.640
+ok then guys
+
+01:17:45.640 --> 01:17:47.640
+I guess that's it for
+
+01:17:47.640 --> 01:17:49.640
+today, in the next class
+
+01:17:49.640 --> 01:17:51.640
+we will start rag evaluation
+
+01:17:53.640 --> 01:17:55.640
+this is the common
+
+01:17:55.640 --> 01:17:57.640
+we will start from exactly
+
+01:17:57.640 --> 01:17:59.640
+the same, the whole side is
+
+01:17:59.640 --> 01:18:01.640
+on the transformer
+
+01:18:01.640 --> 01:18:03.640
+so we will start from exactly the same
+
+01:18:03.640 --> 01:18:05.640
+decoder only, encoder only, encoder decoder only
+
+01:18:05.640 --> 01:18:07.640
+we will discuss the whole era
+
+01:18:09.640 --> 01:18:11.640
+and after that we will
+
+01:18:11.640 --> 01:18:13.640
+start your
+
+01:18:13.640 --> 01:18:15.640
+tokenization, data curation
+
+01:18:15.640 --> 01:18:17.640
+pre-training, fine
+
+01:18:17.640 --> 01:18:19.640
+tuning, alignment, that will be the whole track
+
+01:18:19.640 --> 01:18:21.640
+so we will do that next year
+
+01:18:21.640 --> 01:18:23.640
+we will cover
+
+01:18:23.640 --> 01:18:25.640
+the two years
+
+01:18:25.640 --> 01:18:27.640
+that you have with us
+
+01:18:27.640 --> 01:18:29.640
+most likely
+
+01:18:33.640 --> 01:18:35.640
+are we covering clip
+
+01:18:35.640 --> 01:18:37.640
+we will cover clip too but once
+
+01:18:37.640 --> 01:18:39.640
+my plan is
+
+01:18:39.640 --> 01:18:41.640
+to cover LLMs then
+
+01:18:41.640 --> 01:18:43.640
+we will go to LMMs
+
+01:18:43.640 --> 01:18:45.640
+large multimodal models
+
+01:18:45.640 --> 01:18:47.640
+so
+
+01:18:47.640 --> 01:18:49.640
+we will not cover multimodal in the beginning
+
+01:18:51.640 --> 01:18:53.640
+we will do the textual one only
+
+01:18:53.640 --> 01:18:55.640
+one iteration will happen
+
+01:18:55.640 --> 01:18:57.640
+then we will do multimodal
+
+01:18:59.640 --> 01:19:01.640
+sir if possible
+
+01:19:01.640 --> 01:19:03.640
+can we have a session on async
+
+01:19:03.640 --> 01:19:05.640
+await that will give us confidence in using it in life
+
+01:19:05.640 --> 01:19:07.640
+ok I will try
+
+01:19:07.640 --> 01:19:09.640
+but I will be very honest
+
+01:19:09.640 --> 01:19:11.640
+in two hours you will not be able to learn it properly
+
+01:19:11.640 --> 01:19:13.640
+it will need more
+
+01:19:13.640 --> 01:19:15.640
+because you will have to come
+
+01:19:15.640 --> 01:19:17.640
+from a very long time, multitasking, multiprocessing
+
+01:19:17.640 --> 01:19:19.640
+all those concepts will have to be picked
+
+01:19:19.640 --> 01:19:21.640
+from there it will have to be built
+
+01:19:21.640 --> 01:19:23.640
+I had made a curriculum
+
+01:19:23.640 --> 01:19:25.640
+about 6 months ago
+
+01:19:25.640 --> 01:19:27.640
+for async await
+
+01:19:27.640 --> 01:19:29.640
+and in that I had
+
+01:19:29.640 --> 01:19:31.640
+created a very good progression
+
+01:19:31.640 --> 01:19:33.640
+from where to start
+
+01:19:33.640 --> 01:19:35.640
+what to read, on the first principle basis
+
+01:19:35.640 --> 01:19:37.640
+but then that course
+
+01:19:37.640 --> 01:19:39.640
+could not manifest
+
+01:19:39.640 --> 01:19:41.640
+so what I can do is
+
+01:19:41.640 --> 01:19:43.640
+maybe I can arrange a session
+
+01:19:43.640 --> 01:19:45.640
+I myself
+
+01:19:45.640 --> 01:19:47.640
+want to teach
+
+01:19:47.640 --> 01:19:49.640
+but again on the same priority basis
+
+01:19:49.640 --> 01:19:51.640
+we are operating
+
+01:19:55.640 --> 01:19:57.640
+ok
+
+01:19:57.640 --> 01:19:59.640
+any other question
+
+01:19:59.640 --> 01:20:01.640
+with the
+
+01:20:01.640 --> 01:20:03.640
+storytelling
+
+01:20:03.640 --> 01:20:05.640
+you have to learn
+
+01:20:05.640 --> 01:20:07.640
+like data storytelling
+
+01:20:07.640 --> 01:20:09.640
+or what
+
+01:20:17.640 --> 01:20:19.640
+data storytelling
+
+01:20:19.640 --> 01:20:21.640
+data storytelling
+
+01:20:21.640 --> 01:20:23.640
+yeah
+
+01:20:23.640 --> 01:20:25.640
+for that you will have to come up with a project
+
+01:20:27.640 --> 01:20:29.640
+yeah that is correct
+
+01:20:29.640 --> 01:20:31.640
+data storytelling
+
+01:20:31.640 --> 01:20:33.640
+as you go to the business side
+
+01:20:33.640 --> 01:20:35.640
+there is a lot of demand for data storytelling
+
+01:20:35.640 --> 01:20:37.640
+I can totally understand
+
+01:20:37.640 --> 01:20:39.640
+many of my friends also tell me
+
+01:20:39.640 --> 01:20:41.640
+that when they
+
+01:20:41.640 --> 01:20:43.640
+better present
+
+01:20:43.640 --> 01:20:45.640
+the narrative
+
+01:20:45.640 --> 01:20:47.640
+of what is going on in data
+
+01:20:47.640 --> 01:20:49.640
+then people get impressed
+
+01:20:49.640 --> 01:20:51.640
+and then they take a different trajectory
+
+01:20:51.640 --> 01:20:53.640
+of their career
+
+01:20:53.640 --> 01:20:55.640
+so yeah that is true
+
+01:20:55.640 --> 01:20:57.640
+I don't know maybe
+
+01:20:57.640 --> 01:20:59.640
+we can have one session around that
+
+01:20:59.640 --> 01:21:01.640
+but that is it, out of all these topics
+
+01:21:01.640 --> 01:21:03.640
+priority is coming down
+
+01:21:03.640 --> 01:21:05.640
+because most of the people
+
+01:21:05.640 --> 01:21:07.640
+they are like a younger
+
+01:21:07.640 --> 01:21:09.640
+population
+
+01:21:09.640 --> 01:21:11.640
+1-3-5 years of experience level
+
+01:21:11.640 --> 01:21:13.640
+but yeah as you go
+
+01:21:13.640 --> 01:21:15.640
+to the business side
+
+01:21:15.640 --> 01:21:17.640
+data storytelling becomes huge
+
+01:21:17.640 --> 01:21:19.640
+we will try
+
+01:21:19.640 --> 01:21:21.640
+ok guys
+
+01:21:21.640 --> 01:21:23.640
+so we will close the session
+
+01:21:23.640 --> 01:21:25.640
+and see you on saturday
+
+01:21:25.640 --> 01:21:27.640
+first rag eval lecture
+
+01:21:27.640 --> 01:21:29.640
+ok
+
+01:21:29.640 --> 01:21:31.640
+so yeah good night
+
+01:21:31.640 --> 01:21:33.640
+let's meet on saturday
+
+01:21:33.640 --> 01:21:35.640
+bye
+

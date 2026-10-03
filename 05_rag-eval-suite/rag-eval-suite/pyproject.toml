@@ -1,0 +1,19 @@
+[project]
+name = "rag-eval-suite"
+version = "0.1.0"
+description = "A course-assistant RAG app and the DeepEval suite that tests it: retrieval, generation, safety, operations and regression gating."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=1.5.9",
+    "deepeval>=4.1.5",
+    "langchain-chroma>=1.1.0",
+    "langchain-core>=1.5.3",
+    "langchain-openai>=1.4.2",
+    "langchain-text-splitters>=1.1.2",
+    "langsmith",
+    "openai>=2.53.0",
+    "python-dotenv>=1.2.2",
+    "sentence-transformers>=5.7.0",
+    "streamlit",
+]

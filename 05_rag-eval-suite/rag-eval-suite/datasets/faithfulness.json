@@ -1,0 +1,163 @@
+[
+  {
+    "id": "f001",
+    "query": "what is vibe testing and why isn't it enough for deploying an llm app?",
+    "ideal_context": [
+      "coding, it is vibe testing. What is vibe testing? Look, I have written it here. Vibe testing means you casually trying an LLME application with a few prompts and judging it by feel. You asked 5 questions and read the answers. And judge based on the feel whether it is right or not. This is called vibe testing. So basically what you do is you ask 5-10 questions, the answer is right, you feel that it is working. It is informal, it is subjective, and it is usually not repeatable. Because today you asked 5 questions, after 10 days you won't ask the same 5 questions, you will ask something else. So it is not even repeatable. Now you must be understanding even after listening to vibe testing that it works only at the personal project level. By doing vibe testing, you don't make production grade software in the industry. Obviously. Right? Now I will tell you some instances, some case studies where teams made a mistake that they deployed a LLME based application by doing vibe testing. And I",
+      "applications. But if I ask the next question, have you ever evaluated it properly? Have you ever made an application or a chatbot? Have you ever evaluated it methodologically? So what would you say? I feel a lot of you will say that sir, I haven't evaluated it properly. But I asked him questions and I found the answer to it. So I assumed that this application is working properly. Right? Mostly we do this. What we do is we build an LLME-based application. Then before checking it, before launching it, before sharing it with someone, we ask the 4-5 questions that come to our mind at that point. And that's it. If the right responses come there, then we accept that our application is working properly. Actually, this whole phenomenon, this way of testing, this term has been given in the industry. It is called vibe testing. Just like vibe coding, it is vibe testing. What is vibe testing? Look, I have written it here. Vibe testing means you casually trying an LLME application with a few"
+    ],
+    "source_sessions": [
+      "1"
+    ]
+  },
+  {
+    "id": "f002",
+    "query": "what is the mmlu benchmark?",
+    "ideal_context": [
+      "but in MMLU Pro every question had 10 options so here you have to find the right answer but in 10 given options so you can see that the difficulty level increased after this what they did is they reduced the number of subjects from 57 they came down if I remember correctly they came down to 12 subjects and in 12 subjects they got 12k questions so per subject 1000 questions and they added some such questions which will give some reasoning so overall they made MMLU a little difficult so this for the next 1-2 years it was a good benchmark on which people kept testing their models basically MMLU Pro replaced MMLU but as it always happens that every next generation model beats the previous benchmark so over time what happened AGI eval also kind of saturated in GPQA also kind of near saturation and finally in 2025 a new benchmark came which is very popular and it is still used it's name is HLE Humanities Last Exam I can understand from the name how dangerous it is so in this people did that",
+      "came then when MMLU was saturated people thought that we should test it with breadth of knowledge so then GPQA came and people thought that MMLU is a good benchmark we should repair it so in the process of repairing MMLU Pro came then slowly AGI eval, GPQA and MMLU Pro when all three of them started to saturate then finally people thought that we should make a new benchmark in which we will keep breadth and depth and some more innovations so we will keep it and call it humanity's last exam and this benchmark is still going on and when truthfull QA was saturated then we replaced it with simple QA so in total there are seven benchmarks that we are going to discuss today MMLU, truthfull QA AGI eval, GPQA MMLU Pro, simple QA humanity's last exam these are the seven benchmarks that we will discuss in detail but I have already told you an evolution story that why all these benchmarks came in picture and when they came in picture so let me know if this discussion made sense to you or if you"
+    ],
+    "source_sessions": [
+      "5"
+    ]
+  },
+  {
+    "id": "f003",
+    "query": "how did mmlu pro improve on the original mmlu?",
+    "ideal_context": [
+      "so whatever problems were there in MM LU they tried to solve them let me tell you what things were solved the first change is that instead of giving 4 options in MCQ we give 10 options what will happen if we give 10 options according to you can you tell me if you are going to give one exam let's say IIT JEE or whatever other exams and instead of 4 options you get 10 options in every question so will your exam become more difficult or easy or I guess you can understand so we have given such exams and we try to eliminate options and reach the right option so when you have 4 options then elimination is easy you have to eliminate 3 and reach 1 when you have 10 then it will become very difficult so basically to increase the complexity researchers gave 10 options instead of 4 second, what they did is they removed the most basic questions and the noisy questions from MM LU and instead of them added reasoning based questions I will show you an example after a while but what did they do? MM LU",
+      "models are reaching humans in MMLU Pro there was no such human baseline in the paper they did not give it, whereas in the original MMLU, people criticized that the benchmark you have designed why are you not carrying the core philosophy that's it, it is not a big point shall we move to the next ok the next benchmark is interesting, in the sense that the benchmarks we discussed earlier are different in two aspects we will discuss both the aspects, before that I will tell you the story of this benchmark so if you remember, we discussed that everything started from MMLU one branch came out of it that take the exam like humans quickly tell us which benchmark was it, quick quiz in between just to check if you are retaining or not will anyone tell us which benchmark was it that said rather than creating new benchmarks why don't you use existing exams to check model intelligence or their knowledge which was it come on, no one remembers AGI well AGI well then who asked questions about"
+    ],
+    "source_sessions": [
+      "6"
+    ]
+  },
+  {
+    "id": "f004",
+    "query": "can you give a real-world example of an llm application failing badly?",
+    "ideal_context": [
+      "the correct policy, he said that you book a ticket now, pay the full amount and travel. And later we will refund your entire amount. So this guy booked the ticket and travelled. And after travelling when he tried to refund, customer support said that such a policy does not exist. We have this policy that you can take discounts before travelling. We do not refund anything later. So this guy got upset and filed a case against Air Canada. In the court, Air Canada's executives and lawyers pitched that the chatbot is a separate entity. Whatever he is saying, Air Canada does not know about it. It is like a separate entity. The judge said that this is not allowed. If your website is your property, then your chatbot is also your property. Which means that whatever your chatbot says, you will have to take its responsibility. Which means you will have to refund. So around 600 dollars of refund was to be done to Air Canada, which is not a big amount but it was a big blow on the name of a big",
+      "I will tell you some instances, some case studies where teams made a mistake that they deployed a LLME based application by doing vibe testing. And I will tell you the results with the help of 3 case studies. The first case study is Air Canada's chatbot. This was a very popular incident around 2-3 years ago. Where there was this guy and his grandmother died. And he was searching for bereavement fair on Air Canada's website. Bereavement fair is basically when someone in your family dies or your close friend dies and you have to travel, then airlines give you a discount because you are in a bad situation. I am not sure if this happens in India but it happens in Canada. So this guy went and on Air Canada's website he chatted with the chatbot about the bereavement fair policy. Now at this point the chatbot hallucinated and instead of telling the correct policy, he said that you book a ticket now, pay the full amount and travel. And later we will refund your entire amount. So this guy"
+    ],
+    "source_sessions": [
+      "1"
+    ]
+  },
+  {
+    "id": "f005",
+    "query": "what is drift and why does it matter after deployment?",
+    "ideal_context": [
+      "user can also drift I am giving a very bad example let's say suddenly millennials used your platform and suddenly gen z's started using so from the expectation point of view there is a drift that what is he expecting, he is not getting the answer he is giving thumbs down now your current offline evaluation everything is working fine but your user who was a millennial before is not happy with it so that is also a drift which you have to see I don't know I haven't given a good example drift can be of many types we were talking about data drift but model drift and I am trying to think what other types of drift can be concept drift what I have discussed is concept drift that expectation mismatch concept has changed that chart board was used for some other purpose and now it is used for some other purpose so you can drift from any type so drift you cannot control I don't think you can control drift in any AI based system some form of drift gets in any other question guys if there is no",
+      "seen this that at any point to perform the evaluation I am taking the last n conversations this is what you are saying I am trying to think what case can be where I simply take the last n conversations and my work will be done I am not able to figure out a scenario give me time I will research on my level one more question this is a bit basic generally we say that over time data drift but if I am a system where my input dynamics are not changing let's say I have sampled 100 documents and my work is just to query on it in this setup do you still think that after a while the data will drift and the data will not change or we have not given the user the freedom to pull the data drift has many natures you are talking about data drift you have controlled data drift because you haven't changed anything model can also drift in fact your user can also drift I am giving a very bad example let's say suddenly millennials used your platform and suddenly gen z's started using so from the"
+    ],
+    "source_sessions": [
+      "3"
+    ]
+  },
+  {
+    "id": "f006",
+    "query": "why do we use an llm as a judge instead of simple string matching?",
+    "ideal_context": [
+      "you use an LLM as a judge because anything can be printed here this can also be the answer is A or it can be printed as A is the answer so you have to extract A from all kinds of scenarios so to do this you use an LLM so when this benchmark was released in the beginning they used a version of GPT-4 as a LLM as a judge now what happened is new models came forward and people started using LLM as a judge so there was an issue in performance that the previous generation might have made a mistake in extracting A in some questions so due to that the accuracy came down but the later LLM as a judge they are better, they are able to extract each answer correctly so their accuracy is a little higher so in that sense there is a problem here, you will see this pattern whenever you are using LLM as a judge so over time since LLM's performance is improving so is the performance of LLM as a judge so due to that there is a little discrepancy today the measurement you are taking you can't compare it",
+      "data set has become a part of their alignment training data so contamination is in that sense, not in pre-training, but in alignment stage after that disputed gold labels so here we have how many questions around 817 questions, among them there are many questions about people's disputes that this is not a misconception, this is correct so that kind of affects it and lastly deprecated GPT judge, breaks, cross or comparison I forgot to tell you this so I told you that there are three ways to measure this, one is generation where model A, B, C or D is printing or generating by itself, second is MC1 where you are doing log probabilities MC2 is you are doing log probabilities against the right ones and then joining the right ones, I told you three ways in the generated model you are getting A, B, C, D which is available to analyze this answer you use an LLM as a judge because anything can be printed here this can also be the answer is A or it can be printed as A is the answer so you have"
+    ],
+    "source_sessions": [
+      "5"
+    ]
+  },
+  {
+    "id": "f007",
+    "query": "how does sampling work in online evaluation?",
+    "ideal_context": [
+      "up more samples from those categories and less samples from normal ones. So from this the sampled conversations I will get, there is more chance of hallucination being detected. So I have discussed the same thing with you. We are doing clustering. You will have to set a small model for this. A small model will detect which one has thumbs down, which one is talking like this. So this is technicality. I just wanted to tell you that you don't do normal sampling you do stratified sampling. So is the point clear guys? So far the flow I have told you is correct. We have locked it. After that we did sampling. After that we set up our evaluator. Evaluator performs the evaluation on those sampled conversations and gives us the metric. We are aggregating that metric over a time period and showing it on the dashboard. And if a threshold is crossing then I am triggering the alerting system. This is the entire flow for online eval. There is one evaluation pipeline. You set up multiple evaluators",
+      "use of keeping those conversations? We will not know that. What about we focus more on those questions where we got thumbs down? Will it be a good strategy? Think about it. Will it be a good strategy if we focus more on those questions where we got thumbs down? Right? Or we focus on those conversations which suddenly got over abruptly or where escalations happened. Or where I don't know the user is rephrasing the same question in different ways. Or where we are talking about money, refund, admission, fees. So basically what I am trying to say is that not all conversations are the same. What you do is you do stratified sampling. Stratified sampling. You basically divide all your conversations into categories. And then you pick up more samples in problematic categories. Like we are talking about money or thumbs down. So I will pick up more samples from those categories and less samples from normal ones. So from this the sampled conversations I will get, there is more chance of"
+    ],
+    "source_sessions": [
+      "3"
+    ]
+  },
+  {
+    "id": "f008",
+    "query": "what are computed and captured signals in online eval?",
+    "ideal_context": [
+      "not? Okay? So there are actually two types of signals which you have to focus on. The first one is computed and the second one is captured signals. Okay? So computed signals are those that you have to calculate or figure out. And captured signals are those that are already present and you have to store them somewhere. I will give you both the examples. For example, captured signal is thumbs up, thumbs down. If the user did thumbs up or thumbs down during the conversation, then this is a signal that the user is giving me. So I am directly storing it in the langsmith. Now I didn't need to calculate anything here. The user said thumbs down, I have to store it as it is. So we call this captured signal. One more example is latency. To do any particular answer, how much time did my chatbot take? Whatever time it took, I have to store it in the langsmith. Now I don't need to calculate anything here. Cost per conversation. How much token did I spend? How much money did I spend? Again, it is"
+    ],
+    "source_sessions": [
+      "3"
+    ]
+  },
+  {
+    "id": "f009",
+    "query": "what does it mean for a benchmark to get saturated?",
+    "ideal_context": [
+      "window the data set keeps updating so those types of data sets can be used but benchmark contamination is a proper thing second there is one more thing benchmark saturation benchmark saturation is a process where a benchmark comes in the picture let's say in 2021 so now this is new and no model has any idea about this benchmark no one has seen it so on these questions most of the times your models poorly perform 25% score or 36% score all the models are doing this but over time the benchmark is static there are no changes in this but your models are improving every 6 months so their performance over these questions improve over time so you will see that new model starts performing better last generation of models were at 36% now they are at 50% and then 70% over time your models start doing over 90-95% and all the models cluster at the same place so there is no difference in score between them opus 9.5 your most recent model is at 95% gpt 5.6 is at 94% google gemini is at 92% so",
+      "the same place so there is no difference in score between them opus 9.5 your most recent model is at 95% gpt 5.6 is at 94% google gemini is at 92% so basically there are many clustering at the same place this is called benchmark saturation this means that this benchmark is no longer useful you can't differentiate the models because if all have the same marks then it will be called exam then how will you know who is good and who is bad in that case the benchmark is saturated it is removed and then a new benchmark is brought and then the industry starts working on that so this example of gsm 8k this is a saturated benchmark it is not used now everyone gets 94-97% I said your MMLU that is a saturated benchmark sui bench is also saturated so mostly there is a life cycle of benchmarks all the models are difficult then gradually the models improve everyone starts scoring well then your benchmark is saturated then it is retired then replaced with a new benchmark that is how the benchmarking"
+    ],
+    "source_sessions": [
+      "4"
+    ]
+  },
+  {
+    "id": "f010",
+    "query": "how are safety issues like toxicity evaluated differently from quality issues?",
+    "ideal_context": [
+      "detecting. Code injection is different for detecting. In safety it is different for toxicity. It is different for bias and fairness. Talking about quality hallucination has a different evaluation pipeline. Correctness is different. Assertions, conciseness code checker. The quality of conversation is different. Trajectory is actually for agent. It is not for chat bots. It is for agents. It is different for image based chat bots. It is different for voice based chat bots. If you click on a particular one. Like we were talking about hallucination. If you want to set up a pipeline for hallucination then you click on it. Here you will give it a name. From here you will select the application on which you want to run this evaluation. Obviously there can be more than one applications in your organization. Assume there is also one application here. After that you will select from here that here which model you want to use in LLM as a judge. From here you will select open AI or Claude or"
+    ],
+    "source_sessions": [
+      "3"
+    ]
+  },
+  {
+    "id": "f011",
+    "query": "does training on more data always make an llm more knowledgeable?",
+    "ideal_context": [
+      "start our discussion around the knowledge capability ok now first of all I will explain the whole evolution that how the evolution of benchmarks happened in knowledge capability with the help of a flow chart and once you understand the flow chart then we will cover the most important benchmarks in this capability one by one that's the idea of this class so first of all let's talk about knowledge capability knowledge capability simply tells that when you train an LLM then how much knowledge he was able to retain from his training process basically how much world knowledge is hidden in his weights and biases his parametric knowledge is a way to test knowledge capability and this is the most important capability think about it when the LLMs were trained for the first time on this massive internet scale data then the expectation would be that if we ask about anything on the internet then it will tell us so knowledge capability is like the most fundamental capability that an LLM can have",
+      "write yes we will start ok so yeah, first of all we will discuss MMLU because this is the mother of all benchmarks at least in knowledge capability this is the mother of all benchmarks this is where things originated, so as I said the specialty of this benchmark is breadth of knowledge this simply tests one thing of LLM that how much breadth of knowledge it has not depth of knowledge, but breadth of knowledge and to do this in this benchmark over 57 subjects, 14000 multiple choice questions data set was made and from where this data set was taken where these questions have come from, real exams USMLE, USGRE, AP and other people have also sourced from their side now obviously it must have been taken from the internet from the text book, but yeah the main idea is that 57 subjects, 14000 questions MCQs ok, it was launched in September 2020 and it had only one job to tell how smart is a given LLM, smart in terms of how much knowledge it has, ok from 2021 to 2024 all the LLMs that have"
+    ],
+    "source_sessions": [
+      "5"
+    ]
+  },
+  {
+    "id": "f012",
+    "query": "what information should i store when logging production conversations?",
+    "ideal_context": [
+      "store the question that the user asked. What context was generated in the rag chat bot in the process of answering that question? I will store that context in the chat bot. I will store the output that the chat bot gave on the basis of that context and question. Apart from that, I will store a lot of operational things such as latency in milliseconds, how many tokens were spent in the prompt, how many completion tokens are there, how much total cost was spent, did any error come? If an error came, what is its status code? I will store all this. Apart from this, if the user is giving me some other signals, I will store those signals too. Like if there is a behavioral metric such as he is pressing thumbs up or thumbs down during the conversation, then I will store that too. Is he mailing? He is saying that I don't want to talk to you, I want to talk to a human or give my email ID, I want to mail. So if the matter is escalating, I will store that. The user is asking the same questions",
+      "want to talk to a human or give my email ID, I want to mail. So if the matter is escalating, I will store that. The user is asking the same questions again and again because he feels that the chat bot is not helping him, he is rephrasing the question. So I will store all these things. Everything will be stored. Can someone tell me a tool to store all this? Have you seen a tool in the past where you use that tool to store such things? Perfect. Amin was right. I had also taught on YouTube, we had covered in detail that we had made a chat bot and we were storing every conversation of that chat bot. Where? On Langsmith. I can show you right now. So see this. This is Langsmith. Langsmith has different projects. What can you do in those projects? All your conversations are there. These are all conversations. You can store those conversations. You store everything in it. What the user sent, what was your output, there is a lot of metadata. Everything is stored. So this is kept with you. Now"
+    ],
+    "source_sessions": [
+      "3"
+    ]
+  },
+  {
+    "id": "f013",
+    "query": "how can thumbs up and thumbs down signals help build a golden dataset?",
+    "ideal_context": [
+      "not? Is there any other signal that can tell this instead of the correct answer? Let me tell you. What if you have given the option of thumbs up and thumbs down in your chatbot? If you suddenly start seeing that in the last one hour, the rating of thumbs down is coming in a lot of conversations, then what will you understand from this? That something or the other has gone wrong. Something or the other is giving the wrong answer to our chatbot. So again, this is a tricky way to find out that is the correctness working properly or not? Yes, basically the user's feedback has been done. So here the correctness has been alternated by the user's feedback. Yeah Aman, we judge LLM as a judge. I will show you now. Look, understand one thing. One important thing is that the questions you are asking are a little ahead of the questions. Because we have not discussed the how part of online evals yet. Technically, we just discussed that why do we need online evals and what exactly are online evals?",
+      "store the question that the user asked. What context was generated in the rag chat bot in the process of answering that question? I will store that context in the chat bot. I will store the output that the chat bot gave on the basis of that context and question. Apart from that, I will store a lot of operational things such as latency in milliseconds, how many tokens were spent in the prompt, how many completion tokens are there, how much total cost was spent, did any error come? If an error came, what is its status code? I will store all this. Apart from this, if the user is giving me some other signals, I will store those signals too. Like if there is a behavioral metric such as he is pressing thumbs up or thumbs down during the conversation, then I will store that too. Is he mailing? He is saying that I don't want to talk to you, I want to talk to a human or give my email ID, I want to mail. So if the matter is escalating, I will store that. The user is asking the same questions"
+    ],
+    "source_sessions": [
+      "3"
+    ]
+  },
+  {
+    "id": "f014",
+    "query": "how does a step-by-step prompt help an llm solve a math problem?",
+    "ideal_context": [
+      "kind of system prompt that see this question and try to solve it step by step like here the answer is also shown Natalia sold 48 divided by 2 means 24 clips in may Natalia sold 48 plus 24 clips all together this is getting solved step by step and is reaching the answer if you are not allowing chain of thought and you are telling to directly answer this then chances of mistakes are more so in GSM 8k also chain of thought is allowed again, here we are just talking about the options available while constructing the prompt few shot, zero shot, chain of thought or normal after that you see things in your decoding and sampling configuration you keep temperature value around zero because if you increase it more than zero then creative answers start coming and every time they start varying so temperature is mostly around zero for such benchmarks then you set a max token if you set a very less max token then it can be since chain of thought is triggered and while thinking in the reach the"
+    ],
+    "source_sessions": [
+      "4"
+    ]
+  },
+  {
+    "id": "f015",
+    "query": "what are computed and captured signals in online evaluation?",
+    "ideal_context": [
+      "not? Okay? So there are actually two types of signals which you have to focus on. The first one is computed and the second one is captured signals. Okay? So computed signals are those that you have to calculate or figure out. And captured signals are those that are already present and you have to store them somewhere. I will give you both the examples. For example, captured signal is thumbs up, thumbs down. If the user did thumbs up or thumbs down during the conversation, then this is a signal that the user is giving me. So I am directly storing it in the langsmith. Now I didn't need to calculate anything here. The user said thumbs down, I have to store it as it is. So we call this captured signal. One more example is latency. To do any particular answer, how much time did my chatbot take? Whatever time it took, I have to store it in the langsmith. Now I don't need to calculate anything here. Cost per conversation. How much token did I spend? How much money did I spend? Again, it is"
+    ],
+    "source_sessions": [
+      "3"
+    ]
+  }
+]

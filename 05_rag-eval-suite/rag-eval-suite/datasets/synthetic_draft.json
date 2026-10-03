@@ -1,0 +1,92 @@
+[
+  {
+    "id": "g001",
+    "query": "Analyze which key stakeholders prioritize LLM benchmarking and their distinct motivations for evaluation.",
+    "ideal_answer": "The key stakeholders prioritizing LLM benchmarking are primarily Frontier Labs like OpenAI, Anthropic, and Google DeepMind. Their main motivation is to assess model improvements during development, ensuring each new version outperforms the previous one.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g002",
+    "query": "Assess if model reasoning trace validity influences final answer evaluation metrics.",
+    "ideal_answer": "Model reasoning trace validity does not influence final answer evaluation metrics, as the reasoning process is not evaluated—only the correctness of the final answer is assessed.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g003",
+    "query": "How does a single SME evaluate 50–100 student answers using a rubric to create golden data?",
+    "ideal_answer": "A single SME evaluates 50–100 student answers by reviewing each answer against a predefined rubric, checking off which points are covered for each question, and assigning scores accordingly to create the golden data set.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g004",
+    "query": "How does the misconception that finger folding causes arthritis compare to medical evidence on its harm?",
+    "ideal_answer": "The misconception that folding fingers causes arthritis is not supported by medical evidence. Doctors have clarified that folding fingers does not cause arthritis, although repeatedly doing it over time is often mistakenly believed to be harmful. This myth persists despite being debunked by medical professionals.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g005",
+    "query": "How does an LLM utilize database schema knowledge to translate text queries into executable SQL commands?",
+    "ideal_answer": "An LLM uses its understanding of the database schema—knowing how the database is organized and what columns exist—to interpret the text query accurately. It then generates the corresponding SQL command based on this schema knowledge, which can be executed on the database to retrieve the desired results.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g006",
+    "query": "How do rag triad metrics evaluate question-context relevance and answer faithfulness in rag pipelines?",
+    "ideal_answer": "RAG triad metrics evaluate question-context relevance by measuring how well the retrieved context from the vector database matches the user's question. Answer faithfulness is assessed by checking if the generated answer accurately reflects the retrieved context, ensuring the answer is supported by the information provided.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g007",
+    "query": "How do model evals enable AI engineers to iteratively measure and enhance LLM capabilities?",
+    "ideal_answer": "Model evals enable AI engineers to iteratively measure and enhance LLM capabilities by providing mechanisms to assess the performance of different models. This measurement is crucial because, without it, improvement is impossible—\"if you can't measure, you can't improve.\" By regularly evaluating models, AI engineers can identify strengths and weaknesses, guiding targeted enhancements in their LLM-based applications.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g008",
+    "query": "How does using coding leaderboards as proxies assess models' SQL generation capabilities?",
+    "ideal_answer": "Using coding leaderboards as proxies assesses models' SQL generation capabilities by leveraging the models' overall coding skills, since SQL generation is a form of coding. Instead of relying on potentially unreliable text-to-SQL leaderboards, coding leaderboards provide a broader and more trustworthy measure of a model's ability to generate SQL through its demonstrated coding performance.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g009",
+    "query": "Analyze how processor strength interacts with other components to determine smartphone quality.",
+    "ideal_answer": "Processor strength is important but not sufficient alone to determine smartphone quality. A strong processor boosts performance, as shown by high benchmark scores, but other components like the camera system, operating system, sound system, graphics card, and battery also play crucial roles. Only when all these elements work well together does the smartphone deliver a good overall experience.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g010",
+    "query": "How do models maintain context retention and quality when processing 100k+ token inputs?",
+    "ideal_answer": "Models maintain context retention and quality with 100k+ token inputs by employing advanced techniques to manage large context windows. However, as the input size grows, the ability to retain detailed context and maintain response quality typically diminishes. Testing models on tasks like extracting specific facts, summarizing extensive documents, or handling large codebases helps evaluate which models effectively sustain context and performance over very long inputs.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g011",
+    "query": "How do AI engineers evaluate LLM apps’ components and full systems, including hardware like batteries?",
+    "ideal_answer": "AI engineers evaluate LLM applications by testing both individual components and the entire system, similar to how hardware like batteries or screens are tested in smartphones. While Frontier Labs evaluates the LLM itself, engineers are responsible for assessing the full system built around it, ensuring each part—including software components and hardware—is thoroughly tested for performance and behavior.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g012",
+    "query": "If Ian Goodfellow’s book is too academic, how might mastering its basics still boost AI interview success?",
+    "ideal_answer": "Mastering the basics from Ian Goodfellow’s book builds a strong foundation in deep learning, enabling you to understand core concepts deeply. This foundation helps you handle 80-85% of AI interview questions effectively, even if the book feels too academic.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g013",
+    "query": "Are workshops scheduled on building voice AI agents this month and multi-agent architectures next month?",
+    "ideal_answer": "Yes, a workshop on building voice AI agents is scheduled for this month, and a workshop on multi-agent architectures is planned for next month.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g014",
+    "query": "Analyze manual data entry workflows for real-time sports event database updates and accuracy validation.",
+    "ideal_answer": "Real-time sports event databases rely on manual data entry by scorers who record events like ball throws and hits. This manual process ensures detailed and accurate updates but may introduce delays or errors. Accuracy validation depends on the scorer's expertise and real-time monitoring, as automated updates are not typically used in this context.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g015",
+    "query": "What key focus areas transition from junior data roles to business-side storytelling by Saturday's rag eval lecture?",
+    "ideal_answer": "The key focus areas transition from technical experience (1-3-5 years) in junior data roles to emphasizing data storytelling on the business side, as highlighted for discussion in Saturday's rag eval lecture.",
+    "source": "TODO-verify"
+  }
+]

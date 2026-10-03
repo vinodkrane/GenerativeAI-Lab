@@ -1,0 +1,5993 @@
+WEBVTT
+
+00:04:00.000 --> 00:04:03.000
+Hi guys good evening
+
+00:04:12.000 --> 00:04:17.000
+very few people have come, let's wait a little
+
+00:04:17.000 --> 00:04:23.000
+meanwhile, whoever is in the meeting, if you have any questions you can ask
+
+00:04:30.000 --> 00:04:44.000
+session 7 recording audio is missing
+
+00:04:44.000 --> 00:04:52.000
+yes, that problem was there, then we have updated it, so now it is not happening again, when did you check last
+
+00:04:53.000 --> 00:04:58.000
+I also saw that problem around 2 hours ago, then I told the swivel
+
+00:04:58.000 --> 00:05:04.000
+no, no, that problem was 12 hours back, we have resolved it, check it once
+
+00:05:13.000 --> 00:05:18.000
+I don't know how much you are following this particular playlist, LLME VALS
+
+00:05:19.000 --> 00:05:27.000
+so if you are following it on YouTube, then great, otherwise you may have a problem in today's class
+
+00:05:27.000 --> 00:05:32.000
+but at least if you have read it from the beginning, then it would seem easier
+
+00:05:33.000 --> 00:05:37.000
+we are waiting a little, just some more people join
+
+00:05:38.000 --> 00:05:43.000
+Sir, how many classes of LLM Ops will be there or how long will it be complete
+
+00:05:43.000 --> 00:05:50.000
+when we initially planned in LLM Ops, it is not possible to predict exactly
+
+00:05:50.000 --> 00:05:56.000
+because this is the first time we are taking this course, so we planned 25 to 30 classes
+
+00:05:56.000 --> 00:06:02.000
+how many classes have been done so far, I think it has been 8 or 9 classes or more than that
+
+00:06:03.000 --> 00:06:10.000
+it has been 10, so if we catch up with that speed, then in a month you are taking 8 classes roughly
+
+00:06:11.000 --> 00:06:14.000
+so 1.5 to 2 more months
+
+00:06:20.000 --> 00:06:28.000
+as such we are not planning a course separately, but if there is a lot of demand, then we can conduct a small session kind of thing
+
+00:06:29.000 --> 00:06:35.000
+in 2 to 4 hours we can complete, depends, I have not checked what all things come in it
+
+00:06:39.000 --> 00:06:46.000
+so we are still 6 or 7 people only, let's wait a little more, 1-2 minutes and then start
+
+00:06:49.000 --> 00:06:55.000
+I guess the timing is getting an issue, but today is Saturday, we had discussed a lot and kept Saturday
+
+00:06:56.000 --> 00:07:02.000
+and also I feel that a lot of people are watching these videos in recorded format
+
+00:07:02.000 --> 00:07:05.000
+live, everyone is not able to attend, I guess
+
+00:07:06.000 --> 00:07:12.000
+whatever it is, we will again take feedback after this month is over
+
+00:07:12.000 --> 00:07:13.000
+let's see
+
+00:07:17.000 --> 00:07:19.000
+is there any other question?
+
+00:07:19.000 --> 00:07:27.000
+I hope this is not the case, people got confused that there is a class at 8 o'clock
+
+00:07:28.000 --> 00:07:30.000
+this may be the case
+
+00:07:34.000 --> 00:07:39.000
+it was mentioned clearly, there is a class from 6 pm on Saturday
+
+00:07:41.000 --> 00:07:45.000
+and now maybe we have given the integration of the Google Calendar, then
+
+00:07:49.000 --> 00:07:59.000
+ok, let's wait for a minute or two more, whoever has to come will come, maybe post it on the group
+
+00:08:02.000 --> 00:08:06.000
+Sufal is not in the chat right now, otherwise I would have told him
+
+00:08:10.000 --> 00:08:12.000
+maybe he will join
+
+00:08:13.000 --> 00:08:18.000
+you guys post something, then the class has started
+
+00:08:23.000 --> 00:08:24.000
+thanks Nidhi
+
+00:08:27.000 --> 00:08:31.000
+ok, we are not too late, it's 6.02
+
+00:08:33.000 --> 00:08:38.000
+there will be separate classes for guardrails like LLMA Wales, yes Sumit
+
+00:08:38.000 --> 00:08:48.000
+after this, there are two more playlists in my mind, one is system design, you can say gen AI system design
+
+00:08:48.000 --> 00:08:56.000
+and the second is AI security and guardrails, with that, the whole track will be over
+
+00:08:56.000 --> 00:09:03.000
+after that nothing will be left, then we will move to the builder track where we will learn to train LLMs
+
+00:09:04.000 --> 00:09:06.000
+who will teach gen AI system design?
+
+00:09:09.000 --> 00:09:17.000
+it will be between me and Himanshu, it depends on who finishes the course first, if LLM Wales finishes first then I will teach
+
+00:09:17.000 --> 00:09:20.000
+if LLM ops finishes first then he will teach
+
+00:09:20.000 --> 00:09:30.000
+he has taught LLM ops, so he is more close to teaching system design
+
+00:09:30.000 --> 00:09:36.000
+because basically you implement the system design in the ops part
+
+00:09:36.000 --> 00:09:49.000
+it's like, I gave an example that the planning of the airport, if you want to build an airport in a city, then the planning around it is system design
+
+00:09:49.000 --> 00:09:54.000
+and on a day to day basis, the operations of running the airport are ML ops or LLM ops
+
+00:09:54.000 --> 00:10:04.000
+so whoever has studied ML ops or LLM ops, will be able to appreciate system design better because he has already done those things practically
+
+00:10:04.000 --> 00:10:22.000
+so yeah, but yeah, my plan is that by November, hopefully, before that, we will complete the AI engineering track
+
+00:10:22.000 --> 00:10:36.000
+that's our goal, so that we will cover the pre-training, data preparation, tokenization, fine-tuning, etc. of the builder side of LLMs
+
+00:10:36.000 --> 00:10:40.000
+we will cover all that in the first 6 months of the next year
+
+00:10:40.000 --> 00:10:48.000
+so I would say that our whole offering of campusX will be very holistic
+
+00:10:48.000 --> 00:10:55.000
+there is machine learning, deep learning, LLM gen. AI, and the building part
+
+00:10:55.000 --> 00:11:00.000
+so I am just hopeful that we will be able to do this in the next 6-7 months
+
+00:11:00.000 --> 00:11:06.000
+if possible, can you teach it because trade-offs in all system design is mainly a trade-off one
+
+00:11:06.000 --> 00:11:15.000
+yeah, I will try, it's a matter of operations, you have to see multiple things and plan accordingly
+
+00:11:15.000 --> 00:11:18.000
+I would like to teach it because I like it a lot
+
+00:11:18.000 --> 00:11:21.000
+so let's hope
+
+00:11:21.000 --> 00:11:28.000
+okay, let's do one thing, it's 6.05, let's start the class
+
+00:11:28.000 --> 00:11:32.000
+if you have any other questions, I will take them at the end of the session
+
+00:11:32.000 --> 00:11:40.000
+just tell me, can you see this screen, the one-note screen
+
+00:11:40.000 --> 00:11:43.000
+okay, fine
+
+00:11:43.000 --> 00:11:52.000
+so before starting the class, a quick recap of what we were reading
+
+00:11:52.000 --> 00:12:00.000
+so we were reading the benchmarking of LLMs
+
+00:12:00.000 --> 00:12:04.000
+we had seen the whole process in the last two last classes
+
+00:12:04.000 --> 00:12:09.000
+what are the benchmarks and how they are applied for evaluation
+
+00:12:09.000 --> 00:12:15.000
+then we started reading the benchmarks one by one in the last class
+
+00:12:15.000 --> 00:12:21.000
+and we targeted first of all on this capability, which is the knowledge capability
+
+00:12:21.000 --> 00:12:27.000
+and we had seen the whole roadmap of knowledge capability
+
+00:12:27.000 --> 00:12:31.000
+that when, which benchmark came in the picture and why
+
+00:12:31.000 --> 00:12:35.000
+and then we started covering the important benchmarks one by one
+
+00:12:35.000 --> 00:12:40.000
+in the last class, if you remember, we first covered MMLU
+
+00:12:40.000 --> 00:12:46.000
+then we covered Truthful QA
+
+00:12:46.000 --> 00:12:50.000
+then we covered AGI Eval
+
+00:12:50.000 --> 00:12:56.000
+and in the last session, the light went off
+
+00:12:56.000 --> 00:12:59.000
+and because of that, the session was automatically shut down
+
+00:12:59.000 --> 00:13:03.000
+so first of all, we have done an improvement
+
+00:13:03.000 --> 00:13:07.000
+I would like to share, we have ordered a UPS for our wifi
+
+00:13:07.000 --> 00:13:13.000
+so going forward, it will never happen that the light went off and the class got stuck
+
+00:13:13.000 --> 00:13:18.000
+unless the light goes off for 6-7 hours, which generally does not happen in our office building
+
+00:13:18.000 --> 00:13:23.000
+so that problem is solved and we will start today's class from exactly that point
+
+00:13:23.000 --> 00:13:27.000
+in today's class, we are going to study in two parts
+
+00:13:27.000 --> 00:13:31.000
+in the first part, we will cover the remaining benchmarks
+
+00:13:31.000 --> 00:13:35.000
+which would include GPQA, which is on your screen
+
+00:13:35.000 --> 00:13:39.000
+after that, we will also cover
+
+00:13:39.000 --> 00:13:43.000
+one is Simple QA
+
+00:13:43.000 --> 00:13:46.000
+MMLU Pro
+
+00:13:46.000 --> 00:13:50.000
+and lastly, all of them are HLE
+
+00:13:50.000 --> 00:13:56.000
+we will cover this and then in the second half of the session, we will study about leaderboards
+
+00:13:56.000 --> 00:14:07.000
+and I am very happy to tell you that today is the last theoretical class of this course
+
+00:14:07.000 --> 00:14:12.000
+after this, going forward, all the classes will be highly practical
+
+00:14:12.000 --> 00:14:16.000
+so just study theory for today, get bored
+
+00:14:16.000 --> 00:14:20.000
+and then in the next class, we will do things practically
+
+00:14:20.000 --> 00:14:23.000
+so you will find it a little more interesting
+
+00:14:23.000 --> 00:14:26.000
+so is the plan clear guys?
+
+00:14:26.000 --> 00:14:29.000
+where are we now?
+
+00:14:29.000 --> 00:14:32.000
+and what is the plan of today's class? is it clear?
+
+00:14:32.000 --> 00:14:35.000
+should we start?
+
+00:14:35.000 --> 00:14:38.000
+ok, let's start
+
+00:14:38.000 --> 00:14:42.000
+so let me remove this once, it will be a little difficult to write
+
+00:14:45.000 --> 00:14:48.000
+ok, let's start
+
+00:14:48.000 --> 00:14:52.000
+so the next benchmark we are going to study is GPQA
+
+00:14:52.000 --> 00:14:55.000
+the full form of GPQA is very interesting
+
+00:14:55.000 --> 00:15:00.000
+its full form is Google Proof Question and Answers
+
+00:15:00.000 --> 00:15:04.000
+and I will tell you the principle behind this
+
+00:15:04.000 --> 00:15:07.000
+this benchmark came in the picture because
+
+00:15:07.000 --> 00:15:10.000
+MMLU was saturated
+
+00:15:10.000 --> 00:15:16.000
+and then people thought that what did we do in MMLU?
+
+00:15:16.000 --> 00:15:19.000
+we checked the breadth of knowledge
+
+00:15:19.000 --> 00:15:24.000
+by asking questions around 57 subjects
+
+00:15:24.000 --> 00:15:27.000
+but those questions were mostly easy
+
+00:15:27.000 --> 00:15:32.000
+if you go and see that data set yourself, you will realize that the questions are not very difficult
+
+00:15:32.000 --> 00:15:35.000
+you can also answer
+
+00:15:35.000 --> 00:15:38.000
+so here some researchers thought that
+
+00:15:38.000 --> 00:15:41.000
+it is possible that as LLM gets smarter
+
+00:15:41.000 --> 00:15:44.000
+it will be very easy to answer easy questions for them
+
+00:15:44.000 --> 00:15:49.000
+so what if rather than checking the breadth of knowledge
+
+00:15:49.000 --> 00:15:53.000
+what if we check the depth of knowledge?
+
+00:15:53.000 --> 00:15:56.000
+basically rather than asking simple questions
+
+00:15:56.000 --> 00:15:59.000
+what if we ask difficult questions?
+
+00:15:59.000 --> 00:16:02.000
+like really difficult questions
+
+00:16:02.000 --> 00:16:05.000
+PhD level questions
+
+00:16:05.000 --> 00:16:08.000
+but the problem is that if you go in depth
+
+00:16:08.000 --> 00:16:11.000
+then it is not possible to cover a lot of subjects
+
+00:16:11.000 --> 00:16:14.000
+because obviously expertise is costly in the world
+
+00:16:14.000 --> 00:16:20.000
+so they thought that rather than going all out in 57 subjects
+
+00:16:20.000 --> 00:16:23.000
+let's just focus on 3 subjects
+
+00:16:23.000 --> 00:16:26.000
+which 3 subjects?
+
+00:16:26.000 --> 00:16:29.000
+physics, chemistry and bio
+
+00:16:29.000 --> 00:16:32.000
+and we will make a science based benchmark
+
+00:16:32.000 --> 00:16:36.000
+which will be made with research level PhD questions
+
+00:16:36.000 --> 00:16:39.000
+and the specialty of these questions is that
+
+00:16:39.000 --> 00:16:43.000
+if a non-specialist comes from any other domain
+
+00:16:43.000 --> 00:16:47.000
+then even if he gets Google, we give him 30 minutes of time
+
+00:16:47.000 --> 00:16:50.000
+then he will not be able to solve even one question
+
+00:16:50.000 --> 00:16:53.000
+questions of this level will be put in this data set
+
+00:16:53.000 --> 00:16:56.000
+see everything is written here
+
+00:16:56.000 --> 00:17:00.000
+it was launched in November 2023 and it was called Google proof
+
+00:17:00.000 --> 00:17:05.000
+PhD people made this benchmark by adding the hardest questions
+
+00:17:05.000 --> 00:17:08.000
+of science as in physics, chemistry and biology
+
+00:17:08.000 --> 00:17:11.000
+and the biggest differentiator of this was that
+
+00:17:11.000 --> 00:17:14.000
+every question that was put in this data set
+
+00:17:14.000 --> 00:17:17.000
+was validated by 2 domain experts
+
+00:17:17.000 --> 00:17:20.000
+so it was not a mistake
+
+00:17:20.000 --> 00:17:23.000
+and these questions are so difficult
+
+00:17:23.000 --> 00:17:26.000
+that even if a non-expert comes
+
+00:17:26.000 --> 00:17:29.000
+and he gets Google access
+
+00:17:29.000 --> 00:17:32.000
+then he will not be able to solve even one question in 30 minutes
+
+00:17:32.000 --> 00:17:35.000
+and we call this Google proof
+
+00:17:35.000 --> 00:17:38.000
+and this is the part of its name
+
+00:17:38.000 --> 00:17:41.000
+if we tell the current status of this benchmark
+
+00:17:41.000 --> 00:17:44.000
+now it is 2026 so this benchmark is
+
+00:17:44.000 --> 00:17:47.000
+near-scientific
+
+00:17:47.000 --> 00:17:50.000
+so now this benchmark is near-saturation
+
+00:17:50.000 --> 00:17:53.000
+now the new generation LLMs
+
+00:17:53.000 --> 00:17:56.000
+which have reasoning capability
+
+00:17:56.000 --> 00:17:59.000
+and have been trained on more data
+
+00:17:59.000 --> 00:18:02.000
+now they are going above 80% in this benchmark
+
+00:18:02.000 --> 00:18:05.000
+so you can say that
+
+00:18:05.000 --> 00:18:08.000
+in a few years it will be saturated
+
+00:18:08.000 --> 00:18:11.000
+so here the same lineage is told
+
+00:18:11.000 --> 00:18:14.000
+that in November 2023 GPQA was released
+
+00:18:14.000 --> 00:18:17.000
+and the most state of the art model of that time was GPT-4
+
+00:18:17.000 --> 00:18:20.000
+which could only solve 39% of the questions
+
+00:18:20.000 --> 00:18:23.000
+of the main data set
+
+00:18:23.000 --> 00:18:26.000
+after that in 2024
+
+00:18:26.000 --> 00:18:29.000
+GPT-4O came
+
+00:18:29.000 --> 00:18:32.000
+which reached 56% in the diamond data set
+
+00:18:32.000 --> 00:18:35.000
+so there are actually 3 data sets in GPQA
+
+00:18:35.000 --> 00:18:38.000
+one is the normal one
+
+00:18:38.000 --> 00:18:41.000
+one is, I don't remember the name
+
+00:18:41.000 --> 00:18:44.000
+one is the main one
+
+00:18:44.000 --> 00:18:47.000
+one is the extended one
+
+00:18:47.000 --> 00:18:50.000
+and one is the diamond one
+
+00:18:50.000 --> 00:18:53.000
+so in the main one there are
+
+00:18:53.000 --> 00:18:56.000
+443 questions, in the extended one
+
+00:18:56.000 --> 00:18:59.000
+there are 546 questions
+
+00:18:59.000 --> 00:19:02.000
+and in the diamond one there are only 198 questions
+
+00:19:02.000 --> 00:19:05.000
+so in the extended one
+
+00:19:05.000 --> 00:19:08.000
+there are all the questions
+
+00:19:08.000 --> 00:19:11.000
+and then they edited this
+
+00:19:11.000 --> 00:19:14.000
+so in some questions
+
+00:19:14.000 --> 00:19:17.000
+they saw errors
+
+00:19:17.000 --> 00:19:20.000
+so after removing those questions, there were 443 questions left
+
+00:19:20.000 --> 00:19:23.000
+and in these 443 questions
+
+00:19:23.000 --> 00:19:26.000
+198 most difficult questions were put in this
+
+00:19:26.000 --> 00:19:29.000
+diamond data set
+
+00:19:29.000 --> 00:19:32.000
+so whenever someone says that in GPQA we achieved 63%
+
+00:19:32.000 --> 00:19:35.000
+or 83%
+
+00:19:35.000 --> 00:19:38.000
+it means that how much percent they achieved
+
+00:19:38.000 --> 00:19:41.000
+in the most difficult data set
+
+00:19:41.000 --> 00:19:44.000
+so here it is written exactly that
+
+00:19:44.000 --> 00:19:47.000
+in 2024 GPT-4O came
+
+00:19:47.000 --> 00:19:50.000
+and it scored 56% in the diamond one
+
+00:19:50.000 --> 00:19:53.000
+then came the O1 of OpenAI
+
+00:19:53.000 --> 00:19:56.000
+which was a very strong reasoning model of 2024
+
+00:19:56.000 --> 00:19:59.000
+it achieved 78%
+
+00:19:59.000 --> 00:20:02.000
+at this point, OpenAI
+
+00:20:02.000 --> 00:20:05.000
+hired experts and gave them
+
+00:20:05.000 --> 00:20:08.000
+this data set to solve
+
+00:20:08.000 --> 00:20:11.000
+so those experts solved 69.7%
+
+00:20:11.000 --> 00:20:14.000
+or their score came
+
+00:20:14.000 --> 00:20:17.000
+so at this point OpenAI did a lot of marketing
+
+00:20:17.000 --> 00:20:20.000
+that we have beaten the PhDs in GPQA
+
+00:20:20.000 --> 00:20:23.000
+so this was also a big news at that time
+
+00:20:23.000 --> 00:20:26.000
+then in 2025 when the frontier models became more powerful
+
+00:20:26.000 --> 00:20:29.000
+then GROCK-4 came which scored almost 87%
+
+00:20:29.000 --> 00:20:32.000
+and then it felt that
+
+00:20:32.000 --> 00:20:35.000
+this data set will get saturated
+
+00:20:35.000 --> 00:20:38.000
+because as I told you that the life cycle
+
+00:20:38.000 --> 00:20:41.000
+it came close to saturation
+
+00:20:41.000 --> 00:20:44.000
+so this is pretty much the journey of this data set
+
+00:20:44.000 --> 00:20:47.000
+if you read about its tasks and data set details
+
+00:20:47.000 --> 00:20:50.000
+then as I said expert level questions
+
+00:20:50.000 --> 00:20:53.000
+in biology, physics and chemistry
+
+00:20:53.000 --> 00:20:56.000
+a typical question looks like this
+
+00:20:56.000 --> 00:20:59.000
+physics question I guess
+
+00:20:59.000 --> 00:21:02.000
+particle spin etc. has been discussed
+
+00:21:02.000 --> 00:21:05.000
+there are 4 options and you have to select the best option
+
+00:21:05.000 --> 00:21:08.000
+as you can see in most of the knowledge benchmarks
+
+00:21:08.000 --> 00:21:11.000
+here I have told you that there are 3 subsets
+
+00:21:11.000 --> 00:21:14.000
+in this entire benchmark, main, extended and diamond
+
+00:21:14.000 --> 00:21:17.000
+and the task is that you will be given only 4 options
+
+00:21:17.000 --> 00:21:20.000
+you have to tell the correct answer in one question
+
+00:21:20.000 --> 00:21:23.000
+and the metric is accuracy obviously
+
+00:21:23.000 --> 00:21:26.000
+run configuration is the same
+
+00:21:26.000 --> 00:21:29.000
+zero shot, chain of thought allowed, temperature 0
+
+00:21:29.000 --> 00:21:32.000
+pass at the rate 1 and tools access is not given
+
+00:21:32.000 --> 00:21:35.000
+and if we discuss 2 important pointers
+
+00:21:35.000 --> 00:21:38.000
+that what does this data set not measure
+
+00:21:38.000 --> 00:21:41.000
+so first of all it does not measure
+
+00:21:41.000 --> 00:21:44.000
+general graduate knowledge
+
+00:21:44.000 --> 00:21:47.000
+till now our data sets were targeting
+
+00:21:47.000 --> 00:21:50.000
+general knowledge, this is strictly
+
+00:21:50.000 --> 00:21:53.000
+the target benchmark of science
+
+00:21:53.000 --> 00:21:56.000
+so if a model is scoring very hard
+
+00:21:56.000 --> 00:21:59.000
+then it is only a representation of this
+
+00:21:59.000 --> 00:22:02.000
+that that model has absorbed the knowledge
+
+00:22:02.000 --> 00:22:05.000
+of science very well, the rest is not guaranteed
+
+00:22:05.000 --> 00:22:08.000
+second open-ended problem solving
+
+00:22:08.000 --> 00:22:11.000
+this benchmark does not tell you anything
+
+00:22:11.000 --> 00:22:14.000
+here you are simply selecting one option from the given options
+
+00:22:14.000 --> 00:22:17.000
+it does not mean that when it will be given an open-ended
+
+00:22:17.000 --> 00:22:20.000
+question of science then it will give you good results
+
+00:22:20.000 --> 00:22:23.000
+and lastly here
+
+00:22:23.000 --> 00:22:26.000
+the reasoning trace is not being evaluated
+
+00:22:26.000 --> 00:22:29.000
+you may know what reasoning models do
+
+00:22:29.000 --> 00:22:32.000
+reasoning models internally reason
+
+00:22:32.000 --> 00:22:35.000
+before giving any answer
+
+00:22:35.000 --> 00:22:38.000
+so we give them a task pad
+
+00:22:38.000 --> 00:22:41.000
+and we also give them a token budget
+
+00:22:41.000 --> 00:22:44.000
+that look we have a token budget, you can think in this much
+
+00:22:44.000 --> 00:22:47.000
+so internally they think, you may have seen
+
+00:22:47.000 --> 00:22:50.000
+while using chart GPT, it is written there
+
+00:22:50.000 --> 00:22:53.000
+that now the model is doing this, now this, now this, we call it reasoning
+
+00:22:53.000 --> 00:22:56.000
+so the reasoning trace
+
+00:22:56.000 --> 00:22:59.000
+we are not evaluating it, which basically means
+
+00:22:59.000 --> 00:23:02.000
+that we are not evaluating this thing that how the model
+
+00:23:02.000 --> 00:23:05.000
+is reaching the answer, there are many ways to reach the answer
+
+00:23:05.000 --> 00:23:08.000
+you are directly calculating the right answer
+
+00:23:08.000 --> 00:23:11.000
+or you are eliminating the wrong options
+
+00:23:11.000 --> 00:23:14.000
+or you are putting a mark on it
+
+00:23:14.000 --> 00:23:17.000
+anything can happen, right?
+
+00:23:17.000 --> 00:23:20.000
+so here we are not validating the correctness of reasoning trace
+
+00:23:20.000 --> 00:23:23.000
+which basically means that if the model is putting a mark internally
+
+00:23:23.000 --> 00:23:26.000
+and it is correct then we are giving it marks
+
+00:23:26.000 --> 00:23:29.000
+so this benchmark does not measure these three things
+
+00:23:29.000 --> 00:23:32.000
+if we discuss some known issues
+
+00:23:32.000 --> 00:23:35.000
+or criticisms
+
+00:23:35.000 --> 00:23:38.000
+then the biggest criticism is that there are very few questions
+
+00:23:38.000 --> 00:23:41.000
+in comparison to past data sets where we have seen
+
+00:23:41.000 --> 00:23:44.000
+14000-15000 questions
+
+00:23:44.000 --> 00:23:47.000
+here there are only 198 questions
+
+00:23:47.000 --> 00:23:50.000
+so the more the questions decrease
+
+00:23:50.000 --> 00:23:53.000
+the less your confidence on the result decreases
+
+00:23:53.000 --> 00:23:56.000
+you had read this in statistics especially in hypothesis testing
+
+00:23:56.000 --> 00:23:59.000
+so your confidence interval rating is not very
+
+00:23:59.000 --> 00:24:02.000
+we can say that you cannot trust it that much
+
+00:24:02.000 --> 00:24:05.000
+so that is one criticism that this benchmark gets
+
+00:24:05.000 --> 00:24:08.000
+after that here
+
+00:24:08.000 --> 00:24:11.000
+whenever a model says
+
+00:24:11.000 --> 00:24:14.000
+or a company says that our model
+
+00:24:14.000 --> 00:24:17.000
+beat the PhDs on GPQA
+
+00:24:17.000 --> 00:24:20.000
+then this is not a concrete fact
+
+00:24:20.000 --> 00:24:23.000
+like when OpenAI hired the PhDs
+
+00:24:23.000 --> 00:24:26.000
+they scored 69.7 whereas
+
+00:24:26.000 --> 00:24:29.000
+when the paper was published then they said that the PhDs
+
+00:24:29.000 --> 00:24:32.000
+which we gave this test, they scored 81.3
+
+00:24:32.000 --> 00:24:35.000
+so again we do not know how much the PhDs
+
+00:24:35.000 --> 00:24:38.000
+scored
+
+00:24:38.000 --> 00:24:41.000
+so if you are creating news around it
+
+00:24:41.000 --> 00:24:44.000
+then that is not correct
+
+00:24:44.000 --> 00:24:47.000
+after that contamination like with any other benchmark
+
+00:24:47.000 --> 00:24:50.000
+here also your contamination
+
+00:24:50.000 --> 00:24:53.000
+is coming in the picture, it has been 2-3 years now
+
+00:24:53.000 --> 00:24:56.000
+so now its questions
+
+00:24:56.000 --> 00:24:59.000
+are also going in the training data set of your model
+
+00:24:59.000 --> 00:25:02.000
+and we have discussed that
+
+00:25:02.000 --> 00:25:05.000
+it is only catering to 3 domains
+
+00:25:05.000 --> 00:25:08.000
+physics, chemistry, biology
+
+00:25:08.000 --> 00:25:11.000
+so it is not testing the overall graduate level knowledge
+
+00:25:11.000 --> 00:25:14.000
+so this was the biggest criticism of this
+
+00:25:14.000 --> 00:25:17.000
+so I hope you understood GPQA roughly
+
+00:25:17.000 --> 00:25:20.000
+the core idea is that we are still testing the breadth of knowledge
+
+00:25:20.000 --> 00:25:23.000
+we are taking a new angle and testing the depth of knowledge
+
+00:25:23.000 --> 00:25:26.000
+and this benchmark does exactly this
+
+00:25:26.000 --> 00:25:29.000
+so this is complete
+
+00:25:29.000 --> 00:25:32.000
+if you have any questions then you can ask
+
+00:25:35.000 --> 00:25:38.000
+I have opened the chat
+
+00:25:38.000 --> 00:25:41.000
+after this we have to discuss 3 more
+
+00:25:41.000 --> 00:25:44.000
+it will take 10-10 minutes max
+
+00:25:44.000 --> 00:25:47.000
+what is the reason for getting benchmark testing obsolete
+
+00:25:47.000 --> 00:25:50.000
+is this because key is available on web or really reasoning capability
+
+00:25:50.000 --> 00:25:53.000
+both the reasons are there
+
+00:25:53.000 --> 00:25:56.000
+like I said before
+
+00:25:56.000 --> 00:25:59.000
+the benchmark is not available on web
+
+00:25:59.000 --> 00:26:02.000
+so you have to get a benchmark
+
+00:26:02.000 --> 00:26:05.000
+and then you have to get a benchmark
+
+00:26:05.000 --> 00:26:08.000
+and then you have to get a benchmark
+
+00:26:08.000 --> 00:26:11.000
+and then you have to get a benchmark
+
+00:26:11.000 --> 00:26:14.000
+both the reasons are there
+
+00:26:14.000 --> 00:26:17.000
+as the next models are coming
+
+00:26:17.000 --> 00:26:20.000
+their capability is increasing
+
+00:26:20.000 --> 00:26:23.000
+so they will perform better
+
+00:26:23.000 --> 00:26:26.000
+but at the same time if it comes in training data
+
+00:26:26.000 --> 00:26:29.000
+then memorization is done
+
+00:26:29.000 --> 00:26:32.000
+so both the reasons are there
+
+00:26:32.000 --> 00:26:35.000
+let's move ahead in the discussion
+
+00:26:35.000 --> 00:26:38.000
+let's talk about MM LU PRO
+
+00:26:38.000 --> 00:26:41.000
+it is an upgrade
+
+00:26:41.000 --> 00:26:44.000
+directly on the very famous
+
+00:26:44.000 --> 00:26:47.000
+MM LU benchmark
+
+00:26:47.000 --> 00:26:50.000
+let me tell you the reasoning behind this
+
+00:26:50.000 --> 00:26:53.000
+as I said, MM LU was saturated
+
+00:26:53.000 --> 00:26:56.000
+and as it was saturated
+
+00:26:56.000 --> 00:26:59.000
+researchers started to think in different directions
+
+00:26:59.000 --> 00:27:02.000
+GPQEVs started to think that instead of breadth
+
+00:27:02.000 --> 00:27:05.000
+they check depth
+
+00:27:05.000 --> 00:27:08.000
+and instead of benchmarking
+
+00:27:08.000 --> 00:27:11.000
+they use existing exams as benchmarks
+
+00:27:11.000 --> 00:27:14.000
+so some researchers said that MM LU is a good benchmark
+
+00:27:14.000 --> 00:27:17.000
+if it is saturated
+
+00:27:17.000 --> 00:27:20.000
+then what if we improve it or its problems
+
+00:27:20.000 --> 00:27:23.000
+and from this thought process MM LU PRO came
+
+00:27:23.000 --> 00:27:26.000
+so basically whatever problems were there in MM LU
+
+00:27:26.000 --> 00:27:29.000
+MM LU PRO tried to solve them
+
+00:27:29.000 --> 00:27:32.000
+they basically said that if a product is good
+
+00:27:32.000 --> 00:27:35.000
+then the next iteration of that product should be good
+
+00:27:35.000 --> 00:27:38.000
+that's the main thinking behind this benchmark
+
+00:27:38.000 --> 00:27:41.000
+so the tagline of this MM LU PRO
+
+00:27:41.000 --> 00:27:44.000
+is simply MM LU Rebuilt
+
+00:27:44.000 --> 00:27:47.000
+to fix its flaws
+
+00:27:47.000 --> 00:27:50.000
+so whatever problems were there in MM LU
+
+00:27:50.000 --> 00:27:53.000
+they tried to solve them
+
+00:27:53.000 --> 00:27:56.000
+let me tell you what things were solved
+
+00:27:56.000 --> 00:27:59.000
+the first change is that instead of giving 4 options
+
+00:27:59.000 --> 00:28:02.000
+in MCQ we give 10 options
+
+00:28:02.000 --> 00:28:05.000
+what will happen if we give 10 options
+
+00:28:05.000 --> 00:28:08.000
+according to you
+
+00:28:08.000 --> 00:28:11.000
+can you tell me if you are going to give one exam
+
+00:28:11.000 --> 00:28:14.000
+let's say IIT JEE or whatever other exams
+
+00:28:14.000 --> 00:28:17.000
+and instead of 4 options you get 10 options
+
+00:28:17.000 --> 00:28:20.000
+in every question
+
+00:28:20.000 --> 00:28:23.000
+so will your exam become more difficult or easy
+
+00:28:23.000 --> 00:28:26.000
+or I guess you can understand
+
+00:28:26.000 --> 00:28:29.000
+so we have given such exams
+
+00:28:29.000 --> 00:28:32.000
+and we try to eliminate options
+
+00:28:32.000 --> 00:28:35.000
+and reach the right option
+
+00:28:35.000 --> 00:28:38.000
+so when you have 4 options then elimination is easy
+
+00:28:38.000 --> 00:28:41.000
+you have to eliminate 3 and reach 1
+
+00:28:41.000 --> 00:28:44.000
+when you have 10 then it will become very difficult
+
+00:28:44.000 --> 00:28:47.000
+so basically to increase the complexity
+
+00:28:47.000 --> 00:28:50.000
+researchers gave 10 options instead of 4
+
+00:28:50.000 --> 00:28:53.000
+second, what they did is
+
+00:28:53.000 --> 00:28:56.000
+they removed the most basic questions
+
+00:28:56.000 --> 00:28:59.000
+and the noisy questions
+
+00:28:59.000 --> 00:29:02.000
+from MM LU and instead of them
+
+00:29:02.000 --> 00:29:05.000
+added reasoning based questions
+
+00:29:05.000 --> 00:29:08.000
+I will show you an example after a while
+
+00:29:08.000 --> 00:29:11.000
+but what did they do? MM LU was famous for asking
+
+00:29:11.000 --> 00:29:14.000
+basic factuality based questions
+
+00:29:14.000 --> 00:29:17.000
+but they removed them and replaced them with
+
+00:29:17.000 --> 00:29:20.000
+a little complex reasoning based questions
+
+00:29:20.000 --> 00:29:23.000
+so what did they do? They said that they will not focus on 57 subjects
+
+00:29:23.000 --> 00:29:26.000
+because if you are going to focus on 57 subjects
+
+00:29:26.000 --> 00:29:29.000
+then you are focusing on some subjects more
+
+00:29:29.000 --> 00:29:32.000
+and less on some subjects, so that is not good
+
+00:29:32.000 --> 00:29:35.000
+so they selected only 14 broad categories
+
+00:29:35.000 --> 00:29:38.000
+and in these 14 categories they added questions
+
+00:29:38.000 --> 00:29:41.000
+and in every category they added enough questions
+
+00:29:41.000 --> 00:29:44.000
+so that no category under represents
+
+00:29:44.000 --> 00:29:47.000
+so these were the 3 major changes
+
+00:29:47.000 --> 00:29:50.000
+and these changes were beneficial
+
+00:29:50.000 --> 00:29:53.000
+the proof of this is that
+
+00:29:53.000 --> 00:29:56.000
+the models that could do reasoning
+
+00:29:56.000 --> 00:29:59.000
+they saw that they are 20 points ahead
+
+00:29:59.000 --> 00:30:02.000
+of non reasoning models
+
+00:30:02.000 --> 00:30:05.000
+which actually shows that
+
+00:30:05.000 --> 00:30:08.000
+there is a need to think in this data set
+
+00:30:08.000 --> 00:30:11.000
+earlier without thinking you could only
+
+00:30:11.000 --> 00:30:14.000
+recall factuality and bring good numbers
+
+00:30:14.000 --> 00:30:17.000
+but now in this exam
+
+00:30:17.000 --> 00:30:20.000
+you will have to think in this benchmark
+
+00:30:20.000 --> 00:30:23.000
+so this benchmark favored reasoning models
+
+00:30:23.000 --> 00:30:26.000
+in that sense
+
+00:30:26.000 --> 00:30:29.000
+if we look at its lineage it is very simple
+
+00:30:29.000 --> 00:30:32.000
+in 2020 MM LU came, XBOB was saturated
+
+00:30:32.000 --> 00:30:35.000
+in 2024 2 papers came
+
+00:30:35.000 --> 00:30:38.000
+one was called MM LU Redux and the other
+
+00:30:38.000 --> 00:30:41.000
+one was called MM LU Pro
+
+00:30:41.000 --> 00:30:44.000
+Redux is not actually a benchmark
+
+00:30:44.000 --> 00:30:47.000
+I was confused earlier, I will tell you upfront
+
+00:30:47.000 --> 00:30:50.000
+this is not a benchmark, this is a paper
+
+00:30:50.000 --> 00:30:53.000
+which showed that
+
+00:30:53.000 --> 00:30:56.000
+there are many problems in MM LU
+
+00:30:56.000 --> 00:30:59.000
+and the biggest problem is that around 6-8%
+
+00:30:59.000 --> 00:31:02.000
+questions are incorrect
+
+00:31:02.000 --> 00:31:05.000
+incorrect in the sense
+
+00:31:05.000 --> 00:31:08.000
+either the answer is not given properly
+
+00:31:08.000 --> 00:31:11.000
+or the answer is not being said properly
+
+00:31:11.000 --> 00:31:14.000
+so these researchers found this finding
+
+00:31:14.000 --> 00:31:17.000
+so this is how we found out that
+
+00:31:17.000 --> 00:31:20.000
+no one can score 100% on MM LU
+
+00:31:20.000 --> 00:31:23.000
+people were thinking that we are reaching
+
+00:31:23.000 --> 00:31:26.000
+90-92 but no one is able to go on it
+
+00:31:26.000 --> 00:31:29.000
+so we found out the reason when MM LU Redux paper came
+
+00:31:29.000 --> 00:31:32.000
+so after this we understood that
+
+00:31:32.000 --> 00:31:35.000
+this benchmark is saturated and now we have to do something new
+
+00:31:35.000 --> 00:31:38.000
+that's when MM LU Pro paper came
+
+00:31:38.000 --> 00:31:41.000
+and they made all these changes
+
+00:31:41.000 --> 00:31:44.000
+which I have told you above
+
+00:31:44.000 --> 00:31:47.000
+so if you talk about the current status of MM LU Pro
+
+00:31:47.000 --> 00:31:50.000
+it came in 2024, now it is running in 2026
+
+00:31:50.000 --> 00:31:53.000
+and now it is also nearing saturation
+
+00:31:53.000 --> 00:31:56.000
+so people are now scoring around 80-90
+
+00:31:56.000 --> 00:31:59.000
+if we talk about its task and data set details
+
+00:31:59.000 --> 00:32:02.000
+so here there are 12000 questions
+
+00:32:02.000 --> 00:32:05.000
+14000 questions were in MM LU
+
+00:32:05.000 --> 00:32:08.000
+instead of 57 there are 14 disciplines
+
+00:32:08.000 --> 00:32:11.000
+here is a typical question
+
+00:32:23.000 --> 00:32:26.000
+now look at the options
+
+00:32:26.000 --> 00:32:29.000
+A, B, C, there are up to J options
+
+00:32:29.000 --> 00:32:32.000
+now this question is not a
+
+00:32:32.000 --> 00:32:35.000
+factuality recall
+
+00:32:35.000 --> 00:32:38.000
+here you need facts as in knowledge
+
+00:32:38.000 --> 00:32:41.000
+but at the same time you have to reason
+
+00:32:41.000 --> 00:32:44.000
+so this is what I told you that these questions are added
+
+00:32:44.000 --> 00:32:47.000
+task is simple
+
+00:32:47.000 --> 00:32:50.000
+you have to answer in quiz format
+
+00:32:50.000 --> 00:32:53.000
+so core metric is again accuracy
+
+00:32:53.000 --> 00:32:56.000
+just like other benchmarks
+
+00:32:56.000 --> 00:32:59.000
+so you can't use tools
+
+00:32:59.000 --> 00:33:02.000
+like 5 shot, COT, temperature 0, pass at the rate 1
+
+00:33:02.000 --> 00:33:05.000
+you can't use tools
+
+00:33:05.000 --> 00:33:08.000
+if we talk about what benchmark
+
+00:33:08.000 --> 00:33:11.000
+this benchmark can't measure
+
+00:33:11.000 --> 00:33:14.000
+like other benchmarks, it doesn't measure open-ended generation
+
+00:33:14.000 --> 00:33:17.000
+here you have to select one of the options
+
+00:33:17.000 --> 00:33:20.000
+but you are not generating
+
+00:33:20.000 --> 00:33:23.000
+so we are not able to check the generation capabilities
+
+00:33:23.000 --> 00:33:26.000
+so here we are not measuring the correctness of reasoning trace
+
+00:33:26.000 --> 00:33:29.000
+we are just measuring the end answer
+
+00:33:29.000 --> 00:33:32.000
+and lastly we are not checking the calibration
+
+00:33:32.000 --> 00:33:35.000
+calibration came in the last class as well
+
+00:33:35.000 --> 00:33:38.000
+calibration simply means
+
+00:33:38.000 --> 00:33:41.000
+does a model know that
+
+00:33:41.000 --> 00:33:44.000
+it doesn't know the answer
+
+00:33:44.000 --> 00:33:47.000
+this is calibration, remember it is written here
+
+00:33:47.000 --> 00:33:50.000
+no test of whether a model knows what it doesn't know
+
+00:33:50.000 --> 00:33:53.000
+if a model doesn't know that it doesn't know the answer
+
+00:33:53.000 --> 00:33:56.000
+then it will hallucinate and give some answer
+
+00:33:56.000 --> 00:33:59.000
+but those who know that they don't know this
+
+00:33:59.000 --> 00:34:02.000
+instead of hallucinating, they will clearly say
+
+00:34:02.000 --> 00:34:05.000
+I am not sure about the answer
+
+00:34:05.000 --> 00:34:08.000
+so here you don't check the calibration
+
+00:34:08.000 --> 00:34:11.000
+so these are 2-3 things
+
+00:34:11.000 --> 00:34:14.000
+criticisms, known issues, there is no human baseline here
+
+00:34:14.000 --> 00:34:17.000
+all the benchmarks we have discussed so far
+
+00:34:17.000 --> 00:34:20.000
+in these papers, human baseline was mentioned
+
+00:34:20.000 --> 00:34:23.000
+in this paper, no human baseline was mentioned
+
+00:34:23.000 --> 00:34:26.000
+so we don't have any comparison threshold
+
+00:34:26.000 --> 00:34:29.000
+where humans are operating, where models are going
+
+00:34:29.000 --> 00:34:32.000
+nothing like that
+
+00:34:32.000 --> 00:34:35.000
+approaching saturation because now frontier models
+
+00:34:35.000 --> 00:34:38.000
+have advanced and there is a contamination issue in this
+
+00:34:38.000 --> 00:34:41.000
+so yeah, very close to saturation
+
+00:34:41.000 --> 00:34:44.000
+and here
+
+00:34:44.000 --> 00:34:47.000
+reasoning models score very well
+
+00:34:47.000 --> 00:34:50.000
+this is also a criticism
+
+00:34:50.000 --> 00:34:53.000
+MMLU is a benchmark that you can apply to any kind of model
+
+00:34:53.000 --> 00:34:56.000
+but here reasoning models have unfair advantages
+
+00:34:56.000 --> 00:34:59.000
+because explicitly such questions are put where reasoning will help
+
+00:34:59.000 --> 00:35:02.000
+and again source contamination list
+
+00:35:02.000 --> 00:35:05.000
+because many questions have been raised from your public stem problem
+
+00:35:05.000 --> 00:35:08.000
+so there is a good chance that
+
+00:35:08.000 --> 00:35:11.000
+contamination is there, now think for yourself
+
+00:35:11.000 --> 00:35:14.000
+you don't think that you have been raised from HC Verma
+
+00:35:14.000 --> 00:35:17.000
+or from any similar physics book
+
+00:35:17.000 --> 00:35:20.000
+so such questions or similar questions
+
+00:35:20.000 --> 00:35:23.000
+are publicly available to you
+
+00:35:23.000 --> 00:35:26.000
+and that is one of the reasons why in 2024
+
+00:35:26.000 --> 00:35:29.000
+this benchmark is going to be saturated
+
+00:35:29.000 --> 00:35:32.000
+so yeah, nothing new
+
+00:35:32.000 --> 00:35:35.000
+an old thing that was good, an attempt to improve it
+
+00:35:35.000 --> 00:35:38.000
+this attempt lasted for 2 years
+
+00:35:38.000 --> 00:35:41.000
+so now forward, this will also be saturated
+
+00:35:41.000 --> 00:35:44.000
+so yeah, this was the second benchmark of the day
+
+00:35:44.000 --> 00:35:47.000
+let me know if you have any doubts related to this
+
+00:35:57.000 --> 00:36:00.000
+if you have no doubts, then just write clear
+
+00:36:00.000 --> 00:36:03.000
+or something else like that
+
+00:36:03.000 --> 00:36:06.000
+then we will move forward
+
+00:36:06.000 --> 00:36:09.000
+can you explain the first criticism point again
+
+00:36:09.000 --> 00:36:12.000
+just wait
+
+00:36:12.000 --> 00:36:15.000
+what was it
+
+00:36:15.000 --> 00:36:18.000
+no human baseline
+
+00:36:18.000 --> 00:36:21.000
+so till now you will see that any paper or benchmark
+
+00:36:21.000 --> 00:36:24.000
+that we discussed, a human baseline is told from the beginning
+
+00:36:24.000 --> 00:36:27.000
+it comes in the research paper
+
+00:36:27.000 --> 00:36:30.000
+so here like in GPQMA, it is written here
+
+00:36:30.000 --> 00:36:33.000
+that
+
+00:36:33.000 --> 00:36:36.000
+somewhere down here
+
+00:36:36.000 --> 00:36:39.000
+whatever you read
+
+00:36:39.000 --> 00:36:42.000
+maybe 68% or 78%
+
+00:36:42.000 --> 00:36:45.000
+81%
+
+00:36:45.000 --> 00:36:48.000
+yes, it is written here
+
+00:36:48.000 --> 00:36:51.000
+true against the pool, short of papers
+
+00:36:51.000 --> 00:36:54.000
+81.3, so it was mentioned in the paper
+
+00:36:54.000 --> 00:36:57.000
+that in this particular benchmark
+
+00:36:57.000 --> 00:37:00.000
+humans performance is 81.3, this is called human baseline
+
+00:37:00.000 --> 00:37:03.000
+so once you get the human baseline
+
+00:37:03.000 --> 00:37:06.000
+then all the models try to reach it
+
+00:37:06.000 --> 00:37:09.000
+this makes it clear that in this particular aspect
+
+00:37:09.000 --> 00:37:12.000
+in this particular problem benchmark
+
+00:37:12.000 --> 00:37:15.000
+models are reaching humans
+
+00:37:15.000 --> 00:37:18.000
+in MMLU Pro
+
+00:37:18.000 --> 00:37:21.000
+there was no such human baseline in the paper
+
+00:37:21.000 --> 00:37:24.000
+they did not give it, whereas in the original
+
+00:37:24.000 --> 00:37:27.000
+MMLU, people criticized
+
+00:37:27.000 --> 00:37:30.000
+that the benchmark you have designed
+
+00:37:30.000 --> 00:37:33.000
+why are you not carrying the core philosophy
+
+00:37:33.000 --> 00:37:36.000
+that's it, it is not a big point
+
+00:37:39.000 --> 00:37:42.000
+shall we move to the next
+
+00:37:46.000 --> 00:37:49.000
+ok
+
+00:37:49.000 --> 00:37:52.000
+the next benchmark is
+
+00:37:52.000 --> 00:37:55.000
+interesting, in the sense that
+
+00:37:55.000 --> 00:37:58.000
+the benchmarks we discussed earlier are different
+
+00:37:58.000 --> 00:38:01.000
+in two aspects
+
+00:38:01.000 --> 00:38:04.000
+we will discuss both the aspects, before that
+
+00:38:04.000 --> 00:38:07.000
+I will tell you the story of this benchmark
+
+00:38:07.000 --> 00:38:10.000
+so if you remember, we discussed
+
+00:38:10.000 --> 00:38:13.000
+that everything started from MMLU
+
+00:38:13.000 --> 00:38:16.000
+one branch came out of it
+
+00:38:16.000 --> 00:38:19.000
+that take the exam like humans
+
+00:38:19.000 --> 00:38:22.000
+quickly tell us which benchmark
+
+00:38:22.000 --> 00:38:25.000
+was it, quick quiz in between
+
+00:38:25.000 --> 00:38:28.000
+just to check if you are retaining or not
+
+00:38:28.000 --> 00:38:31.000
+will anyone tell us
+
+00:38:31.000 --> 00:38:34.000
+which benchmark was it that said
+
+00:38:34.000 --> 00:38:37.000
+rather than creating new benchmarks
+
+00:38:37.000 --> 00:38:40.000
+why don't you use existing exams to check
+
+00:38:40.000 --> 00:38:43.000
+model intelligence or their knowledge
+
+00:38:43.000 --> 00:38:46.000
+which was it
+
+00:38:46.000 --> 00:38:49.000
+come on, no one remembers
+
+00:38:49.000 --> 00:38:52.000
+AGI well
+
+00:38:52.000 --> 00:38:55.000
+AGI well
+
+00:38:55.000 --> 00:38:58.000
+then who asked questions about reliability
+
+00:38:58.000 --> 00:39:01.000
+we also read a benchmark
+
+00:39:01.000 --> 00:39:04.000
+which said that answers are available
+
+00:39:04.000 --> 00:39:07.000
+we are also measuring it, but is the answer
+
+00:39:07.000 --> 00:39:10.000
+right or hallucination, which way did it go
+
+00:39:10.000 --> 00:39:13.000
+truthful QA
+
+00:39:13.000 --> 00:39:16.000
+then who went the way of depth
+
+00:39:16.000 --> 00:39:19.000
+we just read GPQA
+
+00:39:19.000 --> 00:39:22.000
+and who went to fix MMLU
+
+00:39:22.000 --> 00:39:25.000
+MMLU Pro
+
+00:39:25.000 --> 00:39:28.000
+right, this is the map so far
+
+00:39:28.000 --> 00:39:31.000
+now, simple QA
+
+00:39:31.000 --> 00:39:34.000
+where does it fit, I will tell you
+
+00:39:34.000 --> 00:39:37.000
+it fits here, when truthful QA
+
+00:39:37.000 --> 00:39:40.000
+was saturated, then this reliability question
+
+00:39:40.000 --> 00:39:43.000
+was in the picture, that the model that is answering
+
+00:39:43.000 --> 00:39:46.000
+is correct, it is okay to check its knowledge
+
+00:39:46.000 --> 00:39:49.000
+but it is so right
+
+00:39:49.000 --> 00:39:52.000
+it is truthful, that is also important
+
+00:39:52.000 --> 00:39:55.000
+so, truthful QA was replaced
+
+00:39:55.000 --> 00:39:58.000
+simple QA
+
+00:39:58.000 --> 00:40:01.000
+and the best thing about simple QA is that
+
+00:40:01.000 --> 00:40:04.000
+it is very simple, its name is also its work
+
+00:40:04.000 --> 00:40:07.000
+but even then it is a very difficult
+
+00:40:07.000 --> 00:40:10.000
+to crack benchmark for LLMs
+
+00:40:10.000 --> 00:40:13.000
+it is still active
+
+00:40:13.000 --> 00:40:16.000
+maybe this is the first benchmark
+
+00:40:16.000 --> 00:40:19.000
+which I am saying that it is still active
+
+00:40:19.000 --> 00:40:22.000
+it is not saturated, it is not near saturation
+
+00:40:22.000 --> 00:40:25.000
+it is active
+
+00:40:25.000 --> 00:40:28.000
+so now I will tell you what is the scene, what does this benchmark do
+
+00:40:28.000 --> 00:40:31.000
+so in this benchmark you get
+
+00:40:31.000 --> 00:40:34.000
+a dataset of 4000 plus short fact seeking questions
+
+00:40:34.000 --> 00:40:37.000
+simple questions we ask
+
+00:40:37.000 --> 00:40:40.000
+that who got the Nobel prize in this field
+
+00:40:40.000 --> 00:40:43.000
+in a particular year, there are such questions
+
+00:40:43.000 --> 00:40:46.000
+the interesting thing is that in this dataset
+
+00:40:46.000 --> 00:40:49.000
+you are not given options
+
+00:40:49.000 --> 00:40:52.000
+basically this is not a MCQ dataset
+
+00:40:52.000 --> 00:40:55.000
+this is a short answer writing
+
+00:40:55.000 --> 00:40:58.000
+kind of benchmark, you have to write the answer
+
+00:40:58.000 --> 00:41:01.000
+and tell it, so automatically
+
+00:41:01.000 --> 00:41:04.000
+the questions are more difficult, think and tell
+
+00:41:04.000 --> 00:41:07.000
+are subjective exams more difficult
+
+00:41:07.000 --> 00:41:10.000
+or MCQ based exams, what do you personally think
+
+00:41:10.000 --> 00:41:13.000
+just write in the chat
+
+00:41:13.000 --> 00:41:16.000
+which exam would you prefer
+
+00:41:16.000 --> 00:41:19.000
+I know no one wants to give exams but there are two options
+
+00:41:19.000 --> 00:41:22.000
+one is MCQ and one is writing
+
+00:41:22.000 --> 00:41:25.000
+you have to write the answers completely, so which one is more difficult
+
+00:41:25.000 --> 00:41:28.000
+I guess a lot of people would agree that
+
+00:41:28.000 --> 00:41:31.000
+subjective exams are more difficult
+
+00:41:31.000 --> 00:41:34.000
+that is why LLMs also feel the same thing
+
+00:41:34.000 --> 00:41:37.000
+that when they are given a subjective exam
+
+00:41:37.000 --> 00:41:40.000
+then it is difficult to answer for them
+
+00:41:40.000 --> 00:41:43.000
+and this is one of the major strengths of simple QA
+
+00:41:43.000 --> 00:41:46.000
+second, this dataset
+
+00:41:46.000 --> 00:41:49.000
+this benchmark not only measures
+
+00:41:49.000 --> 00:41:52.000
+accuracy, it also
+
+00:41:52.000 --> 00:41:55.000
+measures calibration
+
+00:41:55.000 --> 00:41:58.000
+I explained calibration a little while ago
+
+00:41:58.000 --> 00:42:01.000
+and he knows that he does not know the answer
+
+00:42:01.000 --> 00:42:04.000
+this is also known in this dataset
+
+00:42:04.000 --> 00:42:07.000
+in this benchmark because
+
+00:42:07.000 --> 00:42:10.000
+we measure three things here
+
+00:42:10.000 --> 00:42:13.000
+after seeing an answer we measure
+
+00:42:13.000 --> 00:42:16.000
+is it correct
+
+00:42:16.000 --> 00:42:19.000
+or is it incorrect or
+
+00:42:19.000 --> 00:42:22.000
+the model said pass, I don't want to answer
+
+00:42:22.000 --> 00:42:25.000
+we also measure this thing
+
+00:42:25.000 --> 00:42:28.000
+and because of this thing
+
+00:42:28.000 --> 00:42:31.000
+we can find out
+
+00:42:31.000 --> 00:42:34.000
+whether the model knows or not that he does not know the answer
+
+00:42:34.000 --> 00:42:37.000
+I hope I am able to explain, see here it is written exactly
+
+00:42:37.000 --> 00:42:40.000
+and 4,326 questions
+
+00:42:40.000 --> 00:42:43.000
+short fact seeking questions
+
+00:42:43.000 --> 00:42:46.000
+and how all these questions have been made
+
+00:42:46.000 --> 00:42:49.000
+this is a set of questions in which
+
+00:42:49.000 --> 00:42:52.000
+GPT-4 failed in answering
+
+00:42:52.000 --> 00:42:55.000
+so these 4000 questions are such questions
+
+00:42:55.000 --> 00:42:58.000
+which at that time
+
+00:42:58.000 --> 00:43:01.000
+state of the art model could not answer
+
+00:43:01.000 --> 00:43:04.000
+that is why these difficult questions will be considered
+
+00:43:04.000 --> 00:43:07.000
+OpenAI launched it in 2024
+
+00:43:07.000 --> 00:43:10.000
+and the best thing about it
+
+00:43:10.000 --> 00:43:13.000
+as I discussed, here you do not get options
+
+00:43:13.000 --> 00:43:16.000
+so you have to write the answer
+
+00:43:16.000 --> 00:43:19.000
+you have to generate the answer and this is the reason
+
+00:43:19.000 --> 00:43:22.000
+that the same model which scored 88% in MMLU
+
+00:43:22.000 --> 00:43:25.000
+could only score 40% in simple QA
+
+00:43:25.000 --> 00:43:28.000
+and at this point its status is
+
+00:43:28.000 --> 00:43:31.000
+that it is active and now
+
+00:43:31.000 --> 00:43:34.000
+there is no chance that it will saturate
+
+00:43:34.000 --> 00:43:37.000
+design insight is that
+
+00:43:37.000 --> 00:43:40.000
+there are two benchmarks in this
+
+00:43:40.000 --> 00:43:43.000
+there are two benchmarks in this one benchmark
+
+00:43:43.000 --> 00:43:46.000
+one obviously tells whether the answer is correct or wrong
+
+00:43:46.000 --> 00:43:49.000
+but there is a third category
+
+00:43:49.000 --> 00:43:52.000
+not attempted
+
+00:43:52.000 --> 00:43:55.000
+which tells us how humble the model is
+
+00:43:55.000 --> 00:43:58.000
+it is not ignorant
+
+00:43:58.000 --> 00:44:01.000
+when the model says that I don't know
+
+00:44:01.000 --> 00:44:04.000
+then we understand that
+
+00:44:04.000 --> 00:44:07.000
+it is not hallucinating
+
+00:44:07.000 --> 00:44:10.000
+it is confident about its abilities
+
+00:44:10.000 --> 00:44:13.000
+so the philosophy of this paper is
+
+00:44:13.000 --> 00:44:16.000
+that get as many questions correct
+
+00:44:16.000 --> 00:44:19.000
+as possible while not attempting
+
+00:44:19.000 --> 00:44:22.000
+the ones you are not confident about
+
+00:44:22.000 --> 00:44:25.000
+this benchmark tells us this
+
+00:44:25.000 --> 00:44:28.000
+so factuality plus calibration
+
+00:44:28.000 --> 00:44:31.000
+these two things are testing
+
+00:44:31.000 --> 00:44:34.000
+in simple QA
+
+00:44:34.000 --> 00:44:37.000
+let's talk about history and lineage
+
+00:44:37.000 --> 00:44:40.000
+it came in 2014, GPT 4.0 at that time
+
+00:44:40.000 --> 00:44:43.000
+it scored 38% in the QA model
+
+00:44:43.000 --> 00:44:46.000
+O1 preview scored 42%
+
+00:44:46.000 --> 00:44:49.000
+till February 2025
+
+00:44:49.000 --> 00:44:52.000
+it scored 4.5 at 62.5
+
+00:44:52.000 --> 00:44:55.000
+so yeah, this benchmark is still there
+
+00:44:55.000 --> 00:44:58.000
+we can say that it will be active
+
+00:44:58.000 --> 00:45:01.000
+for maybe one or two more years
+
+00:45:01.000 --> 00:45:04.000
+we discussed the data set
+
+00:45:04.000 --> 00:45:07.000
+we discussed the design criteria
+
+00:45:07.000 --> 00:45:10.000
+the correct answer is
+
+00:45:10.000 --> 00:45:13.000
+just one second
+
+00:45:13.000 --> 00:45:16.000
+hallucinated answer is this
+
+00:45:16.000 --> 00:45:19.000
+incorrect answer basically
+
+00:45:19.000 --> 00:45:22.000
+and the third answer
+
+00:45:22.000 --> 00:45:25.000
+the model can say that I am not certain
+
+00:45:25.000 --> 00:45:28.000
+who won that year
+
+00:45:28.000 --> 00:45:31.000
+these are the three possibilities
+
+00:45:31.000 --> 00:45:34.000
+task is very simple
+
+00:45:34.000 --> 00:45:37.000
+task is very simple
+
+00:45:37.000 --> 00:45:40.000
+you have to answer the question
+
+00:45:40.000 --> 00:45:43.000
+here is a LLM judge
+
+00:45:43.000 --> 00:45:46.000
+who will judge the answer
+
+00:45:46.000 --> 00:45:49.000
+and will put it in one of the three categories
+
+00:45:49.000 --> 00:45:52.000
+correct or wrong, it didn't attempt
+
+00:45:52.000 --> 00:45:55.000
+and what is the score?
+
+00:45:55.000 --> 00:45:58.000
+here are three metrics
+
+00:45:58.000 --> 00:46:01.000
+the headline metric is correct
+
+00:46:01.000 --> 00:46:04.000
+out of all questions, how many answers were correct
+
+00:46:04.000 --> 00:46:07.000
+the second metric is
+
+00:46:07.000 --> 00:46:10.000
+correct given attempted
+
+00:46:10.000 --> 00:46:13.000
+it tells accuracy among only attempted questions
+
+00:46:13.000 --> 00:46:16.000
+so 4300 questions
+
+00:46:16.000 --> 00:46:19.000
+the model attempted 3500
+
+00:46:19.000 --> 00:46:22.000
+so how many were correct in these 3500
+
+00:46:22.000 --> 00:46:25.000
+and the third is F score
+
+00:46:25.000 --> 00:46:28.000
+which is the harmonic mean of this one and this one
+
+00:46:28.000 --> 00:46:31.000
+so the harmonic mean is
+
+00:46:31.000 --> 00:46:34.000
+it tells us about both the things
+
+00:46:34.000 --> 00:46:37.000
+how good is its factuality and how good is its calibration
+
+00:46:37.000 --> 00:46:40.000
+so this is the difference
+
+00:46:40.000 --> 00:46:43.000
+between this particular benchmark and all the other benchmarks
+
+00:46:43.000 --> 00:46:46.000
+that we discussed before
+
+00:46:46.000 --> 00:46:49.000
+here we are checking the calibration
+
+00:46:49.000 --> 00:46:52.000
+run config is nothing different
+
+00:46:52.000 --> 00:46:55.000
+and if we want to discuss
+
+00:46:55.000 --> 00:46:58.000
+so although it measures
+
+00:46:58.000 --> 00:47:01.000
+factuality, but it is short form
+
+00:47:01.000 --> 00:47:04.000
+factuality
+
+00:47:04.000 --> 00:47:07.000
+who won that award that year, it is a two word answer
+
+00:47:07.000 --> 00:47:10.000
+so we are checking this but we are not checking
+
+00:47:10.000 --> 00:47:13.000
+long form factuality, how good will this model be
+
+00:47:13.000 --> 00:47:16.000
+we can't tell with the help of this benchmark
+
+00:47:16.000 --> 00:47:19.000
+secondly we are checking that
+
+00:47:19.000 --> 00:47:22.000
+how well the model is calibrating
+
+00:47:22.000 --> 00:47:25.000
+but again we can't guarantee
+
+00:47:25.000 --> 00:47:28.000
+that when we make a rag chartboard with the help of that model
+
+00:47:28.000 --> 00:47:31.000
+and give it some documents
+
+00:47:31.000 --> 00:47:34.000
+then it will hallucinate or not
+
+00:47:34.000 --> 00:47:37.000
+we are not testing that here so this should be clear
+
+00:47:37.000 --> 00:47:40.000
+also everyday factual reliability
+
+00:47:40.000 --> 00:47:43.000
+is not there so as I said
+
+00:47:43.000 --> 00:47:46.000
+when was this data set made or how it was made
+
+00:47:46.000 --> 00:47:49.000
+every question is such a question on which
+
+00:47:49.000 --> 00:47:52.000
+we made this data set of
+
+00:47:52.000 --> 00:47:55.000
+these questions
+
+00:47:55.000 --> 00:47:58.000
+so these are kind of rare questions
+
+00:47:58.000 --> 00:48:01.000
+these are not normal daily questions
+
+00:48:01.000 --> 00:48:04.000
+so we have created a data set that is
+
+00:48:04.000 --> 00:48:07.000
+extraordinary
+
+00:48:07.000 --> 00:48:10.000
+we have made it with different type of questions
+
+00:48:10.000 --> 00:48:13.000
+so based on the performance on that
+
+00:48:13.000 --> 00:48:16.000
+we can't tell how the everyday recall or factuality will be
+
+00:48:16.000 --> 00:48:19.000
+because of this benchmark
+
+00:48:19.000 --> 00:48:22.000
+if we talk about known issues and criticisms
+
+00:48:22.000 --> 00:48:25.000
+so since we have put an LLM grader here
+
+00:48:25.000 --> 00:48:28.000
+basically an LLM as a judge to evaluate the answer
+
+00:48:28.000 --> 00:48:31.000
+so obviously over the years
+
+00:48:31.000 --> 00:48:34.000
+this LLM as the judge will improve
+
+00:48:34.000 --> 00:48:37.000
+new models will come
+
+00:48:37.000 --> 00:48:40.000
+so the performance of the LLM judge we are using today
+
+00:48:40.000 --> 00:48:43.000
+can't be compared with the LLM judge 2 years ago
+
+00:48:43.000 --> 00:48:46.000
+because obviously models are improving
+
+00:48:46.000 --> 00:48:49.000
+on a daily basis so
+
+00:48:49.000 --> 00:48:52.000
+because of this we can't compare the benchmark
+
+00:48:52.000 --> 00:48:55.000
+with the results of 2 years ago
+
+00:48:55.000 --> 00:48:58.000
+next is answer's staleness
+
+00:48:58.000 --> 00:49:01.000
+what is this? it's simple meaning
+
+00:49:01.000 --> 00:49:04.000
+like there is a question of your data set
+
+00:49:04.000 --> 00:49:07.000
+what question can it be
+
+00:49:07.000 --> 00:49:10.000
+who is the
+
+00:49:10.000 --> 00:49:13.000
+ranked 1
+
+00:49:13.000 --> 00:49:16.000
+rugby player of the world
+
+00:49:16.000 --> 00:49:19.000
+let's say now this data set was made in 2024
+
+00:49:19.000 --> 00:49:22.000
+so in 2024 let's say ABC was
+
+00:49:22.000 --> 00:49:25.000
+the player name but in 2026
+
+00:49:25.000 --> 00:49:28.000
+by removing ABC XYZ became the
+
+00:49:28.000 --> 00:49:31.000
+ranked 1 player, this can happen right?
+
+00:49:31.000 --> 00:49:34.000
+so the problem of answer's staleness is that many answers
+
+00:49:34.000 --> 00:49:37.000
+are not the same as they were 2 years ago
+
+00:49:37.000 --> 00:49:40.000
+so this is the benchmark
+
+00:49:40.000 --> 00:49:43.000
+and lastly
+
+00:49:43.000 --> 00:49:46.000
+adversarial against GPT-4 selection bias
+
+00:49:46.000 --> 00:49:49.000
+here it is said that
+
+00:49:49.000 --> 00:49:52.000
+this whole data set benchmark is made from the questions
+
+00:49:52.000 --> 00:49:55.000
+on which GPT-4 failed
+
+00:49:55.000 --> 00:49:58.000
+so there is an adversarial bias against GPT-4 models
+
+00:49:58.000 --> 00:50:01.000
+so now this can be beneficial for other models
+
+00:50:01.000 --> 00:50:04.000
+and can be harmful
+
+00:50:04.000 --> 00:50:07.000
+there is no treatment to all the models
+
+00:50:07.000 --> 00:50:10.000
+so that is one of the criticisms that comes against this benchmark
+
+00:50:10.000 --> 00:50:13.000
+but despite that simple QA is
+
+00:50:13.000 --> 00:50:16.000
+a very respectable benchmark
+
+00:50:16.000 --> 00:50:19.000
+and if someone is able to score
+
+00:50:19.000 --> 00:50:22.000
+on this benchmark then it is considered very good
+
+00:50:22.000 --> 00:50:25.000
+so even though its name is simple QA
+
+00:50:25.000 --> 00:50:28.000
+but it's a great benchmark to have
+
+00:50:28.000 --> 00:50:31.000
+it helps you a lot in catching hallucinations
+
+00:50:31.000 --> 00:50:34.000
+let me know if you have any doubts in simple QA
+
+00:50:34.000 --> 00:50:37.000
+then after this
+
+00:50:37.000 --> 00:50:40.000
+we will discuss a last
+
+00:50:40.000 --> 00:50:43.000
+benchmark which is the daddy of all these
+
+00:50:43.000 --> 00:50:46.000
+its name is HLE
+
+00:50:46.000 --> 00:50:49.000
+humanities last exam
+
+00:50:49.000 --> 00:50:52.000
+a question has come
+
+00:50:52.000 --> 00:50:55.000
+if the question is fact based right
+
+00:50:55.000 --> 00:50:58.000
+like Nobel prize winner in specific year and all
+
+00:50:58.000 --> 00:51:01.000
+so here you have to keep one thing in mind
+
+00:51:01.000 --> 00:51:04.000
+when we say that we put the data of the internet
+
+00:51:04.000 --> 00:51:07.000
+of the world
+
+00:51:07.000 --> 00:51:10.000
+in a model
+
+00:51:10.000 --> 00:51:13.000
+then we can say that
+
+00:51:13.000 --> 00:51:16.000
+we can put the data of the internet
+
+00:51:16.000 --> 00:51:19.000
+of the world
+
+00:51:19.000 --> 00:51:22.000
+so we can say that
+
+00:51:22.000 --> 00:51:25.000
+we can put the data of the internet
+
+00:51:25.000 --> 00:51:28.000
+so if we put the data of the internet of the world
+
+00:51:28.000 --> 00:51:31.000
+in training a model
+
+00:51:31.000 --> 00:51:34.000
+it does not guarantee that it will absorb the data of the internet
+
+00:51:34.000 --> 00:51:37.000
+of the world
+
+00:51:37.000 --> 00:51:40.000
+there are many stages of cleaning of the data
+
+00:51:40.000 --> 00:51:43.000
+there is a good chance that
+
+00:51:43.000 --> 00:51:46.000
+the fact or piece of knowledge does not reach the model
+
+00:51:46.000 --> 00:51:49.000
+basically the model cannot absorb it
+
+00:51:49.000 --> 00:51:52.000
+and if we talk about the other
+
+00:51:52.000 --> 00:51:55.000
+the core philosophy of this
+
+00:51:55.000 --> 00:51:58.000
+is that it is checking the truthfulness
+
+00:51:58.000 --> 00:52:01.000
+of a model
+
+00:52:01.000 --> 00:52:04.000
+that does it know that or not
+
+00:52:04.000 --> 00:52:07.000
+that it does not know the answer
+
+00:52:07.000 --> 00:52:10.000
+this is the main ask of this benchmark
+
+00:52:10.000 --> 00:52:13.000
+it is not checking the fact or knowledge
+
+00:52:13.000 --> 00:52:16.000
+knowledge based questions are being asked
+
+00:52:16.000 --> 00:52:19.000
+but they are being asked so that we can judge
+
+00:52:19.000 --> 00:52:22.000
+whether there is an idea or not
+
+00:52:22.000 --> 00:52:25.000
+this is the main idea of this benchmark
+
+00:52:25.000 --> 00:52:28.000
+I hope I answered your question
+
+00:52:34.000 --> 00:52:37.000
+is there any other question at this point?
+
+00:52:40.000 --> 00:52:43.000
+if not then write it clearly
+
+00:52:43.000 --> 00:52:46.000
+then we will move to the last benchmark
+
+00:52:46.000 --> 00:52:49.000
+under knowledge capability
+
+00:52:58.000 --> 00:53:01.000
+yes that is what I am saying
+
+00:53:01.000 --> 00:53:04.000
+it is all about calibration
+
+00:53:04.000 --> 00:53:07.000
+ok
+
+00:53:07.000 --> 00:53:10.000
+so let's go
+
+00:53:10.000 --> 00:53:13.000
+let's discuss HLE
+
+00:53:13.000 --> 00:53:16.000
+HLE is like
+
+00:53:16.000 --> 00:53:19.000
+a very dramatic name
+
+00:53:19.000 --> 00:53:22.000
+humanities last exam
+
+00:53:22.000 --> 00:53:25.000
+it sounds a bit heavy
+
+00:53:25.000 --> 00:53:28.000
+let me tell you the thought process behind it
+
+00:53:28.000 --> 00:53:31.000
+the thought process behind humanities last exam
+
+00:53:31.000 --> 00:53:34.000
+the thought process behind it is very simple
+
+00:53:34.000 --> 00:53:37.000
+what HLE did
+
+00:53:37.000 --> 00:53:40.000
+it absorbed the ideas of the previous benchmark
+
+00:53:40.000 --> 00:53:43.000
+it absorbed the ideas of the previous benchmark
+
+00:53:43.000 --> 00:53:46.000
+so it took the breadth from MMLU
+
+00:53:46.000 --> 00:53:49.000
+so it took the breadth from MMLU
+
+00:53:49.000 --> 00:53:52.000
+it took the depth from GPQA
+
+00:53:52.000 --> 00:53:55.000
+it took the depth from GPQA
+
+00:53:55.000 --> 00:53:58.000
+and basically
+
+00:53:58.000 --> 00:54:01.000
+it took the depth from GPQA
+
+00:54:01.000 --> 00:54:04.000
+and basically
+
+00:54:04.000 --> 00:54:07.000
+it created a depth cross breadth
+
+00:54:07.000 --> 00:54:10.000
+it created a depth cross breadth
+
+00:54:10.000 --> 00:54:13.000
+which has 2500 questions
+
+00:54:13.000 --> 00:54:16.000
+all of them are expert written questions
+
+00:54:16.000 --> 00:54:19.000
+across 100 plus subjects
+
+00:54:19.000 --> 00:54:22.000
+from classics to rocket engineering
+
+00:54:22.000 --> 00:54:25.000
+and each filtered to stump frontier models
+
+00:54:25.000 --> 00:54:28.000
+and it is a thesis in which frontier models are not able to answer
+
+00:54:28.000 --> 00:54:31.000
+so that is the main idea behind HLE
+
+00:54:31.000 --> 00:54:34.000
+and its name HLE is because
+
+00:54:34.000 --> 00:54:37.000
+its name is because
+
+00:54:37.000 --> 00:54:40.000
+that the name is a thesis not marketing
+
+00:54:40.000 --> 00:54:43.000
+that the name is a thesis not marketing
+
+00:54:43.000 --> 00:54:46.000
+if models saturate a broad expert level
+
+00:54:46.000 --> 00:54:49.000
+unambiguous answer exam this hard
+
+00:54:49.000 --> 00:54:52.000
+then closed ended question answering
+
+00:54:52.000 --> 00:54:55.000
+there is nothing left to measure
+
+00:54:55.000 --> 00:54:58.000
+and evaluation must move to open ended
+
+00:54:58.000 --> 00:55:01.000
+and evaluation must move to open ended
+
+00:55:01.000 --> 00:55:04.000
+basic idea is that the researchers
+
+00:55:04.000 --> 00:55:07.000
+who published this benchmark said that
+
+00:55:07.000 --> 00:55:10.000
+if a model is cracking such a difficult benchmark
+
+00:55:10.000 --> 00:55:13.000
+which can handle both depth and breadth
+
+00:55:13.000 --> 00:55:16.000
+then there is nothing left to check
+
+00:55:16.000 --> 00:55:19.000
+after this we should move forward
+
+00:55:19.000 --> 00:55:22.000
+and then we should focus on how the agentic
+
+00:55:22.000 --> 00:55:25.000
+tasks and open ended tasks are handling
+
+00:55:25.000 --> 00:55:28.000
+and that is why they kept the name
+
+00:55:28.000 --> 00:55:31.000
+humanities last exam
+
+00:55:31.000 --> 00:55:34.000
+current status of this benchmark is that
+
+00:55:34.000 --> 00:55:37.000
+it is active in fact
+
+00:55:37.000 --> 00:55:40.000
+even a few days back all the models
+
+00:55:40.000 --> 00:55:43.000
+which gave this benchmark test
+
+00:55:43.000 --> 00:55:46.000
+were operating in single digit
+
+00:55:46.000 --> 00:55:49.000
+after the release of the G3 pro
+
+00:55:49.000 --> 00:55:52.000
+it reached 38% finally
+
+00:55:52.000 --> 00:55:55.000
+so here it is told
+
+00:55:55.000 --> 00:55:58.000
+how this data set was made
+
+00:55:58.000 --> 00:56:01.000
+HLE takes the same expert authored
+
+00:56:01.000 --> 00:56:04.000
+failure filtered recipe like GPQA
+
+00:56:04.000 --> 00:56:07.000
+like GPQA was made to bring depth
+
+00:56:07.000 --> 00:56:10.000
+and it increases it at scale
+
+00:56:10.000 --> 00:56:13.000
+here 1000 experts
+
+00:56:13.000 --> 00:56:16.000
+50 countries
+
+00:56:16.000 --> 00:56:19.000
+made this 2500 questions
+
+00:56:19.000 --> 00:56:22.000
+spreading 100 plus subjects
+
+00:56:22.000 --> 00:56:25.000
+this is a massive effort generally benchmarks
+
+00:56:25.000 --> 00:56:28.000
+comes from a small research group
+
+00:56:28.000 --> 00:56:31.000
+this is like a proper world wide people
+
+00:56:31.000 --> 00:56:34.000
+working on a project and then that project was made
+
+00:56:34.000 --> 00:56:37.000
+so DPQA where only
+
+00:56:37.000 --> 00:56:40.000
+physics, chemistry and biology was deep
+
+00:56:40.000 --> 00:56:43.000
+across the whole map of human expertise
+
+00:56:43.000 --> 00:56:46.000
+humans have knowledge about all the fields
+
+00:56:46.000 --> 00:56:49.000
+all the fields have the
+
+00:56:49.000 --> 00:56:52.000
+deepest questions of accumulation
+
+00:56:52.000 --> 00:56:55.000
+and that is why this name was given
+
+00:56:55.000 --> 00:56:58.000
+here one more thing was done
+
+00:56:58.000 --> 00:57:01.000
+that the research institute
+
+00:57:01.000 --> 00:57:04.000
+which has made this benchmark
+
+00:57:04.000 --> 00:57:07.000
+they have held its private
+
+00:57:07.000 --> 00:57:10.000
+test set
+
+00:57:10.000 --> 00:57:13.000
+so a public set of 2500 questions
+
+00:57:13.000 --> 00:57:16.000
+and a private set which is not available on the internet
+
+00:57:16.000 --> 00:57:19.000
+is only with this institute
+
+00:57:19.000 --> 00:57:22.000
+and they have kept it with them so that they can always
+
+00:57:22.000 --> 00:57:25.000
+test a new model on that test set
+
+00:57:25.000 --> 00:57:28.000
+and they can give results so this work was done
+
+00:57:28.000 --> 00:57:31.000
+to stop contamination
+
+00:57:31.000 --> 00:57:34.000
+also here one more new thing is that this model
+
+00:57:34.000 --> 00:57:37.000
+not only does this benchmark test accuracy
+
+00:57:37.000 --> 00:57:40.000
+it also tests calibration
+
+00:57:40.000 --> 00:57:43.000
+whenever you send a question to the model
+
+00:57:43.000 --> 00:57:46.000
+you also tell it that
+
+00:57:46.000 --> 00:57:49.000
+how confident were you to answer this question
+
+00:57:49.000 --> 00:57:52.000
+so the model tells itself that
+
+00:57:52.000 --> 00:57:55.000
+I am 80% confident, I am 75% confident
+
+00:57:55.000 --> 00:57:58.000
+so not only accuracy is being measured here
+
+00:57:58.000 --> 00:58:01.000
+also the confidence score is being used
+
+00:58:01.000 --> 00:58:04.000
+so you can tell how much the model knows about itself
+
+00:58:04.000 --> 00:58:07.000
+or how truthful it is
+
+00:58:07.000 --> 00:58:10.000
+let's talk about the lineage
+
+00:58:10.000 --> 00:58:13.000
+it came in January 2025
+
+00:58:13.000 --> 00:58:16.000
+in 2025 GROK 4 went on 24, GPT 5 on 25
+
+00:58:16.000 --> 00:58:19.000
+Gemini went on 38
+
+00:58:19.000 --> 00:58:22.000
+and in 2026 it is still active
+
+00:58:22.000 --> 00:58:25.000
+infact even now knowledge and reasoning test
+
+00:58:25.000 --> 00:58:28.000
+and maths is also a domain
+
+00:58:28.000 --> 00:58:31.000
+so it is still the top benchmark
+
+00:58:31.000 --> 00:58:34.000
+if we want to tell the new models that
+
+00:58:34.000 --> 00:58:37.000
+our knowledge, reasoning and maths is very strong
+
+00:58:37.000 --> 00:58:40.000
+then they will tell you the score of this benchmark
+
+00:58:40.000 --> 00:58:43.000
+we have discussed the detail of the data set
+
+00:58:43.000 --> 00:58:46.000
+this is a sample question by the way
+
+00:58:46.000 --> 00:58:49.000
+you can't see it by pausing, it is live class
+
+00:58:49.000 --> 00:58:52.000
+but in future when you will see the recording you can pause and see
+
+00:58:52.000 --> 00:58:55.000
+the main USP is breadth times depth
+
+00:58:55.000 --> 00:58:58.000
+people either have breadth of knowledge or depth of knowledge
+
+00:58:58.000 --> 00:59:01.000
+I don't think there will be a person in the world
+
+00:59:01.000 --> 00:59:04.000
+who has breadth and depth both
+
+00:59:04.000 --> 00:59:07.000
+there will be no PhD who has PhD in 100 subjects
+
+00:59:07.000 --> 00:59:10.000
+you can do PhD in only one subject
+
+00:59:10.000 --> 00:59:13.000
+because depth takes time
+
+00:59:13.000 --> 00:59:16.000
+so the same problem was thrown in front of the model
+
+00:59:16.000 --> 00:59:19.000
+that you can get breadth, you can get depth in less subjects
+
+00:59:19.000 --> 00:59:22.000
+but we are asking you that you get depth in 100 subjects
+
+00:59:22.000 --> 00:59:25.000
+whether you get depth or not
+
+00:59:25.000 --> 00:59:28.000
+here also you take test in two formats
+
+00:59:28.000 --> 00:59:31.000
+80% questions are short answer questions
+
+00:59:31.000 --> 00:59:34.000
+where you have to type the answer
+
+00:59:34.000 --> 00:59:37.000
+generate it and 20% questions are MCQ based
+
+00:59:37.000 --> 00:59:40.000
+it is a mixture but there are more questions
+
+00:59:40.000 --> 00:59:43.000
+which you have to type and generate
+
+00:59:43.000 --> 00:59:46.000
+also 10% of all the questions
+
+00:59:46.000 --> 00:59:49.000
+are multimodal
+
+00:59:49.000 --> 00:59:52.000
+which basically means that in these questions
+
+00:59:52.000 --> 00:59:55.000
+a photo has been shown, in fact I will show you
+
+00:59:55.000 --> 00:59:58.000
+if you go to HLE's homepage
+
+01:00:01.000 --> 01:00:04.000
+this is it, so you will see in this
+
+01:00:04.000 --> 01:00:07.000
+I want the leaderboard
+
+01:00:07.000 --> 01:00:10.000
+I want the benchmark
+
+01:00:13.000 --> 01:00:16.000
+so in this you will notice that in some questions
+
+01:00:16.000 --> 01:00:19.000
+there are images like this
+
+01:00:19.000 --> 01:00:22.000
+this is image, now this question has been asked
+
+01:00:22.000 --> 01:00:25.000
+so this is also a new thing, so far
+
+01:00:25.000 --> 01:00:28.000
+the benchmarks we have discussed
+
+01:00:28.000 --> 01:00:31.000
+there was only textual data, here in 10% questions
+
+01:00:31.000 --> 01:00:34.000
+there is also vision based data
+
+01:00:34.000 --> 01:00:37.000
+so many models who do not have vision capabilities
+
+01:00:37.000 --> 01:00:40.000
+they will basically score on 90% data set
+
+01:00:40.000 --> 01:00:43.000
+so it is important to see this in the result
+
+01:00:43.000 --> 01:00:46.000
+you cannot use these tools
+
+01:00:46.000 --> 01:00:49.000
+as we have seen earlier
+
+01:00:49.000 --> 01:00:52.000
+and core metric is accuracy
+
+01:00:52.000 --> 01:00:55.000
+but you focus on calibration
+
+01:00:55.000 --> 01:00:58.000
+it is written here
+
+01:00:58.000 --> 01:01:01.000
+there is an internal mechanism
+
+01:01:01.000 --> 01:01:04.000
+where they draw the root mean square between the confidence of the model
+
+01:01:04.000 --> 01:01:07.000
+and the correctness of the model
+
+01:01:07.000 --> 01:01:10.000
+again it was very technical, I could not give much time
+
+01:01:10.000 --> 01:01:13.000
+so you will understand
+
+01:01:13.000 --> 01:01:16.000
+this was the run configuration
+
+01:01:16.000 --> 01:01:19.000
+and what we do not measure, we will discuss
+
+01:01:19.000 --> 01:01:22.000
+open-ended and agentic problem solving
+
+01:01:22.000 --> 01:01:25.000
+because this is close-ended
+
+01:01:25.000 --> 01:01:28.000
+we are not measuring everyday usefulness
+
+01:01:28.000 --> 01:01:31.000
+because as we have discussed there are very expert level questions
+
+01:01:31.000 --> 01:01:34.000
+and we are not testing vision and multilingual capabilities
+
+01:01:34.000 --> 01:01:37.000
+I mean vision is being tested
+
+01:01:37.000 --> 01:01:40.000
+because 10% data is there
+
+01:01:40.000 --> 01:01:43.000
+multilingual capabilities are not being tested
+
+01:01:43.000 --> 01:01:46.000
+because this data set is in English only
+
+01:01:46.000 --> 01:01:49.000
+known issues are that
+
+01:01:49.000 --> 01:01:52.000
+there is a dispute in some questions answers
+
+01:01:52.000 --> 01:01:55.000
+initially it was a data set of 3000 questions
+
+01:01:55.000 --> 01:01:58.000
+due to those disputes only 2500 questions were left
+
+01:01:58.000 --> 01:02:01.000
+LLM as a judge is used here
+
+01:02:01.000 --> 01:02:04.000
+to grade the answers
+
+01:02:04.000 --> 01:02:07.000
+it is the same in that
+
+01:02:07.000 --> 01:02:10.000
+grading error happens
+
+01:02:10.000 --> 01:02:13.000
+if you use LLM as a judge
+
+01:02:13.000 --> 01:02:16.000
+it is not reliable, it can vary the result
+
+01:02:16.000 --> 01:02:19.000
+and lastly
+
+01:02:19.000 --> 01:02:22.000
+failure, filter, selection bias, magnified
+
+01:02:22.000 --> 01:02:25.000
+so as I said this data set is also made
+
+01:02:25.000 --> 01:02:28.000
+from those questions on which the frontier models of 2024
+
+01:02:28.000 --> 01:02:31.000
+were failing in answering
+
+01:02:31.000 --> 01:02:34.000
+there is a selection bias in this data set
+
+01:02:34.000 --> 01:02:37.000
+and it does not represent the general knowledge
+
+01:02:37.000 --> 01:02:40.000
+which people ask on a day to day basis
+
+01:02:40.000 --> 01:02:43.000
+so in that sense there is a bias in the data set
+
+01:02:43.000 --> 01:02:46.000
+but the summary is that
+
+01:02:46.000 --> 01:02:49.000
+this is like the most powerful test
+
+01:02:49.000 --> 01:02:52.000
+that you can give to an LLM
+
+01:02:52.000 --> 01:02:55.000
+in order to test its knowledge, reasoning
+
+01:02:55.000 --> 01:02:58.000
+and mathematical capabilities
+
+01:02:58.000 --> 01:03:01.000
+so if someone asks you today
+
+01:03:01.000 --> 01:03:04.000
+what is the state of the art benchmark
+
+01:03:04.000 --> 01:03:07.000
+without a doubt one can say
+
+01:03:07.000 --> 01:03:10.000
+actually is that benchmark, humanities last exam
+
+01:03:10.000 --> 01:03:13.000
+with that
+
+01:03:13.000 --> 01:03:16.000
+our discussion concludes
+
+01:03:16.000 --> 01:03:19.000
+we covered everything about the knowledge
+
+01:03:19.000 --> 01:03:22.000
+all the important benchmarks
+
+01:03:22.000 --> 01:03:25.000
+in detail, I know it might have seemed a little boring
+
+01:03:25.000 --> 01:03:28.000
+because there is a lot of theory
+
+01:03:28.000 --> 01:03:31.000
+but again if you understand like a story
+
+01:03:31.000 --> 01:03:34.000
+then we absorbed a lot in the last 1.5 hours
+
+01:03:34.000 --> 01:03:37.000
+now an important point
+
+01:03:37.000 --> 01:03:40.000
+the problem is this
+
+01:03:40.000 --> 01:03:43.000
+that we have only discussed one capability
+
+01:03:43.000 --> 01:03:46.000
+which is knowledge capability
+
+01:03:46.000 --> 01:03:49.000
+apart from this there are 7 more capabilities
+
+01:03:49.000 --> 01:03:52.000
+just like this, so we have reasoning
+
+01:03:52.000 --> 01:03:55.000
+maths and reasoning can be clubbed together
+
+01:03:55.000 --> 01:03:58.000
+but then we have coding, very important capability
+
+01:03:58.000 --> 01:04:01.000
+we have instruction following, very underrated
+
+01:04:01.000 --> 01:04:04.000
+we have vision and multimodal capabilities
+
+01:04:04.000 --> 01:04:07.000
+we have long context
+
+01:04:07.000 --> 01:04:10.000
+again a very understated
+
+01:04:10.000 --> 01:04:13.000
+and one more thing I am forgetting, safety
+
+01:04:13.000 --> 01:04:16.000
+again very important, safety and alignment
+
+01:04:16.000 --> 01:04:19.000
+now the problem is that in one capability
+
+01:04:19.000 --> 01:04:22.000
+we took around 1.5 hours
+
+01:04:22.000 --> 01:04:25.000
+and in other capabilities also there is a similar journey
+
+01:04:25.000 --> 01:04:28.000
+there are many benchmarks and why every benchmark
+
+01:04:28.000 --> 01:04:31.000
+why did the previous one come out, what is new in the new one
+
+01:04:31.000 --> 01:04:34.000
+so all have stories
+
+01:04:34.000 --> 01:04:37.000
+so for me at this point it's not possible
+
+01:04:37.000 --> 01:04:40.000
+to cover everything
+
+01:04:40.000 --> 01:04:43.000
+but all this seems kind of important to me
+
+01:04:43.000 --> 01:04:46.000
+because when you know all this
+
+01:04:46.000 --> 01:04:49.000
+the 1.5 hours you have to study
+
+01:04:49.000 --> 01:04:52.000
+this 1.5 hours study will take you up
+
+01:04:52.000 --> 01:04:55.000
+because you got a little more knowledge about the field
+
+01:04:55.000 --> 01:04:58.000
+everyone will study basic things
+
+01:04:58.000 --> 01:05:01.000
+how to make a rack, how to evaluate it
+
+01:05:01.000 --> 01:05:04.000
+but a proper knowledge is how the field evolved
+
+01:05:04.000 --> 01:05:07.000
+in the last 3-4 years, this kind of
+
+01:05:07.000 --> 01:05:10.000
+subconscious knowledge builds about a field
+
+01:05:10.000 --> 01:05:13.000
+so I feel in that sense this is all important
+
+01:05:13.000 --> 01:05:16.000
+so I have planned this for you
+
+01:05:16.000 --> 01:05:19.000
+that Rupinder, I guess you must have met Rupinder
+
+01:05:19.000 --> 01:05:22.000
+I have given Rupinder clear instructions
+
+01:05:22.000 --> 01:05:25.000
+that in the next 2 weeks
+
+01:05:25.000 --> 01:05:28.000
+all these remaining
+
+01:05:28.000 --> 01:05:31.000
+capabilities
+
+01:05:31.000 --> 01:05:34.000
+will record lectures
+
+01:05:34.000 --> 01:05:37.000
+so around 8-10 hours of content
+
+01:05:37.000 --> 01:05:40.000
+in which he will use the same format
+
+01:05:40.000 --> 01:05:43.000
+he will tell you the story of how the field evolved
+
+01:05:43.000 --> 01:05:46.000
+and then he will discuss the benchmarks with you
+
+01:05:46.000 --> 01:05:49.000
+and we will add that in your dashboard
+
+01:05:49.000 --> 01:05:52.000
+unfortunately we won't be able to give this to the YouTube audience
+
+01:05:52.000 --> 01:05:55.000
+so this is exclusive to you guys
+
+01:05:55.000 --> 01:05:58.000
+and again if you want to study then you can
+
+01:05:58.000 --> 01:06:01.000
+if you don't want to study then you can leave
+
+01:06:01.000 --> 01:06:04.000
+we are giving you a shorter solution
+
+01:06:04.000 --> 01:06:07.000
+and this shorter solution is for you as well as the YouTube people
+
+01:06:07.000 --> 01:06:10.000
+so this is the process of making this
+
+01:06:10.000 --> 01:06:13.000
+I will share the URL with you
+
+01:06:13.000 --> 01:06:16.000
+this is the URL
+
+01:06:16.000 --> 01:06:19.000
+here we are documenting
+
+01:06:19.000 --> 01:06:22.000
+our entire teaching journey
+
+01:06:22.000 --> 01:06:25.000
+so we have covered 23 benchmarks
+
+01:06:25.000 --> 01:06:28.000
+on this website
+
+01:06:28.000 --> 01:06:31.000
+7 of these are the ones I have taught you
+
+01:06:31.000 --> 01:06:34.000
+apart from that we have added reasoning and maths
+
+01:06:34.000 --> 01:06:37.000
+so you can go to the website and we have categorized
+
+01:06:37.000 --> 01:06:40.000
+which are active, which are nearing saturation
+
+01:06:40.000 --> 01:06:43.000
+which are saturated and which are deprecated
+
+01:06:43.000 --> 01:06:46.000
+and you can filter out from here as well
+
+01:06:46.000 --> 01:06:49.000
+and everything is explained in detail
+
+01:06:49.000 --> 01:06:52.000
+I have shown this in the last class as well
+
+01:06:52.000 --> 01:06:55.000
+but now we have deployed it as well
+
+01:06:55.000 --> 01:06:58.000
+and added more benchmarks
+
+01:06:58.000 --> 01:07:01.000
+and in the next 2 weeks we will add more additional
+
+01:07:01.000 --> 01:07:04.000
+so if you don't want to
+
+01:07:04.000 --> 01:07:07.000
+spend your time watching long lectures
+
+01:07:07.000 --> 01:07:10.000
+about these benchmarks
+
+01:07:10.000 --> 01:07:13.000
+what you can do is you can simply go to this website
+
+01:07:13.000 --> 01:07:16.000
+and you can read about whatever benchmarks
+
+01:07:16.000 --> 01:07:19.000
+you would like to learn about
+
+01:07:19.000 --> 01:07:22.000
+so this is the solution, I hope you are understanding
+
+01:07:22.000 --> 01:07:25.000
+and you are understanding my reasoning as well
+
+01:07:25.000 --> 01:07:28.000
+why I can't teach you everything because it will take a lot of time
+
+01:07:28.000 --> 01:07:31.000
+so this is the whole discussion, is it clear?
+
+01:07:37.000 --> 01:07:40.000
+you can bookmark this url
+
+01:07:40.000 --> 01:07:43.000
+benchwiki.versal.app
+
+01:07:43.000 --> 01:07:46.000
+you will get to see it here
+
+01:07:46.000 --> 01:07:49.000
+so I have taught you one whole month
+
+01:07:49.000 --> 01:07:52.000
+now you can figure out the rest of it yourself
+
+01:07:52.000 --> 01:07:55.000
+there is only one problem on the website
+
+01:07:55.000 --> 01:07:58.000
+I have taught you a lot about this
+
+01:07:58.000 --> 01:08:01.000
+but the journey I have taught you
+
+01:08:01.000 --> 01:08:04.000
+you won't get it on the website
+
+01:08:04.000 --> 01:08:07.000
+the journey I have taught you
+
+01:08:07.000 --> 01:08:10.000
+you won't get it on the website
+
+01:08:10.000 --> 01:08:13.000
+you will have to see Rupinder's lectures
+
+01:08:13.000 --> 01:08:16.000
+you can do a detailed study about any benchmark
+
+01:08:16.000 --> 01:08:19.000
+there is no problem
+
+01:08:20.000 --> 01:08:23.000
+so guys if you have any other question
+
+01:08:23.000 --> 01:08:26.000
+then ask, I need a 5 minutes break
+
+01:08:26.000 --> 01:08:29.000
+I am getting a call
+
+01:08:29.000 --> 01:08:32.000
+so let's resume in 5 minutes
+
+01:08:32.000 --> 01:08:35.000
+next we have to study about LLM leaderboards
+
+01:08:35.000 --> 01:08:38.000
+so give me 5 minutes
+
+01:08:38.000 --> 01:08:41.000
+I will make sure audio and video are off
+
+01:08:41.000 --> 01:08:44.000
+and I will come back in 5 minutes
+
+01:08:44.000 --> 01:08:47.000
+meanwhile if you have any questions, type them
+
+01:08:47.000 --> 01:08:50.000
+thank you
+
+01:09:17.000 --> 01:09:20.000
+thank you
+
+01:09:47.000 --> 01:09:50.000
+thank you
+
+01:10:17.000 --> 01:10:20.000
+thank you
+
+01:10:43.000 --> 01:10:46.000
+oh yeah guys
+
+01:10:47.000 --> 01:10:50.000
+let me quickly check
+
+01:10:50.000 --> 01:10:53.000
+is there any question
+
+01:11:00.000 --> 01:11:03.000
+Aman it's actually straightforward
+
+01:11:03.000 --> 01:11:06.000
+there is not much to think about
+
+01:11:06.000 --> 01:11:09.000
+I was also curious how it works
+
+01:11:09.000 --> 01:11:12.000
+but you can think that
+
+01:11:12.000 --> 01:11:15.000
+hallucination and lying are two different things
+
+01:11:15.000 --> 01:11:18.000
+don't think that
+
+01:11:18.000 --> 01:11:21.000
+if I am telling him
+
+01:11:21.000 --> 01:11:24.000
+how confident you are, he will lie
+
+01:11:24.000 --> 01:11:27.000
+that is not hallucination
+
+01:11:27.000 --> 01:11:30.000
+models are not deceived
+
+01:11:30.000 --> 01:11:33.000
+so when we tell him to tell us his confidence score
+
+01:11:33.000 --> 01:11:36.000
+then they can actually tell you
+
+01:11:36.000 --> 01:11:39.000
+what is the confidence score according to them
+
+01:11:39.000 --> 01:11:42.000
+at least this is what I tried to understand in the research paper
+
+01:11:42.000 --> 01:11:45.000
+the exact mechanism
+
+01:11:45.000 --> 01:11:48.000
+of understanding this
+
+01:11:48.000 --> 01:11:51.000
+is how the model is telling its confidence score
+
+01:11:51.000 --> 01:11:54.000
+if you want to understand that
+
+01:11:54.000 --> 01:11:57.000
+then maybe it will need a plot session
+
+01:11:57.000 --> 01:12:00.000
+but yeah you can ask a model
+
+01:12:00.000 --> 01:12:03.000
+type a question on chartgpt and ask it
+
+01:12:03.000 --> 01:12:06.000
+how confident are you
+
+01:12:06.000 --> 01:12:09.000
+then ask a more difficult question and ask how confident are you
+
+01:12:09.000 --> 01:12:12.000
+and that number will generally seem logical
+
+01:12:12.000 --> 01:12:15.000
+that his confidence score is decreasing
+
+01:12:15.000 --> 01:12:18.000
+so something comes out of his weight and parameters
+
+01:12:18.000 --> 01:12:21.000
+that is also a knowledge
+
+01:12:27.000 --> 01:12:30.000
+so guys now we are moving to the next topic
+
+01:12:30.000 --> 01:12:33.000
+and it is also important to read this topic
+
+01:12:33.000 --> 01:12:36.000
+because we are reading everything step by step
+
+01:12:36.000 --> 01:12:39.000
+so it will not be right to leave this topic
+
+01:12:39.000 --> 01:12:42.000
+the name of this topic is
+
+01:12:42.000 --> 01:12:45.000
+LLM leader votes
+
+01:12:45.000 --> 01:12:48.000
+so since we have read about benchmarks
+
+01:12:48.000 --> 01:12:51.000
+so it makes sense
+
+01:12:51.000 --> 01:12:54.000
+that we read about leader votes too
+
+01:12:54.000 --> 01:12:57.000
+because they are highly connected
+
+01:12:57.000 --> 01:13:00.000
+so let's move on to the topic
+
+01:13:00.000 --> 01:13:03.000
+it is a very cute little topic
+
+01:13:03.000 --> 01:13:06.000
+nothing complex
+
+01:13:06.000 --> 01:13:09.000
+but you will understand
+
+01:13:09.000 --> 01:13:12.000
+you already know it but if you understand it
+
+01:13:12.000 --> 01:13:15.000
+then you will feel good
+
+01:13:18.000 --> 01:13:21.000
+will anyone tell before starting
+
+01:13:21.000 --> 01:13:24.000
+what are leader votes LLM leader votes
+
+01:13:24.000 --> 01:13:27.000
+have you seen somewhere
+
+01:13:27.000 --> 01:13:30.000
+if you have seen then tell me the name of a leader vote that you have seen or use
+
+01:13:30.000 --> 01:13:33.000
+in your company or in your day to day work
+
+01:13:33.000 --> 01:13:36.000
+can anyone tell me
+
+01:13:36.000 --> 01:13:39.000
+what are leader votes
+
+01:13:39.000 --> 01:13:42.000
+what are leader votes
+
+01:13:42.000 --> 01:13:45.000
+anyone
+
+01:13:45.000 --> 01:13:48.000
+it is written in front
+
+01:13:48.000 --> 01:13:51.000
+it is very simple
+
+01:13:51.000 --> 01:13:54.000
+what are benchmarks
+
+01:13:54.000 --> 01:13:57.000
+benchmarks are an exam to test LLMs in a particular aspect
+
+01:13:57.000 --> 01:14:00.000
+so it is an exam
+
+01:14:00.000 --> 01:14:03.000
+after giving the exam result comes
+
+01:14:03.000 --> 01:14:06.000
+you will publish the result somewhere
+
+01:14:06.000 --> 01:14:09.000
+somewhere you will show
+
+01:14:09.000 --> 01:14:12.000
+that place is your leader votes
+
+01:14:12.000 --> 01:14:15.000
+like leader votes in your school
+
+01:14:15.000 --> 01:14:18.000
+who tell who topped or whatever
+
+01:14:18.000 --> 01:14:21.000
+so here is a simple definition
+
+01:14:21.000 --> 01:14:24.000
+and LLM leader vote is a public ranking
+
+01:14:24.000 --> 01:14:27.000
+that shows how different LLMs
+
+01:14:27.000 --> 01:14:30.000
+perform on a common set of evaluations
+
+01:14:30.000 --> 01:14:33.000
+so benchmark result
+
+01:14:33.000 --> 01:14:36.000
+we show on the leader vote
+
+01:14:36.000 --> 01:14:39.000
+and leader vote is a single place where we can compare
+
+01:14:39.000 --> 01:14:42.000
+different models on one benchmark
+
+01:14:42.000 --> 01:14:45.000
+so that we get an overview
+
+01:14:45.000 --> 01:14:48.000
+which is the best model in this benchmark
+
+01:14:48.000 --> 01:14:51.000
+that is the basic idea of a leader vote
+
+01:14:51.000 --> 01:14:54.000
+why do leader votes exist
+
+01:14:54.000 --> 01:14:57.000
+one reason I just told you
+
+01:14:57.000 --> 01:15:00.000
+that we compare models across labs with a common reference
+
+01:15:00.000 --> 01:15:03.000
+same exam given by all the models
+
+01:15:03.000 --> 01:15:06.000
+who came top, who came second, who came last
+
+01:15:06.000 --> 01:15:09.000
+we get to know that from that
+
+01:15:09.000 --> 01:15:12.000
+who we have to use in our application
+
+01:15:12.000 --> 01:15:15.000
+second, leader votes also provide trust
+
+01:15:15.000 --> 01:15:18.000
+generally leader votes are third party
+
+01:15:18.000 --> 01:15:21.000
+so if Claude himself says that
+
+01:15:21.000 --> 01:15:24.000
+we scored so much on this benchmark
+
+01:15:24.000 --> 01:15:27.000
+then you will not trust him that much
+
+01:15:27.000 --> 01:15:30.000
+because obviously openAI will want more praise for his model
+
+01:15:30.000 --> 01:15:33.000
+but if a third party comes and says that we have tested Claude
+
+01:15:33.000 --> 01:15:36.000
+on one exam and also openAI
+
+01:15:36.000 --> 01:15:39.000
+and these are the results, then you will believe more
+
+01:15:39.000 --> 01:15:42.000
+because it is a third party, its stakes are not as high
+
+01:15:42.000 --> 01:15:45.000
+as openAI and Claude
+
+01:15:45.000 --> 01:15:47.000
+so we have to use that
+
+01:15:47.000 --> 01:15:50.000
+second, it guides model selection
+
+01:15:50.000 --> 01:15:53.000
+when you don't have resources to run
+
+01:15:53.000 --> 01:15:56.000
+evals yourself
+
+01:15:56.000 --> 01:15:59.000
+you want to make a chart board
+
+01:15:59.000 --> 01:16:02.000
+which has the capabilities of maths
+
+01:16:02.000 --> 01:16:05.000
+your students are like this
+
+01:16:05.000 --> 01:16:08.000
+so obviously you want me to test the evaluation
+
+01:16:08.000 --> 01:16:11.000
+but is it possible for you
+
+01:16:11.000 --> 01:16:14.000
+that you can do hundreds of models
+
+01:16:14.000 --> 01:16:17.000
+and you want to test all of them
+
+01:16:17.000 --> 01:16:20.000
+its not possible, there are so many models
+
+01:16:20.000 --> 01:16:23.000
+you have to select one model
+
+01:16:23.000 --> 01:16:26.000
+so what is your job, that you bring 100 models
+
+01:16:26.000 --> 01:16:29.000
+and run those evaluations on 100
+
+01:16:29.000 --> 01:16:32.000
+it will take a lot of money
+
+01:16:32.000 --> 01:16:35.000
+it will take a lot of money
+
+01:16:35.000 --> 01:16:38.000
+it will take a lot of time and effort
+
+01:16:38.000 --> 01:16:41.000
+if someone else is doing it for you, then its easy for you
+
+01:16:41.000 --> 01:16:44.000
+so you can simply go to the leaderboard
+
+01:16:44.000 --> 01:16:47.000
+and pick your top 10 and pick your model
+
+01:16:47.000 --> 01:16:50.000
+so this is the second benefit
+
+01:16:50.000 --> 01:16:53.000
+third, with the help of this we get to know
+
+01:16:53.000 --> 01:16:56.000
+that has any benchmark saturated
+
+01:16:56.000 --> 01:16:59.000
+if a lot of top models
+
+01:16:59.000 --> 01:17:02.000
+start to cluster around the same score
+
+01:17:02.000 --> 01:17:05.000
+there is a benchmark that tests knowledge capability
+
+01:17:05.000 --> 01:17:08.000
+there the score of top 10 LLMs
+
+01:17:08.000 --> 01:17:11.000
+and its score is between 92-94
+
+01:17:11.000 --> 01:17:14.000
+so as soon as the clustering started to appear on the LLM leaderboard
+
+01:17:14.000 --> 01:17:17.000
+we understood that this benchmark is saturating
+
+01:17:17.000 --> 01:17:20.000
+so that is also a purpose for which people use LLM leaderboards
+
+01:17:20.000 --> 01:17:23.000
+and the fourth one is also very useful
+
+01:17:23.000 --> 01:17:26.000
+I have been working on this since 2022
+
+01:17:26.000 --> 01:17:29.000
+that whenever I have to discover new models
+
+01:17:29.000 --> 01:17:32.000
+I use LLM leaderboards for that
+
+01:17:32.000 --> 01:17:35.000
+because generally top 3-4 are the same
+
+01:17:35.000 --> 01:17:38.000
+Google, OpenAI and Anthropic models
+
+01:17:38.000 --> 01:17:41.000
+but if you scroll down
+
+01:17:41.000 --> 01:17:44.000
+10, 12, 15, 20, as soon as they appear
+
+01:17:44.000 --> 01:17:47.000
+you start seeing new models
+
+01:17:47.000 --> 01:17:50.000
+and these models are not the best
+
+01:17:50.000 --> 01:17:53.000
+but they can be useful for your purpose
+
+01:17:53.000 --> 01:17:56.000
+because they are generally cheaper
+
+01:17:56.000 --> 01:17:59.000
+so LLM leaderboards help you in discovering new models
+
+01:17:59.000 --> 01:18:02.000
+if we talk about who uses LLM leaderboards
+
+01:18:02.000 --> 01:18:05.000
+and what is the purpose of using LLM leaderboards
+
+01:18:05.000 --> 01:18:08.000
+there are 3-4 stakeholders here
+
+01:18:08.000 --> 01:18:11.000
+first are AI engineers, people like you and me
+
+01:18:11.000 --> 01:18:14.000
+who want to make LLM based applications
+
+01:18:14.000 --> 01:18:17.000
+and we use LLM leaderboards to shortlist
+
+01:18:17.000 --> 01:18:20.000
+I want to make an application in the maths domain
+
+01:18:20.000 --> 01:18:23.000
+so I will go to the maths leaderboard
+
+01:18:23.000 --> 01:18:26.000
+and from there I will select my candidate models
+
+01:18:26.000 --> 01:18:29.000
+generally you do not select a single model from the leaderboard
+
+01:18:29.000 --> 01:18:32.000
+you select your own model and then run your evals
+
+01:18:32.000 --> 01:18:35.000
+and from there you get your best model
+
+01:18:35.000 --> 01:18:38.000
+which you will use to make an application
+
+01:18:38.000 --> 01:18:41.000
+so LLM leaderboards help you in filtering
+
+01:18:41.000 --> 01:18:44.000
+100-5
+
+01:18:44.000 --> 01:18:47.000
+second is Frontier Labs
+
+01:18:47.000 --> 01:18:50.000
+they use leaderboards a lot because
+
+01:18:50.000 --> 01:18:53.000
+first of all they know where they are lying
+
+01:18:53.000 --> 01:18:56.000
+and where they are existing
+
+01:18:56.000 --> 01:18:59.000
+so they know if they should release their next models
+
+01:18:59.000 --> 01:19:02.000
+for example
+
+01:19:02.000 --> 01:19:05.000
+I am not an open AI, my current model is
+
+01:19:05.000 --> 01:19:08.000
+GPT 5.5
+
+01:19:08.000 --> 01:19:11.000
+and in front of me is OPUS 4.8
+
+01:19:11.000 --> 01:19:14.000
+in a particular benchmark
+
+01:19:14.000 --> 01:19:17.000
+I saw that the next model I am training
+
+01:19:17.000 --> 01:19:20.000
+is not even beating OPUS 4.8
+
+01:19:20.000 --> 01:19:23.000
+so will I release that model?
+
+01:19:23.000 --> 01:19:26.000
+and people will say that this is worse than OPUS 4.8
+
+01:19:26.000 --> 01:19:29.000
+which is their previous model
+
+01:19:29.000 --> 01:19:32.000
+so I have bad marketing
+
+01:19:32.000 --> 01:19:35.000
+so rather than releasing that iteration
+
+01:19:35.000 --> 01:19:38.000
+I will go to the next iteration
+
+01:19:38.000 --> 01:19:41.000
+and then I will release when I see that I am significantly
+
+01:19:41.000 --> 01:19:44.000
+behind the rest of the leaderboards
+
+01:19:44.000 --> 01:19:47.000
+and this is actually done
+
+01:19:47.000 --> 01:19:50.000
+internally they plan and strategize when to release
+
+01:19:50.000 --> 01:19:53.000
+and where they are lying on the leaderboard of the check
+
+01:19:53.000 --> 01:19:56.000
+so you must have seen
+
+01:19:56.000 --> 01:19:59.000
+that some models come on the leaderboard
+
+01:19:59.000 --> 01:20:02.000
+with hidden names
+
+01:20:02.000 --> 01:20:05.000
+you must have heard Nano Banana
+
+01:20:05.000 --> 01:20:08.000
+why is Nano Banana so funny?
+
+01:20:08.000 --> 01:20:11.000
+because initially when it came it came in stealth mode
+
+01:20:11.000 --> 01:20:14.000
+in any image leaderboard
+
+01:20:14.000 --> 01:20:17.000
+and they did not tell that it is a Google model
+
+01:20:17.000 --> 01:20:20.000
+and they just broke all the benchmarks
+
+01:20:20.000 --> 01:20:23.000
+so when they saw that it is significantly
+
+01:20:23.000 --> 01:20:26.000
+beating everyone then they release it
+
+01:20:26.000 --> 01:20:29.000
+in front of people
+
+01:20:29.000 --> 01:20:32.000
+so there Google said that Nano Banana is so famous
+
+01:20:32.000 --> 01:20:35.000
+that it is marketing so let's keep Nano Banana
+
+01:20:35.000 --> 01:20:38.000
+so leaderboards are a good thing for Frontier Labs
+
+01:20:38.000 --> 01:20:41.000
+researchers also use it a lot
+
+01:20:41.000 --> 01:20:44.000
+because researchers get to know a lot of things
+
+01:20:44.000 --> 01:20:47.000
+which benchmarks are saturated
+
+01:20:47.000 --> 01:20:50.000
+so on the basis of which they are able to find out new techniques
+
+01:20:50.000 --> 01:20:53.000
+new ideas they come up with
+
+01:20:53.000 --> 01:20:56.000
+basically people get a new research direction
+
+01:20:56.000 --> 01:20:59.000
+policymakers and safety institutes
+
+01:20:59.000 --> 01:21:02.000
+they also have a lot of stakes
+
+01:21:02.000 --> 01:21:05.000
+they constantly monitor which models are operating at what level
+
+01:21:05.000 --> 01:21:08.000
+is there any new model that is leaving everyone behind
+
+01:21:08.000 --> 01:21:11.000
+so they have to come into the picture
+
+01:21:11.000 --> 01:21:14.000
+they have to stop or they have to
+
+01:21:14.000 --> 01:21:17.000
+basically they come in between and try to make changes
+
+01:21:17.000 --> 01:21:20.000
+like what happened with Fable 5, US government came immediately
+
+01:21:20.000 --> 01:21:23.000
+because they saw that this model is dangerous
+
+01:21:23.000 --> 01:21:26.000
+and lastly the open source community
+
+01:21:26.000 --> 01:21:29.000
+for that too leaderboards work very well
+
+01:21:29.000 --> 01:21:32.000
+because with the help of leaderboards discovery happens
+
+01:21:32.000 --> 01:21:35.000
+like I said that I myself am using leaderboards for discovery
+
+01:21:35.000 --> 01:21:38.000
+there are many more people like me who go and search for
+
+01:21:38.000 --> 01:21:41.000
+new models on leaderboards
+
+01:21:41.000 --> 01:21:44.000
+there is a new research lab with 10-15 people
+
+01:21:44.000 --> 01:21:47.000
+and they have released a new model
+
+01:21:47.000 --> 01:21:50.000
+which scored very well on a single benchmark
+
+01:21:50.000 --> 01:21:53.000
+and went to the top 3-4
+
+01:21:53.000 --> 01:21:56.000
+so that lab's publicity became very famous
+
+01:21:56.000 --> 01:21:59.000
+similarly they came in the picture
+
+01:21:59.000 --> 01:22:02.000
+Chinese labs came in the picture
+
+01:22:02.000 --> 01:22:05.000
+suddenly a new model came overnight
+
+01:22:05.000 --> 01:22:08.000
+so its discovery, publicity, marketing
+
+01:22:08.000 --> 01:22:11.000
+in that sense too LLM leaderboards are great
+
+01:22:11.000 --> 01:22:14.000
+so I hope you understood this
+
+01:22:14.000 --> 01:22:17.000
+what are leaderboards
+
+01:22:17.000 --> 01:22:20.000
+why they exist and who takes their work
+
+01:22:20.000 --> 01:22:23.000
+now let's discuss quickly
+
+01:22:23.000 --> 01:22:26.000
+what are the different types of leaderboards that exist
+
+01:22:26.000 --> 01:22:29.000
+so precisely there are 4 types of leaderboards
+
+01:22:29.000 --> 01:22:32.000
+which you will get to see
+
+01:22:32.000 --> 01:22:35.000
+the first and simplest leaderboard is
+
+01:22:35.000 --> 01:22:38.000
+benchmark specific leaderboards
+
+01:22:38.000 --> 01:22:41.000
+so here your leaderboard
+
+01:22:41.000 --> 01:22:44.000
+creates a ranking on the basis of a single benchmark
+
+01:22:44.000 --> 01:22:47.000
+it is written here
+
+01:22:47.000 --> 01:22:50.000
+these rank models using the result of one particular benchmark
+
+01:22:50.000 --> 01:22:53.000
+either it is MMLU or HumanEval
+
+01:22:53.000 --> 01:22:56.000
+for coding or it is GSM8 for maths
+
+01:22:56.000 --> 01:22:59.000
+or it is GPQ
+
+01:22:59.000 --> 01:23:02.000
+so you will see all the models on a single benchmark
+
+01:23:02.000 --> 01:23:05.000
+and that ranking will be shown in the form of a leaderboard
+
+01:23:05.000 --> 01:23:08.000
+so the main idea is to tell which model
+
+01:23:08.000 --> 01:23:11.000
+performs best on this benchmark
+
+01:23:11.000 --> 01:23:14.000
+the only problem with this kind of leaderboard is
+
+01:23:14.000 --> 01:23:17.000
+that they give you a very narrow view
+
+01:23:17.000 --> 01:23:20.000
+how a model performs on a single benchmark
+
+01:23:20.000 --> 01:23:23.000
+you just get to know this, how is the overall model
+
+01:23:23.000 --> 01:23:26.000
+you don't get an idea about it, this is a very good example
+
+01:23:26.000 --> 01:23:29.000
+I have shown you this
+
+01:23:29.000 --> 01:23:32.000
+just one second
+
+01:23:32.000 --> 01:23:35.000
+this is a zoom issue
+
+01:23:35.000 --> 01:23:38.000
+I have shown you this
+
+01:23:38.000 --> 01:23:41.000
+this is HLE's website
+
+01:23:41.000 --> 01:23:44.000
+Humanities last exam
+
+01:23:44.000 --> 01:23:47.000
+this is its leaderboard
+
+01:23:47.000 --> 01:23:50.000
+Gemini 3 pro is at 38%
+
+01:23:50.000 --> 01:23:53.000
+and it is showing calibration error
+
+01:23:53.000 --> 01:23:56.000
+so this is a single benchmark
+
+01:23:56.000 --> 01:23:59.000
+so most of the famous benchmarks have their own leaderboards
+
+01:23:59.000 --> 01:24:02.000
+these research teams
+
+01:24:02.000 --> 01:24:05.000
+make and maintain these leaderboards
+
+01:24:05.000 --> 01:24:08.000
+on their own
+
+01:24:08.000 --> 01:24:11.000
+these type of leaderboards are not very useful
+
+01:24:11.000 --> 01:24:14.000
+this second category is useful
+
+01:24:14.000 --> 01:24:17.000
+where you will read about multi benchmark leaderboards
+
+01:24:17.000 --> 01:24:20.000
+from the name it is clear that these are such leaderboards
+
+01:24:20.000 --> 01:24:23.000
+which together
+
+01:24:23.000 --> 01:24:26.000
+bring the results of multiple benchmarks
+
+01:24:26.000 --> 01:24:29.000
+and give a cumulative score
+
+01:24:29.000 --> 01:24:32.000
+so it is written here
+
+01:24:32.000 --> 01:24:35.000
+these leaderboards compare models across multiple benchmarks
+
+01:24:35.000 --> 01:24:38.000
+and evaluation dimensions instead of relying on just one test
+
+01:24:38.000 --> 01:24:41.000
+so it is possible that a leaderboard
+
+01:24:41.000 --> 01:24:44.000
+which combines knowledge, reasoning, mathematics
+
+01:24:44.000 --> 01:24:47.000
+coding, instruction following, data analysis
+
+01:24:47.000 --> 01:24:50.000
+and makes a leaderboard by combining these benchmarks
+
+01:24:50.000 --> 01:24:53.000
+I will show you an example
+
+01:24:53.000 --> 01:24:56.000
+a good example of this is livebench
+
+01:24:56.000 --> 01:24:59.000
+see it is written here
+
+01:24:59.000 --> 01:25:02.000
+a challenging contamination free LLM benchmark
+
+01:25:02.000 --> 01:25:05.000
+which has 23 objective tasks across 7 categories
+
+01:25:05.000 --> 01:25:08.000
+reasoning, coding, agentic coding
+
+01:25:08.000 --> 01:25:11.000
+how much score is there in every model
+
+01:25:11.000 --> 01:25:14.000
+and an overall score is also shown
+
+01:25:14.000 --> 01:25:17.000
+this is like a more useful leaderboard
+
+01:25:17.000 --> 01:25:20.000
+because it gives you an overall view
+
+01:25:20.000 --> 01:25:23.000
+of how a model is in general in multiple capabilities
+
+01:25:23.000 --> 01:25:26.000
+I hope you understand
+
+01:25:26.000 --> 01:25:29.000
+and not only this, these leaderboards
+
+01:25:29.000 --> 01:25:32.000
+give you information on other aspects
+
+01:25:32.000 --> 01:25:35.000
+like how much is the cost per token
+
+01:25:35.000 --> 01:25:38.000
+how much is the latency, how much is the output speed
+
+01:25:38.000 --> 01:25:41.000
+how much is the size of the context window
+
+01:25:41.000 --> 01:25:44.000
+so I will show you an example of this
+
+01:25:44.000 --> 01:25:47.000
+this is an artificial analysis company
+
+01:25:47.000 --> 01:25:50.000
+they have a team to make leaderboards
+
+01:25:50.000 --> 01:25:53.000
+and provide this kind of information
+
+01:25:53.000 --> 01:25:56.000
+so they make leaderboards on all kinds of things
+
+01:25:56.000 --> 01:25:59.000
+see they have a different leaderboard for intelligence
+
+01:25:59.000 --> 01:26:02.000
+a different leaderboard for speed, cost per task
+
+01:26:02.000 --> 01:26:05.000
+a different leaderboard
+
+01:26:05.000 --> 01:26:08.000
+like it is a very exhaustive list
+
+01:26:08.000 --> 01:26:11.000
+they have made HLE, GPQ, diamond separately
+
+01:26:11.000 --> 01:26:14.000
+so these are the companies
+
+01:26:14.000 --> 01:26:17.000
+which are basically making you all kinds of leaderboards
+
+01:26:17.000 --> 01:26:20.000
+so they are like a proper product
+
+01:26:20.000 --> 01:26:23.000
+they have a separate leaderboard for coding agents
+
+01:26:23.000 --> 01:26:26.000
+speech, image, audio, hardware
+
+01:26:26.000 --> 01:26:29.000
+so a lot of leaderboards are there
+
+01:26:29.000 --> 01:26:32.000
+then they have made an overall by accumulating everything
+
+01:26:32.000 --> 01:26:35.000
+so this is the most useful category
+
+01:26:35.000 --> 01:26:38.000
+personally I use this the most and people use it the most
+
+01:26:41.000 --> 01:26:44.000
+this type of leaderboards answer this question
+
+01:26:44.000 --> 01:26:47.000
+which model provides the strongest overall combination of capability, cost and performance
+
+01:26:47.000 --> 01:26:50.000
+this is the leaderboard that you will use the most
+
+01:26:50.000 --> 01:26:53.000
+third is another interesting category
+
+01:26:53.000 --> 01:26:56.000
+this is called human preference based leaderboards
+
+01:26:56.000 --> 01:26:59.000
+in this you don't make a rank based on a benchmark
+
+01:26:59.000 --> 01:27:02.000
+what you do is
+
+01:27:02.000 --> 01:27:05.000
+you make a comparison
+
+01:27:05.000 --> 01:27:08.000
+so your user comes to your website
+
+01:27:08.000 --> 01:27:11.000
+you ask him a question
+
+01:27:11.000 --> 01:27:14.000
+same question is asked by two models
+
+01:27:14.000 --> 01:27:17.000
+A and B
+
+01:27:17.000 --> 01:27:20.000
+both the answers are there
+
+01:27:20.000 --> 01:27:23.000
+now you ask the user whether you liked A or B
+
+01:27:23.000 --> 01:27:26.000
+so basically you are scoring yourself
+
+01:27:26.000 --> 01:27:29.000
+on the basis of helpfulness, clarity, writing quality, creativity
+
+01:27:29.000 --> 01:27:32.000
+and the way of giving the answer
+
+01:27:32.000 --> 01:27:35.000
+and when a lot of these types of votes are collected
+
+01:27:35.000 --> 01:27:38.000
+then a ranking is made on the basis of that
+
+01:27:38.000 --> 01:27:41.000
+and that ranking is shown in this leaderboard
+
+01:27:41.000 --> 01:27:44.000
+here it is written
+
+01:27:44.000 --> 01:27:47.000
+these rank models using human votes
+
+01:27:47.000 --> 01:27:50.000
+we took a response from two models, asked the user to select which one
+
+01:27:50.000 --> 01:27:53.000
+and after a lot of votes
+
+01:27:53.000 --> 01:27:56.000
+this leaderboard shows us which model is at the top
+
+01:27:56.000 --> 01:27:59.000
+so this is a very famous example
+
+01:27:59.000 --> 01:28:02.000
+LMLENA
+
+01:28:02.000 --> 01:28:05.000
+in battle mode, you can ask anything
+
+01:28:05.000 --> 01:28:08.000
+let's say we ask what are LMLENA leaderboards
+
+01:28:11.000 --> 01:28:14.000
+now as soon as we run on this
+
+01:28:14.000 --> 01:28:17.000
+so you see here two
+
+01:28:17.000 --> 01:28:20.000
+let's refresh
+
+01:28:20.000 --> 01:28:23.000
+what are LMLENA leaderboards
+
+01:28:23.000 --> 01:28:26.000
+so now there are two models behind the scenes
+
+01:28:26.000 --> 01:28:29.000
+I don't know which models are there
+
+01:28:29.000 --> 01:28:32.000
+and they will give their answers
+
+01:28:32.000 --> 01:28:35.000
+you can see
+
+01:28:35.000 --> 01:28:38.000
+and once they will give their answers
+
+01:28:38.000 --> 01:28:41.000
+I will read both and I will be asked
+
+01:28:41.000 --> 01:28:44.000
+which one you liked the most
+
+01:28:44.000 --> 01:28:47.000
+A is better, both are good, both are bad
+
+01:28:47.000 --> 01:28:50.000
+B is better
+
+01:28:50.000 --> 01:28:53.000
+now I have not read it
+
+01:28:53.000 --> 01:28:56.000
+let's say I said B is better
+
+01:28:56.000 --> 01:28:59.000
+so now it will reveal which one is it
+
+01:28:59.000 --> 01:29:02.000
+this was Claude Opus 4.8 search and this was Fable
+
+01:29:02.000 --> 01:29:05.000
+now by collecting votes from people all over the world
+
+01:29:05.000 --> 01:29:08.000
+they make these leaderboards
+
+01:29:08.000 --> 01:29:11.000
+so this is the current ranking
+
+01:29:11.000 --> 01:29:14.000
+Fable 5, 5.6 soul, 4.8 thinking
+
+01:29:14.000 --> 01:29:17.000
+and you can do this in different categories
+
+01:29:17.000 --> 01:29:20.000
+you can do it in normal chat, the code is different
+
+01:29:20.000 --> 01:29:23.000
+the image is different, the video is different
+
+01:29:23.000 --> 01:29:26.000
+so this is also a type of leaderboard that exists
+
+01:29:26.000 --> 01:29:29.000
+and is very famous
+
+01:29:29.000 --> 01:29:32.000
+the limitation of this type
+
+01:29:32.000 --> 01:29:35.000
+is that it is not necessary
+
+01:29:35.000 --> 01:29:38.000
+that if a user feels an answer better
+
+01:29:38.000 --> 01:29:41.000
+then the answer is really better
+
+01:29:41.000 --> 01:29:44.000
+sometimes we humans get shocked
+
+01:29:44.000 --> 01:29:47.000
+that they have given a good format
+
+01:29:47.000 --> 01:29:50.000
+or they have given a little answer
+
+01:29:50.000 --> 01:29:53.000
+which I like personally
+
+01:29:53.000 --> 01:29:56.000
+so there is a little human bias
+
+01:29:56.000 --> 01:29:59.000
+but again, it is at scale, people all over the world are doing it
+
+01:29:59.000 --> 01:30:02.000
+then you can trust it and that is why you can see
+
+01:30:02.000 --> 01:30:05.000
+that the top models are leading in these leaderboards
+
+01:30:05.000 --> 01:30:08.000
+and the last type of leaderboards are
+
+01:30:08.000 --> 01:30:11.000
+these are the leaderboards that are built around a particular domain
+
+01:30:11.000 --> 01:30:14.000
+or work
+
+01:30:14.000 --> 01:30:17.000
+like a dedicated coding leaderboard
+
+01:30:17.000 --> 01:30:20.000
+so the benchmarks in coding
+
+01:30:20.000 --> 01:30:23.000
+they made a single score
+
+01:30:23.000 --> 01:30:26.000
+with the combination of all of them
+
+01:30:26.000 --> 01:30:29.000
+and it is shown here
+
+01:30:29.000 --> 01:30:32.000
+or you are making a separate leaderboard for agentic tasks
+
+01:30:32.000 --> 01:30:35.000
+or you are making a separate leaderboard
+
+01:30:35.000 --> 01:30:38.000
+or you are making a separate leaderboard for medical questions
+
+01:30:38.000 --> 01:30:41.000
+so if I show you an example of this type
+
+01:30:41.000 --> 01:30:44.000
+then this is a leaderboard
+
+01:30:44.000 --> 01:30:47.000
+Berkeley functional calling leaderboard
+
+01:30:47.000 --> 01:30:50.000
+so this is a leaderboard
+
+01:30:50.000 --> 01:30:53.000
+which specifically tells
+
+01:30:53.000 --> 01:30:56.000
+that the tool calling capacity of your model is
+
+01:30:56.000 --> 01:30:59.000
+how good it is
+
+01:30:59.000 --> 01:31:02.000
+so on the basis of that it ranks the models
+
+01:31:02.000 --> 01:31:05.000
+so it is using multiple benchmarks
+
+01:31:05.000 --> 01:31:08.000
+but in a single domain
+
+01:31:08.000 --> 01:31:11.000
+so there are many of this type, there are different benchmarks for coding
+
+01:31:11.000 --> 01:31:14.000
+so there are different benchmarks
+
+01:31:14.000 --> 01:31:17.000
+so you will see these four types
+
+01:31:17.000 --> 01:31:20.000
+the least useful is the single benchmark leaderboard
+
+01:31:20.000 --> 01:31:23.000
+the most useful is the multiple benchmark
+
+01:31:23.000 --> 01:31:26.000
+general capability measuring leaderboard
+
+01:31:26.000 --> 01:31:29.000
+which tells you a lot of things, cost, latency, everything
+
+01:31:29.000 --> 01:31:32.000
+human based is also popular
+
+01:31:32.000 --> 01:31:35.000
+it is used a lot for marketing
+
+01:31:35.000 --> 01:31:38.000
+which is the top on LM RNA
+
+01:31:38.000 --> 01:31:41.000
+and the last one is that there are specific categories
+
+01:31:41.000 --> 01:31:44.000
+of your application of the leaderboard
+
+01:31:44.000 --> 01:31:47.000
+which you use if you are making an application of a particular domain
+
+01:31:47.000 --> 01:31:50.000
+these are the four types of leaderboards
+
+01:31:50.000 --> 01:31:53.000
+that you will find on internet
+
+01:31:53.000 --> 01:31:56.000
+so let's read the rest
+
+01:31:56.000 --> 01:31:59.000
+and then we will do the Q&A together
+
+01:31:59.000 --> 01:32:02.000
+next thing, although leaderboards are very strong
+
+01:32:02.000 --> 01:32:05.000
+and gives you a summarized overview
+
+01:32:05.000 --> 01:32:08.000
+of the entire LLM landscape
+
+01:32:08.000 --> 01:32:11.000
+but you cannot blindly trust leaderboards
+
+01:32:11.000 --> 01:32:14.000
+this is very important
+
+01:32:14.000 --> 01:32:17.000
+because you will work like AI engineers in the future
+
+01:32:17.000 --> 01:32:20.000
+and most of the times when you go to make an application
+
+01:32:20.000 --> 01:32:23.000
+then step one is model selection
+
+01:32:23.000 --> 01:32:26.000
+and in model selection also step one is to go to the leaderboards
+
+01:32:26.000 --> 01:32:29.000
+and see which model is at the top
+
+01:32:29.000 --> 01:32:32.000
+so we get the bias that if it is on the leaderboard then it will be right
+
+01:32:32.000 --> 01:32:35.000
+but it is not, you cannot blindly trust leaderboards
+
+01:32:35.000 --> 01:32:38.000
+what are the reasons we are discussing
+
+01:32:38.000 --> 01:32:41.000
+the first reason is that benchmark performance may not
+
+01:32:41.000 --> 01:32:44.000
+transfer to real applications
+
+01:32:44.000 --> 01:32:47.000
+this is very important
+
+01:32:47.000 --> 01:32:50.000
+if a model is hitting 80-90
+
+01:32:50.000 --> 01:32:53.000
+it does not mean that it will give you the same results
+
+01:32:53.000 --> 01:32:56.000
+in your real application
+
+01:32:56.000 --> 01:32:59.000
+like the famous thing that if you solve the problem on Kaggle
+
+01:32:59.000 --> 01:33:02.000
+it does not mean that you will become a good data scientist in real life
+
+01:33:02.000 --> 01:33:05.000
+why was it said like that?
+
+01:33:05.000 --> 01:33:08.000
+because the data that is given on Kaggle is very clean
+
+01:33:08.000 --> 01:33:11.000
+problem statement is very clear
+
+01:33:11.000 --> 01:33:14.000
+generally you get easy work, everything is messy in real world
+
+01:33:14.000 --> 01:33:17.000
+benchmark data is generally clean
+
+01:33:17.000 --> 01:33:20.000
+and models will perform well on it
+
+01:33:20.000 --> 01:33:23.000
+in real world there are many things like ambiguous requests
+
+01:33:23.000 --> 01:33:26.000
+missing information, company specific data, tool failure
+
+01:33:26.000 --> 01:33:29.000
+unusual edge cases
+
+01:33:29.000 --> 01:33:32.000
+whether the model handles all these or not, we don't know
+
+01:33:32.000 --> 01:33:35.000
+so yeah, this is the first reason
+
+01:33:35.000 --> 01:33:38.000
+second, as we discussed
+
+01:33:38.000 --> 01:33:41.000
+benchmarks are easily contaminated
+
+01:33:41.000 --> 01:33:44.000
+if the model is contaminated, then their leaderboard score will be contaminated
+
+01:33:44.000 --> 01:33:47.000
+and inflated, it will be seen more
+
+01:33:47.000 --> 01:33:50.000
+so don't blindly trust
+
+01:33:50.000 --> 01:33:53.000
+it is possible that the score shown on the leaderboard is genuine
+
+01:33:53.000 --> 01:33:56.000
+but it is also possible that the model has memorized
+
+01:33:56.000 --> 01:33:59.000
+or it already knew these kinds of questions
+
+01:33:59.000 --> 01:34:02.000
+so you cannot trust blindly
+
+01:34:02.000 --> 01:34:05.000
+after that, this is a very genuine problem
+
+01:34:05.000 --> 01:34:08.000
+and people have started discussing this in the last 1-2 years
+
+01:34:08.000 --> 01:34:11.000
+so it is very clear that models can be over optimized
+
+01:34:11.000 --> 01:34:14.000
+for the leaderboard
+
+01:34:14.000 --> 01:34:17.000
+sometimes a particular leaderboard becomes very popular
+
+01:34:17.000 --> 01:34:20.000
+like LM Erina
+
+01:34:20.000 --> 01:34:23.000
+it has become very popular that who is top on LM Erina
+
+01:34:23.000 --> 01:34:26.000
+so now companies also see
+
+01:34:26.000 --> 01:34:29.000
+that the most important thing is who is top on LM Erina
+
+01:34:29.000 --> 01:34:32.000
+so we have to top
+
+01:34:32.000 --> 01:34:35.000
+now who will top on LM Erina? who will make humans top
+
+01:34:35.000 --> 01:34:38.000
+so we will format it in this way
+
+01:34:38.000 --> 01:34:41.000
+we will give soft answers
+
+01:34:41.000 --> 01:34:44.000
+we will give some shabby answers
+
+01:34:44.000 --> 01:34:47.000
+so there are more chances that our model will be selected
+
+01:34:47.000 --> 01:34:50.000
+so now they will feed this kind of data
+
+01:34:50.000 --> 01:34:53.000
+in their training or fine tuning stages
+
+01:34:53.000 --> 01:34:56.000
+so that rather than
+
+01:34:56.000 --> 01:34:59.000
+perform well in actual capability
+
+01:34:59.000 --> 01:35:02.000
+perform well in situations like LM Erina
+
+01:35:02.000 --> 01:35:05.000
+so what will happen is that your model
+
+01:35:05.000 --> 01:35:08.000
+will start scoring well on the leaderboard
+
+01:35:08.000 --> 01:35:11.000
+but will not improve its real world capabilities
+
+01:35:11.000 --> 01:35:14.000
+so here is a very famous law
+
+01:35:14.000 --> 01:35:17.000
+Goodhart's law, it says
+
+01:35:17.000 --> 01:35:20.000
+when a measure becomes a target
+
+01:35:20.000 --> 01:35:23.000
+it becomes less useful as a measure
+
+01:35:23.000 --> 01:35:26.000
+so if you start targeting a metric
+
+01:35:26.000 --> 01:35:29.000
+we will improve this metric, suppose you are a car
+
+01:35:29.000 --> 01:35:32.000
+so now in India people buy cars only with mileage
+
+01:35:32.000 --> 01:35:35.000
+so now your whole engineering team is focusing
+
+01:35:35.000 --> 01:35:38.000
+on how to improve the mileage
+
+01:35:38.000 --> 01:35:41.000
+so the whole engineering will be around mileage
+
+01:35:41.000 --> 01:35:44.000
+but the overall car will get spoiled
+
+01:35:44.000 --> 01:35:47.000
+because you are not focusing on driving dynamics
+
+01:35:47.000 --> 01:35:50.000
+0-100 in how much time it reaches
+
+01:35:50.000 --> 01:35:53.000
+you are focusing only on mileage, so here it is written
+
+01:35:53.000 --> 01:35:56.000
+that if you target a metric, then that metric
+
+01:35:56.000 --> 01:35:59.000
+will not be good, so that has started happening nowadays
+
+01:35:59.000 --> 01:36:02.000
+that companies are building models
+
+01:36:02.000 --> 01:36:05.000
+so that they can top the leaderboards
+
+01:36:05.000 --> 01:36:08.000
+but the actual performance will not be good
+
+01:36:08.000 --> 01:36:11.000
+after that, this is also an important thing
+
+01:36:11.000 --> 01:36:14.000
+especially for those leaderboards
+
+01:36:14.000 --> 01:36:17.000
+which combine multiple benchmarks
+
+01:36:17.000 --> 01:36:20.000
+and show you the results
+
+01:36:20.000 --> 01:36:23.000
+now the problem there is that
+
+01:36:23.000 --> 01:36:26.000
+which benchmarks are being included
+
+01:36:26.000 --> 01:36:29.000
+which are being excluded, that is on the leaderboard
+
+01:36:29.000 --> 01:36:32.000
+after that, how the scores are normalized
+
+01:36:32.000 --> 01:36:35.000
+suppose we are calculating
+
+01:36:35.000 --> 01:36:38.000
+an overall score of different capabilities
+
+01:36:38.000 --> 01:36:41.000
+so we are not being told how much weightage
+
+01:36:41.000 --> 01:36:44.000
+we are giving to every capability, so such things
+
+01:36:44.000 --> 01:36:47.000
+are hidden and they can sometimes bother you
+
+01:36:47.000 --> 01:36:50.000
+so whenever you are looking at a leaderboard
+
+01:36:50.000 --> 01:36:53.000
+the more transparency there is, the better
+
+01:36:53.000 --> 01:36:56.000
+the data about the leaderboard is
+
+01:36:56.000 --> 01:36:59.000
+after that, in a leaderboard
+
+01:36:59.000 --> 01:37:02.000
+small differences do not matter
+
+01:37:02.000 --> 01:37:05.000
+like there are two models, one has a score of 84.3
+
+01:37:05.000 --> 01:37:08.000
+and the other is 84.1
+
+01:37:08.000 --> 01:37:11.000
+and this model came in 3rd position
+
+01:37:11.000 --> 01:37:14.000
+and this one went in 5th position
+
+01:37:14.000 --> 01:37:17.000
+but the difference was only of 0.2
+
+01:37:17.000 --> 01:37:20.000
+so we don't understand that we should choose the 3rd one
+
+01:37:20.000 --> 01:37:23.000
+we will not choose the 5th one for our application
+
+01:37:23.000 --> 01:37:26.000
+but there is a good chance that both are very similar
+
+01:37:26.000 --> 01:37:29.000
+and 5th would be better for your application
+
+01:37:29.000 --> 01:37:32.000
+so sometimes we start focusing more
+
+01:37:32.000 --> 01:37:35.000
+on which rank the models are on
+
+01:37:35.000 --> 01:37:38.000
+so the rank bias is there
+
+01:37:38.000 --> 01:37:41.000
+that is not a good thing, if the difference is less
+
+01:37:41.000 --> 01:37:44.000
+then the models are of the same level
+
+01:37:44.000 --> 01:37:47.000
+so in rank 20, there will be no difference between rank 1 and rank 25
+
+01:37:47.000 --> 01:37:50.000
+one or two questions can be wrong for anyone
+
+01:37:50.000 --> 01:37:53.000
+so that is the logic here
+
+01:37:53.000 --> 01:37:56.000
+6th is human preference leaderboards have human biases
+
+01:37:56.000 --> 01:37:59.000
+we have already discussed this, now LM arena is there
+
+01:37:59.000 --> 01:38:02.000
+now the top model here does not necessarily mean
+
+01:38:02.000 --> 01:38:05.000
+that it is objectively the top model
+
+01:38:05.000 --> 01:38:08.000
+humans like long answers, more confident answers
+
+01:38:08.000 --> 01:38:11.000
+better formatted answers, more entertaining answers
+
+01:38:11.000 --> 01:38:14.000
+but it is possible that the best model
+
+01:38:14.000 --> 01:38:17.000
+does not know all this
+
+01:38:17.000 --> 01:38:20.000
+then it will fail in the human leaderboard ranking
+
+01:38:20.000 --> 01:38:23.000
+so that is also a problem
+
+01:38:23.000 --> 01:38:26.000
+and lastly leaderboard scores are stale, incomplete
+
+01:38:26.000 --> 01:38:29.000
+and self-reported
+
+01:38:29.000 --> 01:38:32.000
+now see this example, which one we discussed just now
+
+01:38:32.000 --> 01:38:35.000
+I showed you humanity's last exam
+
+01:38:35.000 --> 01:38:38.000
+now here Gemini 3 pro has 38.3
+
+01:38:38.000 --> 01:38:41.000
+so the best models have not come here
+
+01:38:41.000 --> 01:38:44.000
+where you can see Fable or 5.6
+
+01:38:44.000 --> 01:38:47.000
+because they have not updated yet
+
+01:38:47.000 --> 01:38:50.000
+just one second
+
+01:38:50.000 --> 01:38:53.000
+so many times the leaderboards are not updated
+
+01:38:53.000 --> 01:38:56.000
+the results of old model versions will be found
+
+01:38:56.000 --> 01:38:59.000
+or the new model will not be found
+
+01:38:59.000 --> 01:39:02.000
+or you will get the results of the discontinued model
+
+01:39:02.000 --> 01:39:05.000
+so that is not a good thing
+
+01:39:05.000 --> 01:39:08.000
+so why should we trust the company
+
+01:39:08.000 --> 01:39:11.000
+because the company is putting its own results
+
+01:39:11.000 --> 01:39:14.000
+so these are 6-7 reasons
+
+01:39:14.000 --> 01:39:17.000
+why you don't trust blindly leaderboards
+
+01:39:17.000 --> 01:39:20.000
+but you do it carefully
+
+01:39:20.000 --> 01:39:23.000
+it is a useful thing but you cannot be blind
+
+01:39:23.000 --> 01:39:26.000
+so now comes the last thing
+
+01:39:26.000 --> 01:39:29.000
+that we have to discuss
+
+01:39:29.000 --> 01:39:32.000
+if you are an AI engineer
+
+01:39:32.000 --> 01:39:35.000
+and you are building an LLM based application
+
+01:39:35.000 --> 01:39:38.000
+and your first job is to select a model
+
+01:39:38.000 --> 01:39:41.000
+for that
+
+01:39:41.000 --> 01:39:44.000
+so how will you read LLM leaderboards
+
+01:39:44.000 --> 01:39:47.000
+so this is a guideline
+
+01:39:47.000 --> 01:39:50.000
+which I will tell you quickly
+
+01:39:50.000 --> 01:39:53.000
+before going on any leaderboard
+
+01:39:53.000 --> 01:39:56.000
+first of all you have to clear these 4-5 things in your mind
+
+01:39:56.000 --> 01:39:59.000
+what type of application are you making
+
+01:39:59.000 --> 01:40:02.000
+how much latency do you need in that application
+
+01:40:02.000 --> 01:40:05.000
+how much cost can you bear
+
+01:40:05.000 --> 01:40:08.000
+what are the needs of your context
+
+01:40:08.000 --> 01:40:11.000
+are there any deployment constraints
+
+01:40:11.000 --> 01:40:14.000
+can I use general publicly available models
+
+01:40:14.000 --> 01:40:17.000
+or I have to use an on-premise model
+
+01:40:17.000 --> 01:40:20.000
+so write all these things clearly
+
+01:40:20.000 --> 01:40:23.000
+if this becomes clear then you will not be biased
+
+01:40:23.000 --> 01:40:26.000
+towards the rank 1 model
+
+01:40:26.000 --> 01:40:29.000
+if I want to set up an on-premise
+
+01:40:29.000 --> 01:40:32.000
+then obviously I cannot use Claude Fayble
+
+01:40:32.000 --> 01:40:35.000
+then I will have to go towards open source
+
+01:40:35.000 --> 01:40:38.000
+so that opens up my mind
+
+01:40:38.000 --> 01:40:41.000
+in step 2 you will not blindly go to any leaderboard
+
+01:40:41.000 --> 01:40:44.000
+you will go to the leaderboard which is related to your work
+
+01:40:44.000 --> 01:40:47.000
+if you are making an agent
+
+01:40:47.000 --> 01:40:50.000
+then you will go to an agent related leaderboard
+
+01:40:50.000 --> 01:40:53.000
+if you are making a chatbot
+
+01:40:53.000 --> 01:40:56.000
+then you will go to the leaderboard
+
+01:40:56.000 --> 01:40:59.000
+because you are getting direct objective measurement of the chatting
+
+01:40:59.000 --> 01:41:02.000
+if you are making a rag then you will go to MTB
+
+01:41:02.000 --> 01:41:05.000
+this is actually the leaderboard of the ranking of the embedding models
+
+01:41:05.000 --> 01:41:08.000
+you have to put an embedding model in the rag
+
+01:41:08.000 --> 01:41:11.000
+there are budget constraints in your application
+
+01:41:11.000 --> 01:41:14.000
+so you will probably go to the artificial analysis
+
+01:41:14.000 --> 01:41:17.000
+or Vellum leaderboard
+
+01:41:17.000 --> 01:41:20.000
+because here you get exact information
+
+01:41:20.000 --> 01:41:23.000
+about the speed of the embedding models
+
+01:41:23.000 --> 01:41:26.000
+and how much money is spent
+
+01:41:26.000 --> 01:41:29.000
+so this is step 2, you go to the right leaderboard
+
+01:41:29.000 --> 01:41:32.000
+after that read the leaderboard correctly
+
+01:41:32.000 --> 01:41:35.000
+means you understand everything
+
+01:41:35.000 --> 01:41:38.000
+what is being scored, how is it being scored
+
+01:41:38.000 --> 01:41:41.000
+who has evaluated it, how much was the inference budget
+
+01:41:41.000 --> 01:41:44.000
+is there any reasoning or not
+
+01:41:44.000 --> 01:41:47.000
+when is the evaluation data set, how old is it
+
+01:41:47.000 --> 01:41:50.000
+is it being updated, is a test set being maintained
+
+01:41:50.000 --> 01:41:53.000
+or not
+
+01:41:53.000 --> 01:41:56.000
+have the benchmarks been saturated or not
+
+01:41:56.000 --> 01:41:59.000
+confidence interval, we discussed
+
+01:41:59.000 --> 01:42:02.000
+if it is a small data set then how much is the confidence interval
+
+01:42:02.000 --> 01:42:05.000
+has it been told or not, if not then
+
+01:42:05.000 --> 01:42:08.000
+then two very close models are effectively the same
+
+01:42:08.000 --> 01:42:11.000
+if the composite leaderboard is adding multiple benchmarks
+
+01:42:11.000 --> 01:42:14.000
+and giving a score then what are the
+
+01:42:14.000 --> 01:42:17.000
+values and weightage, you will analyze all this
+
+01:42:17.000 --> 01:42:20.000
+here are just many pointers written but you get the idea
+
+01:42:20.000 --> 01:42:23.000
+blindly there is a number, you don't have to trust it
+
+01:42:23.000 --> 01:42:26.000
+you have to read the star mark below
+
+01:42:26.000 --> 01:42:29.000
+like you will see the key definitions here
+
+01:42:29.000 --> 01:42:32.000
+so you will read all this, you will read the frequently asked questions
+
+01:42:32.000 --> 01:42:35.000
+so you will be in a better position to judge that leaderboard
+
+01:42:35.000 --> 01:42:38.000
+and then on the basis of your criteria
+
+01:42:38.000 --> 01:42:41.000
+you will shortlist the top 3 to 5 models
+
+01:42:41.000 --> 01:42:44.000
+and when you have your 5 models
+
+01:42:44.000 --> 01:42:47.000
+then comes your 5th and most important step
+
+01:42:47.000 --> 01:42:50.000
+that you will run your own evaluation on it
+
+01:42:50.000 --> 01:42:53.000
+on those 5 models
+
+01:42:53.000 --> 01:42:56.000
+and those 5 models
+
+01:42:56.000 --> 01:42:59.000
+when your own evaluation set will run
+
+01:42:59.000 --> 01:43:02.000
+and the results that they will give, then you will get your top candidate
+
+01:43:02.000 --> 01:43:05.000
+so here one line that you have to remember
+
+01:43:05.000 --> 01:43:08.000
+this is the most important line that you have to take
+
+01:43:08.000 --> 01:43:11.000
+from this session that leaderboards
+
+01:43:11.000 --> 01:43:14.000
+are not a selection tool
+
+01:43:14.000 --> 01:43:17.000
+leaderboards are a filtering tool
+
+01:43:17.000 --> 01:43:20.000
+not a decision tool, meaning you don't go to leaderboard
+
+01:43:20.000 --> 01:43:23.000
+and decide that I will use this model
+
+01:43:23.000 --> 01:43:26.000
+to make my application, no that is a wrong strategy
+
+01:43:26.000 --> 01:43:29.000
+you shortlist 4 to 5 top models
+
+01:43:29.000 --> 01:43:32.000
+with the help of leaderboards and then
+
+01:43:32.000 --> 01:43:35.000
+you run custom evals on all of them and pick one model
+
+01:43:35.000 --> 01:43:38.000
+and then you pick one model for your application
+
+01:43:38.000 --> 01:43:41.000
+I hope you are understanding and we will do that
+
+01:43:41.000 --> 01:43:44.000
+in the next session, as I said that the next classes will be practical
+
+01:43:44.000 --> 01:43:47.000
+so next session is all about how do you run
+
+01:43:47.000 --> 01:43:50.000
+your custom evaluation on a given LLM
+
+01:43:50.000 --> 01:43:53.000
+that we will learn in the next class
+
+01:43:53.000 --> 01:43:56.000
+so whatever flow I have told you, you will practically do it in the next class
+
+01:43:56.000 --> 01:43:59.000
+so yeah
+
+01:43:59.000 --> 01:44:02.000
+so yeah
+
+01:44:02.000 --> 01:44:05.000
+let me know if you have any questions
+
+01:44:12.000 --> 01:44:15.000
+we have done the benchmarks
+
+01:44:15.000 --> 01:44:18.000
+it is not complete
+
+01:44:18.000 --> 01:44:21.000
+but at least we have seen what happens conceptually
+
+01:44:21.000 --> 01:44:24.000
+and we have done the leaderboards too
+
+01:44:24.000 --> 01:44:27.000
+now we will do custom evals, once we have done custom evals
+
+01:44:27.000 --> 01:44:30.000
+then we will move to
+
+01:44:30.000 --> 01:44:33.000
+the custom evaluation evals where we will read rag evals
+
+01:44:33.000 --> 01:44:36.000
+and agent evals
+
+01:44:42.000 --> 01:44:45.000
+ok Aman, you will get it
+
+01:44:45.000 --> 01:44:48.000
+we will make a list in the notes
+
+01:44:48.000 --> 01:44:51.000
+we will make a list in the notes
+
+01:44:54.000 --> 01:44:57.000
+any other question?
+
+01:45:00.000 --> 01:45:03.000
+how will we evaluate, I mean which application
+
+01:45:03.000 --> 01:45:06.000
+so we have planned that
+
+01:45:06.000 --> 01:45:09.000
+we will make a
+
+01:45:09.000 --> 01:45:12.000
+SQL query
+
+01:45:12.000 --> 01:45:15.000
+generator
+
+01:45:15.000 --> 01:45:18.000
+we have to make this application
+
+01:45:18.000 --> 01:45:21.000
+we will assume this and then for this application
+
+01:45:21.000 --> 01:45:24.000
+we will select the models
+
+01:45:24.000 --> 01:45:27.000
+and then on it
+
+01:45:27.000 --> 01:45:30.000
+we will run our custom eval
+
+01:45:30.000 --> 01:45:33.000
+so this is the use case which we have finalized for the next class
+
+01:45:33.000 --> 01:45:36.000
+I hope it is interesting
+
+01:45:39.000 --> 01:45:42.000
+did you find the class boring?
+
+01:45:42.000 --> 01:45:45.000
+was it boring?
+
+01:45:45.000 --> 01:45:48.000
+as I said, the most important metric for me
+
+01:45:48.000 --> 01:45:51.000
+is always
+
+01:45:51.000 --> 01:45:54.000
+that was the class boring?
+
+01:45:57.000 --> 01:46:00.000
+ok
+
+01:46:00.000 --> 01:46:03.000
+there are not many people
+
+01:46:03.000 --> 01:46:06.000
+there are just 16 people, so just like GPQA
+
+01:46:06.000 --> 01:46:09.000
+not really sure about
+
+01:46:09.000 --> 01:46:12.000
+the answer
+
+01:46:15.000 --> 01:46:18.000
+theory, we didn't study anything else
+
+01:46:18.000 --> 01:46:21.000
+there was no practical thing, it was all theory
+
+01:46:21.000 --> 01:46:24.000
+so ok, I am here for
+
+01:46:24.000 --> 01:46:27.000
+5 more minutes, if you have any other question
+
+01:46:27.000 --> 01:46:30.000
+or if you have any other question not related to session
+
+01:46:30.000 --> 01:46:33.000
+you can ask
+
+01:46:43.000 --> 01:46:46.000
+if there is no question, you can leave the session
+
+01:46:54.000 --> 01:46:57.000
+this is Reno's phone
+
+01:46:57.000 --> 01:47:00.000
+hello
+
+01:47:00.000 --> 01:47:03.000
+hello
+
+01:47:03.000 --> 01:47:06.000
+hello
+
+01:47:06.000 --> 01:47:09.000
+hello
+
+01:47:09.000 --> 01:47:12.000
+hello
+
+01:47:12.000 --> 01:47:15.000
+hello
+
+01:47:15.000 --> 01:47:18.000
+hello
+
+01:47:18.000 --> 01:47:21.000
+so I guess
+
+01:47:21.000 --> 01:47:24.000
+there are no questions
+
+01:47:24.000 --> 01:47:27.000
+ok guys, see you in the next session
+
+01:47:27.000 --> 01:47:30.000
+how many lectures will be there in the series
+
+01:47:30.000 --> 01:47:33.000
+what should we expect in August
+
+01:47:33.000 --> 01:47:36.000
+so we have covered all the theory
+
+01:47:36.000 --> 01:47:39.000
+now we have to do practical things
+
+01:47:39.000 --> 01:47:42.000
+rag eval, agent eval, online eval
+
+01:47:42.000 --> 01:47:45.000
+practically, these are the 3 things
+
+01:47:45.000 --> 01:47:48.000
+safety evals
+
+01:47:48.000 --> 01:47:51.000
+so August, I thought it will be in July
+
+01:47:51.000 --> 01:47:54.000
+but it didn't happen
+
+01:47:54.000 --> 01:47:57.000
+August hopefully will be enough
+
+01:47:57.000 --> 01:48:00.000
+for this playlist
+
+01:48:03.000 --> 01:48:06.000
+how to club things up together
+
+01:48:06.000 --> 01:48:09.000
+like LLME evals, MCPs, deep agents
+
+01:48:09.000 --> 01:48:12.000
+and understand this interagent common all
+
+01:48:12.000 --> 01:48:15.000
+keep studying Aaman
+
+01:48:15.000 --> 01:48:18.000
+everything will start to club up
+
+01:48:18.000 --> 01:48:21.000
+it will start making sense
+
+01:48:21.000 --> 01:48:24.000
+read independently
+
+01:48:24.000 --> 01:48:27.000
+at least I feel this
+
+01:48:27.000 --> 01:48:30.000
+when I check myself
+
+01:48:30.000 --> 01:48:33.000
+is it clicking, are all things clubbing up
+
+01:48:33.000 --> 01:48:36.000
+so I am able to answer questions
+
+01:48:36.000 --> 01:48:39.000
+so don't be impatient
+
+01:48:39.000 --> 01:48:42.000
+your mind will start to understand
+
+01:48:42.000 --> 01:48:45.000
+how things start
+
+01:48:45.000 --> 01:48:48.000
+connecting
+
+01:48:48.000 --> 01:48:51.000
+sir, hi sir
+
+01:48:51.000 --> 01:48:54.000
+how are you able to unmute
+
+01:48:54.000 --> 01:48:57.000
+we keep settings
+
+01:48:57.000 --> 01:49:00.000
+do you want to talk to someone
+
+01:49:00.000 --> 01:49:03.000
+you can talk, if you can unmute
+
+01:49:03.000 --> 01:49:06.000
+there is a feature to raise your hand
+
+01:49:06.000 --> 01:49:09.000
+do that, if you want to ask anything
+
+01:49:10.000 --> 01:49:13.000
+as we design enterprise
+
+01:49:13.000 --> 01:49:16.000
+agent AI applications should we
+
+01:49:16.000 --> 01:49:19.000
+evaluate vendor provided agent SDKs
+
+01:49:19.000 --> 01:49:22.000
+such as github copilot SDK
+
+01:49:25.000 --> 01:49:28.000
+how would you evaluate
+
+01:49:28.000 --> 01:49:31.000
+entire SDKs
+
+01:49:31.000 --> 01:49:34.000
+SDKs
+
+01:49:34.000 --> 01:49:37.000
+it is difficult
+
+01:49:37.000 --> 01:49:40.000
+it is difficult
+
+01:49:40.000 --> 01:49:43.000
+you can do models
+
+01:49:43.000 --> 01:49:46.000
+you can do harness
+
+01:49:49.000 --> 01:49:52.000
+not really sure how do you
+
+01:49:52.000 --> 01:49:55.000
+evaluate SDKs
+
+01:49:55.000 --> 01:49:58.000
+if you have something around it
+
+01:49:58.000 --> 01:50:01.000
+I meant considering those SDKs as part of design
+
+01:50:01.000 --> 01:50:04.000
+not really
+
+01:50:04.000 --> 01:50:07.000
+not really
+
+01:50:07.000 --> 01:50:10.000
+not really
+
+01:50:10.000 --> 01:50:13.000
+we are studying
+
+01:50:13.000 --> 01:50:16.000
+here in a way
+
+01:50:16.000 --> 01:50:19.000
+you can say that we are making our own products
+
+01:50:19.000 --> 01:50:22.000
+based on LLMs
+
+01:50:22.000 --> 01:50:25.000
+these are also SDKs
+
+01:50:25.000 --> 01:50:28.000
+so
+
+01:50:28.000 --> 01:50:31.000
+once the product is complete
+
+01:50:31.000 --> 01:50:34.000
+they can evaluate it
+
+01:50:34.000 --> 01:50:37.000
+but you as a customer can't
+
+01:50:37.000 --> 01:50:40.000
+it is like that
+
+01:50:40.000 --> 01:50:43.000
+you made a chart board
+
+01:50:43.000 --> 01:50:46.000
+and gave it to your client
+
+01:50:46.000 --> 01:50:49.000
+and it can't evaluate it
+
+01:50:49.000 --> 01:50:52.000
+you have control, code
+
+01:50:52.000 --> 01:50:55.000
+you have IP
+
+01:50:55.000 --> 01:50:58.000
+evaluation will happen from inside
+
+01:50:58.000 --> 01:51:01.000
+they often include a mature agent harness
+
+01:51:01.000 --> 01:51:04.000
+with capabilities such as agent loops
+
+01:51:04.000 --> 01:51:07.000
+tool orchestration, context management, structured tool use
+
+01:51:07.000 --> 01:51:10.000
+planning, re-planning behavior and built in execution patterns
+
+01:51:10.000 --> 01:51:13.000
+so my question was should we be designing our
+
+01:51:13.000 --> 01:51:16.000
+harness from scratch or leverage these SDKs
+
+01:51:16.000 --> 01:51:19.000
+at places
+
+01:51:19.000 --> 01:51:22.000
+again it depends on a lot of things
+
+01:51:22.000 --> 01:51:25.000
+where you are working, what is the requirement
+
+01:51:25.000 --> 01:51:28.000
+what kind of tasks you want to solve
+
+01:51:28.000 --> 01:51:31.000
+for that you want to build a harness
+
+01:51:31.000 --> 01:51:34.000
+from scratch or you want to use
+
+01:51:34.000 --> 01:51:37.000
+an existing solution
+
+01:51:37.000 --> 01:51:40.000
+basically
+
+01:51:40.000 --> 01:51:43.000
+the question that comes in other domains
+
+01:51:43.000 --> 01:51:46.000
+is the same question, to buy or build
+
+01:51:46.000 --> 01:51:49.000
+buy or build
+
+01:51:49.000 --> 01:51:52.000
+so you are learning to build
+
+01:51:52.000 --> 01:51:55.000
+any solution
+
+01:51:55.000 --> 01:51:58.000
+depends on the situation
+
+01:51:58.000 --> 01:52:01.000
+so most of the smaller tasks
+
+01:52:01.000 --> 01:52:04.000
+will be solved by these kind of
+
+01:52:04.000 --> 01:52:07.000
+SDKs in the future but very
+
+01:52:07.000 --> 01:52:10.000
+custom situations and problems to solve
+
+01:52:10.000 --> 01:52:13.000
+companies will make their own harnesses
+
+01:52:13.000 --> 01:52:16.000
+and SDKs themselves
+
+01:52:16.000 --> 01:52:19.000
+so again since I don't know where you are working and what is your day to day work
+
+01:52:19.000 --> 01:52:22.000
+I won't be able to comment on that
+
+01:52:22.000 --> 01:52:25.000
+but I guess you understand it's basically a decision buy vs build
+
+01:52:31.000 --> 01:52:34.000
+deep learning YouTube playlist is enough or
+
+01:52:34.000 --> 01:52:37.000
+should we go for some other material
+
+01:52:37.000 --> 01:52:40.000
+no no that is a beginner level playlist
+
+01:52:40.000 --> 01:52:43.000
+definitely read more than that
+
+01:52:43.000 --> 01:52:46.000
+there are many more things in deep learning
+
+01:52:47.000 --> 01:52:50.000
+ok ok Giresh
+
+01:52:50.000 --> 01:52:53.000
+so any other question guys?
+
+01:52:53.000 --> 01:52:56.000
+can you guide for same
+
+01:52:56.000 --> 01:52:59.000
+and deep learning, these good institutes
+
+01:52:59.000 --> 01:53:02.000
+MIT and Stanford
+
+01:53:02.000 --> 01:53:05.000
+they have a playlist on deep learning
+
+01:53:05.000 --> 01:53:08.000
+you can see them because once your base
+
+01:53:08.000 --> 01:53:11.000
+is made after seeing 100 days of deep learning
+
+01:53:11.000 --> 01:53:14.000
+then you can pursue that
+
+01:53:14.000 --> 01:53:17.000
+it will look difficult
+
+01:53:17.000 --> 01:53:20.000
+but if you read it you will understand
+
+01:53:20.000 --> 01:53:23.000
+in the book
+
+01:53:23.000 --> 01:53:26.000
+a good book is Deep Learning by Ian Goodfellow
+
+01:53:26.000 --> 01:53:29.000
+yes that's the name Ian Goodfellow
+
+01:53:29.000 --> 01:53:32.000
+it's a little more academic but there is a lot in it
+
+01:53:32.000 --> 01:53:35.000
+so once the base is made explore more
+
+01:53:35.000 --> 01:53:38.000
+there is no end to knowledge
+
+01:53:38.000 --> 01:53:41.000
+I can say more in AI
+
+01:53:41.000 --> 01:53:44.000
+if you have time, if you have interest
+
+01:53:44.000 --> 01:53:47.000
+pursue more, if you feel you just have to do
+
+01:53:47.000 --> 01:53:50.000
+according to work then 100 days of deep learning is enough
+
+01:53:50.000 --> 01:53:53.000
+you can handle a lot of interview questions
+
+01:53:53.000 --> 01:53:56.000
+80-85%
+
+01:53:56.000 --> 01:53:59.000
+the top 10-15% questions you may not be able to do
+
+01:54:02.000 --> 01:54:05.000
+ok guys
+
+01:54:05.000 --> 01:54:08.000
+I will close the session
+
+01:54:08.000 --> 01:54:11.000
+ok
+
+01:54:11.000 --> 01:54:14.000
+bye, good night
+
