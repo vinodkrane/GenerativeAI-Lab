@@ -1,0 +1,15 @@
+# Copy to terraform.tfvars (git-ignored) and adjust.
+project     = "lean-rag"
+environment = "dev"
+aws_region  = "eu-west-2"
+
+# HTTPS strongly recommended outside throwaway environments.
+# certificate_arn = "arn:aws:acm:eu-west-2:123456789012:certificate/..."
+# allowed_ingress_cidrs = ["203.0.113.0/24"]
+
+# Throwaway environment: allow `terraform destroy` to remove data.
+deletion_protection = false
+
+# alarm_email = "oncall@example.com"
+# rerank_model_arn = "arn:aws:bedrock:eu-central-1::foundation-model/amazon.rerank-v1:0"
+# rerank_region    = "eu-central-1"

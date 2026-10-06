@@ -1,0 +1,16 @@
+{
+  "users": {
+    "alice": {"tenant_id": "acme", "groups": ["staff"]},
+    "eng": {"tenant_id": "acme", "groups": ["engineering", "staff"]},
+    "board": {"tenant_id": "acme", "groups": ["board", "staff"]},
+    "mallory": {"tenant_id": "globex", "groups": ["staff"]}
+  },
+  "documents": [
+    {"file": "travel-expense-policy.md", "owner": "finance-admin", "tenant_id": "acme", "allowed_groups": ["staff"]},
+    {"file": "security-incident-runbook.md", "owner": "sec-lead", "tenant_id": "acme", "allowed_groups": ["engineering"]},
+    {"file": "onboarding-guide.html", "owner": "people-team", "tenant_id": "acme", "allowed_groups": ["staff"]},
+    {"file": "board-minutes-q3.txt", "owner": "company-secretary", "tenant_id": "acme", "allowed_groups": ["board"]},
+    {"file": "vendor-faq.md", "owner": "finance-admin", "tenant_id": "acme", "allowed_groups": ["staff"]},
+    {"file": "globex-pricing.md", "owner": "globex-sales", "tenant_id": "globex", "allowed_groups": ["staff"]}
+  ]
+}

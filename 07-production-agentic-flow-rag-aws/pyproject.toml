@@ -1,0 +1,83 @@
+[project]
+name = "lean-agentic-rag"
+version = "0.1.0"
+description = "Lean, production-minded agentic RAG on AWS: deterministic supervisors, four bounded LLM agents, ACL-first retrieval."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = { text = "MIT" }
+authors = [{ name = "Vinod Rane" }]
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "pydantic>=2.8",
+    "pydantic-settings>=2.4",
+    "boto3>=1.35",
+    "sqlalchemy>=2.0",
+    "psycopg[binary]>=3.2",
+    "opensearch-py>=2.7",
+    "pyjwt[crypto]>=2.9",
+    "pypdf>=5.0",
+    "python-multipart>=0.0.9",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3",
+    "httpx>=0.27",
+    "moto[s3,sqs]>=5.0",
+    "ruff>=0.6",
+    "mypy>=1.11",
+    "pip-audit>=2.7",
+]
+
+[project.scripts]
+lean-rag-api = "lean_rag.api.app:main"
+lean-rag-worker = "lean_rag.worker:main"
+lean-rag-reindex = "lean_rag.reindex:main"
+lean-rag-eval = "lean_rag.evaluation.runner:main"
+
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lean_rag"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+markers = [
+    "integration: exercises several components together with local backends",
+    "e2e: full upload -> ingest -> query flow through the HTTP API",
+]
+filterwarnings = ["ignore::DeprecationWarning:botocore.*", "ignore:Using `httpx` with `starlette.testclient`"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+src = ["src", "tests", "scripts"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "S", "SIM", "RUF", "PT"]
+ignore = [
+    "S101",   # assert is fine in tests
+    "S311",   # random is not used for crypto
+    "RUF012", # mutable class attrs on pydantic models are fine
+    "SIM905", # str.split() literal word lists are clearer than list literals
+    "RUF007", # zip(xs, xs[1:]) reads fine
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S105", "S106", "S108", "PT018", "E501"]
+"scripts/**" = ["S105", "S106"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+mypy_path = "src"
+packages = ["lean_rag"]
+plugins = ["pydantic.mypy"]
+
+[[tool.mypy.overrides]]
+module = ["boto3.*", "botocore.*", "opensearchpy.*", "moto.*"]
+ignore_missing_imports = true

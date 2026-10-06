@@ -1,0 +1,92 @@
+# Local stack that exercises the production adapters (S3, SQS, OpenSearch, PostgreSQL)
+# without an AWS account. Models and auth stay local: Bedrock and Cognito have no local
+# emulator here, so RAG_MODELS=local and RAG_AUTH_MODE=local. Set RAG_MODELS=bedrock and
+# provide AWS credentials to use real Bedrock models from this stack.
+name: lean-agentic-rag
+
+x-app-env: &app-env
+  RAG_ENVIRONMENT: dev
+  RAG_LOG_LEVEL: INFO
+  RAG_DATABASE_URL: postgresql+psycopg://rag:rag@postgres:5432/rag
+  RAG_OBJECT_STORE: s3
+  RAG_QUEUE: sqs
+  RAG_SEARCH: opensearch
+  RAG_MODELS: ${RAG_MODELS:-local}
+  RAG_AUTH_MODE: local
+  RAG_AWS_REGION: eu-west-2
+  RAG_AWS_ENDPOINT_URL: http://localstack:4566
+  RAG_AWS_PUBLIC_ENDPOINT_URL: http://localhost:4566
+  RAG_DOCUMENTS_BUCKET: lean-rag-documents
+  RAG_INGESTION_QUEUE_URL: http://localstack:4566/000000000000/lean-rag-ingestion
+  RAG_INGESTION_DLQ_URL: http://localstack:4566/000000000000/lean-rag-ingestion-dlq
+  RAG_SQS_VISIBILITY_TIMEOUT_S: "120"
+  RAG_OPENSEARCH_HOST: opensearch
+  RAG_OPENSEARCH_PORT: "9200"
+  RAG_OPENSEARCH_USE_SSL: "false"
+  RAG_OPENSEARCH_AWS_AUTH: "false"
+  RAG_EMBEDDING_DIMENSIONS: "384"
+  RAG_LOCAL_JWT_SECRET: ${RAG_LOCAL_JWT_SECRET:?set RAG_LOCAL_JWT_SECRET in .env}
+  RAG_PUBLIC_BASE_URL: http://localhost:8000
+  # Dummy credentials for LocalStack only. Replace with real ones (or a profile) for Bedrock.
+  AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID:-test}
+  AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY:-test}
+  AWS_DEFAULT_REGION: eu-west-2
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: rag
+      POSTGRES_PASSWORD: rag
+      POSTGRES_DB: rag
+    ports: ["5432:5432"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U rag"]
+      interval: 5s
+      retries: 20
+
+  opensearch:
+    image: opensearchproject/opensearch:2.17.1
+    environment:
+      discovery.type: single-node
+      DISABLE_SECURITY_PLUGIN: "true"
+      DISABLE_INSTALL_DEMO_CONFIG: "true"
+      OPENSEARCH_JAVA_OPTS: -Xms512m -Xmx512m
+    ports: ["9200:9200"]
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fs http://localhost:9200/_cluster/health || exit 1"]
+      interval: 10s
+      retries: 30
+
+  localstack:
+    # Pinned: S3 + SQS (+ S3 -> SQS notifications) are all this stack needs.
+    image: localstack/localstack:4.4
+    environment:
+      SERVICES: s3,sqs
+      AWS_DEFAULT_REGION: eu-west-2
+      LOCALSTACK_AUTH_TOKEN: ${LOCALSTACK_AUTH_TOKEN:-}
+    ports: ["4566:4566"]
+    volumes:
+      - ./scripts/localstack-init.sh:/etc/localstack/init/ready.d/init.sh:ro
+    healthcheck:
+      test: ["CMD-SHELL", "awslocal sqs get-queue-url --queue-name lean-rag-ingestion"]
+      interval: 5s
+      retries: 30
+
+  api:
+    build: .
+    environment: *app-env
+    ports: ["8000:8000"]
+    depends_on:
+      postgres: { condition: service_healthy }
+      opensearch: { condition: service_healthy }
+      localstack: { condition: service_healthy }
+
+  worker:
+    build: .
+    command: ["lean-rag-worker"]
+    environment: *app-env
+    depends_on:
+      postgres: { condition: service_healthy }
+      opensearch: { condition: service_healthy }
+      localstack: { condition: service_healthy }

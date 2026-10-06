@@ -1,0 +1,10 @@
+# Each entry is an intentional design choice; see docs/security.md.
+# Internet-facing ALB is the public API entry point (ingress CIDRs are configurable).
+AVD-AWS-0053
+# Tasks need HTTPS egress to AWS APIs (Bedrock, SQS, Textract, ECR, Cognito JWKS) via NAT.
+AVD-AWS-0104
+# Default allowed_ingress_cidrs is 0.0.0.0/0 for a public API; restrict via terraform.tfvars.
+AVD-AWS-0107
+# Plain HTTP listener only serves traffic when no ACM certificate is configured (dev); with a
+# certificate it redirects to HTTPS.
+AVD-AWS-0054
